@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nav_reactdocs_home",
+    "menu": "精选导航",
+    "section": "",
+    "icon": "home",
+    "title": "ReactDocs 首页",
+    "desc": "全量文件夹深度检索与多维研究目录入口。",
+    "url": "./index.html",
+    "newTab": false
+  },
+  {
+    "id": "nav_mo_culture",
+    "menu": "精选导航",
+    "section": "",
+    "icon": "culture",
+    "title": "Altria Group (MO)",
+    "desc": "企业文化、子公司矩阵与无烟战略转型深度报告。",
+    "url": "./MO/Company/Altria_Corporate_Culture_Analysis.html",
+    "newTab": true
+  },
+  {
+    "id": "exec_01_duan",
+    "menu": "高管人物",
+    "section": "",
+    "icon": "leader",
+    "title": "1. 段永平 (Duan Yongping)",
+    "desc": "步步高系与 H&H 实业本分哲学、护城河与复利体系",
+    "url": "./DuanYongping/SeniorExecutive/Duan_Yongping_Analysis.html",
+    "relPath": "DuanYongping/SeniorExecutive/Duan_Yongping_Analysis.html",
+    "newTab": true
+  },
+  {
+    "id": "exec_03_lilu",
+    "menu": "高管人物",
+    "section": "",
+    "icon": "leader",
+    "title": "3. 李录 (Li Lu · 喜马拉雅资本)",
+    "desc": "芒格托付的价值投资体系与东西方双核护城河",
+    "url": "./HimalayaCapitalManagement/SeniorExecutive/Li_Lu_Analysis.html",
+    "relPath": "HimalayaCapitalManagement/SeniorExecutive/Li_Lu_Analysis.html",
+    "newTab": true
+  },
+  {
+    "id": "exec_07_jobs",
+    "menu": "高管人物",
+    "section": "TECH & INDUSTRY LEADERS · 科技与产业掌舵人",
+    "icon": "hardware",
+    "title": "7. Steve Jobs (Apple)",
+    "desc": "端到端软硬垂直整合、15 倍绝地逆转与三大产业重构",
+    "url": "./Apple/SeniorExecutive/Steve%20Jobs/steve_jobs_1955_2011_15.html",
+    "relPath": "Apple/SeniorExecutive/Steve Jobs/steve_jobs_1955_2011_15.html",
+    "newTab": true
+  },
+  {
+    "id": "exec_11_cook",
+    "menu": "高管人物",
+    "section": "TECH & INDUSTRY LEADERS · 科技与产业掌舵人",
+    "icon": "hardware",
+    "title": "11. Tim Cook (Apple)",
+    "desc": "苹果万亿美元市值跃迁、供应链极限工程与服务生态",
+    "url": "./Apple/SeniorExecutive/Tim%20Cook/tim_cook_analysis.html",
+    "relPath": "Apple/SeniorExecutive/Tim Cook/tim_cook_analysis.html",
+    "newTab": true
+  }
+]

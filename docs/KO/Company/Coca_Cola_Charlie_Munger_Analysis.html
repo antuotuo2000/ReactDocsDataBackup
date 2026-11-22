@@ -1,0 +1,2870 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="查理·芒格（Charlie Munger）多元思维模型视角深度解构可口可乐（NYSE: KO）：1996年格洛茨200万美元变2万亿美元思想实验、人类误判心理学Lollapalooza七力共振、浓缩液轻资产收费站、伯克希尔65.2%成本股息率复利实证、IRS税务诉讼与GLP-1逆向排雷及28.9x估值三篮子推演。" />
+  <title>可口可乐 (NYSE: KO) — 查理·芒格多元思维模型深度解构 | 王安安数据中心</title>
+  
+  <style>
+    /* ==========================================================================
+       MUI Official Branding Design System (https://mui.com/)
+       Light Mode First (#F8FAFC / #FFFFFF) + Dark Obsidian (#090D16) + Sapphire (#0073E6)
+       Distinct Architectural Layout: Command Deck · 5-Notion Pipeline · Dual Workbenches
+       ========================================================================== */
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg-canvas: #090D16;
+      --bg-canvas-elevated: #0C1320;
+      --bg-paper: rgba(15, 25, 36, 0.86);
+      --bg-paper-solid: #0F1924;
+      --bg-subtle: rgba(19, 35, 55, 0.65);
+      --bg-hover: rgba(51, 153, 255, 0.08);
+      --bg-active: rgba(0, 115, 230, 0.16);
+      --bg-appbar: rgba(9, 13, 22, 0.82);
+      --bg-code: rgba(12, 20, 32, 0.92);
+
+      --border-subtle: rgba(51, 153, 255, 0.14);
+      --border-default: rgba(148, 163, 184, 0.18);
+      --border-strong: rgba(51, 153, 255, 0.44);
+      --divider: rgba(148, 163, 184, 0.12);
+
+      --text-primary: #F3F6F9;
+      --text-secondary: #B2BAC2;
+      --text-muted: #7E8C9A;
+      --text-inverse: #090D16;
+
+      --mui-primary-main: #0073E6;
+      --mui-primary-light: #3399FF;
+      --mui-primary-lighter: #66B2FF;
+      --mui-primary-bg: rgba(0, 115, 230, 0.16);
+      --mui-primary-border: rgba(51, 153, 255, 0.35);
+
+      --mui-success-main: #1AA251;
+      --mui-success-text: #66BB6A;
+      --mui-success-bg: rgba(26, 162, 81, 0.14);
+      --mui-success-border: rgba(102, 187, 106, 0.34);
+
+      --mui-warning-main: #DEA500;
+      --mui-warning-text: #FFB74D;
+      --mui-warning-bg: rgba(255, 183, 77, 0.14);
+      --mui-warning-border: rgba(255, 183, 77, 0.34);
+
+      --mui-error-main: #EB0014;
+      --mui-error-text: #FF6B6B;
+      --mui-error-bg: rgba(235, 0, 20, 0.14);
+      --mui-error-border: rgba(255, 107, 107, 0.34);
+
+      --mui-violet-text: #A78BFA;
+      --mui-violet-bg: rgba(139, 92, 246, 0.14);
+      --mui-violet-border: rgba(167, 139, 250, 0.32);
+
+      --hero-glow: radial-gradient(ellipse 86% 44% at 50% -8%, rgba(0, 115, 230, 0.24), rgba(9, 13, 22, 0) 70%);
+      --blueprint-grid: linear-gradient(rgba(51, 153, 255, 0.065) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(51, 153, 255, 0.065) 1px, transparent 1px);
+      --shadow-card: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 8px 26px rgba(0, 0, 0, 0.32);
+      --shadow-popover: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(51, 153, 255, 0.22);
+
+      --chart-grid: rgba(148, 163, 184, 0.14);
+      --chart-tick: #94A3B8;
+      --chart-c1: #3399FF;
+      --chart-c2: #22C55E;
+      --chart-c3: #FFB74D;
+      --chart-c4: #FF6B6B;
+    }
+
+    :root,
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg-canvas: #F8FAFC;
+      --bg-canvas-elevated: #F1F5F9;
+      --bg-paper: rgba(255, 255, 255, 0.95);
+      --bg-paper-solid: #FFFFFF;
+      --bg-subtle: #F1F5F9;
+      --bg-hover: rgba(0, 115, 230, 0.06);
+      --bg-active: rgba(0, 115, 230, 0.11);
+      --bg-appbar: rgba(255, 255, 255, 0.86);
+      --bg-code: #F1F5F9;
+
+      --border-subtle: #E2E8F0;
+      --border-default: #CBD5E1;
+      --border-strong: #0073E6;
+      --divider: #E2E8F0;
+
+      --text-primary: #0F1924;
+      --text-secondary: #334155;
+      --text-muted: #5B6B7C;
+      --text-inverse: #FFFFFF;
+
+      --mui-primary-main: #0073E6;
+      --mui-primary-light: #0059B2;
+      --mui-primary-lighter: #0059B2;
+      --mui-primary-bg: rgba(0, 115, 230, 0.09);
+      --mui-primary-border: rgba(0, 115, 230, 0.28);
+
+      --mui-success-main: #15803D;
+      --mui-success-text: #15803D;
+      --mui-success-bg: rgba(21, 128, 61, 0.09);
+      --mui-success-border: rgba(21, 128, 61, 0.26);
+
+      --mui-warning-main: #B45309;
+      --mui-warning-text: #B45309;
+      --mui-warning-bg: rgba(180, 83, 9, 0.09);
+      --mui-warning-border: rgba(180, 83, 9, 0.26);
+
+      --mui-error-main: #C62828;
+      --mui-error-text: #C62828;
+      --mui-error-bg: rgba(198, 40, 40, 0.08);
+      --mui-error-border: rgba(198, 40, 40, 0.26);
+
+      --mui-violet-text: #6D28D9;
+      --mui-violet-bg: rgba(109, 40, 217, 0.08);
+      --mui-violet-border: rgba(109, 40, 217, 0.25);
+
+      --hero-glow: radial-gradient(ellipse 86% 44% at 50% -8%, rgba(0, 115, 230, 0.10), rgba(248, 250, 252, 0) 70%);
+      --blueprint-grid: linear-gradient(rgba(0, 115, 230, 0.048) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0, 115, 230, 0.048) 1px, transparent 1px);
+      --shadow-card: 0 1px 3px rgba(15, 25, 36, 0.04), 0 6px 20px rgba(15, 25, 36, 0.04);
+      --shadow-popover: 0 14px 34px rgba(15, 25, 36, 0.14), 0 0 0 1px #CBD5E1;
+
+      --chart-grid: rgba(100, 116, 139, 0.16);
+      --chart-tick: #475569;
+      --chart-c1: #0073E6;
+      --chart-c2: #16A34A;
+      --chart-c3: #D97706;
+      --chart-c4: #DC2626;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      background-color: var(--bg-canvas);
+      background-image: var(--hero-glow);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      line-height: 1.68;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+    .mono { font-family: "IBM Plex Mono", "SFMono-Regular", ui-monospace, Menlo, Monaco, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    a { color: var(--mui-primary-lighter); text-decoration: none; transition: all 0.16s ease; }
+    a:hover { text-decoration: underline; }
+
+    /* MUI Inline Citation Pill */
+    .cite-link {
+      display: inline-flex; align-items: center; gap: 3px; font-size: 0.74rem; font-weight: 600; line-height: 1.3;
+      padding: 1px 7px; margin: 0 2px; border-radius: 6px; background: var(--mui-primary-bg);
+      border: 1px solid var(--mui-primary-border); color: var(--mui-primary-lighter);
+      white-space: nowrap; vertical-align: baseline; text-decoration: none !important;
+    }
+    .cite-link:hover { background: var(--bg-active); border-color: var(--mui-primary-light); transform: translateY(-0.5px); }
+
+    /* Top Progress Bar, Tooltip & MUI Snackbar */
+    #scrollBeam {
+      position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+      background: linear-gradient(90deg, #0073E6 0%, #3399FF 60%, #22C55E 100%); z-index: 1300; transition: width 0.08s linear;
+    }
+    #chartTooltip {
+      position: fixed; pointer-events: none; z-index: 1400; display: none; min-width: 190px; max-width: 290px;
+      padding: 9px 12px; border-radius: 10px; background: var(--bg-paper-solid); border: 1px solid var(--border-strong);
+      box-shadow: var(--shadow-popover); font-size: 0.76rem; color: var(--text-primary); line-height: 1.45;
+    }
+    #muiSnackbar {
+      position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%) translateY(20px); opacity: 0; pointer-events: none;
+      z-index: 1400; padding: 9px 16px; border-radius: 10px; background: #0F1924; color: #FFFFFF;
+      border: 1px solid rgba(51, 153, 255, 0.4); box-shadow: var(--shadow-popover); font-size: 0.8rem; font-weight: 600;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #muiSnackbar.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* Sticky Frosted-Glass MUI AppBar */
+    .mui-appbar {
+      position: sticky; top: 0; z-index: 1100; height: 60px; background: var(--bg-appbar);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-subtle);
+    }
+    .mui-appbar-inner {
+      max-width: 1560px; height: 100%; margin: 0 auto; padding: 0 20px;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .appbar-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .appbar-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .mui-icon-btn, .mui-theme-icon-btn {
+      display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+      border-radius: 10px; border: 1px solid var(--border-subtle); background: var(--bg-paper);
+      color: var(--text-primary); cursor: pointer; transition: all 0.16s ease; flex-shrink: 0;
+    }
+    .mui-icon-btn:hover, .mui-theme-icon-btn:hover { border-color: var(--border-strong); background: var(--bg-hover); color: var(--mui-primary-main); }
+    .mui-action-btn {
+      display: inline-flex; align-items: center; gap: 5px; height: 36px; padding: 0 12px;
+      border-radius: 10px; border: 1px solid var(--border-subtle); background: var(--bg-paper);
+      color: var(--text-primary); font-family: inherit; font-size: 0.78rem; font-weight: 700; cursor: pointer; transition: all 0.16s ease;
+    }
+    .mui-action-btn:hover { border-color: var(--border-strong); background: var(--bg-hover); color: var(--mui-primary-main); }
+    .brand-monogram {
+      width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, #0073E6 0%, #004C99 100%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 4px 12px rgba(0, 115, 230, 0.32);
+      color: #FFFFFF; font-weight: 800; font-size: 0.82rem; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .breadcrumbs { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .breadcrumbs .crumb-link { display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px; border-radius: 7px; color: var(--text-secondary); font-weight: 600; text-decoration: none; }
+    .breadcrumbs .crumb-link:hover { color: var(--mui-primary-lighter); background: var(--bg-hover); }
+    .breadcrumbs .crumb-current { color: var(--text-primary); font-weight: 700; overflow: hidden; text-overflow: ellipsis; max-width: 280px; }
+
+    /* Quick Jump Search */
+    .quick-search-wrap { position: relative; width: 210px; }
+    .quick-search-input {
+      width: 100%; height: 36px; padding: 0 42px 0 32px; border-radius: 10px;
+      border: 1px solid var(--border-subtle); background: var(--bg-paper); color: var(--text-primary); font-size: 0.8rem; outline: none; transition: all 0.16s ease;
+    }
+    .quick-search-input:focus { border-color: var(--mui-primary-light); box-shadow: 0 0 0 3px var(--mui-primary-bg); }
+    .quick-search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; display: flex; }
+    .quick-search-kbd {
+      position: absolute; right: 7px; top: 50%; transform: translateY(-50%); font-size: 0.68rem; font-weight: 700;
+      padding: 1px 5px; border-radius: 5px; border: 1px solid var(--border-default); background: var(--bg-subtle); color: var(--text-muted); pointer-events: none;
+    }
+    .quick-jump-popover {
+      position: absolute; top: 42px; right: 0; width: 320px; max-height: 340px; overflow-y: auto;
+      border-radius: 12px; background: var(--bg-paper-solid); box-shadow: var(--shadow-popover); padding: 6px; display: none; z-index: 1250;
+    }
+    .quick-jump-popover.open { display: block; }
+    .jump-item {
+      display: flex; flex-direction: column; gap: 2px; width: 100%; text-align: left; padding: 8px 10px;
+      border-radius: 8px; color: var(--text-primary); text-decoration: none !important; font-size: 0.81rem; font-weight: 600;
+    }
+    .jump-item:hover { background: var(--bg-hover); color: var(--mui-primary-lighter); }
+
+    /* MUI Lang Switch & Segmented Controls */
+    .mui-lang-switch {
+      display: inline-flex; align-items: center; padding: 2px; border-radius: 10px;
+      border: 1px solid var(--border-subtle); background: var(--bg-subtle); gap: 2px; height: 36px;
+    }
+    .mui-lang-btn {
+      border: none; background: transparent; color: var(--text-secondary); font-family: inherit;
+      font-size: 0.76rem; font-weight: 700; height: 30px; padding: 0 10px; border-radius: 7px; cursor: pointer; transition: all 0.15s ease;
+    }
+    .mui-lang-btn.active { background: var(--bg-paper-solid); color: var(--mui-primary-main); box-shadow: 0 1px 3px rgba(15, 25, 36, 0.12); }
+    html[data-theme="dark"] .mui-lang-btn.active { color: var(--mui-primary-lighter); }
+
+    .mui-chip {
+      display: inline-flex; align-items: center; gap: 5px; min-height: 24px; padding: 2px 10px; border-radius: 999px;
+      font-size: 0.74rem; font-weight: 700; border: 1px solid var(--border-subtle); background: var(--bg-subtle); color: var(--text-secondary); white-space: nowrap;
+    }
+    .mui-chip-primary { background: var(--mui-primary-bg); border-color: var(--mui-primary-border); color: var(--mui-primary-lighter); }
+    .mui-chip-success { background: var(--mui-success-bg); border-color: var(--mui-success-border); color: var(--mui-success-text); }
+    .mui-chip-warning { background: var(--mui-warning-bg); border-color: var(--mui-warning-border); color: var(--mui-warning-text); }
+    .mui-chip-error { background: var(--mui-error-bg); border-color: var(--mui-error-border); color: var(--mui-error-text); }
+    .mui-chip-violet { background: var(--mui-violet-bg); border-color: var(--mui-violet-border); color: var(--mui-violet-text); }
+
+    .mui-segmented {
+      display: inline-flex; flex-wrap: wrap; align-items: center; padding: 3px; border-radius: 10px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); gap: 2px;
+    }
+    .mui-seg-btn {
+      border: none; background: transparent; color: var(--text-secondary); font-family: inherit; font-size: 0.77rem; font-weight: 700;
+      padding: 6px 12px; border-radius: 7px; cursor: pointer; transition: all 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .mui-seg-btn:hover { color: var(--text-primary); }
+    .mui-seg-btn.active { background: var(--bg-paper-solid); color: var(--mui-primary-main); box-shadow: 0 1px 3px rgba(15, 25, 36, 0.12); }
+    html[data-theme="dark"] .mui-seg-btn.active { color: var(--mui-primary-lighter); }
+
+    /* Layout Shell & MUI Documentation Sidebar */
+    .layout-shell {
+      max-width: 1560px; margin: 0 auto; display: grid; grid-template-columns: 280px minmax(0, 1fr);
+      gap: 26px; padding: 22px 20px 72px; align-items: start;
+    }
+    html[data-sidebar-collapsed="1"] .layout-shell { grid-template-columns: minmax(0, 1fr); }
+    html[data-sidebar-collapsed="1"] .mui-sidebar { display: none; }
+
+    .mui-sidebar { position: sticky; top: 76px; display: flex; flex-direction: column; gap: 12px; max-height: calc(100vh - 92px); overflow-y: auto; }
+    .sidebar-card { background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 15px; box-shadow: var(--shadow-card); }
+    .sidebar-brand-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+    .sidebar-title { font-size: 0.98rem; font-weight: 800; color: var(--text-primary); }
+    .sidebar-subtitle { font-size: 0.77rem; color: var(--text-secondary); line-height: 1.48; margin-top: 4px; }
+    .sidebar-mini-kpis { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--divider); }
+    .sidebar-mini-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.75rem; }
+    .sidebar-mini-label { color: var(--text-muted); }
+    .sidebar-mini-val { font-weight: 700; color: var(--text-primary); }
+
+    .nav-section-label { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 8px; padding-left: 6px; }
+    .mui-nav-list { list-style: none; display: flex; flex-direction: column; gap: 3px; }
+    .mui-nav-link {
+      display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 9px;
+      font-size: 0.80rem; font-weight: 600; color: var(--text-secondary); text-decoration: none !important; transition: all 0.15s ease;
+    }
+    .mui-nav-link:hover { background: var(--bg-hover); color: var(--text-primary); }
+    .mui-nav-link.active { background: var(--mui-primary-bg); color: var(--mui-primary-lighter); font-weight: 700; }
+    .nav-idx { font-size: 0.7rem; font-weight: 700; padding: 1px 6px; border-radius: 5px; background: var(--bg-subtle); color: var(--text-muted); }
+    .mui-nav-link.active .nav-idx { background: rgba(0, 115, 230, 0.22); color: var(--mui-primary-lighter); }
+
+    .co-pill-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+    .co-pill {
+      display: block; text-align: center; padding: 6px 8px; border-radius: 8px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle);
+      font-size: 0.74rem; font-weight: 700; color: var(--text-secondary); text-decoration: none !important; transition: all 0.15s ease;
+    }
+    .co-pill:hover { border-color: var(--mui-primary-main); color: var(--mui-primary-lighter); background: var(--bg-hover); }
+
+    .drawer-backdrop { position: fixed; inset: 0; background: rgba(9, 13, 22, 0.48); backdrop-filter: blur(3px); z-index: 1150; display: none; }
+    .drawer-backdrop.open { display: block; }
+
+    @media (max-width: 1060px) {
+      .layout-shell { grid-template-columns: minmax(0, 1fr); padding: 14px 14px 56px; }
+      .mui-sidebar {
+        position: fixed; top: 60px; left: 0; bottom: 0; z-index: 1200; width: min(320px, 88vw); max-height: none;
+        background: var(--bg-canvas); padding: 12px; border-right: 1px solid var(--border-subtle);
+        transform: translateX(-105%); transition: transform 0.24s cubic-bezier(0.4, 0, 0.2, 1); overflow-y: auto; display: flex !important;
+      }
+      .mui-sidebar.open { transform: translateX(0); }
+      .hide-sm { display: none !important; }
+      .quick-search-wrap { width: 148px; }
+    }
+
+    /* ==========================================================================
+       MUI WORKSPACE & ARCHITECTURAL MODULES
+       ========================================================================== */
+    .bm-workspace { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+
+    /* 1. Asymmetric Command Deck (62% Blueprint Thesis + 38% Live Telemetry Ledger) */
+    .bm-command-deck { display: grid; grid-template-columns: 1.52fr 1fr; gap: 18px; align-items: stretch; }
+    @media (max-width: 1080px) { .bm-command-deck { grid-template-columns: minmax(0, 1fr); } }
+
+    .bm-thesis-deck {
+      background-color: var(--bg-paper);
+      background-image: var(--blueprint-grid);
+      background-size: 28px 28px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 18px;
+      padding: 26px 28px;
+      box-shadow: var(--shadow-card);
+      display: flex; flex-direction: column; justify-content: space-between; gap: 16px;
+      position: relative; overflow: hidden;
+    }
+    .bm-thesis-deck::after {
+      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #0073E6 0%, #3399FF 55%, #16A34A 100%);
+    }
+    .bm-badge-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .bm-display-h1 { font-size: clamp(1.48rem, 2.25vw, 2.04rem); font-weight: 800; line-height: 1.26; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .bm-gradient-txt {
+      background: linear-gradient(92deg, #0073E6 0%, #0099FF 52%, #15803D 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    html[data-theme="dark"] .bm-gradient-txt {
+      background: linear-gradient(92deg, #66B2FF 0%, #3399FF 50%, #66BB6A 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .bm-lead { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.74; margin-bottom: 10px; }
+    .bm-lead strong { color: var(--text-primary); }
+
+    /* MUI Outlined Alert Callout */
+    .mui-alert {
+      padding: 13px 16px; border-radius: 12px; background: var(--mui-primary-bg);
+      border: 1px solid var(--mui-primary-border); font-size: 0.85rem; color: var(--text-primary); line-height: 1.65;
+    }
+    .mui-alert cite { display: block; margin-top: 5px; font-style: normal; font-size: 0.76rem; color: var(--text-muted); }
+
+    /* Right Telemetry Ledger */
+    .bm-telemetry-ledger {
+      background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 18px;
+      padding: 20px 22px; box-shadow: var(--shadow-card);
+      display: flex; flex-direction: column; justify-content: space-between; gap: 11px;
+    }
+    .bm-ledger-head {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      padding-bottom: 10px; border-bottom: 1px solid var(--divider);
+    }
+    .bm-ledger-title { font-size: 0.86rem; font-weight: 800; letter-spacing: 0.02em; display: flex; align-items: center; gap: 7px; }
+    .bm-pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: #16A34A; box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.18); }
+    .bm-telemetry-rows { display: flex; flex-direction: column; gap: 9px; }
+    .bm-tel-item {
+      padding: 10px 12px; border-radius: 12px; background: var(--bg-subtle); border: 1px solid var(--border-subtle);
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .bm-tel-item:hover { border-color: var(--mui-primary-border); transform: translateX(2px); }
+    .bm-tel-top { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+    .bm-tel-lbl { font-size: 0.76rem; font-weight: 700; color: var(--text-secondary); }
+    .bm-tel-val { font-size: 1.02rem; font-weight: 800; color: var(--text-primary); white-space: nowrap; flex-shrink: 0; }
+    .bm-tel-bar-track { height: 5px; border-radius: 999px; background: var(--border-subtle); margin: 6px 0 5px; overflow: hidden; display: flex; }
+    .bm-tel-bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, #0073E6, #3399FF); }
+    .bm-tel-sub { display: flex; justify-content: space-between; font-size: 0.71rem; color: var(--text-muted); gap: 6px; }
+
+    /* Shared MUI Paper Section Panel */
+    .bm-panel {
+      background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 18px;
+      padding: 24px 26px; box-shadow: var(--shadow-card);
+    }
+    .bm-panel-head {
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; flex-wrap: wrap;
+      padding-bottom: 14px; margin-bottom: 18px; border-bottom: 1px solid var(--divider);
+    }
+    .bm-kicker { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mui-primary-main); display: block; margin-bottom: 3px; }
+    html[data-theme="dark"] .bm-kicker { color: var(--mui-primary-light); }
+    .bm-h2 { font-size: 1.24rem; font-weight: 800; letter-spacing: -0.015em; color: var(--text-primary); }
+    .bm-head-desc { font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px; max-width: 960px; line-height: 1.65; }
+
+    /* 2. Horizontal 5-Notion MUI Pipeline */
+    .bm-pipeline-track { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin-bottom: 16px; }
+    @media (max-width: 1120px) { .bm-pipeline-track { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (max-width: 680px) { .bm-pipeline-track { grid-template-columns: minmax(0, 1fr); } }
+    .bm-node-btn {
+      text-align: left; padding: 13px 14px; border-radius: 13px;
+      border: 1px solid var(--border-subtle); background: var(--bg-subtle); color: var(--text-primary);
+      cursor: pointer; font-family: inherit; transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .bm-node-btn:hover { border-color: var(--border-strong); background: var(--bg-hover); transform: translateY(-2px); }
+    .bm-node-btn.active {
+      border-color: #0073E6; background: var(--bg-active);
+      box-shadow: 0 0 0 1px #0073E6, 0 6px 16px rgba(0, 115, 230, 0.14);
+    }
+    html[data-theme="dark"] .bm-node-btn.active { border-color: #3399FF; box-shadow: 0 0 0 1px #3399FF, 0 6px 16px rgba(0, 115, 230, 0.26); }
+    .bm-node-top { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+    .bm-node-step {
+      width: 28px; height: 28px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center;
+      font-size: 0.72rem; font-weight: 800; background: var(--mui-primary-bg); color: var(--mui-primary-lighter);
+      border: 1px solid var(--mui-primary-border);
+    }
+    .bm-node-btn.active .bm-node-step { background: linear-gradient(180deg, #0073E6 0%, #0059B2 100%); color: #FFFFFF; border-color: #0059B2; }
+    .bm-node-tag { font-size: 0.68rem; font-weight: 700; color: var(--text-muted); }
+    .bm-node-title { font-size: 0.85rem; font-weight: 800; line-height: 1.3; }
+    .bm-node-kpi { font-size: 0.74rem; font-weight: 700; color: var(--mui-primary-lighter); }
+
+    .bm-node-inspector {
+      border-radius: 15px; border: 1px solid var(--border-subtle);
+      background-color: var(--bg-paper-solid); background-image: var(--blueprint-grid); background-size: 26px 26px;
+      padding: 20px 22px;
+    }
+
+    /* Split Workbenches & Subpanels */
+    .bm-split-75 { display: grid; grid-template-columns: 1.08fr 1fr; gap: 18px; align-items: stretch; }
+    .bm-split-66 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: stretch; }
+    @media (max-width: 1020px) { .bm-split-75, .bm-split-66 { grid-template-columns: minmax(0, 1fr); } }
+
+    .bm-subpanel {
+      background: var(--bg-paper-solid); border: 1px solid var(--border-subtle); border-radius: 15px;
+      padding: 18px 20px; display: flex; flex-direction: column; justify-content: space-between; gap: 13px;
+    }
+    .bm-subhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+    .bm-subhead h3 { font-size: 0.98rem; font-weight: 800; color: var(--text-primary); }
+    .bm-canvas-box {
+      position: relative; width: 100%; height: 285px; border-radius: 12px;
+      background: var(--bg-canvas); border: 1px solid var(--border-subtle); padding: 10px;
+    }
+    .bm-canvas-box canvas { width: 100%; height: 100%; display: block; }
+    .bm-chart-caption { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.6; }
+
+    /* MUI Funnel Cards */
+    .bm-tier-card {
+      padding: 11px 13px; border-radius: 11px; background: var(--bg-subtle); border: 1px solid var(--border-subtle);
+      margin-bottom: 8px; transition: all 0.15s ease;
+    }
+    .bm-tier-card:hover { border-color: var(--mui-primary-border); background: var(--bg-hover); }
+    .bm-tier-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.83rem; font-weight: 700; color: var(--text-primary); }
+    .bm-tier-desc { font-size: 0.76rem; color: var(--text-secondary); line-height: 1.55; margin-top: 3px; }
+
+    /* MUI Switch List for Lollapalooza 7 Forces */
+    .force-list { display: flex; flex-direction: column; gap: 9px; }
+    .force-item {
+      display: flex; align-items: flex-start; gap: 12px; padding: 11px 14px; border-radius: 12px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); cursor: pointer; user-select: none; transition: all 0.16s ease;
+    }
+    .force-item:hover { border-color: var(--mui-primary-border); background: var(--bg-hover); }
+    .force-item.active { background: var(--mui-primary-bg); border-color: var(--mui-primary-border); }
+    .force-switch {
+      flex-shrink: 0; width: 38px; height: 22px; border-radius: 999px; background: var(--border-default);
+      position: relative; margin-top: 2px; transition: background 0.2s ease;
+    }
+    .force-item.active .force-switch { background: var(--mui-primary-main); }
+    .force-switch::after {
+      content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px;
+      border-radius: 50%; background: #FFFFFF; box-shadow: 0 1px 3px rgba(0,0,0,0.25); transition: transform 0.2s ease;
+    }
+    .force-item.active .force-switch::after { transform: translateX(16px); }
+    .force-title { font-size: 0.84rem; font-weight: 800; color: var(--text-primary); margin-bottom: 2px; }
+    .force-desc { font-size: 0.77rem; color: var(--text-secondary); line-height: 1.55; }
+
+    /* MUI Sliders & Simulator */
+    .bm-sim-sliders { display: flex; flex-direction: column; gap: 12px; }
+    .bm-slider-row { display: flex; flex-direction: column; gap: 5px; }
+    .bm-slider-lbl { display: flex; justify-content: space-between; font-size: 0.80rem; font-weight: 700; color: var(--text-secondary); }
+    .bm-slider-lbl b { color: var(--mui-primary-lighter); font-family: var(--font-mono); }
+    .bm-slider-row input[type="range"] { width: 100%; accent-color: #0073E6; height: 6px; cursor: pointer; }
+    .bm-sim-outputs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+    .bm-sim-out { padding: 12px; border-radius: 11px; background: var(--bg-subtle); border: 1px solid var(--border-subtle); }
+    .bm-sim-out .lbl { font-size: 0.73rem; color: var(--text-muted); font-weight: 600; }
+    .bm-sim-out .val { font-size: 1.22rem; font-weight: 800; color: var(--mui-primary-lighter); margin: 2px 0; }
+    .bm-sim-out .sub { font-size: 0.72rem; color: var(--text-secondary); }
+
+    .basket-banner { padding: 11px 14px; border-radius: 11px; font-size: 0.80rem; font-weight: 700; line-height: 1.5; }
+    .basket-yes { background: var(--mui-success-bg); border: 1px solid var(--mui-success-border); color: var(--mui-success-text); }
+    .basket-tough { background: var(--mui-warning-bg); border: 1px solid var(--mui-warning-border); color: var(--mui-warning-text); }
+    .basket-no { background: var(--mui-error-bg); border: 1px solid var(--mui-error-border); color: var(--mui-error-text); }
+
+    /* 2x2 MUI Risk Stress Cards & Checklist */
+    .bm-stress-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 18px; }
+    @media (max-width: 900px) { .bm-stress-grid { grid-template-columns: minmax(0, 1fr); } }
+    .bm-stress-card {
+      padding: 18px; border-radius: 14px; background: var(--bg-subtle); border: 1px solid var(--border-subtle);
+      display: flex; flex-direction: column; justify-content: space-between; gap: 10px;
+    }
+    .bm-stress-card h3 { font-size: 0.94rem; font-weight: 800; color: var(--text-primary); }
+    .bm-stress-card p { font-size: 0.81rem; color: var(--text-secondary); line-height: 1.65; }
+
+    .chk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    @media (max-width: 860px) { .chk-grid { grid-template-columns: minmax(0, 1fr); } }
+    .bm-check-label {
+      display: flex; align-items: flex-start; gap: 9px; padding: 11px 13px; border-radius: 11px;
+      background: var(--bg-paper-solid); border: 1px solid var(--border-subtle);
+      font-size: 0.79rem; color: var(--text-secondary); cursor: pointer; transition: border-color 0.15s ease;
+    }
+    .bm-check-label:hover { border-color: var(--mui-primary-border); }
+    .bm-check-label input { accent-color: #0073E6; width: 16px; height: 16px; margin-top: 2px; cursor: pointer; flex-shrink: 0; }
+    .bm-check-label strong { color: var(--text-primary); }
+
+    /* MUI Data Table */
+    .table-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+    .bm-table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border-subtle); margin-bottom: 20px; }
+    .bm-table { width: 100%; border-collapse: collapse; font-size: 0.81rem; min-width: 780px; background: var(--bg-paper-solid); }
+    .bm-table th {
+      text-align: left; padding: 11px 13px; background: var(--bg-subtle); color: var(--text-muted);
+      font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); white-space: nowrap;
+    }
+    .bm-table td { padding: 11px 13px; border-bottom: 1px solid var(--divider); color: var(--text-secondary); vertical-align: middle; }
+    .bm-table tr:last-child td { border-bottom: none; }
+    .bm-table tr.is-primary-row td { background: var(--mui-primary-bg); color: var(--text-primary); font-weight: 600; }
+    .bm-table tr:hover td { background: var(--bg-hover); }
+
+    /* Footer Sources Grid */
+    .bm-sources-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 10px; }
+    .bm-source-item {
+      display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; border-radius: 12px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); text-decoration: none !important; transition: all 0.15s ease;
+    }
+    .bm-source-item:hover { border-color: var(--mui-primary-main); background: var(--bg-hover); transform: translateY(-1px); }
+    .bm-source-item b { font-size: 0.81rem; color: var(--mui-primary-lighter); }
+    .bm-source-item span { font-size: 0.74rem; color: var(--text-secondary); line-height: 1.5; }
+
+    @media print {
+      .mui-appbar, .mui-sidebar, #scrollBeam { display: none !important; }
+      .layout-shell { display: block !important; padding: 0 !important; }
+    }
+
+    /* ==========================================================================
+       MUI QUANTUM SCI-FI HOLOGRAPHIC COMMAND DECK OVERRIDE (v9.4)
+       Deep-Space Obsidian (#030712) + Electric Cyan (#00F0FF) + MUI Sapphire (#0073E6)
+       + Quantum Violet (#A855F7) + 4-Corner HUD Targeting Reticles + Holo Scanlines
+       ========================================================================== */
+    :root,
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg-canvas: #030712;
+      --bg-canvas-elevated: #060F20;
+      --bg-paper: rgba(7, 16, 33, 0.76);
+      --bg-paper-solid: #081326;
+      --bg-subtle: rgba(11, 25, 48, 0.68);
+      --bg-hover: rgba(0, 240, 255, 0.09);
+      --bg-active: rgba(0, 195, 255, 0.18);
+      --bg-appbar: rgba(3, 8, 20, 0.82);
+
+      --border-subtle: rgba(0, 240, 255, 0.19);
+      --border-default: rgba(56, 189, 248, 0.30);
+      --border-strong: #00F0FF;
+      --divider: rgba(56, 189, 248, 0.14);
+
+      --text-primary: #F0F7FF;
+      --text-secondary: #B4C8E0;
+      --text-muted: #708BA8;
+
+      --mui-primary-main: #00B8FF;
+      --mui-primary-light: #00F0FF;
+      --mui-primary-lighter: #67E8F9;
+      --mui-primary-bg: rgba(0, 229, 255, 0.13);
+      --mui-primary-border: rgba(0, 240, 255, 0.38);
+
+      --mui-success-main: #00E599;
+      --mui-success-text: #34F5B5;
+      --mui-success-bg: rgba(0, 229, 153, 0.13);
+      --mui-success-border: rgba(52, 245, 181, 0.36);
+
+      --mui-warning-main: #FFB800;
+      --mui-warning-text: #FFD166;
+      --mui-warning-bg: rgba(255, 184, 0, 0.13);
+      --mui-warning-border: rgba(255, 209, 102, 0.36);
+
+      --mui-error-main: #FF2E63;
+      --mui-error-text: #FF6B8B;
+      --mui-error-bg: rgba(255, 46, 99, 0.14);
+      --mui-error-border: rgba(255, 107, 139, 0.36);
+
+      --mui-violet-text: #C084FC;
+      --mui-violet-bg: rgba(168, 85, 247, 0.15);
+      --mui-violet-border: rgba(192, 132, 252, 0.38);
+
+      --reticle-c: rgba(0, 240, 255, 0.72);
+      --laser-beam: linear-gradient(90deg, #00F0FF 0%, #0073E6 42%, #A855F7 74%, #00E599 100%);
+      --holo-grid-fine: rgba(0, 240, 255, 0.036);
+      --holo-grid-major: rgba(56, 189, 248, 0.075);
+      --scanline-alpha: 0.018;
+
+      --hero-glow:
+        radial-gradient(ellipse 92% 48% at 50% -10%, rgba(0, 240, 255, 0.20) 0%, rgba(0, 115, 230, 0.16) 44%, rgba(168, 85, 247, 0.08) 70%, transparent 86%),
+        radial-gradient(circle at 90% 18%, rgba(0, 229, 153, 0.09) 0%, transparent 44%),
+        radial-gradient(circle at 8% 68%, rgba(168, 85, 247, 0.09) 0%, transparent 46%);
+      --blueprint-grid:
+        linear-gradient(rgba(0, 240, 255, 0.065) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.065) 1px, transparent 1px);
+      --shadow-card:
+        inset 0 1px 0 rgba(103, 232, 249, 0.16),
+        0 14px 36px -8px rgba(0, 0, 0, 0.68),
+        0 0 24px -6px rgba(0, 195, 255, 0.14);
+      --shadow-popover:
+        0 20px 48px rgba(0, 0, 0, 0.78),
+        0 0 0 1px rgba(0, 240, 255, 0.36),
+        0 0 28px rgba(0, 240, 255, 0.18);
+    }
+
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg-canvas: #EAF3FC;
+      --bg-canvas-elevated: #E1EEF9;
+      --bg-paper: rgba(255, 255, 255, 0.84);
+      --bg-paper-solid: #F7FBFF;
+      --bg-subtle: rgba(226, 239, 252, 0.74);
+      --bg-hover: rgba(0, 115, 230, 0.08);
+      --bg-active: rgba(0, 115, 230, 0.14);
+      --bg-appbar: rgba(240, 247, 255, 0.86);
+
+      --border-subtle: rgba(0, 115, 230, 0.18);
+      --border-default: rgba(0, 115, 230, 0.28);
+      --border-strong: #0073E6;
+      --divider: rgba(0, 90, 180, 0.12);
+
+      --text-primary: #071426;
+      --text-secondary: #243B55;
+      --text-muted: #526B84;
+
+      --mui-primary-main: #0073E6;
+      --mui-primary-light: #0284C7;
+      --mui-primary-lighter: #0059B2;
+      --mui-primary-bg: rgba(0, 115, 230, 0.10);
+      --mui-primary-border: rgba(0, 115, 230, 0.30);
+
+      --reticle-c: rgba(0, 115, 230, 0.52);
+      --laser-beam: linear-gradient(90deg, #0073E6 0%, #0284C7 45%, #7C3AED 76%, #0D9488 100%);
+      --holo-grid-fine: rgba(0, 115, 230, 0.042);
+      --holo-grid-major: rgba(0, 115, 230, 0.085);
+      --scanline-alpha: 0.008;
+
+      --hero-glow:
+        radial-gradient(ellipse 90% 45% at 50% -8%, rgba(0, 140, 255, 0.16) 0%, rgba(124, 58, 237, 0.07) 52%, transparent 82%),
+        radial-gradient(circle at 88% 20%, rgba(2, 132, 199, 0.10) 0%, transparent 45%);
+      --shadow-card:
+        inset 0 1px 0 rgba(255, 255, 255, 0.95),
+        0 10px 28px -6px rgba(7, 20, 38, 0.08),
+        0 0 0 1px rgba(0, 115, 230, 0.08);
+    }
+
+    html[data-hud-mode="boost"] {
+      --border-subtle: rgba(0, 240, 255, 0.34);
+      --holo-grid-fine: rgba(0, 240, 255, 0.068);
+      --holo-grid-major: rgba(0, 240, 255, 0.135);
+      --scanline-alpha: 0.034;
+    }
+
+    body {
+      background-color: var(--bg-canvas);
+      background-image:
+        var(--hero-glow),
+        linear-gradient(var(--holo-grid-fine) 1px, transparent 1px),
+        linear-gradient(90deg, var(--holo-grid-fine) 1px, transparent 1px),
+        linear-gradient(var(--holo-grid-major) 1px, transparent 1px),
+        linear-gradient(90deg, var(--holo-grid-major) 1px, transparent 1px) !important;
+      background-size: 100% 100%, 100% 100%, 100% 100%, 32px 32px, 32px 32px, 160px 160px, 160px 160px !important;
+      background-attachment: fixed !important;
+    }
+
+    /* Subtle Holographic Scanline Film */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1050;
+      background: repeating-linear-gradient(
+        180deg,
+        rgba(0, 240, 255, var(--scanline-alpha)) 0px,
+        rgba(0, 240, 255, var(--scanline-alpha)) 1px,
+        transparent 1px,
+        transparent 4px
+      );
+    }
+
+    #readingProgressBar {
+      height: 3px !important;
+      background: var(--laser-beam) !important;
+      box-shadow: 0 0 14px rgba(0, 240, 255, 0.75);
+    }
+
+    /* Quantum AppBar & Reactor Monogram */
+    .mui-appbar {
+      backdrop-filter: blur(22px) saturate(185%) !important;
+      -webkit-backdrop-filter: blur(22px) saturate(185%) !important;
+      border-bottom: 1px solid var(--border-subtle) !important;
+      box-shadow: 0 4px 28px rgba(0, 0, 0, 0.35), inset 0 -1px 0 rgba(0, 240, 255, 0.14);
+    }
+    .mui-appbar::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(0, 240, 255, 0.65) 28%, rgba(168, 85, 247, 0.55) 72%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .brand-monogram {
+      background: linear-gradient(135deg, rgba(0, 240, 255, 0.22) 0%, rgba(0, 115, 230, 0.65) 100%) !important;
+      border: 1px solid rgba(0, 240, 255, 0.58) !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 0 16px rgba(0, 240, 255, 0.34) !important;
+      color: #F0F7FF !important;
+      letter-spacing: 0.06em;
+    }
+    html[data-theme="light"] .brand-monogram {
+      background: linear-gradient(135deg, #0073E6 0%, #0284C7 100%) !important;
+      color: #FFFFFF !important;
+    }
+
+    /* Holographic Telemetry HUD Strip */
+    .scifi-hud-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 9px 16px;
+      border-radius: 12px;
+      background: var(--bg-paper);
+      backdrop-filter: blur(18px) saturate(175%);
+      -webkit-backdrop-filter: blur(18px) saturate(175%);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-card);
+      font-size: 0.73rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .scifi-hud-strip::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--laser-beam);
+      box-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
+    }
+    .scifi-hud-left, .scifi-hud-right {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .scifi-radar-ping {
+      position: relative;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #00F0FF;
+      box-shadow: 0 0 10px #00F0FF;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    html[data-theme="light"] .scifi-radar-ping {
+      background: #0073E6;
+      box-shadow: 0 0 8px rgba(0, 115, 230, 0.6);
+    }
+    .scifi-radar-ping::after {
+      content: "";
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      border: 1.5px solid currentColor;
+      color: #00F0FF;
+      animation: scifiPing 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    @keyframes scifiPing {
+      0% { transform: scale(0.65); opacity: 0.95; }
+      80%, 100% { transform: scale(2.1); opacity: 0; }
+    }
+    .scifi-hud-code {
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--mui-primary-lighter);
+    }
+    .scifi-hud-sep {
+      color: var(--border-default);
+      font-weight: 700;
+    }
+    .scifi-hud-meta {
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+    .scifi-hud-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--mui-primary-border);
+      background: var(--mui-primary-bg);
+      color: var(--mui-primary-lighter);
+      font-family: inherit;
+      font-size: 0.71rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+    .scifi-hud-btn:hover {
+      border-color: var(--border-strong);
+      box-shadow: 0 0 14px rgba(0, 240, 255, 0.32);
+      transform: translateY(-1px);
+    }
+    html[data-hud-mode="boost"] .scifi-hud-btn {
+      background: linear-gradient(90deg, rgba(0, 240, 255, 0.25), rgba(168, 85, 247, 0.25));
+      border-color: #00F0FF;
+      color: #FFFFFF;
+      box-shadow: 0 0 16px rgba(0, 240, 255, 0.45);
+    }
+
+    /* 4-Corner L-Shaped Sci-Fi HUD Targeting Reticles & Frosted Glass */
+    .bm-thesis-deck,
+    .bm-telemetry-ledger,
+    .bm-panel,
+    .sidebar-card {
+      backdrop-filter: blur(20px) saturate(175%);
+      -webkit-backdrop-filter: blur(20px) saturate(175%);
+      position: relative;
+      background-image:
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        linear-gradient(var(--reticle-c), var(--reticle-c)),
+        var(--blueprint-grid) !important;
+      background-position:
+        0 0, 0 0,
+        100% 0, 100% 0,
+        0 100%, 0 100%,
+        100% 100%, 100% 100%,
+        0 0 !important;
+      background-size:
+        12px 1.5px, 1.5px 12px,
+        12px 1.5px, 1.5px 12px,
+        12px 1.5px, 1.5px 12px,
+        12px 1.5px, 1.5px 12px,
+        28px 28px !important;
+      background-repeat:
+        no-repeat, no-repeat,
+        no-repeat, no-repeat,
+        no-repeat, no-repeat,
+        no-repeat, no-repeat,
+        repeat !important;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .bm-panel:hover,
+    .bm-telemetry-ledger:hover {
+      border-color: var(--border-default);
+    }
+
+    .bm-thesis-deck::after {
+      height: 3px !important;
+      background: var(--laser-beam) !important;
+      box-shadow: 0 0 16px rgba(0, 240, 255, 0.55);
+    }
+
+    html[data-theme="dark"] .bm-gradient-txt {
+      background: linear-gradient(92deg, #00F0FF 0%, #60A5FA 48%, #C084FC 78%, #34F5B5 100%) !important;
+      -webkit-background-clip: text !important;
+      background-clip: text !important;
+      color: transparent !important;
+      filter: drop-shadow(0 0 18px rgba(0, 240, 255, 0.18));
+    }
+
+    .bm-pulse-dot {
+      background: #00F0FF !important;
+      box-shadow: 0 0 10px #00F0FF, 0 0 0 4px rgba(0, 240, 255, 0.20) !important;
+    }
+
+    .bm-tel-bar-fill {
+      background: linear-gradient(90deg, #0073E6 0%, #00F0FF 65%, #34F5B5 100%) !important;
+      box-shadow: 0 0 10px rgba(0, 240, 255, 0.45);
+    }
+
+    .bm-subpanel,
+    .bm-node-inspector,
+    .bm-canvas-box {
+      border-color: var(--border-subtle) !important;
+      box-shadow: inset 0 1px 0 rgba(103, 232, 249, 0.09);
+    }
+
+    html[data-theme="dark"] .bm-canvas-box {
+      background-color: rgba(4, 10, 24, 0.88) !important;
+      background-image:
+        linear-gradient(rgba(0, 240, 255, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.045) 1px, transparent 1px) !important;
+      background-size: 24px 24px !important;
+      box-shadow: inset 0 0 28px rgba(0, 240, 255, 0.06), 0 0 0 1px rgba(0, 240, 255, 0.15) !important;
+    }
+
+    html[data-theme="dark"] .bm-node-btn.active,
+    html[data-theme="dark"] .pillar-card.active {
+      border-color: #00F0FF !important;
+      background: linear-gradient(180deg, rgba(0, 240, 255, 0.16) 0%, rgba(0, 115, 230, 0.12) 100%) !important;
+      box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.55), 0 8px 24px rgba(0, 240, 255, 0.18) !important;
+    }
+
+    html[data-theme="dark"] .mui-nav-link.active {
+      background: linear-gradient(90deg, rgba(0, 240, 255, 0.18) 0%, rgba(0, 115, 230, 0.06) 100%) !important;
+      border-left: 2.5px solid #00F0FF;
+      color: #67E8F9 !important;
+      box-shadow: 0 0 14px rgba(0, 240, 255, 0.12);
+    }
+
+    html[data-theme="dark"] .cite-link {
+      background: rgba(0, 240, 255, 0.10) !important;
+      border-color: rgba(0, 240, 255, 0.34) !important;
+      color: #67E8F9 !important;
+    }
+    html[data-theme="dark"] .cite-link:hover {
+      background: rgba(0, 240, 255, 0.20) !important;
+      border-color: #00F0FF !important;
+      box-shadow: 0 0 10px rgba(0, 240, 255, 0.32);
+    }
+
+    .bm-slider-row input[type="range"] {
+      accent-color: #00E5FF !important;
+    }
+    html[data-theme="light"] .bm-slider-row input[type="range"] {
+      accent-color: #0073E6 !important;
+    }
+
+    html[data-theme="dark"] .bm-table th {
+      background: rgba(6, 18, 38, 0.92) !important;
+      color: #67E8F9 !important;
+      border-bottom: 1px solid rgba(0, 240, 255, 0.26) !important;
+    }
+    html[data-theme="dark"] .bm-table tr.is-primary-row td {
+      background: rgba(0, 229, 255, 0.12) !important;
+    }
+
+  </style>
+<!-- PORTAL_MUI_OPT_CSS_START -->
+  <script id="portalDetailPreferences">
+    (function () {
+      try {
+        var theme = window.localStorage.getItem('mui_portal_theme_v4');
+        theme = (theme || '').replace(/^"|"$/g, '');
+        if (theme === 'dark' || theme === 'light') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+        if (window.localStorage.getItem('mui_portal_sidebar_collapsed_v1') === '1') {
+          document.documentElement.setAttribute('data-sidebar-collapsed', '1');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style id="portalMuiOptStyle">@media (min-width:1024px){.mui-sidebar{top:72px !important;max-height:none !important;overflow-y:visible !important;padding-bottom:24px !important;gap:10px !important;}html[data-sidebar-collapsed="1"] .mui-sidebar{display:none !important;}html[data-sidebar-collapsed="1"] .layout-shell{grid-template-columns:minmax(0,1fr) !important;}}.sidebar-card{padding:12px 14px !important;flex-shrink:0 !important;}.sidebar-subtitle{margin:4px 0 8px !important;font-size:0.77rem !important;line-height:1.4 !important;}.sidebar-mini-kpis{gap:4px !important;padding-top:8px !important;}.mui-sidebar .mui-nav-list{gap:2px !important;}.mui-ext-nav-link{padding:4px 8px !important;font-size:0.77rem !important;line-height:1.32 !important;}.mui-ext-nav-left > span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}.mui-nav-link{padding:5px 10px !important;font-size:0.80rem !important;}.mui-chip{box-sizing:border-box !important;display:inline-flex !important;flex-wrap:wrap !important;align-items:center !important;max-width:100% !important;min-width:0 !important;white-space:normal !important;height:auto !important;min-height:24px;line-height:1.35 !important;padding:3px 10px !important;overflow-wrap:anywhere !important;word-break:break-word !important;text-align:left !important;}.appbar-left .mui-chip{white-space:nowrap !important;flex-wrap:nowrap !important;max-width:190px !important;overflow:hidden !important;text-overflow:ellipsis !important;display:inline-block !important;}.sidebar-brand-top,.hero-overline,.mui-hero-badges,.kpi-top,.matrix-card-head{flex-wrap:wrap !important;gap:6px !important;max-width:100% !important;min-width:0 !important;}@media (max-width:1023px){.mui-sidebar{width:min(320px,88vw) !important;max-width:88vw !important;box-sizing:border-box !important;overflow-x:hidden !important;overflow-y:auto !important;-webkit-overflow-scrolling:touch;}.mui-sidebar .sidebar-card{width:100% !important;max-width:100% !important;min-width:0 !important;box-sizing:border-box !important;overflow:visible !important;}.co-side-home{padding:4px 10px;min-height:28px;font-size:0.72rem;}.co-hub-btn{min-height:36px;font-size:0.76rem;}.co-hub-pills{grid-template-columns:repeat(2,minmax(0,1fr)) !important;overflow:visible !important;gap:6px;padding:6px;}.co-hub-pill{min-height:38px;padding:7px 10px;font-size:0.78rem;}.co-side-list{max-height:none !important;overflow:visible !important;gap:7px !important;padding:4px 2px !important;margin:0 !important;}.co-hub-item{height:auto !important;min-height:0 !important;padding:9px 10px !important;}}.co-side-nav{margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed var(--border-subtle,#e2e8f0);}.co-side-head{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:8px;}.co-side-title{font-size:0.72rem;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:var(--text-muted,#64748b);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}.co-side-home{display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:6px;font-size:0.70rem;font-weight:700;text-decoration:none !important;flex-shrink:0;color:#0073E6 !important;background:rgba(0,115,230,0.08);border:1px solid rgba(0,115,230,0.22);transition:all 0.16s cubic-bezier(0.4,0,0.2,1);}.co-side-home:hover{background:rgba(0,115,230,0.15);border-color:#0073E6;}[data-theme="dark"] .co-side-home,html.dark .co-side-home{color:#66B2FF !important;background:rgba(51,153,255,0.14);border-color:rgba(51,153,255,0.3);}.co-side-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px;}.co-hub-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;height:30px;padding:0 8px;border-radius:8px;font-size:0.74rem;font-weight:700;border:1px solid var(--border-default,#cbd5e1);background:var(--bg-paper,#ffffff);color:var(--text-primary,#0f172a) !important;text-decoration:none !important;cursor:pointer;transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),border-color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1),color 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-btn:hover{border-color:#3399FF;color:#0073E6 !important;background:rgba(0,115,230,0.06);transform:translateY(-1px);}.co-hub-btn:active{transform:translateY(0) scale(0.98);}.co-hub-pills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;padding:5px;border-radius:10px;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border-subtle,#e2e8f0);margin-bottom:10px;}.co-hub-pill{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:34px;padding:6px 10px;border-radius:8px;font-size:0.76rem;font-weight:700;cursor:pointer;border:none;background:transparent;color:var(--text-secondary,#475569);transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-pill[data-co-cat="ALL"]{grid-column:1 / -1;}.co-hub-pill:not(.active):hover{color:var(--text-primary,#0f172a);background:rgba(255,255,255,0.55);}[data-theme="dark"] .co-hub-pill:not(.active):hover,html.dark .co-hub-pill:not(.active):hover{color:#F8FAFC;background:rgba(255,255,255,0.06);}.co-hub-pill.active{background:var(--bg-paper,#ffffff);color:#0073E6;box-shadow:0 1px 3px rgba(15,25,36,0.12);}[data-theme="dark"] .co-hub-pill.active,html.dark .co-hub-pill.active{color:#66B2FF;}.co-side-list{display:flex;flex-direction:column;gap:6px;max-height:none !important;overflow:visible !important;padding:4px 2px;margin:0;}.co-hub-item{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:10px;border:1px solid var(--border-subtle,#e2e8f0);background:var(--bg-paper,#ffffff);text-decoration:none !important;min-width:0;transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),border-color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-item.co-hub-hidden{display:none !important;}.co-hub-item:hover{border-color:#3399FF;background:rgba(0,115,230,0.05);transform:translateY(-1px);}.co-hub-item:active{transform:translateY(0) scale(0.99);}.co-hub-item.active{border-color:#0073E6;background:rgba(0,115,230,0.08);box-shadow:0 0 0 1px #0073E6,0 2px 8px rgba(0,115,230,0.14);}[data-theme="dark"] .co-hub-item.active,html.dark .co-hub-item.active{border-color:#3399FF;background:rgba(51,153,255,0.14);box-shadow:0 0 0 1px #3399FF,0 2px 8px rgba(0,115,230,0.24);}.co-hub-ticker{flex-shrink:0;width:26px;height:26px;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;font-size:0.66rem;font-weight:800;background:rgba(0,115,230,0.09) !important;color:#0073E6 !important;border:1px solid rgba(0,115,230,0.22) !important;transition:all 0.16s cubic-bezier(0.4,0,0.2,1);}[data-theme="dark"] .co-hub-ticker,html.dark .co-hub-ticker{background:rgba(51,153,255,0.14) !important;color:#66B2FF !important;border-color:rgba(51,153,255,0.28) !important;}.co-hub-item.active .co-hub-ticker{background:linear-gradient(180deg,#0073E6 0%,#0059B2 100%) !important;color:#FFFFFF !important;border-color:#0059B2 !important;}.co-hub-info{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1;}.co-hub-title{font-size:0.73rem;font-weight:700;line-height:1.3;color:var(--text-primary,#0f172a) !important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}.co-hub-meta{font-size:0.63rem;color:var(--text-muted,#64748b) !important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}main > section,.section-block,.mui-section{content-visibility:visible !important;contain-intrinsic-size:none !important;}@media (max-width:720px){html,body{overflow-x:hidden;max-width:100vw;}.mui-chip,.mui-segmented button,.cite-link{white-space:normal !important;max-width:100%;overflow-wrap:anywhere;}.mui-input-outlined{max-width:100%;min-width:0;}.mui-appbar{padding:0 12px !important;}.mui-sidebar .mui-nav-link,.mui-sidebar .mui-ext-nav-link{min-height:36px;}}@media (max-width:440px){.appbar-left .mui-chip{display:none !important;}}</style>
+  <style id="portalDetailChrome">html{--portal-detail-width:1560px;--portal-detail-gutter:20px}.mui-appbar{position:sticky!important;top:0!important;height:60px!important;z-index:1100!important;padding:0!important;background:var(--bg-appbar,rgba(255,255,255,.92))!important;border-bottom:1px solid var(--border-subtle,#dce5ef)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}.mui-appbar .mui-appbar-inner{display:flex!important;justify-content:space-between;align-items:center;gap:12px;box-sizing:border-box;width:100%;max-width:var(--portal-detail-width);height:100%;padding:0 var(--portal-detail-gutter)!important;margin:0 auto}.mui-appbar .appbar-left,.mui-appbar .appbar-right{display:flex;align-items:center;gap:8px;min-width:0}.mui-appbar .appbar-left{flex:1}.mui-appbar .appbar-right{flex-shrink:0}.mui-appbar:is(.breadcrumbs,.appbar-breadcrumb){display:flex;align-items:center;gap:6px;min-width:0;overflow:hidden;white-space:nowrap;font-size:.85rem}.mui-appbar:is(.crumb-current,.appbar-breadcrumb-cur){overflow:hidden;text-overflow:ellipsis;min-width:0;font-weight:700}.mui-appbar:is(#sidebarToggleBtn,#drawerToggleBtn,#appbarThemeBtn,#themeToggle){display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 34px;width:34px!important;height:34px!important;padding:0!important;border-radius:10px!important;border:1px solid var(--border-subtle,#dce5ef)!important;background:var(--bg-paper,#fff)!important;color:var(--text-secondary,#334155)!important;cursor:pointer}.mui-appbar:is(#sidebarToggleBtn,#drawerToggleBtn,#appbarThemeBtn,#themeToggle):hover{color:var(--mui-primary-lighter,#0073e6)!important;border-color:var(--mui-primary-lighter,#0073e6)!important}.mui-appbar #langSwitchGroup{display:inline-flex!important;align-items:center;gap:2px;height:34px;padding:2px!important;border-radius:10px;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border-subtle,#dce5ef);flex-shrink:0}.mui-appbar #langSwitchGroup button{height:28px;padding:0 10px!important;border:0;border-radius:7px;font:inherit;font-size:.76rem;font-weight:700;background:transparent;color:var(--text-secondary,#334155);cursor:pointer;white-space:nowrap}.mui-appbar #langSwitchGroup button.active{background:var(--bg-paper,#fff);color:var(--mui-primary-lighter,#0059b2);box-shadow:0 1px 3px rgba(15,25,36,.12)}.mui-appbar .quick-search-wrap{position:relative;width:220px;flex-shrink:0}.mui-appbar .quick-search-input{width:100%;height:34px;border-radius:10px;background:var(--bg-paper,#fff);border:1px solid var(--border-subtle,#dce5ef);color:var(--text-primary,#0f1924)}#appbarThemeLabel{display:none!important}main code:not(pre code){font:inherit;color:inherit;background:none;border:0;padding:0;box-shadow:none}#muiSidebar .sidebar-card{border-radius:14px;border:1px solid var(--border-subtle,#dce5ef);background:var(--bg-paper,#fff);box-shadow:var(--shadow-card,0 1px 3px rgba(15,25,36,.05))}#muiSidebar .portal-reading-tools{display:flex;flex-direction:column;gap:8px}#muiSidebar .portal-reading-tools .side-theme-group,#muiSidebar .portal-reading-tools .side-tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}#muiSidebar .portal-reading-tools button{font:inherit;font-size:.76rem;min-height:30px;color:var(--text-secondary,#334155);border:1px solid var(--border-subtle,#dce5ef);border-radius:8px;background:var(--bg-subtle,#f1f5f9);cursor:pointer}#muiSidebar .portal-reading-tools button[aria-pressed="true"],#muiSidebar .portal-reading-tools button:hover{color:var(--mui-primary-lighter,#0059b2);border-color:var(--mui-primary-lighter,#0073e6)}#muiSidebar .portal-reading-tools button svg{margin-right:4px;vertical-align:middle}.portal-detail-extras{display:flex;flex-wrap:wrap;gap:5px}.portal-detail-extras:empty{display:none}#portalDetailBackdrop{display:none;position:fixed;inset:0;z-index:1190;background:rgba(9,13,22,.5)}@media(min-width:1024px){html .layout-shell{grid-template-columns:280px minmax(0,1fr)!important}html[data-sidebar-collapsed="1"] .layout-shell{grid-template-columns:minmax(0,1fr)!important;box-sizing:border-box;width:100%!important;max-width:var(--portal-detail-width)!important;margin-inline:auto!important;padding-inline:var(--portal-detail-gutter)!important}#muiSidebar{position:static!important;align-self:start;width:auto!important;transform:none!important;height:auto!important;max-height:none!important;overflow:visible!important;z-index:auto!important}html[data-sidebar-collapsed="1"] #muiSidebar{display:none!important}}@media(max-width:1023px){html .layout-shell{grid-template-columns:minmax(0,1fr)!important}#muiSidebar{position:fixed!important;inset:0 auto 0 0!important;width:min(320px,88vw)!important;max-height:100dvh!important;z-index:1200!important;display:flex!important;padding:16px 12px!important;background:var(--bg-paper-solid,var(--bg-canvas,#fff));transform:translateX(-104%)!important;visibility:hidden;transition:transform .24s ease,visibility .24s;overflow:auto!important}body.portal-detail-drawer #muiSidebar{transform:translateX(0)!important;visibility:visible}body.portal-detail-drawer #portalDetailBackdrop{display:block}}@media(max-width:850px){.mui-appbar .mui-appbar-inner{padding:0 12px!important}.mui-appbar .appbar-left .mui-chip{display:none!important}}@media(max-width:760px){.mui-appbar .quick-search-wrap{display:none!important}}@media print{.mui-appbar,#muiSidebar,#portalDetailBackdrop{display:none!important}}</style>
+  <script id="portalDetailMenu">
+    (function () {
+      var root = document.documentElement;
+      var sidebarKey = 'mui_portal_sidebar_collapsed_v1';
+      var wide = matchMedia('(min-width:1024px)');
+      function setCollapsed(active) {
+        if (active) root.setAttribute('data-sidebar-collapsed', '1');
+        else root.removeAttribute('data-sidebar-collapsed');
+      }
+      function syncSidebar() {
+        try { setCollapsed(localStorage.getItem(sidebarKey) === '1'); } catch (error) {}
+      }
+      function closeDrawer() {
+        if (document.body) document.body.classList.remove('portal-detail-drawer');
+        updateSidebarButton();
+      }
+      function updateSidebarButton() {
+        var control = document.querySelector('.mui-appbar :is(#sidebarToggleBtn,#drawerToggleBtn)');
+        if (!control) return;
+        var expanded = wide.matches ? root.getAttribute('data-sidebar-collapsed') !== '1'
+          : document.body.classList.contains('portal-detail-drawer');
+        control.setAttribute('aria-expanded', String(expanded));
+        control.setAttribute('aria-controls', 'muiSidebar');
+      }
+      function syncMenu() {
+        var zh = document.getElementById('langZhBtn');
+        var en = document.getElementById('langEnBtn');
+        if (!zh || !en) return;
+        var english = en.classList.contains('active') || (!zh.classList.contains('active') && root.lang === 'en');
+        if (root.lang !== (english ? 'en' : 'zh-CN')) root.lang = english ? 'en' : 'zh-CN';
+        zh.setAttribute('aria-pressed', String(!english));
+        en.setAttribute('aria-pressed', String(english));
+        var theme = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        document.querySelectorAll('#muiSidebar [data-portal-theme],#muiSidebar [data-side-theme]').forEach(function (button) {
+          var pressed = (button.dataset.portalTheme || button.dataset.sideTheme) === theme;
+          button.setAttribute('aria-pressed', String(pressed));
+        });
+        for (var id of ['sideThemeLightBtn','sideThemeDarkBtn']) {
+          var button = document.getElementById(id);
+          if (button) button.setAttribute('aria-pressed', String(id === (theme === 'dark' ? 'sideThemeDarkBtn' : 'sideThemeLightBtn')));
+        }
+        document.querySelectorAll('#companySubfolderHub [data-i18n-zh],.portal-reading-tools [data-portal-zh],.portal-menu-text').forEach(function (node) {
+          var label = node.getAttribute(english ? 'data-portal-en' : 'data-portal-zh')
+            || node.getAttribute(english ? 'data-i18n-en' : 'data-i18n-zh');
+          if (label && node.textContent !== label) node.textContent = label;
+        });
+        var themeButton = document.querySelector('.mui-appbar :is(#appbarThemeBtn,#themeToggle)');
+        if (themeButton) {
+          var themeLabel = english ? (theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme')
+            : (theme === 'dark' ? '切换浅色模式' : '切换深色模式');
+          themeButton.setAttribute('aria-label', themeLabel);
+          themeButton.title = themeLabel;
+        }
+        updateSidebarButton();
+      }
+      function addTools() {
+        var sidebar = document.getElementById('muiSidebar');
+        if (!sidebar) return;
+        var tools = sidebar.querySelector('.sidebar-actions') || document.getElementById('portalReadingTools');
+        if (!tools) return;
+        tools.classList.add('portal-reading-tools');
+        var extras = document.createElement('div');
+        extras.className = 'portal-detail-extras';
+        var controls = document.querySelectorAll('.mui-appbar :is(#appbarDensityBtn,#densityComfortBtn,#densityCompactBtn,#densityComfBtn,#densityCompBtn)');
+        controls.forEach(function (button) { extras.appendChild(button); });
+        if (extras.childElementCount) tools.appendChild(extras);
+      }
+      syncSidebar();
+      document.addEventListener('click', function (event) {
+        var toggle = event.target.closest('.mui-appbar :is(#sidebarToggleBtn,#drawerToggleBtn)');
+        if (toggle) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          if (wide.matches) {
+            var collapsed = root.getAttribute('data-sidebar-collapsed') !== '1';
+            setCollapsed(collapsed);
+            try { localStorage.setItem(sidebarKey, collapsed ? '1' : '0'); } catch (error) {}
+            window.dispatchEvent(new Event('resize'));
+          } else document.body.classList.toggle('portal-detail-drawer');
+          updateSidebarButton();
+          return;
+        }
+        if (event.target.closest('#portalDetailBackdrop,#muiSidebar .mui-nav-link')) closeDrawer();
+        var mode = event.target.closest('[data-portal-theme]');
+        if (mode && (root.getAttribute('data-theme') || 'light') !== mode.dataset.portalTheme) {
+          document.querySelector('.mui-appbar :is(#appbarThemeBtn,#themeToggle)')?.click();
+        }
+        if (event.target.closest('[data-portal-print]')) window.print();
+        if (event.target.closest('[data-portal-export]')) {
+          var original = document.getElementById('exportHtmlBtn') || document.getElementById('sideExportBtn');
+          if (original) original.click();
+          else {
+            var url = URL.createObjectURL(new Blob(['<!doctype html>', root.outerHTML], {type:'text/html;charset=utf-8'}));
+            var link = document.createElement('a');
+            link.href = url;
+            link.download = location.pathname.split('/').pop() || 'report.html';
+            link.click();
+            setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+          }
+        }
+        if (event.target.closest('#langZhBtn,#langEnBtn')) queueMicrotask(syncMenu);
+      }, true);
+      window.addEventListener('storage', function (event) {
+        if (event.key === sidebarKey) syncSidebar();
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closeDrawer();
+      });
+      wide.addEventListener('change', closeDrawer);
+      document.addEventListener('DOMContentLoaded', function () {
+        addTools();
+        var en = document.getElementById('langEnBtn');
+        var observer = new MutationObserver(syncMenu);
+        observer.observe(root, {attributes:true,attributeFilter:['lang','data-lang','data-theme','data-sidebar-collapsed']});
+        if (en) observer.observe(en, {attributes:true,attributeFilter:['class']});
+        syncMenu();
+      });
+    })();
+  </script>
+
+  <script id="portalReportProse">
+    (function () {
+      'use strict';
+      var markup = /<a\s+([^<>]*\bclass=["']cite-link["'][^<>]*)>([^<>]*)<\/a>|<(em|strong|code)>([^<>]*)<\/\3>|\*\*([^*\r\n]+)\*\*|`([^`\r\n]+)`|(?<![\w*])\*(\S(?:[^*\r\n]*?\S)?)\*(?![\w*])/gi;
+      var skip = 'a, code, pre, script, style, textarea, template, [contenteditable]';
+
+      function makeCitation(attributes, label) {
+        var href = /(?:^|\s)href=(?:"([^"]+)"|'([^']+)')/i.exec(attributes);
+        if (!href) return null;
+        var url;
+        try { url = new URL((href[1] || href[2]).replace(/&amp;/g, '&')); }
+        catch (error) { return null; }
+        if (url.protocol !== 'https:' && url.protocol !== 'http:') return null;
+        var link = document.createElement('a');
+        link.className = 'cite-link';
+        link.href = url.href;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = label.replace(/&amp;/g, '&');
+        return link;
+      }
+
+      function formatText(node) {
+        var value = node.nodeValue;
+        markup.lastIndex = 0;
+        if (!markup.test(value) || !node.parentElement || node.parentElement.closest(skip)) return;
+        markup.lastIndex = 0;
+        var result = document.createDocumentFragment(), offset = 0, match;
+        while ((match = markup.exec(value))) {
+          var element = null;
+          if (match[1]) {
+            element = makeCitation(match[1], match[2]);
+          } else if (match[6]) {
+            element = document.createTextNode(match[6]);
+          } else {
+            element = document.createElement(match[3] ? match[3].toLowerCase() : match[7] ? 'em' : 'strong');
+            element.textContent = match[4] || match[5] || match[7] || '';
+          }
+          if (!element) continue;
+          result.append(value.slice(offset, match.index), element);
+          offset = markup.lastIndex;
+        }
+        if (!offset) return;
+        result.append(value.slice(offset));
+        node.replaceWith(result);
+      }
+
+      function formatVisibleReportProse(root) {
+        if (root.nodeType === Node.TEXT_NODE) { formatText(root); return; }
+        if (root.nodeType !== Node.ELEMENT_NODE || root.closest(skip)) return;
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+        var pending = [], node;
+        while ((node = walker.nextNode())) pending.push(node);
+        pending.forEach(formatText);
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var main = document.querySelector('main');
+        if (!main) return;
+        formatVisibleReportProse(main);
+        // Only inspect the nodes a report or language switch actually changes.
+        new MutationObserver(function (changes) {
+          changes.forEach(function (change) {
+            if (change.type === 'characterData') formatText(change.target);
+            else change.addedNodes.forEach(formatVisibleReportProse);
+          });
+        }).observe(main, {subtree:true, childList:true, characterData:true});
+      });
+    })();
+  </script>
+<!-- PORTAL_MUI_OPT_CSS_END -->
+</head>
+<body id="top">
+<div id="portalDetailBackdrop" aria-hidden="true"></div>
+  <div id="scrollBeam"></div>
+  <div id="drawerBackdrop" class="drawer-backdrop"></div>
+  <div id="chartTooltip"></div>
+  <div id="muiSnackbar" role="status" aria-live="polite"></div>
+
+  <!-- Sticky Frosted-Glass Official MUI AppBar -->
+  <header class="mui-appbar">
+    <div class="mui-appbar-inner">
+      <div class="appbar-left">
+        <button type="button" id="sidebarToggleBtn" class="mui-icon-btn" aria-label="切换目录侧边栏" title="展开/收起章节目录">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        </button>
+        <span class="brand-monogram mono">KO</span>
+        <nav class="breadcrumbs" aria-label="面包屑导航">
+          <a class="crumb-link hide-sm" href="../../index.html">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color:var(--mui-primary-main);"><path d="M2 5.2L9.5 9.5v8.3L2 13.5V5.2zm20 0L14.5 9.5v8.3L22 13.5V5.2zM12 2L4.6 6.2 12 10.4l7.4-4.2L12 2z"/></svg>
+            <span data-i18n-zh="王安安数据中心" data-i18n-en="Wang An'an Data Hub">王安安数据中心</span>
+          </a>
+          <span class="hide-sm" style="opacity:0.45;">/</span>
+          <span class="crumb-current" data-i18n-zh="可口可乐 (KO) 查理·芒格多元思维模型深度解构" data-i18n-en="Coca-Cola (KO) — Charlie Munger Mental Models">可口可乐 (KO) 查理·芒格多元思维模型深度解构</span>
+        </nav>
+        <span class="mui-chip mui-chip-primary mono hide-sm">NYSE: KO · $428B</span>
+        <span class="mui-chip mui-chip-success mono hide-sm">BRK YoC 65.2%</span>
+      </div>
+
+      <div class="appbar-right">
+        <div class="quick-search-wrap">
+          <span class="quick-search-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          </span>
+          <input type="search" id="quickJumpInput" class="quick-search-input" placeholder="检索模型或指标…" aria-label="快速跳转章节或指标" autocomplete="off" />
+          <span class="quick-search-kbd mono">⌘K</span>
+          <div id="quickJumpPopover" class="quick-jump-popover"></div>
+        </div>
+        <div id="langSwitchGroup" class="mui-lang-switch" role="group" aria-label="语言切换">
+          <button type="button" id="langZhBtn" class="mui-lang-btn active" data-lang="zh" aria-pressed="true">中文</button>
+          <button type="button" id="langEnBtn" class="mui-lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" id="exportHtmlBtn" class="mui-action-btn hide-sm" title="导出独立离线 HTML">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+          <span data-i18n-zh="导出" data-i18n-en="Export">导出</span>
+        </button>
+        <button type="button" id="themeToggle" class="mui-theme-icon-btn" aria-label="切换深浅色主题" title="切换浅色 / 深色主题">
+          <span id="themeIconSpan" style="display:inline-flex;align-items:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout-shell">
+    <!-- Left MUI Documentation Sidebar -->
+    <aside id="muiSidebar" class="mui-sidebar" aria-label="模块与门户导航">
+      <div class="sidebar-card">
+        <div class="sidebar-brand-top">
+          <span class="mui-chip mui-chip-primary mono">KO · MUNGER LATTICEWORK</span>
+        </div>
+        <div class="sidebar-title" data-i18n-zh="查理·芒格解构可口可乐" data-i18n-en="Munger's Latticework on KO">查理·芒格解构可口可乐</div>
+        <p class="sidebar-subtitle" data-i18n-zh="跨心理学、微观经济学、法学与化学自催化的复利圣经（更新至 2026 Q3）" data-i18n-en="Multidisciplinary synthesis across psychology, concentrate economics & 1988–2026 compounding">
+          跨心理学、微观经济学、法学与化学自催化的复利圣经（更新至 2026 Q3）
+        </p>
+        <div class="sidebar-mini-kpis mono">
+          <div class="sidebar-mini-row"><span class="sidebar-mini-label">BRK 原始成本</span><span class="sidebar-mini-val">$1.30B (4亿股)</span></div>
+          <div class="sidebar-mini-row"><span class="sidebar-mini-label">2026E 年度分红</span><span class="sidebar-mini-val" style="color:var(--mui-success-text);">$848M (YoC 65.2%)</span></div>
+          <div class="sidebar-mini-row"><span class="sidebar-mini-label">FY26E FCF 指引</span><span class="sidebar-mini-val" style="color:var(--mui-primary-lighter);">≥$13.0B</span></div>
+          <div class="sidebar-mini-row"><span class="sidebar-mini-label">当前动态 P/E</span><span class="sidebar-mini-val" style="color:var(--mui-warning-text);">28.9x (股息 2.11%)</span></div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="nav-section-label" data-i18n-zh="八章全景目录" data-i18n-en="Monograph Chapters">八章全景目录</div>
+        <ul class="mui-nav-list" id="tocList">
+          <li><a class="mui-nav-link active" href="#sec-thesis"><span class="nav-idx mono">01</span><span data-i18n-zh="总纲：1996 思想实验与五大原则" data-i18n-en="1996 Glotz Experiment">总纲：1996 思想实验与五大原则</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-glotz-math"><span class="nav-idx mono">02</span><span data-i18n-zh="伽利略数学：2.92万亿杯沙盘" data-i18n-en="Galileo 2.92T Servings Math">伽利略数学：2.92万亿杯沙盘</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-lollapalooza"><span class="nav-idx mono">03</span><span data-i18n-zh="心理学实战：Lollapalooza 七力" data-i18n-en="Lollapalooza 7-Force Engine">心理学实战：Lollapalooza 七力</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-economics"><span class="nav-idx mono">04</span><span data-i18n-zh="浓缩液收费站 vs 装瓶剥离" data-i18n-en="Concentrate vs Bottler ROIC">浓缩液收费站 vs 装瓶剥离</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-berkshire"><span class="nav-idx mono">05</span><span data-i18n-zh="伯克希尔 38 年复利总账" data-i18n-en="Berkshire 38-Year Ledger">伯克希尔 38 年复利总账</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-inversion"><span class="nav-idx mono">06</span><span data-i18n-zh="逆向排雷：IRS 税案与 GLP-1" data-i18n-en="Inversion & CorporateIssues">逆向排雷：IRS 税案与 GLP-1</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-valuation"><span class="nav-idx mono">07</span><span data-i18n-zh="同行对标与三个篮子模拟器" data-i18n-en="Peer Matrix & 3-Baskets Sim">同行对标与三个篮子模拟器</span></a></li>
+          <li><a class="mui-nav-link" href="#sec-sources"><span class="nav-idx mono">08</span><span data-i18n-zh="权威财报与文献核验索引" data-i18n-en="Verified Filings & Sources">权威财报与文献核验索引</span></a></li>
+        </ul>
+      </div>
+
+      <!-- SITE_RELATED_NAV_START -->
+        <div class="co-side-nav" id="companySubfolderHub" data-co-key="KO">
+          <div class="co-side-head">
+            <span class="co-side-title mono">KO · 01/01</span>
+            <a href="../../index.html" class="co-side-home" data-i18n-zh="← 首页" data-i18n-en="← Home">← 首页</a>
+          </div>
+          <div class="co-side-actions">
+            <a class="co-hub-btn" id="coHubPrevBtn" href="Coca_Cola_Charlie_Munger_Analysis.html" data-i18n-zh="← 上一篇" data-i18n-en="← Prev">← 上一篇</a>
+            <a class="co-hub-btn" id="coHubNextBtn" href="Coca_Cola_Charlie_Munger_Analysis.html" data-i18n-zh="下一篇 →" data-i18n-en="Next →">下一篇 →</a>
+          </div>
+          <div class="co-hub-pills">
+            <button type="button" class="co-hub-pill active" data-co-cat="ALL" data-i18n-zh="全部 (1)" data-i18n-en="All (1)">全部 (1)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="Company" data-i18n-zh="公司深度 (1)" data-i18n-en="Company (1)">公司深度 (1)</button>
+          </div>
+          <div class="co-side-list">
+            <a class="co-hub-item active" data-co-item-cat="Company" href="Coca_Cola_Charlie_Munger_Analysis.html" title="可口可乐 (NYSE: KO) — 查理·芒格多元思维模型深度解构 | 王安安数据中心"><span class="co-hub-ticker mono">01</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="可口可乐 (NYSE: KO) — 查理·芒格多元思维模型深度解构 | 王安安数据中心" data-i18n-en="(NYSE: KO) - ·Munger Deep Dive | Data Center">可口可乐 (NYSE: KO) — 查理·芒格多元思维模型深度解构 | 王安安数据中心</span><span class="co-hub-meta mono">Company</span></span></a>
+          </div>
+          <script>(function(){var h=document.getElementById("companySubfolderHub");if(!h)return;var sk="co_hub_cat_"+(h.getAttribute("data-co-key")||"");function applyCat(cat){var ps=h.querySelectorAll("[data-co-cat]");var okAny=false;for(var i=0;i<ps.length;i++){var ok=ps[i].getAttribute("data-co-cat")===cat;ps[i].classList.toggle("active",ok);if(ok)okAny=true;}if(!okAny&&ps.length){cat="ALL";ps[0].classList.add("active");}var its=h.querySelectorAll("[data-co-item-cat]");for(var j=0;j<its.length;j++){its[j].classList.toggle("co-hub-hidden",!(cat==="ALL"||its[j].getAttribute("data-co-item-cat")===cat));}try{if(sk)sessionStorage.setItem(sk,cat);}catch(e){}}try{var saved=sk?sessionStorage.getItem(sk):null;if(saved&&saved!=="ALL")applyCat(saved);}catch(e){}h.addEventListener("click",function(e){var t=e.target&&e.target.nodeType===3?e.target.parentElement:e.target;if(!t||!t.closest)return;var b=t.closest("[data-co-cat]");if(b){e.preventDefault();applyCat(b.getAttribute("data-co-cat")||"ALL");}},true);var act=h.querySelector(".co-hub-item.active");if(act&&act.scrollIntoView){try{act.scrollIntoView({block:"nearest"});}catch(e){}}document.addEventListener("keydown",function(e){if(e.target&&(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA"))return;if(e.key==="["){var pb=document.getElementById("coHubPrevBtn");if(pb)pb.click();}if(e.key==="]"){var nb=document.getElementById("coHubNextBtn");if(nb)nb.click();}});})();</script>
+        </div>
+        <!-- SITE_RELATED_NAV_END -->
+    <div class="sidebar-card sidebar-actions portal-reading-tools" id="portalReadingTools">
+  <div class="nav-section-label" data-portal-zh="阅读与导出工具" data-portal-en="Appearance &amp; Export">阅读与导出工具</div>
+  <div class="side-theme-group" role="group" aria-label="Theme">
+    <button type="button" data-portal-theme="light" data-portal-zh="浅色外观" data-portal-en="Light">浅色外观</button>
+    <button type="button" data-portal-theme="dark" data-portal-zh="深色外观" data-portal-en="Dark">深色外观</button>
+  </div>
+  <div class="side-tool-grid">
+    <button type="button" data-portal-export data-portal-zh="导出 HTML" data-portal-en="Export HTML">导出 HTML</button>
+    <button type="button" data-portal-print data-portal-zh="打印 / PDF" data-portal-en="Print / PDF">打印 / PDF</button>
+  </div>
+</div>
+</aside>
+
+    <!-- Main MUI Workspace -->
+    <main class="bm-workspace">
+      <!-- Quantum Orbital Sci-Fi Telemetry Strip -->
+      <div class="scifi-hud-strip mono" role="region" aria-label="量子全息遥测状态栏">
+        <div class="scifi-hud-left">
+          <span class="scifi-radar-ping" aria-hidden="true"></span>
+          <span class="scifi-hud-code" data-i18n-zh="SYS.QUANTUM // 全息深空观测舱已联机" data-i18n-en="SYS.QUANTUM // HOLOGRAPHIC DECK ONLINE">SYS.QUANTUM // 全息深空观测舱已联机</span>
+          <span class="scifi-hud-sep">//</span>
+          <span class="scifi-hud-meta" data-i18n-zh="SECTOR · NYSE:KO // 芒格多元模型共振舱 · LOLLA-v9.4" data-i18n-en="SECTOR · NYSE:KO // LOLLAPALOOZA · COMPOUND-v9.4">SECTOR · NYSE:KO // 芒格多元模型共振舱 · LOLLA-v9.4</span>
+        </div>
+        <div class="scifi-hud-right">
+          <span class="scifi-hud-meta hide-sm">ORBITAL NODE 01 // ROIC + GM 62.16% · 64Y DIV</span>
+          <button type="button" id="hudOpticsToggleBtn" class="scifi-hud-btn" title="切换全息网格与扫描线超频视效">
+            <span data-i18n-zh="◈ 全息视效: 标准 QUANTUM" data-i18n-en="◈ HUD OPTICS: QUANTUM">◈ 全息视效: 标准 QUANTUM</span>
+          </button>
+        </div>
+      </div>
+      <!-- =====================================================================
+           CHAPTER 01: COMMAND DECK + 5 HELPFUL NOTIONS PIPELINE
+           ===================================================================== -->
+      <section id="sec-thesis">
+        <div class="bm-command-deck">
+          <!-- Left 62%: Thesis Blueprint Deck -->
+          <div class="bm-thesis-deck">
+            <div>
+              <div class="bm-badge-row">
+                <span class="mui-chip mui-chip-primary mono">MUI DESIGN SYSTEM · MONOGRAPH</span>
+                <span class="mui-chip mui-chip-success mono">Q3 2026 VERIFIED</span>
+                <span class="mui-chip mui-chip-violet mono">1884 → 1996 → 2026 → 2034</span>
+              </div>
+              <h1 class="bm-display-h1">
+                <span data-i18n-zh="查理·芒格视角解构可口可乐：" data-i18n-en="Charlie Munger's Latticework on Coca-Cola: ">查理·芒格视角解构可口可乐：</span>
+                <span class="bm-gradient-txt" data-i18n-zh="为什么多元思维格栅能把 200 万美元推演成 2 万亿帝国？" data-i18n-en="How Mental Models Turn $2M Into a $2 Trillion Empire">为什么多元思维格栅能把 200 万美元推演成 2 万亿帝国？</span>
+              </h1>
+              <p class="bm-lead">
+                在投资史上，<strong>可口可乐（The Coca-Cola Company, NYSE: KO）</strong>既是查理·芒格推动沃伦·巴菲特彻底告别格雷厄姆“廉价烟蒂股”、转向<strong>“以合理价格买入伟大特许经营权”</strong>的灵魂一役，也是芒格 1996 年 7 月 20 日传世演讲《关于实用思维的实用思考？》的唯一解剖标本
+                <a class="cite-link" href="https://www.stripe.press/poor-charlies-almanack/talk-four" target="_blank" rel="noopener">Poor Charlie's Almanack</a>
+                <a class="cite-link" href="https://worldlypartners.com/wp-content/uploads/2024/01/1996-practical-thought-about-practical-thought.pdf" target="_blank" rel="noopener">1996 演讲原稿 PDF</a>。
+                芒格抛弃了商学院僵化的 DCF 与 Beta 套表，调用<strong>心理学、微观经济学、法学商标权与化学自催化</strong>的交叉格栅，揭示了这瓶碳酸糖水不可复制的护城河。
+              </p>
+              <p class="bm-lead" style="margin-bottom:0;">
+                站在 <strong>2026 年 11 月</strong>检验芒格 30 年前的推演：可口可乐已连续 <strong>22 个季度</strong>夺得全球非酒精即饮饮料（NARTD）价值份额增长，<strong>Q3 2026 有机营收增长 7%、全球箱体销量增长 5%、无糖可乐（Zero Sugar）暴涨 16%</strong>，全年自由现金流指引上调至<strong>至少 130 亿美元</strong>
+                <a class="cite-link" href="https://seekingalpha.com/news/4658117-coca-cola-expects-at-least-13b-2026-free-cash-flow-while-projecting-at-least-11-percent" target="_blank" rel="noopener">Q3 2026 指引</a>
+                <a class="cite-link" href="https://www.trefis.com/data/companies/KO" target="_blank" rel="noopener">Trefis</a>。
+                但按芒格严格的逆向纪律，当前 <strong>28.9x 市盈率</strong>与 <strong>IRS 最高 $180–$200 亿转让定价诉讼敞口</strong>同样给出了清晰的边界约束
+                <a class="cite-link" href="https://www.kbkg.com/transfer-pricing/do-investors-understand-the-stakes-of-coca-colas-18b-tax-case" target="_blank" rel="noopener">KBKG 税务审计</a>。
+              </p>
+            </div>
+
+            <div class="mui-alert">
+              “我们的文明保留了一大批博士教育者——甚至包括心理学教授和商学院院长——他们即便终生近距离观察可口可乐，哪怕事后诸葛亮，也无法令人满意地解释可口可乐的成功……更极端的是，那些被顶尖顾问簇拥的杰出高管，竟然因不懂基础心理学而制造了危及命脉的‘新可乐（New Coke）’惨败。”
+              <cite>—— 查理·芒格，1996年7月20日演讲（收录于《穷查理宝典》第四讲）</cite>
+            </div>
+          </div>
+
+          <!-- Right 38%: Live MUI Telemetry Ledger -->
+          <div class="bm-telemetry-ledger">
+            <div class="bm-ledger-head">
+              <div class="bm-ledger-title">
+                <span class="bm-pulse-dot"></span>
+                <span data-i18n-zh="可口可乐 × 伯克希尔核心遥测总账" data-i18n-en="KO × Berkshire Live Telemetry">可口可乐 × 伯克希尔核心遥测总账</span>
+              </div>
+              <span class="mui-chip mono">2026.11</span>
+            </div>
+
+            <div class="bm-telemetry-rows">
+              <div class="bm-tel-item">
+                <div class="bm-tel-top">
+                  <span class="bm-tel-lbl">伯克希尔原始成本 / 2026 年股息回报</span>
+                  <span class="bm-tel-val mono">$1.30B → $848M/yr</span>
+                </div>
+                <div class="bm-tel-bar-track"><div class="bm-tel-bar-fill" style="width:65.2%;"></div></div>
+                <div class="bm-tel-sub"><span>4亿股 ($3.25/股) 零减持</span><span class="mono" style="color:var(--mui-success-text);">成本股息率 YoC 65.2% (1.53年回本)</span></div>
+              </div>
+
+              <div class="bm-tel-item">
+                <div class="bm-tel-top">
+                  <span class="bm-tel-lbl">浓缩液收费站 TTM 毛利率 / 可比营业利润率</span>
+                  <span class="bm-tel-val mono">62.16% / 31.2%</span>
+                </div>
+                <div class="bm-tel-bar-track"><div class="bm-tel-bar-fill" style="width:62.2%;"></div></div>
+                <div class="bm-tel-sub"><span>FY25 营收 $47.9B · CapEx 仅 $2.1B</span><span class="mono">Q2 2026 营业利润率达 34.9%</span></div>
+              </div>
+
+              <div class="bm-tel-item">
+                <div class="bm-tel-top">
+                  <span class="bm-tel-lbl">Q3 2026 有机营收 / 无糖可乐销量增速</span>
+                  <span class="bm-tel-val mono">+7.0% / +16.0%</span>
+                </div>
+                <div class="bm-tel-bar-track"><div class="bm-tel-bar-fill" style="width:76%;"></div></div>
+                <div class="bm-tel-sub"><span>全球箱体销量 +5% + 价格/组合 +1%</span><span class="mono" style="color:var(--mui-primary-lighter);">连续 22 季夺取市场份额</span></div>
+              </div>
+
+              <div class="bm-tel-item">
+                <div class="bm-tel-top">
+                  <span class="bm-tel-lbl">FY2026E 上调后自由现金流 vs 年度总分红</span>
+                  <span class="bm-tel-val mono">≥$13.0B vs $9.12B</span>
+                </div>
+                <div class="bm-tel-bar-track"><div class="bm-tel-bar-fill" style="width:70%;"></div></div>
+                <div class="bm-tel-sub"><span>连续 64 年上调股息 ($2.12/股)</span><span class="mono">净债务/EBITDA 仅 1.3x</span></div>
+              </div>
+
+              <div class="bm-tel-item">
+                <div class="bm-tel-top">
+                  <span class="bm-tel-lbl">2026年11月动态市盈率 vs 历史中枢</span>
+                  <span class="bm-tel-val mono">28.9x vs 23.0x</span>
+                </div>
+                <div class="bm-tel-bar-track"><div class="bm-tel-bar-fill" style="width:85%;"></div></div>
+                <div class="bm-tel-sub"><span>市值 ~$428B · 现价股息率 2.11%</span><span class="mono" style="color:var(--mui-warning-text);">老股东非卖品 / 新资金等好球</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 Helpful Notions Horizontal MUI Pipeline -->
+        <div class="bm-panel" style="margin-top:22px;">
+          <div class="bm-panel-head">
+            <div>
+              <span class="bm-kicker mono">FIVE HELPFUL NOTIONS · INTERACTIVE PIPELINE</span>
+              <h2 class="bm-h2" data-i18n-zh="芒格解构可口可乐的“五大元思维原则”传导链路" data-i18n-en="Munger's Five Helpful Notions Pipeline">芒格解构可口可乐的“五大元思维原则”传导链路</h2>
+              <p class="bm-head-desc">点击下方任一思维节点，查看芒格如何在 1884 年亚特兰大思想实验中一步步锁死 2 万亿美元商业帝国的底层设计。</p>
+            </div>
+          </div>
+
+          <div class="bm-pipeline-track" id="metaRuleTabs">
+            <button type="button" class="bm-node-btn active" data-rule="0">
+              <div class="bm-node-top"><span class="bm-node-step mono">01</span><span class="bm-node-tag mono">SIMPLIFY</span></div>
+              <div class="bm-node-title">简化问题：先决大是非</div>
+              <div class="bm-node-kpi mono">排他商标 + 零腻人后味</div>
+            </button>
+            <button type="button" class="bm-node-btn" data-rule="1">
+              <div class="bm-node-top"><span class="bm-node-step mono">02</span><span class="bm-node-tag mono">GALILEO MATH</span></div>
+              <div class="bm-node-title">伽利略定量逆推</div>
+              <div class="bm-node-kpi mono">2.92万亿杯 × 4¢ = $117B</div>
+            </button>
+            <button type="button" class="bm-node-btn" data-rule="2">
+              <div class="bm-node-top"><span class="bm-node-step mono">03</span><span class="bm-node-tag mono">JACOBI INVERSION</span></div>
+              <div class="bm-node-title">雅可比逆向排雷</div>
+              <div class="bm-node-kpi mono">严防商标稀释与盲改配方</div>
+            </button>
+            <button type="button" class="bm-node-btn" data-rule="3">
+              <div class="bm-node-top"><span class="bm-node-step mono">04</span><span class="bm-node-tag mono">MULTIDISCIPLINARY</span></div>
+              <div class="bm-node-title">跨学科基础智慧</div>
+              <div class="bm-node-kpi mono">神经预设 + 化学自催化</div>
+            </button>
+            <button type="button" class="bm-node-btn" data-rule="4">
+              <div class="bm-node-top"><span class="bm-node-step mono">05</span><span class="bm-node-tag mono">LOLLAPALOOZA</span></div>
+              <div class="bm-node-title">多因子同向共振</div>
+              <div class="bm-node-kpi mono">7 力叠加非线性爆发</div>
+            </button>
+          </div>
+
+          <div class="bm-node-inspector" id="metaRuleDetail"></div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 02: GALILEO'S BACKWARDS MATH (1884 -> 2034)
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-glotz-math">
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 02 · GALILEO'S NUMERICAL FLUENCY</span>
+            <h2 class="bm-h2" data-i18n-zh="伽利略式逆向算账：从地球 80 亿人饮水生理极限倒推 2034 年的 2.92 万亿杯" data-i18n-en="Galileo's Backwards Math: From Human Water Intake to 2.92 Trillion Servings">伽利略式逆向算账：从地球 80 亿人饮水生理极限倒推 2034 年的 2.92 万亿杯</h2>
+            <p class="bm-head-desc">
+              芒格假设 1884 年虚拟出资人“格洛茨（Glotz）”投入 200 万美元（占股 50%），要求在持续派息的同时于 2034 年把市值做到 2 万亿美元
+              <a class="cite-link" href="https://fs.blog/turning-2-million-into-2-trillion/" target="_blank" rel="noopener">Farnam Street</a>
+              <a class="cite-link" href="https://www.0to1stockmarket.com/p/charlie-mungers-speech-that-no-one" target="_blank" rel="noopener">0to1StockMarket</a>。
+              拖动下方滑块即可复现芒格基于人类每日 64 盎司（8 标准杯）水分摄入硬约束的费米推演：
+            </p>
+          </div>
+          <button type="button" class="mui-action-btn" id="resetGlotzBtn">恢复芒格 1996 原始参数</button>
+        </div>
+
+        <div class="bm-split-75">
+          <div class="bm-subpanel">
+            <div class="bm-sim-sliders">
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>2034 全球目标消费者人口 (十亿人)</span><b id="gPopVal">8.0B</b></div>
+                <input type="range" id="gPop" min="6.0" max="10.0" step="0.5" value="8.0" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>风味饮料替代白水比例 (芒格基准 25%)</span><b id="gCatVal">25%</b></div>
+                <input type="range" id="gCat" min="10" max="45" step="1" value="25" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>可口可乐占全球风味饮料份额 (芒格基准 50%)</span><b id="gShareVal">50%</b></div>
+                <input type="range" id="gShare" min="20" max="65" step="1" value="50" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>每 8 盎司标准杯净利润 (美分, 芒格基准 4.0¢)</span><b id="gCentsVal">4.0¢</b></div>
+                <input type="range" id="gCents" min="1.5" max="7.0" step="0.1" value="4.0" />
+              </div>
+            </div>
+            <div id="glotzFunnelSteps"></div>
+          </div>
+
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>1996 芒格 8% 年化市值轨迹 vs 2026 真实进度核验</h3>
+              <span class="mui-chip mui-chip-primary mono">$125B (1996) → $428B (2026)</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="glotzChart"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              <strong>30 年进度复盘：</strong>1996 年可口可乐市值约 $1,250 亿，芒格指出只需年化升值 8%、物理杯数增长 6% 即可在 2034 年达标。截至 2026 年，可口可乐全球日均销量约 <strong>22 亿杯（年约 8,030 亿杯）</strong>，FY2026E Non-GAAP 净利润约 <strong>$144 亿</strong>（LTM GAAP $146 亿），折合每标准杯净赚约 <strong>1.8 美分</strong>，纯市值达 <strong>$4,280 亿</strong>（若计入 30 年累计上千亿美元分红再投资，股东总回报曲线高度吻合，且距白水替代天花板仍有逾 3 倍空间）。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 03: LOLLAPALOOZA 7-FORCE ENGINE
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-lollapalooza"><span id="lollapalooza"></span>
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 03 · PSYCHOLOGY OF HUMAN MISJUDGMENT</span>
+            <h2 class="bm-h2" data-i18n-zh="《人类误判心理学》实战：七大心理与经济驱动力的 Lollapalooza 非线性共振" data-i18n-en="Lollapalooza Effect: 7 Psychological & Economic Forces Acting in Concert">《人类误判心理学》实战：七大心理与经济驱动力的 Lollapalooza 非线性共振</h2>
+            <p class="bm-head-desc">
+              芒格强调《穷查理宝典》第四讲必须与第十一讲（25 种人类误判心理倾向）对照精读
+              <a class="cite-link" href="https://jamesclear.com/great-speeches/psychology-of-human-misjudgment-by-charlie-munger" target="_blank" rel="noopener">人类误判心理学</a>
+              <a class="cite-link" href="https://www.hudsonhillcapital.com/news/visa-tastes-better-with-a-coke" target="_blank" rel="noopener">Hudson Hill Capital</a>。
+              点击左侧 MUI 开关切换任意因子，实时对比单变量线性增长与多力共振的指数级差距：
+            </p>
+          </div>
+          <span class="mui-chip mui-chip-primary mono" id="lollaScoreBadge">激活 7/7 因子 · 共振乘数 4.86x</span>
+        </div>
+
+        <div class="bm-split-75">
+          <div class="force-list" id="forceList"></div>
+
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>Lollapalooza 多因子非线性共振 vs 线性单因子基准</h3>
+              <span class="mui-chip mono">AUTOCATALYSIS CURVE</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="lollaCanvas"></canvas>
+            </div>
+            <div class="mui-alert" style="font-size:0.80rem;">
+              <strong>达尔文四重生理奖赏闭环：</strong>芒格指出可口可乐精准命中了人类进化预设的四个操作性条件反射靶点：① 卡路里/甜味信号；② 气泡口感与芳香刺激；③ <strong>咖啡因 + 糖分中枢轻度提神</strong>；④ 酷暑冰镇物理降温，且<strong>零甜腻余味（No cloying aftertaste）</strong>，使高频复购永不审美疲劳。
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 04: CONCENTRATE TOLLBOOTH VS BOTTLER REFRANCHISING
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-economics"><span id="moat"></span>
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 04 · CONCENTRATE TOLLBOOTH &amp; REFRANCHISING</span>
+            <h2 class="bm-h2" data-i18n-zh="商业模式剪刀差：62.16% 毛利的浓缩液收费站 vs 特许装瓶商重资产剥离" data-i18n-en="Concentrate Tollbooth (62.16% GM) vs Franchise Bottler Capex Separation">商业模式剪刀差：62.16% 毛利的浓缩液收费站 vs 特许装瓶商重资产剥离</h2>
+            <p class="bm-head-desc">
+              亚特兰大母公司只保留高毛利糖浆/浓缩液研发、全球品牌营销（如 2026 世界杯横跨 180+ 市场、触达 2,000 万零售终端）与定价权，将灌装厂、卡车冷链与冰柜资本开支剥离给 CCEP、FEMSA、太古等独立装瓶伙伴（2026 下半年继续剥离非洲装瓶 <strong>CCBA</strong>）
+              <a class="cite-link" href="https://investors.coca-colacompany.com/news-events/press-releases/detail/1151/coca-cola-reports-fourth-quarter-and-full-year-2025-results" target="_blank" rel="noopener">KO FY2025 财报</a>
+              <a class="cite-link" href="https://finviz.com/stock?t=KO" target="_blank" rel="noopener">Finviz</a>。
+            </p>
+          </div>
+        </div>
+
+        <div class="bm-split-66">
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>饮料巨头利润率剪刀差：浓缩液轻资产 vs 垂直重资产</h3>
+              <span class="mui-chip mui-chip-success mono">KO 31.2% vs PEP 12.2%</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="marginChart"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              FY2025 可口可乐资本开支仅 $21 亿（占 $479 亿营收 4.4%），可比营业利润率 <strong>31.2%</strong>（Q2 2026 跃升至 <strong>34.9%</strong>）；共享 KO 装瓶网的轻资产能量饮料巨头 Monster (MNST) 营业利润率达 <strong>29.2%</strong>；而背负北美自营装瓶与食品工厂的百事可乐 (PEP) 营业利润率仅为 <strong>12.2%</strong>
+              <a class="cite-link" href="https://www.gngresearch.com/stock/PEP/financials/" target="_blank" rel="noopener">PEP 财报数据</a>。
+            </p>
+          </div>
+
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>增长质量拐点：从 FY25“纯提价”转向 2026“真实放量”</h3>
+              <span class="mui-chip mui-chip-primary mono">Q3 26: 销量 +5% / 价格 +1%</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="growthMixChart"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              FY2025 有机营收 +5% 主要依赖提价（价格/组合 +4%，全球箱体销量 0%）；进入 Q2 &amp; Q3 2026，销量强劲增长 <strong>+5%</strong>（其中无糖可乐 <strong>+16%</strong>），价格温和贡献 +1%–2%，有机营收加速至 <strong>+7%</strong>，证明定价权并未损伤长期需求根基
+              <a class="cite-link" href="https://pestleanalysis.com/pestle-analysis-of-coca-cola/" target="_blank" rel="noopener">PESTLE 2026</a>。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 05: BERKSHIRE HATHAWAY 1988-2026 COMPOUNDING ANATOMY
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-berkshire"><span id="telemetry"></span>
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 05 · SIT ON YOUR ASS INVESTING (1988–2026)</span>
+            <h2 class="bm-h2" data-i18n-zh="伯克希尔 38 年持股总账：芒格“坐等复利”哲学如何创造 65.2% 成本股息率？" data-i18n-en="Berkshire's 38-Year KO Ledger: 65.2% Yield-on-Cost via Zero Turnover">伯克希尔 38 年持股总账：芒格“坐等复利”哲学如何创造 65.2% 成本股息率？</h2>
+            <p class="bm-head-desc">
+              1988–1994 年巴菲特与芒格斥资 <strong>$12.99 亿（约 $13.0 亿）</strong>买下 4 亿股可口可乐（拆股后成本 $3.25/股，持股约 9.3%）。经历 32 年零换手，即便在格雷格·阿贝尔（Greg Abel）接任伯克希尔 CEO 后的 2026 Q3 依然一股未卖
+              <a class="cite-link" href="https://www.fool.com/investing/2026/11/19/warren-buffett-paid-usd1-3-billion-coca-cola-pays-berkshire-hathaway-dividends/" target="_blank" rel="noopener">Motley Fool</a>
+              <a class="cite-link" href="https://www.chancerylane.net/blog/coke-is-it-buffetts-117bn-income-from-13bn-investment" target="_blank" rel="noopener">Chancery Lane</a>。
+            </p>
+          </div>
+        </div>
+
+        <div class="bm-split-66">
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>伯克希尔 KO 年度股息 ($M) 与成本收益率 (YoC) 阶梯</h3>
+              <span class="mui-chip mui-chip-success mono">1994 $75M → 2026E $848M</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="divCanvas"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              自 1920 年起连续派息、连续 <strong>64 年上调年度股息</strong>（2026年2月升至 $0.53/季 = $2.12/年）。伯克希尔每 <strong>1.53 年</strong>仅凭股息即可收回全部原始本金，且零资本利得税摩擦地将现金源源不断输往集团再投资。
+            </p>
+          </div>
+
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>自由现金流 (FCF, $B) 强劲修复与 $91.2 亿分红安全垫</h3>
+              <span class="mui-chip mui-chip-primary mono">FY25 $5.3B → FY26E ≥$13.0B</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="fcfCanvas"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              FY2025 账面 FCF 为 $53 亿（系 Q1 支付 fairlife 收购 $61 亿或有对价所致，还原后常态 FCF 约 $114 亿）；2026 年 10 月管理层将全年 FCF 指引上调至 <strong>≥$130 亿</strong>，充裕覆盖约 $91.2 亿年度总分红
+              <a class="cite-link" href="https://www.simianx.ai/stories/coca-cola-q3-volume-growth-consumer-recovery-or-brand-power" target="_blank" rel="noopener">SimianX</a>。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 06: JACOBI'S INVERSION & CORPORATE ISSUES AUDIT
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-inversion"><span id="inversion"></span>
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 06 · INVERSION &amp; CORPORATE ISSUES AUDIT</span>
+            <h2 class="bm-h2" data-i18n-zh="雅可比逆向排雷：如果可口可乐受损，最可能栽在哪四个坑里？" data-i18n-en="Jacobi's Inversion Audit: Four Structural Failure Modes & Tail Risks">雅可比逆向排雷：如果可口可乐受损，最可能栽在哪四个坑里？</h2>
+            <p class="bm-head-desc">遵循芒格“反过来想，总是反过来想”的铁律，我们对历史重大失误及 2025–2026 财报暴露的真实尾部隐患进行穿透审计：</p>
+          </div>
+        </div>
+
+        <div class="bm-stress-grid">
+          <div class="bm-stress-card">
+            <div>
+              <span class="mui-chip mui-chip-error mono">RISK 01 · DEPRIVAL SUPER-REACTION</span>
+              <h3 style="margin-top:8px;">1985“新可乐（New Coke）”盲测陷阱与心智自毁戒律</h3>
+              <p style="margin-top:6px;">
+                1985 年管理层迷信 20 万次味觉盲测甜度胜出而篡改经典配方，结果仅 79 天便引爆全美消费者<strong>“剥夺超级反应综合征”</strong>而被迫撤回。芒格以此痛批高管缺乏基础心理学常识：消费者喝的是百年巴甫洛夫情感锚定，绝非单纯糖水。如今公司坚守“经典红罐不动摇 + 增量侧翼创新”铁律
+                <a class="cite-link" href="https://www.stripe.press/poor-charlies-almanack/talk-four" target="_blank" rel="noopener">Talk Four</a>。
+              </p>
+            </div>
+            <div style="font-size:0.74rem;font-weight:700;color:var(--mui-success-text);">当前状态：已形成组织级免疫护栏</div>
+          </div>
+
+          <div class="bm-stress-card">
+            <div>
+              <span class="mui-chip mui-chip-warning mono">RISK 02 · IRS TRANSFER PRICING ($18B–$20B)</span>
+              <h3 style="margin-top:8px;">美国国税局（IRS）海外浓缩液转让定价世纪诉讼</h3>
+              <p style="margin-top:6px;">
+                IRS 指控 2007–2009 年度海外浓缩液供应点特许权收费偏低，税务法院裁定调增 $90 亿应税所得，公司已于 2024 年预缴 <strong>$60 亿美元保证金</strong>；若败诉外推至后续年度，累计最大潜在税款与利息敞口达 <strong>$180–$200 亿美元</strong>
+                <a class="cite-link" href="https://www.kbkg.com/transfer-pricing/do-investors-understand-the-stakes-of-coca-colas-18b-tax-case" target="_blank" rel="noopener">KBKG</a>
+                <a class="cite-link" href="https://tax.thomsonreuters.com/news/11th-circuit-weighs-coca-cola-irs-clash-over-transfer-pricing-methodology-change-up/" target="_blank" rel="noopener">Reuters</a>。
+                2026年6月第十一巡回上诉法院已开庭审理，公司将净债务/EBITDA 压低在 <strong>1.3x</strong> 以备极端赔付。
+              </p>
+            </div>
+            <div style="font-size:0.74rem;font-weight:700;color:var(--mui-warning-text);">核心关注：第十一巡回法院援引 3M 先例裁决结果</div>
+          </div>
+
+          <div class="bm-stress-card">
+            <div>
+              <span class="mui-chip mui-chip-primary mono">RISK 03 · M&amp;A CAPITAL DISCIPLINE</span>
+              <h3 style="margin-top:8px;">并购纪律分化：BODYARMOR 减值 $9.6 亿 vs fairlife 大胜</h3>
+              <p style="margin-top:6px;">
+                Q4 2025 公司因高价收购运动饮料 <strong>BODYARMOR 计提 $9.60 亿美元商标减值</strong>（拉低当季 GAAP 营业利润率至 15.6%），印证芒格对“盲目多元化”的警告；但与此同时，超滤牛奶 <strong>fairlife</strong> 营收破十亿并投资 <strong>$6.5 亿在纽约州扩产 +30%</strong>（2026 投产），叠加参股 Monster (~16.7%–20.9%) 展现了极高的生态协同上限
+                <a class="cite-link" href="https://www.foodnavigator.com/Article/2025/10/21/coca-cola-rides-zero-sugar,protein-boom-amid-glp-1-shift/" target="_blank" rel="noopener">FoodNavigator</a>。
+              </p>
+            </div>
+            <div style="font-size:0.74rem;font-weight:700;color:var(--mui-primary-lighter);">核心关注：杜绝溢价全资并购平庸成品饮料品牌</div>
+          </div>
+
+          <div class="bm-stress-card">
+            <div>
+              <span class="mui-chip mui-chip-success mono">RISK 04 · GLP-1 &amp; SUGAR REDUCTION</span>
+              <h3 style="margin-top:8px;">GLP-1 减肥药冲击下的“无糖 + 高蛋白”双轮反击</h3>
+              <p style="margin-top:6px;">
+                尽管 GLP-1 用药人群含糖汽水消费平均下降约 <strong>7%</strong>，新任 CEO Henrique Braun 凭借 <strong>Coca-Cola Zero Sugar</strong>（FY25 销量 +14% → Q2/Q3 2026 <strong>+16%</strong>）、印度前9月 Diet Coke <strong>+150%</strong>、零糖零咖啡因新品 <strong>Coke Zero Zero</strong> 以及 fairlife Core Power 高蛋白奶昔完美对冲了减糖逆风
+                <a class="cite-link" href="https://markets.financialcontent.com/stocks/article/finterra-2026-2-10-the-coca-cola-company-ko-2026-research-report-a-titan-in-transition" target="_blank" rel="noopener">FinancialContent</a>。
+              </p>
+            </div>
+            <div style="font-size:0.74rem;font-weight:700;color:var(--mui-success-text);">非传统含糖汽水矩阵已贡献约 75% 营收弹性</div>
+          </div>
+        </div>
+
+        <h3 style="font-size:0.95rem;font-weight:800;margin-bottom:10px;">芒格检查清单（Checklist）：6 项投资者持续跟踪指标（支持本地持久化勾选）</h3>
+        <div class="chk-grid">
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="irs_11th" />
+            <span><strong>IRS 第十一巡回法院终审裁决：</strong>核验 $90亿 转让定价调整是否被推翻，观察底层有效税率（当前 20.9%）会否上移。</span>
+          </label>
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="vol_vs_price" />
+            <span><strong>真实箱体销量增速（Volume ≥ +2%）：</strong>确认增长由真实饮用杯数扩张驱动，而非单纯透支提价空间。</span>
+          </label>
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="zero_sugar_mix" />
+            <span><strong>Zero Sugar 与 Coke Zero Zero 渗透率：</strong>跟踪无糖产品线双位数增长对 GLP-1 减糖趋势的持续对冲效率。</span>
+          </label>
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="fairlife_webster" />
+            <span><strong>fairlife 纽约州 Webster $6.5亿新厂投产：</strong>验证 2026–2027 年 +30% 高蛋白产能释放后的增量利润贡献。</span>
+          </label>
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="ccba_divest" />
+            <span><strong>CCBA 非洲装瓶剥离交割：</strong>确认轻资产剥离收官后，集团可比营业利润率稳步站上 32%–34% 区间。</span>
+          </label>
+          <label class="bm-check-label">
+            <input type="checkbox" data-stress-chk="pe_fat_pitch" />
+            <span><strong>“好球区（Fat Pitch）”估值耐心：</strong>当动态市盈率回落至 ≤22x–23x 历史中枢时启动新资金重仓配置。</span>
+          </label>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 07: PEER MOAT MATRIX & THREE-BASKETS SIMULATOR
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-valuation"><span id="simulator"></span>
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 07 · PEER MOAT MATRIX &amp; MUNGER'S THREE BASKETS</span>
+            <h2 class="bm-h2" data-i18n-zh="全球饮料护城河横向对标与芒格“三个篮子（YES / TOO TOUGH / NO）”估值模拟器" data-i18n-en="Global Beverage Moat Matrix & Munger's Three-Baskets Valuation Simulator">全球饮料护城河横向对标与芒格“三个篮子（YES / TOO TOUGH / NO）”估值模拟器</h2>
+            <p class="bm-head-desc">对比 KO、PEP、MNST 与 1988 伯克希尔建仓期基准，并用下方模拟器量化“伟大公司买在 28.9x vs 14.5x”的长期复利分野：</p>
+          </div>
+        </div>
+
+        <div class="table-toolbar">
+          <div class="mui-segmented" id="peerFilterGroup">
+            <button type="button" class="mui-seg-btn active" data-filter="all">全部对标样本 (4)</button>
+            <button type="button" class="mui-seg-btn" data-filter="light">轻资产浓缩液/品牌模式 (3)</button>
+            <button type="button" class="mui-seg-btn" data-filter="div">分红之王 ≥50年 (3)</button>
+          </div>
+          <div class="quick-search-wrap" style="width:230px;">
+            <span class="quick-search-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </span>
+            <input type="search" id="peerSearchInput" class="quick-search-input" style="padding-right:12px;" placeholder="筛选代码、模式或利润率…" aria-label="筛选对标表格" />
+          </div>
+        </div>
+
+        <div class="bm-table-wrap">
+          <table class="bm-table" id="peerTable">
+            <thead>
+              <tr>
+                <th>标的 / 基准样本</th>
+                <th>商业模式底层架构</th>
+                <th>FY25 营收</th>
+                <th>毛利率</th>
+                <th>营业利润率</th>
+                <th>估值倍数 (P/E)</th>
+                <th>股息率 / 连涨年数</th>
+                <th>芒格视角定性</th>
+              </tr>
+            </thead>
+            <tbody id="peerTableBody"></tbody>
+          </table>
+        </div>
+
+        <!-- Simulator Presets -->
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
+          <h3 style="font-size:1.0rem;font-weight:800;">“好生意 vs 好价格”逆向估值推演器</h3>
+          <div class="mui-segmented" id="simPresetGroup">
+            <button type="button" class="mui-seg-btn" data-preset="brk1988">1988 巴菲特击球点 (14.5x→25x)</button>
+            <button type="button" class="mui-seg-btn active" data-preset="base2026">2026 基准回归 (28.9x→23x)</button>
+            <button type="button" class="mui-seg-btn" data-preset="bull2026">乐观溢价延续 (28.9x→27.5x)</button>
+            <button type="button" class="mui-seg-btn" data-preset="bear2026">悲观杀估值压测 (28.9x→19x)</button>
+          </div>
+        </div>
+
+        <div class="bm-split-75">
+          <div class="bm-subpanel">
+            <div class="bm-sim-sliders">
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>计划持有年限 (Years)</span><b id="vYears">20 年</b></div>
+                <input type="range" id="sYears" min="5" max="40" step="1" value="20" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>年均 EPS 与股息内生增速</span><b id="vGrowth">6.0%</b></div>
+                <input type="range" id="sGrowth" min="2.0" max="11.0" step="0.5" value="6.0" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>买入市盈率 (Entry P/E, 现价 ~28.9x)</span><b id="vEntry">28.9x</b></div>
+                <input type="range" id="sEntry" min="14.0" max="34.0" step="0.1" value="28.9" />
+              </div>
+              <div class="bm-slider-row">
+                <div class="bm-slider-lbl"><span>期末退出市盈率 (Exit P/E, 历史中枢 ~23.0x)</span><b id="vExit">23.0x</b></div>
+                <input type="range" id="sExit" min="15.0" max="32.0" step="0.5" value="23.0" />
+              </div>
+            </div>
+
+            <div class="bm-sim-outputs">
+              <div class="bm-sim-out">
+                <div class="lbl">期末成本股息率 (YoC)</div>
+                <div class="val mono" id="outYoC">7.0%</div>
+                <div class="sub mono" id="outStartYield">起始股息率 ~2.19%</div>
+              </div>
+              <div class="bm-sim-out">
+                <div class="lbl">预期年化总回报 (CAGR)</div>
+                <div class="val mono" id="outCagr">7.12%</div>
+                <div class="sub mono" id="simNote">估值回归影响 -1.14%/年</div>
+              </div>
+            </div>
+
+            <div id="basketVerdict" class="basket-banner basket-tough"></div>
+          </div>
+
+          <div class="bm-subpanel">
+            <div class="bm-subhead">
+              <h3>100元初始本金：含累计分红总净值 vs 纯股价净值轨迹</h3>
+              <span class="mui-chip mui-chip-primary mono" id="simEndSummary">期末总净值: 395元</span>
+            </div>
+            <div class="bm-canvas-box">
+              <canvas id="simCanvas"></canvas>
+            </div>
+            <p class="bm-chart-caption">
+              <strong>芒格赔率结论：</strong>对于持有 $3.25 原始成本的伯克希尔而言，卖出可口可乐等同于主动缴税销毁一台年产 $8.48 亿现金的印钞机；但对新资金而言，28.9x 市盈率意味着前数年的业绩增长需先消化估值溢价
+              <a class="cite-link" href="https://seekingalpha.com/article/4943502-the-coca-cola-company-great-quality-wrong-price-overvalued-downgrade-sell" target="_blank" rel="noopener">Seeking Alpha</a>。
+              将其置于核心观察池顶端、耐心等待 ≤22x–23x 的“好球区”才是纯正的芒格之道。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           CHAPTER 08: VERIFIED SOURCES REGISTRY
+           ===================================================================== -->
+      <section class="bm-panel" id="sec-sources">
+        <div class="bm-panel-head">
+          <div>
+            <span class="bm-kicker mono">CHAPTER 08 · VERIFIED PRIMARY FILINGS &amp; LITERATURE</span>
+            <h2 class="bm-h2" data-i18n-zh="权威财报、法庭卷宗与查理·芒格原始演讲核验索引" data-i18n-en="Verified Financial Filings, Court Cases & Munger Literature">权威财报、法庭卷宗与查理·芒格原始演讲核验索引</h2>
+          </div>
+        </div>
+
+        <div class="bm-sources-grid">
+          <a class="bm-source-item" href="https://www.stripe.press/poor-charlies-almanack/talk-four" target="_blank" rel="noopener">
+            <b>1. Stripe Press · Poor Charlie's Almanack (Talk Four)</b>
+            <span>查理·芒格 1996年7月20日《Practical Thought About Practical Thought?》权威全文与五大思维原则。</span>
+          </a>
+          <a class="bm-source-item" href="https://worldlypartners.com/wp-content/uploads/2024/01/1996-practical-thought-about-practical-thought.pdf" target="_blank" rel="noopener">
+            <b>2. Worldly Partners · 1996 Speech Original Transcript PDF</b>
+            <span>1884–2034 格洛茨思想实验原版算式：2.92万亿杯 × 4美分 = $1,170亿净利润与 $2万亿估值。</span>
+          </a>
+          <a class="bm-source-item" href="https://fs.blog/turning-2-million-into-2-trillion/" target="_blank" rel="noopener">
+            <b>3. Farnam Street · Turning $2 Million Into $2 Trillion</b>
+            <span>巴甫洛夫联想、社会认同、可得性护城河与化学自催化（Autocatalysis）机制深度拆解。</span>
+          </a>
+          <a class="bm-source-item" href="https://investors.coca-colacompany.com/news-events/press-releases/detail/1151/coca-cola-reports-fourth-quarter-and-full-year-2025-results" target="_blank" rel="noopener">
+            <b>4. Coca-Cola Investor Relations · Q4 &amp; FY2025 Release (2026.02)</b>
+            <span>FY2025 营收 $47.9B、可比营业利润率 31.2%、BODYARMOR $960M 减值、fairlife $6.1B 尾款及 CCBA 剥离。</span>
+          </a>
+          <a class="bm-source-item" href="https://seekingalpha.com/news/4658117-coca-cola-expects-at-least-13b-2026-free-cash-flow-while-projecting-at-least-11-percent" target="_blank" rel="noopener">
+            <b>5. Coca-Cola Q3 2026 Earnings Call &amp; Guidance Upgrade (2026.10.27)</b>
+            <span>CEO Henrique Braun 披露 Q3 销量 +5%、有机营收 +7%，上调全年 EPS 增速至 ≥11%、FCF 至 ≥$13.0B。</span>
+          </a>
+          <a class="bm-source-item" href="https://www.trefis.com/data/companies/KO" target="_blank" rel="noopener">
+            <b>6. Trefis · Coca-Cola (KO) Q3 2026 Operational Dataset</b>
+            <span>Q3 营收 $13.4B、Coca-Cola Zero Sugar 销量 +16%、连续 22 季度夺取全球 NARTD 市场价值份额。</span>
+          </a>
+          <a class="bm-source-item" href="https://www.fool.com/investing/2026/11/19/warren-buffett-paid-usd1-3-billion-coca-cola-pays-berkshire-hathaway-dividends/" target="_blank" rel="noopener">
+            <b>7. The Motley Fool · Berkshire $848M Annual KO Dividend (2026.11)</b>
+            <span>伯克希尔 $1.30B 成本、4亿股零减持、连续64年上调股息至 $2.12/股及 65.2% 成本股息率核验。</span>
+          </a>
+          <a class="bm-source-item" href="https://www.kbkg.com/transfer-pricing/do-investors-understand-the-stakes-of-coca-colas-18b-tax-case" target="_blank" rel="noopener">
+            <b>8. KBKG &amp; Thomson Reuters · IRS $18B–$20B Tax Litigation</b>
+            <span>海外浓缩液供应点转让定价争议、$60亿保证金存款及第十一巡回上诉法院庭审进展。</span>
+          </a>
+          <a class="bm-source-item" href="https://www.foodnavigator.com/Article/2025/10/21/coca-cola-rides-zero-sugar,protein-boom-amid-glp-1-shift/" target="_blank" rel="noopener">
+            <b>9. FoodNavigator &amp; PESTLE 2026 · GLP-1 &amp; fairlife $650M Plant</b>
+            <span>GLP-1 减糖逆风对冲策略与纽约州 Webster $6.5亿美元超滤蛋白新厂（+30% 产能）详情。</span>
+          </a>
+          <a class="bm-source-item" href="https://www.gngresearch.com/stock/PEP/financials/" target="_blank" rel="noopener">
+            <b>10. GnG Research &amp; Morningstar · PEP &amp; MNST Peer Filings</b>
+            <span>百事可乐 FY25 营收 $93.92B / 12.2% 营业利润率与怪兽饮料 FY25 营收 $8.29B / 29.2% 营业利润率对标。</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_THEME_KEY = 'mui_portal_theme_v4';
+      var STORAGE_LANG_KEY = 'mui_portal_lang_v1';
+      var STORAGE_SIDEBAR_KEY = 'mui_portal_sidebar_collapsed_v1';
+      var STORAGE_STRESS_KEY = 'ko_munger_checklist_v2';
+
+      var state = {
+        theme: document.documentElement.getAttribute('data-theme') || 'dark',
+        lang: 'zh',
+        activeRule: 0,
+        peerFilter: 'all',
+        peerQuery: ''
+      };
+
+      function showToast(msg) {
+        var el = document.getElementById('muiSnackbar');
+        if (!el) return;
+        el.textContent = msg;
+        el.classList.add('show');
+        clearTimeout(showToast._t);
+        showToast._t = setTimeout(function () { el.classList.remove('show'); }, 2200);
+      }
+
+      // 1. Sidebar Drawer / Collapse Toggle
+      var sidebarBtn = document.getElementById('sidebarToggleBtn');
+      var sidebarEl = document.getElementById('muiSidebar');
+      var backdropEl = document.getElementById('drawerBackdrop');
+      if (sidebarBtn) {
+        sidebarBtn.addEventListener('click', function () {
+          if (window.innerWidth <= 1060) {
+            var isOpen = sidebarEl.classList.toggle('open');
+            backdropEl.classList.toggle('open', isOpen);
+          } else {
+            var collapsed = document.documentElement.getAttribute('data-sidebar-collapsed') === '1';
+            if (collapsed) {
+              document.documentElement.removeAttribute('data-sidebar-collapsed');
+              try { localStorage.setItem(STORAGE_SIDEBAR_KEY, '0'); } catch (e) {}
+            } else {
+              document.documentElement.setAttribute('data-sidebar-collapsed', '1');
+              try { localStorage.setItem(STORAGE_SIDEBAR_KEY, '1'); } catch (e) {}
+            }
+            setTimeout(drawAllCharts, 60);
+          }
+        });
+      }
+      if (backdropEl) {
+        backdropEl.addEventListener('click', function () {
+          sidebarEl.classList.remove('open');
+          backdropEl.classList.remove('open');
+        });
+      }
+
+      // 2. MUI Theme Toggle (Sapphire Light <-> Obsidian Dark)
+      function applyTheme(t, silent) {
+        state.theme = t === 'dark' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', state.theme);
+        var iconSpan = document.getElementById('themeIconSpan');
+        if (iconSpan) {
+          iconSpan.innerHTML = state.theme === 'dark'
+            ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/></svg>'
+            : '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>';
+        }
+        drawAllCharts();
+        if (!silent) showToast(state.theme === 'dark' ? '已切换至 MUI 深色黑曜石主题' : '已切换至 MUI 官方浅色主题');
+      }
+      document.getElementById('themeToggle').addEventListener('click', function () {
+        var next = state.theme === 'dark' ? 'light' : 'dark';
+        applyTheme(next, false);
+        try { localStorage.setItem(STORAGE_THEME_KEY, next); } catch (e) {}
+      });
+
+      // 3. Language Toggle
+      function applyLang(lang, silent) {
+        state.lang = lang === 'en' ? 'en' : 'zh';
+        document.getElementById('langZhBtn').classList.toggle('active', state.lang === 'zh');
+        document.getElementById('langEnBtn').classList.toggle('active', state.lang === 'en');
+        document.querySelectorAll('[data-i18n-zh]').forEach(function (node) {
+          var txt = node.getAttribute(state.lang === 'en' ? 'data-i18n-en' : 'data-i18n-zh');
+          if (txt) node.textContent = txt;
+        });
+        if (!silent) showToast(state.lang === 'en' ? 'Switched UI labels to English' : '已切换为中文界面');
+      }
+      document.getElementById('langSwitchGroup').addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-lang]');
+        if (!btn) return;
+        var l = btn.getAttribute('data-lang');
+        applyLang(l, false);
+        try { localStorage.setItem(STORAGE_LANG_KEY, l); } catch (err) {}
+      });
+
+      // 4. Standalone HTML Export
+      document.getElementById('exportHtmlBtn').addEventListener('click', function () {
+        try {
+          var htmlStr = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+          var blob = new Blob([htmlStr], { type: 'text/html;charset=utf-8' });
+          var url = URL.createObjectURL(blob);
+          var a = document.createElement('a');
+          a.href = url;
+          a.download = 'Coca_Cola_Charlie_Munger_MUI.html';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+          showToast('已导出独立离线 MUI HTML 报告');
+        } catch (err) {
+          showToast('当前环境暂不支持直接触发下载');
+        }
+      });
+
+      // 5. Quick Jump Search (Cmd/Ctrl+K)
+      var jumpIndex = [
+        { title: '01 · 1996 格洛茨思想实验与五大原则', kw: 'glotz 1996 五大原则 思想实验 munger', href: '#sec-thesis' },
+        { title: '02 · 伽利略数学：2.92万亿杯与$1170亿净利', kw: '2.92 64盎司 数学 2034 4美分', href: '#sec-glotz-math' },
+        { title: '03 · Lollapalooza 七大心理与经济驱动力', kw: 'lollapalooza 巴甫洛夫 社会认同 人类误判心理学 自催化', href: '#sec-lollapalooza' },
+        { title: '04 · 浓缩液轻资产收费站 vs 特许装瓶商', kw: '浓缩液 装瓶 refranchising ccba 利润率 62% 31.2%', href: '#sec-economics' },
+        { title: '05 · 伯克希尔 38 年复利总账 ($848M 股息)', kw: 'berkshire 巴菲特 65.2% 股息 1.3b 4亿股', href: '#sec-berkshire' },
+        { title: '06 · 雅可比逆向排雷：New Coke / IRS / GLP-1', kw: 'new coke irs 税务 180亿 bodyarmor fairlife glp-1 zero sugar', href: '#sec-inversion' },
+        { title: '07 · 同行对标矩阵 (KO vs PEP vs MNST) & 估值模拟', kw: '百事 怪兽 pep mnst 28.9x 三个篮子 估值 模拟器', href: '#sec-valuation' },
+        { title: '08 · 权威财报与文献核验索引', kw: '信源 财报 文献 pdf', href: '#sec-sources' }
+      ];
+      var qInput = document.getElementById('quickJumpInput');
+      var qPop = document.getElementById('quickJumpPopover');
+      function renderJumpList(q) {
+        var term = (q || '').trim().toLowerCase();
+        var hits = jumpIndex.filter(function (it) {
+          return !term || it.title.toLowerCase().indexOf(term) !== -1 || it.kw.indexOf(term) !== -1;
+        });
+        qPop.innerHTML = hits.map(function (it) {
+          return '<a class="jump-item" href="' + it.href + '">' + it.title + '</a>';
+        }).join('') || '<div style="padding:8px 10px;font-size:0.78rem;color:var(--text-muted);">未匹配到对应章节</div>';
+      }
+      qInput.addEventListener('focus', function () { renderJumpList(qInput.value); qPop.classList.add('open'); });
+      qInput.addEventListener('input', function () { renderJumpList(qInput.value); qPop.classList.add('open'); });
+      qPop.addEventListener('click', function (e) { if (e.target.closest('.jump-item')) qPop.classList.remove('open'); });
+      document.addEventListener('click', function (e) { if (!e.target.closest('.quick-search-wrap')) qPop.classList.remove('open'); });
+      document.addEventListener('keydown', function (e) {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); qInput.focus(); }
+      });
+
+      // 6. Chapter 01 — 5 Helpful Notions Inspector
+      var metaRules = [
+        {
+          step: 'NOTION 01 · SIMPLIFICATION',
+          title: '简化问题：先砍掉枝节噪音，锁定四个“显而易见的大是非（Big No-Brainers）”',
+          body: '芒格接手格洛茨难题的第一步，是确立四条不可妥协的底层公理：① 卖无商标的大宗汽水绝不可能值 2 万亿美元，必须将“Coca-Cola”铸造成受全球法律严密保护的排他商标，甚至决不允许任何“Peppy Cola”搭便车稀释半个名字；② 任何初创企业都无法一夜铺满全球，必须先在亚特兰大单城打透再渐进复制；③ 口味必须普世皆宜且“绝无甜腻余味”，让消费者在酷暑中能一瓶接一瓶畅饮；④ 遵循亚里士多德消除嫉妒的原则——用狂热的品质一致性与极低廉公道的单价“配得上自己的成功”。',
+          formula: '商标排他性 × 零余味高频复购 × 普惠低客单价 = 消除竞争替代与社会嫉妒'
+        },
+        {
+          step: 'NOTION 02 · GALILEO NUMERICAL FLUENCY',
+          title: '伽利略的数学态度：用初等算术从人类生理极限倒推终局天花板',
+          body: '无需商学院复杂的微积分或 Beta 回归，芒格只用一道初等乘法便看穿了 150 年后的终局：到 2034 年全球约 80 亿消费者 × 每人每天生理必需摄入 64 盎司水（8 个 8盎司标准杯）= 每年 23.36 万亿杯总摄水量；只要新型风味饮料替代其中 25% 的白水，而可口可乐占据一半份额（即全球人均每天喝 1 杯可口可乐旗下饮品），年物理销量即达 2.92 万亿杯；每杯只需净赚 4 美分，年净利润就高达 1,170 亿美元，足以稳健支撑 2 万亿美元市值。',
+          formula: '80亿人 × 365天 × 1杯/天 × $0.04/杯净利 = $1,168亿净利润 → $2.0万亿市值 (~17.1x P/E)'
+        },
+        {
+          step: 'NOTION 03 · JACOBI INVERSION',
+          title: '雅可比逆向思维：“先告诉我可口可乐会死在哪里，我就永远不去那里”',
+          body: '正向规划容易陷入盲目乐观，逆向排雷才能守住百年基业。芒格列出了足以亲手毁掉可口可乐的四条死路：① 饮后口干甜腻导致复购中断；② 商标保护松懈沦为行业通用词（如同阿司匹林或自动扶梯丧失商标权）；③ 暴利提价激起公众反感与监管重锤；④ 在原味已统治消费者潜意识后妄图大改配方——1985 年“新可乐（New Coke）”盲测虽胜出却险些葬送公司，正是忽略了人类本能的“剥夺超级反应综合征”。',
+          formula: '避免愚蠢（守住红罐经典配方 + 严控提价节奏 + 商标铁壁） > 追求聪明'
+        },
+        {
+          step: 'NOTION 04 · MULTIDISCIPLINARY WISDOM',
+          title: '跨学科基础学术智慧：打通生物学、心理学、微观经济学与化学自催化',
+          body: '芒格批判大学科系画地为牢，主张直接跨学科调用最硬核的基础原理：从进化生物学借用达尔文神经预设（人类对甜味、果香与清凉的先天偏好）；从心理学借用巴甫洛夫联想与斯金纳操作强化；从微观经济学借用特许装瓶网络规模效应；从化学借用“自催化（Autocatalysis）”反应——当品牌心智与街头冰柜密度跨过临界点后，销售周转、装瓶商利润与广告投入便会进入无需外力推拉的自我加速循环。',
+          formula: '生物学本能 + 心理学反射 + 经济学规模优势 + 化学自催化 = 跨学科格栅护城河'
+        },
+        {
+          step: 'NOTION 05 · LOLLAPALOOZA EFFECT',
+          title: 'Lollapalooza 效应：多种力量同向叠加引爆的核聚变级商业奇迹',
+          body: '正如当年根治肺结核必须同时联用三种药物一样，商业世界里最极端的超额回报永远来自 4–7 种独立驱动力在同一时刻、朝着同一个行为靶点同向发力。当“四重生理提神奖赏 + 巴甫洛夫快乐联想 + 22亿杯社会认同从众 + 30秒触手可及的冰柜网络 + 62%毛利浓缩液收费站”同时作用于消费者伸手拿饮料的那一秒时，任何竞争对手即便砸下百亿美元资本也无法撼动其分毫。',
+          formula: 'Lollapalooza 非线性总合力 ≫ ∑ 单一竞争优势的简单算术加总'
+        }
+      ];
+      function renderMetaRule(idx) {
+        state.activeRule = idx;
+        document.querySelectorAll('#metaRuleTabs .bm-node-btn').forEach(function (b, i) {
+          b.classList.toggle('active', i === idx);
+        });
+        var r = metaRules[idx];
+        document.getElementById('metaRuleDetail').innerHTML =
+          '<span class="mui-chip mui-chip-primary mono" style="margin-bottom:8px;">' + r.step + '</span>' +
+          '<h3 style="font-size:1.05rem;font-weight:800;margin-bottom:8px;color:var(--text-primary);">' + r.title + '</h3>' +
+          '<p style="font-size:0.86rem;color:var(--text-secondary);line-height:1.72;">' + r.body + '</p>' +
+          '<div style="margin-top:12px;padding:9px 13px;border-radius:9px;background:var(--mui-primary-bg);border-left:3px solid var(--mui-primary-main);font-size:0.80rem;font-weight:700;color:var(--mui-primary-lighter);" class="mono">' + r.formula + '</div>';
+      }
+      document.getElementById('metaRuleTabs').addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-rule]');
+        if (!btn) return;
+        renderMetaRule(parseInt(btn.getAttribute('data-rule'), 10));
+      });
+      renderMetaRule(0);
+
+      // 7. Chapter 02 — Glotz 2034 Funnel Calculator
+      var gPop = document.getElementById('gPop');
+      var gCat = document.getElementById('gCat');
+      var gShare = document.getElementById('gShare');
+      var gCents = document.getElementById('gCents');
+
+      function updateGlotzFunnel() {
+        var pop = parseFloat(gPop.value);
+        var catPct = parseFloat(gCat.value) / 100;
+        var sharePct = parseFloat(gShare.value) / 100;
+        var cents = parseFloat(gCents.value);
+
+        document.getElementById('gPopVal').textContent = pop.toFixed(1) + 'B';
+        document.getElementById('gCatVal').textContent = (catPct * 100).toFixed(0) + '%';
+        document.getElementById('gShareVal').textContent = (sharePct * 100).toFixed(0) + '%';
+        document.getElementById('gCentsVal').textContent = cents.toFixed(1) + '¢';
+
+        var totalWaterT = pop * 8 * 365 / 1000;
+        var catT = totalWaterT * catPct;
+        var koT = catT * sharePct;
+        var netProfitB = koT * 1000 * (cents / 100);
+        var valT = (netProfitB * 17.1) / 1000;
+
+        document.getElementById('glotzFunnelSteps').innerHTML =
+          '<div class="bm-tier-card"><div class="bm-tier-top"><span>① 人类年度生理总摄水量 (8杯×8盎司/天)</span><span class="mono">' + totalWaterT.toFixed(2) + ' 万亿杯/年</span></div></div>' +
+          '<div class="bm-tier-card"><div class="bm-tier-top"><span>② 全球风味饮料总池容量 (' + (catPct * 100).toFixed(0) + '%)</span><span class="mono">' + catT.toFixed(2) + ' 万亿杯/年</span></div></div>' +
+          '<div class="bm-tier-card"><div class="bm-tier-top"><span>③ 可口可乐年度物理总杯数 (' + (sharePct * 100).toFixed(0) + '% 份额)</span><span class="mono" style="color:var(--mui-primary-lighter);">' + koT.toFixed(2) + ' 万亿杯/年</span></div></div>' +
+          '<div class="bm-tier-card" style="margin-bottom:0;background:var(--mui-primary-bg);border-color:var(--mui-primary-border);"><div class="bm-tier-top"><span>④ 2034E 年度净利润 → 隐含估值 (~17.1x P/E)</span><span class="mono" style="color:var(--mui-primary-lighter);">$' + netProfitB.toFixed(0) + 'B → $' + valT.toFixed(2) + ' 万亿</span></div><div class="bm-tier-desc">芒格 1996 基准：2.92 万亿杯 × 4.0¢ = $116.8B (约 $1,170亿净利) → 支撑 $2.00 万亿美元市值</div></div>';
+      }
+      [gPop, gCat, gShare, gCents].forEach(function (el) { el.addEventListener('input', updateGlotzFunnel); });
+      document.getElementById('resetGlotzBtn').addEventListener('click', function () {
+        gPop.value = '8.0'; gCat.value = '25'; gShare.value = '50'; gCents.value = '4.0';
+        updateGlotzFunnel();
+        showToast('已恢复芒格 1996 演讲原始参数');
+      });
+      updateGlotzFunnel();
+
+      // 8. Chapter 03 — Lollapalooza 7 Forces (preserving IDs)
+      var forces = [
+        { id: 'habit', title: '1. 操作性条件反射（斯金纳四重生理奖赏）', desc: '甜味信号 + 气泡芳香刺激 + 咖啡因提神 + 冰镇物理降温，且零甜腻余味，驱动日复一日高频复购。', weight: 1.36, active: true },
+        { id: 'pavlov', title: '2. 巴甫洛夫经典条件反射（替代性情感奖赏）', desc: '百年营销将红白商标与世界杯、奥运、青春欢聚深度绑定，看见视觉符号即触发潜意识愉悦渴望。', weight: 1.34, active: true },
+        { id: 'social', title: '3. 社会认同倾向（Social Proof 从众验证）', desc: '全球 200+ 国家日均 22 亿杯公开消费形成强大示范效应，消除新市场决策摩擦并锁定餐饮标配地位。', weight: 1.28, active: true },
+        { id: 'avail', title: '4. 物理与心智可得性（"Within Arm\'s Reach"）', desc: '数千万台冷柜、现调机与售货机覆盖全球毛细血管，在冲动消退前 30 秒内完成即时转化。', weight: 1.32, active: true },
+        { id: 'autocat', title: '5. 化学自催化飞轮（Autocatalysis 自增强）', desc: '高周转降低装瓶商单车配送成本→增强冰柜排他垄断→反哺母公司巨额品牌投放，形成正向自循环。', weight: 1.30, active: true },
+        { id: 'pricing', title: '6. 轻资产浓缩液收费站与抗通胀定价权', desc: '重资产交由特许装瓶商承担，母公司独享 62.2% 毛利率，无需大额资本开支即可随通胀稳步提价。', weight: 1.35, active: true },
+        { id: 'inversion', title: '7. 剥夺超级反应护栏（1985 New Coke 铁律）', desc: '消费者对经典口味的情感占有欲构成极高转换壁垒，既约束管理层不乱改配方，也屏蔽低价山寨。', weight: 1.18, active: true }
+      ];
+      var forceListEl = document.getElementById('forceList');
+      forces.forEach(function (f) {
+        var div = document.createElement('div');
+        div.className = 'force-item active';
+        div.innerHTML = '<div class="force-switch"></div><div><div class="force-title">' + f.title + '</div><div class="force-desc">' + f.desc + '</div></div>';
+        div.addEventListener('click', function () {
+          f.active = !f.active;
+          div.classList.toggle('active', f.active);
+          drawLollaCanvas();
+        });
+        forceListEl.appendChild(div);
+      });
+
+      // 9. Chapter 06 — Persistent LocalStorage Checklist
+      try {
+        var savedChk = JSON.parse(localStorage.getItem(STORAGE_STRESS_KEY) || '{}');
+        document.querySelectorAll('[data-stress-chk]').forEach(function (chk) {
+          var k = chk.getAttribute('data-stress-chk');
+          chk.checked = !!savedChk[k];
+          chk.addEventListener('change', function () {
+            savedChk[k] = chk.checked;
+            try { localStorage.setItem(STORAGE_STRESS_KEY, JSON.stringify(savedChk)); } catch (e) {}
+            showToast(chk.checked ? '已纳入重点跟踪清单' : '已取消跟踪标记');
+          });
+        });
+      } catch (e) {}
+
+      // 10. Chapter 07 — Peer Comparison Matrix
+      var peerData = [
+        {
+          name: 'The Coca-Cola Co. (NYSE: KO)',
+          tags: ['light', 'div'],
+          highlight: true,
+          model: '浓缩液轻资产收费站 + 全球特许装瓶网',
+          rev: '$47.9B (LTM $51.1B)',
+          gm: '62.16%',
+          om: '31.2% 可比 (Q2 26: 34.9%)',
+          pe: '28.9x TTM',
+          div: '2.11% / 连涨 64 年',
+          verdict: '护城河满分；老股东永动机，新资金等好球区'
+        },
+        {
+          name: '1988 伯克希尔建仓期 KO (历史基准)',
+          tags: ['light', 'div'],
+          highlight: false,
+          model: '剥离低效副业聚焦全球浓缩液扩张 + 回购',
+          rev: '~$8.3B (1988)',
+          gm: '~61.0%',
+          om: '~22.5% → 持续扩张',
+          pe: '~14.5x 买入倍数',
+          div: '起始 ~3.0% → 现 YoC 65.2%',
+          verdict: '芒格教科书击球点（YES 篮子：好生意+好价格）'
+        },
+        {
+          name: 'Monster Beverage (NASDAQ: MNST)',
+          tags: ['light'],
+          highlight: false,
+          model: '轻资产能量饮料品牌 + 代工 + 共享 KO 装瓶网',
+          rev: '$8.29B (LTM $9.22B)',
+          gm: '55.26%',
+          om: '29.2% (Q3 26: 28.0%)',
+          pe: '30.2x Forward',
+          div: '0% (净现金回购)',
+          verdict: 'KO 持股 ~16.7%–20.9%，印证品牌轻资产高利润率'
+        },
+        {
+          name: 'PepsiCo, Inc. (NASDAQ: PEP)',
+          tags: ['div'],
+          highlight: false,
+          model: '咸味零食霸主 (Frito-Lay) + 北美重资产自营装瓶',
+          rev: '$93.92B',
+          gm: '~54.5%',
+          om: '12.2% GAAP',
+          pe: '15.3x Forward',
+          div: '4.61% / 连涨 54 年',
+          verdict: '重资产拉低营业利润率至 KO 的 ~40%，但估值较低'
+        }
+      ];
+
+      function renderPeerTable() {
+        var q = state.peerQuery.toLowerCase();
+        var rows = peerData.filter(function (d) {
+          var passFilter = state.peerFilter === 'all' || d.tags.indexOf(state.peerFilter) !== -1;
+          var blob = (d.name + ' ' + d.model + ' ' + d.verdict + ' ' + d.om).toLowerCase();
+          return passFilter && (!q || blob.indexOf(q) !== -1);
+        });
+        document.getElementById('peerTableBody').innerHTML = rows.map(function (d) {
+          return '<tr class="' + (d.highlight ? 'is-primary-row' : '') + '">' +
+            '<td><strong>' + d.name + '</strong></td>' +
+            '<td>' + d.model + '</td>' +
+            '<td class="mono">' + d.rev + '</td>' +
+            '<td class="mono">' + d.gm + '</td>' +
+            '<td class="mono">' + d.om + '</td>' +
+            '<td class="mono">' + d.pe + '</td>' +
+            '<td class="mono">' + d.div + '</td>' +
+            '<td>' + d.verdict + '</td>' +
+            '</tr>';
+        }).join('') || '<tr><td colspan="8" style="text-align:center;color:var(--text-muted);">未匹配到对应样本</td></tr>';
+      }
+      document.getElementById('peerFilterGroup').addEventListener('click', function (e) {
+        var b = e.target.closest('[data-filter]');
+        if (!b) return;
+        state.peerFilter = b.getAttribute('data-filter');
+        document.querySelectorAll('#peerFilterGroup .mui-seg-btn').forEach(function (el) { el.classList.toggle('active', el === b); });
+        renderPeerTable();
+      });
+      document.getElementById('peerSearchInput').addEventListener('input', function (e) {
+        state.peerQuery = e.target.value || '';
+        renderPeerTable();
+      });
+      renderPeerTable();
+
+      // 11. MUI Canvas Engine (Sapphire #0073E6 / #3399FF + Emerald #16A34A + Amber #D97706)
+      function setupCanvas(id) {
+        var canvas = document.getElementById(id);
+        if (!canvas) return null;
+        var dpr = window.devicePixelRatio || 1;
+        var rect = canvas.parentElement.getBoundingClientRect();
+        var w = Math.max(260, rect.width - 20);
+        var h = Math.max(190, rect.height - 20);
+        canvas.width = Math.floor(w * dpr);
+        canvas.height = Math.floor(h * dpr);
+        var ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        var isDark = state.theme === 'dark';
+        var boost = document.documentElement.getAttribute('data-hud-mode') === 'boost';
+
+        // Draw subtle 4-corner Sci-Fi HUD calibration brackets inside chart
+        ctx.save();
+        ctx.strokeStyle = isDark ? (boost ? 'rgba(0, 240, 255, 0.55)' : 'rgba(0, 240, 255, 0.32)') : 'rgba(0, 115, 230, 0.25)';
+        ctx.lineWidth = 1.25;
+        var bl = 8;
+        ctx.beginPath();
+        ctx.moveTo(2, 2 + bl); ctx.lineTo(2, 2); ctx.lineTo(2 + bl, 2);
+        ctx.moveTo(w - 2 - bl, 2); ctx.lineTo(w - 2, 2); ctx.lineTo(w - 2, 2 + bl);
+        ctx.moveTo(2, h - 2 - bl); ctx.lineTo(2, h - 2); ctx.lineTo(2 + bl, h - 2);
+        ctx.moveTo(w - 2 - bl, h - 2); ctx.lineTo(w - 2, h - 2); ctx.lineTo(w - 2, h - 2 - bl);
+        ctx.stroke();
+        ctx.restore();
+
+        if (isDark && !ctx._scifiWrapped) {
+          ctx._scifiWrapped = true;
+          var origFillRect = ctx.fillRect.bind(ctx);
+          ctx.fillRect = function (rx, ry, rw, rh) {
+            var curFill = ctx.fillStyle;
+            if (typeof curFill === 'string' && Math.abs(rw) >= 6 && Math.abs(rh) >= 6 && curFill.indexOf('rgba') === -1) {
+              ctx.save();
+              var isHoriz = Math.abs(rw) > Math.abs(rh) * 1.35;
+              var grad = isHoriz
+                ? ctx.createLinearGradient(rx, ry, rx + rw, ry)
+                : ctx.createLinearGradient(rx, ry, rx, ry + rh);
+              if (isHoriz) {
+                grad.addColorStop(0, 'rgba(0, 184, 255, 0.22)');
+                grad.addColorStop(1, curFill);
+              } else {
+                grad.addColorStop(0, curFill);
+                grad.addColorStop(1, 'rgba(0, 184, 255, 0.16)');
+              }
+              ctx.fillStyle = grad;
+              origFillRect(rx, ry, rw, rh);
+              ctx.shadowColor = curFill;
+              ctx.shadowBlur = boost ? 14 : 8;
+              ctx.fillStyle = '#E0FAFF';
+              if (isHoriz) {
+                var capX = rw >= 0 ? rx + rw - 2 : rx;
+                origFillRect(capX, ry, 2, rh);
+              } else {
+                origFillRect(rx, ry, rw, 2.2);
+              }
+              ctx.restore();
+              return;
+            }
+            origFillRect(rx, ry, rw, rh);
+          };
+
+          var origStroke = ctx.stroke.bind(ctx);
+          ctx.stroke = function () {
+            if (ctx.lineWidth >= 2 && typeof ctx.strokeStyle === 'string' && ctx.strokeStyle.indexOf('0.1') === -1) {
+              ctx.save();
+              ctx.shadowColor = ctx.strokeStyle;
+              ctx.shadowBlur = boost ? 16 : 9;
+              origStroke();
+              ctx.restore();
+              return;
+            }
+            origStroke();
+          };
+        }
+
+        return { ctx: ctx, w: w, h: h };
+      }
+
+      function muiColors() {
+        var dark = state.theme === 'dark';
+        return {
+          text: dark ? '#F0F7FF' : '#071426',
+          muted: dark ? '#7FA0C0' : '#526B84',
+          grid: dark ? 'rgba(0, 240, 255, 0.13)' : 'rgba(0, 115, 230, 0.14)',
+          primary: dark ? '#00E5FF' : '#0073E6',
+          primarySoft: dark ? '#67E8F9' : '#0284C7',
+          primaryFill: dark ? 'rgba(0, 229, 255, 0.22)' : 'rgba(0, 115, 230, 0.16)',
+          success: dark ? '#34F5B5' : '#0D9488',
+          warning: dark ? '#FFD166' : '#D97706',
+          warningFill: dark ? 'rgba(255, 209, 102, 0.16)' : 'rgba(217, 119, 6, 0.12)',
+          error: dark ? '#FF5C8A' : '#C62828'
+        };
+      }
+
+      function drawGlotzChart() {
+        var s = setupCanvas('glotzChart');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var pad = { l: 50, r: 16, t: 26, b: 30 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var pts = [
+          { yr: '1996', munger: 125, actual: 125 },
+          { yr: '2006', munger: 270, actual: 112 },
+          { yr: '2016', munger: 583, actual: 180 },
+          { yr: '2026', munger: 1258, actual: 428 },
+          { yr: '2034E', munger: 2000, actual: null }
+        ];
+        var maxV = 2150;
+
+        ctx.strokeStyle = col.grid;
+        ctx.lineWidth = 1;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+          ctx.fillStyle = col.muted;
+          ctx.font = '11px monospace';
+          ctx.textAlign = 'right';
+          ctx.fillText('$' + Math.round(maxV * (1 - i / 4)) + 'B', pad.l - 6, gy + 4);
+        }
+
+        ctx.save();
+        ctx.setLineDash([6, 4]);
+        ctx.strokeStyle = col.primary;
+        ctx.lineWidth = 2.4;
+        ctx.beginPath();
+        pts.forEach(function (p, idx) {
+          var x = pad.l + (pw * idx) / (pts.length - 1);
+          var y = pad.t + ph - (p.munger / maxV) * ph;
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.strokeStyle = col.success;
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        pts.forEach(function (p, idx) {
+          if (p.actual === null) return;
+          var x = pad.l + (pw * idx) / (pts.length - 1);
+          var y = pad.t + ph - (p.actual / maxV) * ph;
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+
+        pts.forEach(function (p, idx) {
+          var x = pad.l + (pw * idx) / (pts.length - 1);
+          var ym = pad.t + ph - (p.munger / maxV) * ph;
+          ctx.fillStyle = col.primary;
+          ctx.beginPath(); ctx.arc(x, ym, 4, 0, Math.PI * 2); ctx.fill();
+
+          if (p.actual !== null) {
+            var ya = pad.t + ph - (p.actual / maxV) * ph;
+            ctx.fillStyle = col.success;
+            ctx.beginPath(); ctx.arc(x, ya, 4.5, 0, Math.PI * 2); ctx.fill();
+            ctx.font = 'bold 11px monospace';
+            ctx.textAlign = 'center';
+            ctx.fillText('$' + p.actual + 'B', x, ya + 16);
+          }
+          ctx.fillStyle = col.muted;
+          ctx.font = '11px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText(p.yr, x, h - 8);
+        });
+
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 11px sans-serif';
+        ctx.fillStyle = col.primary;
+        ctx.fillText('--- 芒格 1996 年化 8% 终局线 ($2,000B)', pad.l + 8, 14);
+        ctx.fillStyle = col.success;
+        ctx.fillText('─── KO 实绩纯市值 (不含千亿分红再投)', pad.l + 8, 29);
+      }
+
+      function drawLollaCanvas() {
+        var s = setupCanvas('lollaCanvas');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var active = forces.filter(function (f) { return f.active; });
+        var mult = active.reduce(function (acc, f) { return acc * (1 + (f.weight - 1) * 0.82); }, 1);
+        document.getElementById('lollaScoreBadge').textContent =
+          '激活 ' + active.length + '/7 因子 · 共振乘数 ' + mult.toFixed(2) + 'x';
+
+        var pad = { l: 42, r: 16, t: 24, b: 28 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+        }
+
+        ctx.save();
+        ctx.setLineDash([5, 5]);
+        ctx.strokeStyle = col.muted;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        for (var j = 0; j <= 24; j++) {
+          var t0 = j / 24;
+          var x0 = pad.l + pw * t0;
+          var y0 = pad.t + ph - ((t0 * 1.35) / 4.2) * ph;
+          j === 0 ? ctx.moveTo(x0, y0) : ctx.lineTo(x0, y0);
+        }
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.strokeStyle = col.primary;
+        ctx.lineWidth = 3.2;
+        ctx.beginPath();
+        for (var k = 0; k <= 24; k++) {
+          var t = k / 24;
+          var x = pad.l + pw * t;
+          var v = 1 + (mult - 1) * Math.pow(t, 1.8);
+          var y = pad.t + ph - Math.min(1, (v - 1) / 4.2) * ph;
+          k === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        ctx.fillStyle = col.primary;
+        ctx.font = 'bold 11.5px sans-serif';
+        ctx.fillText('─── Lollapalooza 多力非线性共振 (' + mult.toFixed(2) + 'x)', pad.l + 8, 15);
+        ctx.fillStyle = col.muted;
+        ctx.fillText('--- 单因子线性增长基准', pad.l + 8, 30);
+        ctx.font = '11px monospace';
+        ctx.fillText('心智渗透与装瓶网络自催化周期 (10Y → 50Y → 100Y)', pad.l + 8, h - 8);
+      }
+
+      function drawMarginChart() {
+        var s = setupCanvas('marginChart');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var items = [
+          { label: 'KO (FY25 可比)', gm: 62.2, om: 31.2 },
+          { label: 'KO (Q2 26 峰值)', gm: 63.0, om: 34.9 },
+          { label: 'MNST (FY25)', gm: 55.3, om: 29.2 },
+          { label: 'PEP (FY25 重资产)', gm: 54.5, om: 12.2 }
+        ];
+        var pad = { l: 42, r: 12, t: 28, b: 32 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var maxV = 70;
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+          ctx.fillStyle = col.muted;
+          ctx.font = '10.5px monospace';
+          ctx.textAlign = 'right';
+          ctx.fillText(Math.round(maxV * (1 - i / 4)) + '%', pad.l - 5, gy + 4);
+        }
+
+        var grpW = pw / items.length;
+        var bw = Math.min(24, grpW * 0.28);
+        items.forEach(function (it, idx) {
+          var cx = pad.l + grpW * (idx + 0.5);
+          var hGm = (it.gm / maxV) * ph;
+          var hOm = (it.om / maxV) * ph;
+
+          ctx.fillStyle = col.primary;
+          ctx.fillRect(cx - bw - 2, pad.t + ph - hGm, bw, hGm);
+          ctx.fillStyle = idx === 3 ? col.warning : col.success;
+          ctx.fillRect(cx + 2, pad.t + ph - hOm, bw, hOm);
+
+          ctx.fillStyle = col.text;
+          ctx.font = 'bold 10.5px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText(it.gm.toFixed(1) + '%', cx - bw / 2 - 2, pad.t + ph - hGm - 5);
+          ctx.fillText(it.om.toFixed(1) + '%', cx + bw / 2 + 2, pad.t + ph - hOm - 5);
+
+          ctx.fillStyle = col.muted;
+          ctx.font = '11px sans-serif';
+          ctx.fillText(it.label, cx, h - 9);
+        });
+
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 11px sans-serif';
+        ctx.fillStyle = col.primary;
+        ctx.fillText('■ 毛利率 (Gross Margin)', pad.l + 6, 15);
+        ctx.fillStyle = col.success;
+        ctx.fillText('■ 营业利润率 (Op Margin)', pad.l + 156, 15);
+      }
+
+      function drawGrowthMixChart() {
+        var s = setupCanvas('growthMixChart');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var bars = [
+          { p: 'FY2025 全年', vol: 0.0, pm: 4.0 },
+          { p: 'Q2 2026', vol: 5.0, pm: 2.0 },
+          { p: 'Q3 2026', vol: 5.0, pm: 1.0 },
+          { p: 'Zero Sugar Q3', vol: 16.0, pm: 1.0 }
+        ];
+        var pad = { l: 42, r: 14, t: 28, b: 32 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var maxV = 19;
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+          ctx.fillStyle = col.muted;
+          ctx.font = '10.5px monospace';
+          ctx.textAlign = 'right';
+          ctx.fillText('+' + Math.round(maxV * (1 - i / 4)) + '%', pad.l - 5, gy + 4);
+        }
+
+        var grpW = pw / bars.length;
+        var bw = Math.min(26, grpW * 0.30);
+        bars.forEach(function (b, idx) {
+          var cx = pad.l + grpW * (idx + 0.5);
+          var hVol = (b.vol / maxV) * ph;
+          var hPm = (b.pm / maxV) * ph;
+
+          ctx.fillStyle = col.primary;
+          ctx.fillRect(cx - bw - 2, pad.t + ph - Math.max(2, hVol), bw, Math.max(2, hVol));
+          ctx.fillStyle = col.success;
+          ctx.fillRect(cx + 2, pad.t + ph - hPm, bw, hPm);
+
+          ctx.fillStyle = col.text;
+          ctx.font = 'bold 10.5px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText('+' + b.vol + '%', cx - bw / 2 - 2, pad.t + ph - hVol - 5);
+          ctx.fillText('+' + b.pm + '%', cx + bw / 2 + 2, pad.t + ph - hPm - 5);
+
+          ctx.fillStyle = col.muted;
+          ctx.font = '11px sans-serif';
+          ctx.fillText(b.p, cx, h - 9);
+        });
+
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 11px sans-serif';
+        ctx.fillStyle = col.primary;
+        ctx.fillText('■ 真实箱体销量增速 (Volume)', pad.l + 6, 15);
+        ctx.fillStyle = col.success;
+        ctx.fillText('■ 价格/组合贡献 (Price/Mix)', pad.l + 182, 15);
+      }
+
+      function drawBrkDivChart() {
+        var s = setupCanvas('divCanvas');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var data = [
+          { yr: '1994', div: 75, yoc: 5.8 },
+          { yr: '2004', div: 200, yoc: 15.4 },
+          { yr: '2014', div: 488, yoc: 37.5 },
+          { yr: '2022', div: 704, yoc: 54.2 },
+          { yr: '2025', div: 816, yoc: 62.8 },
+          { yr: '2026E', div: 848, yoc: 65.2 }
+        ];
+        var pad = { l: 46, r: 16, t: 26, b: 30 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var maxV = 960;
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+        }
+
+        var grpW = pw / data.length;
+        var bw = Math.min(36, grpW * 0.54);
+        data.forEach(function (d, idx) {
+          var cx = pad.l + grpW * (idx + 0.5);
+          var bh = (d.div / maxV) * ph;
+          var x = cx - bw / 2, y = pad.t + ph - bh;
+          ctx.fillStyle = idx === data.length - 1 ? col.success : col.primary;
+          ctx.fillRect(x, y, bw, bh);
+
+          ctx.fillStyle = col.text;
+          ctx.font = 'bold 10.5px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText('$' + d.div + 'M', cx, y - 15);
+          ctx.fillStyle = col.success;
+          ctx.fillText(d.yoc + '%', cx, y - 3);
+
+          ctx.fillStyle = col.muted;
+          ctx.font = '11px monospace';
+          ctx.fillText(d.yr, cx, h - 8);
+        });
+      }
+
+      function drawFcfChart() {
+        var s = setupCanvas('fcfCanvas');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var data = [
+          { lbl: 'FY25 账面', val: 5.3, c: col.warning },
+          { lbl: 'FY25 还原常态', val: 11.4, c: col.primary },
+          { lbl: 'FY26 初次指引', val: 12.2, c: col.primary },
+          { lbl: 'FY26 Q3上调', val: 13.0, c: col.success },
+          { lbl: '26E 总分红支出', val: 9.12, c: col.muted }
+        ];
+        var pad = { l: 44, r: 14, t: 26, b: 30 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var maxV = 15.0;
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 3; i++) {
+          var gy = pad.t + (ph / 3) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+        }
+
+        var grpW = pw / data.length;
+        var bw = Math.min(38, grpW * 0.52);
+        data.forEach(function (d, idx) {
+          var cx = pad.l + grpW * (idx + 0.5);
+          var bh = (d.val / maxV) * ph;
+          ctx.fillStyle = d.c;
+          ctx.fillRect(cx - bw / 2, pad.t + ph - bh, bw, bh);
+
+          ctx.fillStyle = col.text;
+          ctx.font = 'bold 10.5px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText('$' + d.val.toFixed(1) + 'B', cx, pad.t + ph - bh - 5);
+          ctx.fillStyle = col.muted;
+          ctx.font = '10.5px sans-serif';
+          ctx.fillText(d.lbl, cx, h - 8);
+        });
+      }
+
+      // 12. Chapter 07 — Three-Baskets Valuation Simulator
+      var sYears = document.getElementById('sYears');
+      var sGrowth = document.getElementById('sGrowth');
+      var sEntry = document.getElementById('sEntry');
+      var sExit = document.getElementById('sExit');
+
+      var presets = {
+        brk1988: { yrs: 25, g: 9.0, peIn: 14.5, peOut: 25.0 },
+        base2026: { yrs: 20, g: 6.0, peIn: 28.9, peOut: 23.0 },
+        bull2026: { yrs: 20, g: 7.5, peIn: 28.9, peOut: 27.5 },
+        bear2026: { yrs: 10, g: 4.0, peIn: 28.9, peOut: 19.0 }
+      };
+
+      document.getElementById('simPresetGroup').addEventListener('click', function (e) {
+        var b = e.target.closest('[data-preset]');
+        if (!b) return;
+        var p = presets[b.getAttribute('data-preset')];
+        if (!p) return;
+        document.querySelectorAll('#simPresetGroup .mui-seg-btn').forEach(function (el) { el.classList.toggle('active', el === b); });
+        sYears.value = String(p.yrs);
+        sGrowth.value = String(p.g);
+        sEntry.value = String(p.peIn);
+        sExit.value = String(p.peOut);
+        updateSimulator();
+      });
+
+      function updateSimulator() {
+        var yrs = parseInt(sYears.value, 10);
+        var g = parseFloat(sGrowth.value) / 100;
+        var peIn = parseFloat(sEntry.value);
+        var peOut = parseFloat(sExit.value);
+
+        document.getElementById('vYears').textContent = yrs + ' 年';
+        document.getElementById('vGrowth').textContent = (g * 100).toFixed(1) + '%';
+        document.getElementById('vEntry').textContent = peIn.toFixed(1) + 'x';
+        document.getElementById('vExit').textContent = peOut.toFixed(1) + 'x';
+
+        var payout = 0.633;
+        var startYield = payout / peIn;
+        var endYoC = startYield * Math.pow(1 + g, yrs);
+        var endPrice = 100 * Math.pow(1 + g, yrs) * (peOut / peIn);
+        var cumDiv = 0;
+        var pts = [{ t: 0, total: 100, price: 100 }];
+        for (var t = 1; t <= yrs; t++) {
+          cumDiv += 100 * startYield * Math.pow(1 + g, t);
+          var curPe = peIn + (peOut - peIn) * (t / yrs);
+          var pVal = 100 * Math.pow(1 + g, t) * (curPe / peIn);
+          pts.push({ t: t, total: pVal + cumDiv, price: pVal });
+        }
+        var totalVal = endPrice + cumDiv;
+        var cagr = Math.pow(totalVal / 100, 1 / yrs) - 1;
+        var peImpact = Math.pow(peOut / peIn, 1 / yrs) - 1;
+
+        document.getElementById('outYoC').textContent = (endYoC * 100).toFixed(1) + '%';
+        document.getElementById('outStartYield').textContent = '起始股息率 ~' + (startYield * 100).toFixed(2) + '%';
+        document.getElementById('outCagr').textContent = (cagr * 100).toFixed(2) + '%';
+        document.getElementById('simNote').textContent = '估值变动影响 ' + (peImpact >= 0 ? '+' : '') + (peImpact * 100).toFixed(2) + '%/年';
+        document.getElementById('simEndSummary').textContent = '期末总净值: ' + totalVal.toFixed(0) + '元 (纯股价 ' + endPrice.toFixed(0) + '元)';
+
+        var banner = document.getElementById('basketVerdict');
+        banner.className = 'basket-banner';
+        if (cagr >= 0.095) {
+          banner.classList.add('basket-yes');
+          banner.textContent = '芒格三篮子判定：【YES / 重锤击球】伟大护城河与合理买入赔率共振，长期复利极为丰厚！';
+        } else if (cagr >= 0.062) {
+          banner.classList.add('basket-tough');
+          banner.textContent = '芒格三篮子判定：【TOO TOUGH / 赔率偏紧】公司质地无可挑剔，但 28.9x 买入倍数透支部分涨幅，老股东长持、新资金宜等 ≤23x 回调。';
+        } else {
+          banner.classList.add('basket-no');
+          banner.textContent = '芒格三篮子判定：【NO / 放弃当前赔率】估值压缩严重侵蚀内生增长，不符合安全边际原则。';
+        }
+
+        var s = setupCanvas('simCanvas');
+        if (!s) return;
+        var ctx = s.ctx, w = s.w, h = s.h, col = muiColors();
+        var pad = { l: 48, r: 16, t: 24, b: 28 };
+        var pw = w - pad.l - pad.r, ph = h - pad.t - pad.b;
+        var maxY = Math.max(220, totalVal * 1.12);
+
+        ctx.strokeStyle = col.grid;
+        for (var i = 0; i <= 4; i++) {
+          var gy = pad.t + (ph / 4) * i;
+          ctx.beginPath(); ctx.moveTo(pad.l, gy); ctx.lineTo(w - pad.r, gy); ctx.stroke();
+          ctx.fillStyle = col.muted;
+          ctx.font = '10.5px monospace';
+          ctx.textAlign = 'right';
+          ctx.fillText(Math.round(maxY * (1 - i / 4)), pad.l - 5, gy + 4);
+        }
+
+        ctx.strokeStyle = col.success;
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        pts.forEach(function (pt, idx) {
+          var x = pad.l + (pw * pt.t) / yrs;
+          var y = pad.t + ph - (pt.total / maxY) * ph;
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+
+        ctx.strokeStyle = col.primary;
+        ctx.lineWidth = 2.2;
+        ctx.beginPath();
+        pts.forEach(function (pt, idx) {
+          var x = pad.l + (pw * pt.t) / yrs;
+          var y = pad.t + ph - (pt.price / maxY) * ph;
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 11px sans-serif';
+        ctx.fillStyle = col.success;
+        ctx.fillText('─── 含累计分红总价值 (' + totalVal.toFixed(0) + '元)', pad.l + 8, 14);
+        ctx.fillStyle = col.primary;
+        ctx.fillText('─── 仅股价资本利得 (' + endPrice.toFixed(0) + '元)', pad.l + 8, 29);
+        ctx.fillStyle = col.muted;
+        ctx.font = '11px monospace';
+        ctx.fillText('持有周期: 第 0 年 → 第 ' + yrs + ' 年', pad.l + 8, h - 8);
+      }
+
+      [sYears, sGrowth, sEntry, sExit].forEach(function (el) { el.addEventListener('input', updateSimulator); });
+
+      function drawAllCharts() {
+        drawGlotzChart();
+        drawLollaCanvas();
+        drawMarginChart();
+        drawGrowthMixChart();
+        drawBrkDivChart();
+        drawFcfChart();
+        updateSimulator();
+      }
+
+      // Scroll Progress & Active TOC Highlight
+      var sections = ['sec-thesis', 'sec-glotz-math', 'sec-lollapalooza', 'sec-economics', 'sec-berkshire', 'sec-inversion', 'sec-valuation', 'sec-sources'];
+      window.addEventListener('scroll', function () {
+        var docH = document.documentElement.scrollHeight - window.innerHeight;
+        var pct = docH > 0 ? Math.min(100, (window.scrollY / docH) * 100) : 0;
+        document.getElementById('scrollBeam').style.width = pct.toFixed(1) + '%';
+
+        var currentId = sections[0];
+        sections.forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el && el.getBoundingClientRect().top <= 140) currentId = id;
+        });
+        document.querySelectorAll('#tocList .mui-nav-link').forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + currentId);
+        });
+      }, { passive: true });
+
+      // Cross-Tab Sync & Initial Boot
+      window.addEventListener('storage', function (ev) {
+        if (ev.key === STORAGE_THEME_KEY && ev.newValue) applyTheme(ev.newValue.replace(/^"|"$/g, ''), true);
+        if (ev.key === STORAGE_LANG_KEY && ev.newValue) applyLang(ev.newValue.replace(/^"|"$/g, ''), true);
+      });
+
+      try {
+        var initT = (localStorage.getItem(STORAGE_THEME_KEY) || 'dark').replace(/^"|"$/g, '');
+        applyTheme(initT, true);
+        var initL = (localStorage.getItem(STORAGE_LANG_KEY) || 'zh').replace(/^"|"$/g, '');
+        applyLang(initL, true);
+      } catch (e) {
+        drawAllCharts();
+      }
+
+      var hudOpticsBtn = document.getElementById('hudOpticsToggleBtn');
+      function syncHudBtnLabel() {
+        if (!hudOpticsBtn) return;
+        var boosted = document.documentElement.getAttribute('data-hud-mode') === 'boost';
+        var span = hudOpticsBtn.querySelector('span');
+        if (span) {
+          var zhTxt = boosted ? '◈ 全息视效: 超频 OVERDRIVE' : '◈ 全息视效: 标准 QUANTUM';
+          var enTxt = boosted ? '◈ HUD OPTICS: OVERDRIVE' : '◈ HUD OPTICS: QUANTUM';
+          span.setAttribute('data-i18n-zh', zhTxt);
+          span.setAttribute('data-i18n-en', enTxt);
+          span.textContent = state.lang === 'en' ? enTxt : zhTxt;
+        }
+      }
+      if (hudOpticsBtn) {
+        syncHudBtnLabel();
+        hudOpticsBtn.addEventListener('click', function () {
+          var boosted = document.documentElement.getAttribute('data-hud-mode') === 'boost';
+          if (boosted) {
+            document.documentElement.removeAttribute('data-hud-mode');
+            try { localStorage.setItem('mui_scifi_hud_boost_v1', '0'); } catch (e) {}
+            showToast(state.lang === 'en' ? 'Quantum HUD Standard Mode' : '已切换至标准全息量子视效');
+          } else {
+            document.documentElement.setAttribute('data-hud-mode', 'boost');
+            try { localStorage.setItem('mui_scifi_hud_boost_v1', '1'); } catch (e) {}
+            showToast(state.lang === 'en' ? 'Overdrive Holo-Grid Activated' : '已开启全息网格与霓虹超频视效');
+          }
+          syncHudBtnLabel();
+          drawAllCharts();
+        });
+      }
+
+      var resizeTimer = null;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(drawAllCharts, 80);
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="苹果 iPhone 产品线与硬件工程战略图谱：FY2026 $2,541亿营收、批发ASP历史首破$1,000、全球手机营收50%份额垄断、iPhone Duo折叠屏与18 Pro双波段错峰矩阵及存储涨价抗压推演。" />
+  <title>苹果 iPhone 产品线工程与双波段定价战略图谱 | 数据中心</title>
+  
+  <style>
+    /* ==========================================================================
+       MUI Official Branding Design System (https://mui.com/)
+       Bespoke Hardware Showroom Layout: Panoramic Strip · 4-SKU Tear-Down · Dual-Wave Matrix
+       ========================================================================== */
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg-canvas: #090D16;
+      --bg-canvas-elevated: #0C1320;
+      --bg-paper: rgba(15, 25, 36, 0.86);
+      --bg-paper-solid: #0F1924;
+      --bg-subtle: rgba(19, 35, 55, 0.65);
+      --bg-hover: rgba(51, 153, 255, 0.08);
+      --bg-active: rgba(0, 115, 230, 0.16);
+      --bg-appbar: rgba(9, 13, 22, 0.82);
+
+      --border-subtle: rgba(51, 153, 255, 0.14);
+      --border-default: rgba(148, 163, 184, 0.18);
+      --border-strong: rgba(51, 153, 255, 0.44);
+      --divider: rgba(148, 163, 184, 0.12);
+
+      --text-primary: #F3F6F9;
+      --text-secondary: #B2BAC2;
+      --text-muted: #7E8C9A;
+
+      --mui-primary-main: #0073E6;
+      --mui-primary-light: #3399FF;
+      --mui-primary-lighter: #66B2FF;
+      --mui-primary-bg: rgba(0, 115, 230, 0.16);
+      --mui-primary-border: rgba(51, 153, 255, 0.35);
+
+      --mui-success-main: #1AA251;
+      --mui-success-text: #66BB6A;
+      --mui-success-bg: rgba(26, 162, 81, 0.14);
+      --mui-success-border: rgba(102, 187, 106, 0.34);
+
+      --mui-warning-main: #DEA500;
+      --mui-warning-text: #FFB74D;
+      --mui-warning-bg: rgba(255, 183, 77, 0.14);
+      --mui-warning-border: rgba(255, 183, 77, 0.34);
+
+      --mui-error-main: #EB0014;
+      --mui-error-text: #FF6B6B;
+      --mui-error-bg: rgba(235, 0, 20, 0.14);
+      --mui-error-border: rgba(255, 107, 107, 0.34);
+
+      --mui-violet-text: #A78BFA;
+      --mui-violet-bg: rgba(139, 92, 246, 0.14);
+      --mui-violet-border: rgba(167, 139, 250, 0.32);
+
+      --hero-glow: radial-gradient(ellipse 86% 44% at 50% -8%, rgba(0, 115, 230, 0.24), rgba(9, 13, 22, 0) 70%);
+      --blueprint-grid: linear-gradient(rgba(51, 153, 255, 0.065) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(51, 153, 255, 0.065) 1px, transparent 1px);
+      --shadow-card: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 8px 26px rgba(0, 0, 0, 0.32);
+      --shadow-popover: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(51, 153, 255, 0.22);
+    }
+
+    :root,
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg-canvas: #F8FAFC;
+      --bg-canvas-elevated: #F1F5F9;
+      --bg-paper: rgba(255, 255, 255, 0.95);
+      --bg-paper-solid: #FFFFFF;
+      --bg-subtle: #F1F5F9;
+      --bg-hover: rgba(0, 115, 230, 0.06);
+      --bg-active: rgba(0, 115, 230, 0.11);
+      --bg-appbar: rgba(255, 255, 255, 0.86);
+
+      --border-subtle: #E2E8F0;
+      --border-default: #CBD5E1;
+      --border-strong: #0073E6;
+      --divider: #E2E8F0;
+
+      --text-primary: #0F1924;
+      --text-secondary: #334155;
+      --text-muted: #5B6B7C;
+
+      --mui-primary-main: #0073E6;
+      --mui-primary-light: #0059B2;
+      --mui-primary-lighter: #0059B2;
+      --mui-primary-bg: rgba(0, 115, 230, 0.09);
+      --mui-primary-border: rgba(0, 115, 230, 0.28);
+
+      --mui-success-main: #15803D;
+      --mui-success-text: #15803D;
+      --mui-success-bg: rgba(21, 128, 61, 0.09);
+      --mui-success-border: rgba(21, 128, 61, 0.26);
+
+      --mui-warning-main: #B45309;
+      --mui-warning-text: #B45309;
+      --mui-warning-bg: rgba(180, 83, 9, 0.09);
+      --mui-warning-border: rgba(180, 83, 9, 0.26);
+
+      --mui-error-main: #C62828;
+      --mui-error-text: #C62828;
+      --mui-error-bg: rgba(198, 40, 40, 0.08);
+      --mui-error-border: rgba(198, 40, 40, 0.26);
+
+      --mui-violet-text: #6D28D9;
+      --mui-violet-bg: rgba(109, 40, 217, 0.08);
+      --mui-violet-border: rgba(109, 40, 217, 0.25);
+
+      --hero-glow: radial-gradient(ellipse 86% 44% at 50% -8%, rgba(0, 115, 230, 0.10), rgba(248, 250, 252, 0) 70%);
+      --blueprint-grid: linear-gradient(rgba(0, 115, 230, 0.048) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0, 115, 230, 0.048) 1px, transparent 1px);
+      --shadow-card: 0 1px 3px rgba(15, 25, 36, 0.04), 0 6px 20px rgba(15, 25, 36, 0.04);
+      --shadow-popover: 0 14px 34px rgba(15, 25, 36, 0.14), 0 0 0 1px #CBD5E1;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      background-color: var(--bg-canvas);
+      background-image: var(--hero-glow);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      line-height: 1.65;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+    .mono { font-family: "IBM Plex Mono", "SFMono-Regular", ui-monospace, Menlo, Monaco, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    a { color: var(--mui-primary-lighter); text-decoration: none; transition: all 0.16s ease; }
+    a:hover { text-decoration: underline; }
+
+    .cite-link {
+      display: inline-flex; align-items: center; gap: 3px; font-size: 0.74rem; font-weight: 600; line-height: 1.3;
+      padding: 1px 7px; margin: 0 2px; border-radius: 6px; background: var(--mui-primary-bg);
+      border: 1px solid var(--mui-primary-border); color: var(--mui-primary-lighter);
+      white-space: nowrap; vertical-align: baseline; text-decoration: none !important;
+    }
+    .cite-link:hover { background: var(--bg-active); border-color: var(--mui-primary-light); transform: translateY(-0.5px); }
+
+    #readingProgressBar {
+      position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+      background: linear-gradient(90deg, #0073E6 0%, #0EA5E9 50%, #16A34A 100%); z-index: 1300; transition: width 0.08s linear;
+    }
+    #chartTooltip {
+      position: fixed; pointer-events: none; z-index: 1400; display: none; min-width: 195px; max-width: 300px;
+      padding: 9px 12px; border-radius: 10px; background: var(--bg-paper-solid); border: 1px solid var(--border-strong);
+      box-shadow: var(--shadow-popover); font-size: 0.76rem; color: var(--text-primary); line-height: 1.45;
+    }
+    #muiSnackbar {
+      position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%) translateY(20px); opacity: 0; pointer-events: none;
+      z-index: 1400; padding: 9px 16px; border-radius: 10px; background: #0F1924; color: #FFFFFF;
+      border: 1px solid rgba(51, 153, 255, 0.4); box-shadow: var(--shadow-popover); font-size: 0.8rem; font-weight: 600;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #muiSnackbar.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* Sticky Frosted AppBar */
+    .mui-appbar {
+      position: sticky; top: 0; z-index: 1100; height: 60px; background: var(--bg-appbar);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-subtle);
+    }
+    .mui-appbar-inner { max-width: 1560px; height: 100%; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .appbar-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .appbar-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .mui-icon-btn, .mui-theme-icon-btn {
+      display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+      border-radius: 10px; border: 1px solid var(--border-subtle); background: var(--bg-paper);
+      color: var(--text-primary); cursor: pointer; transition: all 0.16s ease; flex-shrink: 0;
+    }
+    .mui-icon-btn:hover, .mui-theme-icon-btn:hover { border-color: var(--border-strong); background: var(--bg-hover); color: var(--mui-primary-main); }
+    .brand-monogram {
+      width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, #0073E6 0%, #004C99 100%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 4px 12px rgba(0, 115, 230, 0.32);
+      color: #FFFFFF; font-weight: 800; font-size: 0.82rem; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .breadcrumbs { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .breadcrumbs .crumb-link { display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px; border-radius: 7px; color: var(--text-secondary); font-weight: 600; text-decoration: none; }
+    .breadcrumbs .crumb-link:hover { color: var(--mui-primary-lighter); background: var(--bg-hover); }
+    .breadcrumbs .crumb-current { color: var(--text-primary); font-weight: 700; overflow: hidden; text-overflow: ellipsis; }
+
+    .quick-search-wrap { position: relative; width: 215px; }
+    .quick-search-input {
+      width: 100%; height: 34px; padding: 0 44px 0 32px; border-radius: 10px;
+      border: 1px solid var(--border-subtle); background: var(--bg-paper); color: var(--text-primary); font-size: 0.8rem; outline: none; transition: all 0.16s ease;
+    }
+    .quick-search-input:focus { border-color: var(--mui-primary-light); box-shadow: 0 0 0 3px var(--mui-primary-bg); }
+    .quick-search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; display: flex; }
+    .quick-search-kbd {
+      position: absolute; right: 7px; top: 50%; transform: translateY(-50%); font-size: 0.68rem; font-weight: 700;
+      padding: 1px 5px; border-radius: 5px; border: 1px solid var(--border-default); background: var(--bg-subtle); color: var(--text-muted); pointer-events: none;
+    }
+    .quick-jump-popover {
+      position: absolute; top: 40px; right: 0; width: 320px; max-height: 340px; overflow-y: auto;
+      border-radius: 12px; background: var(--bg-paper-solid); box-shadow: var(--shadow-popover); padding: 6px; display: none; z-index: 1250;
+    }
+    .quick-jump-popover.open { display: block; }
+    .quick-jump-item {
+      display: flex; flex-direction: column; gap: 2px; width: 100%; text-align: left; padding: 8px 10px;
+      border: none; border-radius: 8px; background: transparent; color: var(--text-primary); cursor: pointer; font-family: inherit;
+    }
+    .quick-jump-item:hover { background: var(--bg-hover); }
+    .quick-jump-item-title { font-size: 0.82rem; font-weight: 700; color: var(--mui-primary-lighter); }
+    .quick-jump-item-sub { font-size: 0.74rem; color: var(--text-secondary); }
+
+    .mui-lang-switch {
+      display: inline-flex; align-items: center; padding: 2px; border-radius: 10px;
+      border: 1px solid var(--border-subtle); background: var(--bg-subtle); gap: 2px; height: 36px;
+    }
+    .mui-lang-btn {
+      border: none; background: transparent; color: var(--text-secondary); font-family: inherit;
+      font-size: 0.76rem; font-weight: 700; height: 30px; padding: 0 10px; border-radius: 7px; cursor: pointer; transition: all 0.15s ease;
+    }
+    .mui-lang-btn.active { background: var(--bg-paper-solid); color: var(--mui-primary-main); box-shadow: 0 1px 3px rgba(15, 25, 36, 0.12); }
+    html[data-theme="dark"] .mui-lang-btn.active { color: var(--mui-primary-lighter); }
+
+    .mui-chip {
+      display: inline-flex; align-items: center; gap: 5px; min-height: 24px; padding: 2px 10px; border-radius: 999px;
+      font-size: 0.74rem; font-weight: 700; border: 1px solid var(--border-subtle); background: var(--bg-subtle); color: var(--text-secondary);
+    }
+    .mui-chip-primary { background: var(--mui-primary-bg); border-color: var(--mui-primary-border); color: var(--mui-primary-lighter); }
+    .mui-chip-success { background: var(--mui-success-bg); border-color: var(--mui-success-border); color: var(--mui-success-text); }
+    .mui-chip-warning { background: var(--mui-warning-bg); border-color: var(--mui-warning-border); color: var(--mui-warning-text); }
+    .mui-chip-error { background: var(--mui-error-bg); border-color: var(--mui-error-border); color: var(--mui-error-text); }
+    .mui-chip-violet { background: var(--mui-violet-bg); border-color: var(--mui-violet-border); color: var(--mui-violet-text); }
+
+    .mui-segmented {
+      display: inline-flex; flex-wrap: wrap; align-items: center; padding: 3px; border-radius: 10px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); gap: 2px;
+    }
+    .mui-seg-btn {
+      border: none; background: transparent; color: var(--text-secondary); font-family: inherit; font-size: 0.77rem; font-weight: 700;
+      padding: 5px 11px; border-radius: 7px; cursor: pointer; transition: all 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .mui-seg-btn:hover { color: var(--text-primary); }
+    .mui-seg-btn.active { background: var(--bg-paper-solid); color: var(--mui-primary-main); box-shadow: 0 1px 3px rgba(15, 25, 36, 0.12); }
+    html[data-theme="dark"] .mui-seg-btn.active { color: var(--mui-primary-lighter); }
+
+    /* Shell & Sidebar */
+    .layout-shell {
+      max-width: 1560px; margin: 0 auto; display: grid; grid-template-columns: 280px minmax(0, 1fr);
+      gap: 26px; padding: 22px 20px 72px; align-items: start;
+    }
+    .mui-sidebar { position: sticky; top: 72px; display: flex; flex-direction: column; gap: 12px; }
+    .sidebar-card { background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 15px; box-shadow: var(--shadow-card); }
+    .sidebar-brand-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+    .sidebar-title { font-size: 0.98rem; font-weight: 800; color: var(--text-primary); }
+    .sidebar-subtitle { font-size: 0.77rem; color: var(--text-secondary); line-height: 1.45; margin-top: 4px; }
+    .sidebar-mini-kpis { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--divider); }
+    .sidebar-mini-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.75rem; }
+    .sidebar-mini-label { color: var(--text-muted); }
+    .sidebar-mini-val { font-weight: 700; color: var(--text-primary); }
+    .nav-section-label { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 8px; padding-left: 6px; }
+    .mui-nav-list { list-style: none; display: flex; flex-direction: column; gap: 3px; }
+    .mui-nav-link {
+      display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 9px;
+      font-size: 0.80rem; font-weight: 600; color: var(--text-secondary); text-decoration: none !important; transition: all 0.15s ease;
+    }
+    .mui-nav-link:hover { background: var(--bg-hover); color: var(--text-primary); }
+    .mui-nav-link.active { background: var(--mui-primary-bg); color: var(--mui-primary-lighter); font-weight: 700; }
+    .nav-idx { font-size: 0.7rem; font-weight: 700; padding: 1px 6px; border-radius: 5px; background: var(--bg-subtle); color: var(--text-muted); }
+    .mui-nav-link.active .nav-idx { background: rgba(0, 115, 230, 0.22); color: var(--mui-primary-lighter); }
+
+    .drawer-backdrop { position: fixed; inset: 0; background: rgba(9, 13, 22, 0.48); backdrop-filter: blur(3px); z-index: 1150; display: none; }
+    .drawer-backdrop.open { display: block; }
+    @media (max-width: 1023px) {
+      .layout-shell { grid-template-columns: minmax(0, 1fr); padding: 14px 14px 56px; }
+      .mui-sidebar {
+        position: fixed; top: 60px; left: 0; bottom: 0; z-index: 1200; width: min(320px, 88vw);
+        background: var(--bg-canvas); padding: 12px; border-right: 1px solid var(--border-subtle);
+        transform: translateX(-105%); transition: transform 0.24s cubic-bezier(0.4, 0, 0.2, 1); overflow-y: auto;
+      }
+      .mui-sidebar.open { transform: translateX(0); }
+      .hide-sm { display: none !important; }
+      .quick-search-wrap { width: 150px; }
+    }
+
+    /* ==========================================================================
+       BESPOKE IPHONE HARDWARE SHOWROOM & DUAL-WAVE STRATEGY LAYOUT
+       ========================================================================== */
+    .ip-workspace { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+
+    /* P0: Panoramic Hardware Hero + 4-Tile Ribbon */
+    .ip-pano-hero {
+      background-color: var(--bg-paper);
+      background-image: var(--blueprint-grid);
+      background-size: 28px 28px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 18px;
+      padding: 26px 28px;
+      box-shadow: var(--shadow-card);
+      position: relative;
+      overflow: hidden;
+      display: flex; flex-direction: column; gap: 20px;
+    }
+    .ip-pano-hero::before {
+      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #0073E6 0%, #0EA5E9 50%, #16A34A 100%);
+    }
+    .ip-badge-strip { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+    .ip-h1 { font-size: clamp(1.5rem, 2.35vw, 2.12rem); font-weight: 800; line-height: 1.24; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .ip-grad {
+      background: linear-gradient(92deg, #0073E6 0%, #0284C7 52%, #15803D 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    html[data-theme="dark"] .ip-grad {
+      background: linear-gradient(92deg, #66B2FF 0%, #38BDF8 52%, #66BB6A 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .ip-lead { font-size: 0.93rem; color: var(--text-secondary); line-height: 1.75; max-width: 1120px; }
+    .ip-lead strong { color: var(--text-primary); }
+
+    .ip-metric-ribbon {
+      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px;
+    }
+    @media (max-width: 960px) { .ip-metric-ribbon { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .ip-metric-ribbon { grid-template-columns: minmax(0, 1fr); } }
+    .ip-rib-card {
+      padding: 14px 16px; border-radius: 14px; background: var(--bg-paper-solid); border: 1px solid var(--border-subtle);
+      box-shadow: 0 2px 8px rgba(15, 25, 36, 0.03); display: flex; flex-direction: column; gap: 4px;
+    }
+    .ip-rib-top { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 0.73rem; font-weight: 700; color: var(--text-muted); }
+    .ip-rib-val { font-size: 1.48rem; font-weight: 800; color: var(--text-primary); line-height: 1.15; }
+    .ip-rib-sub { font-size: 0.73rem; color: var(--text-secondary); line-height: 1.4; }
+
+    /* Shared Panel */
+    .ip-panel {
+      background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 18px;
+      padding: 24px 26px; box-shadow: var(--shadow-card);
+    }
+    .ip-panel-head {
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; flex-wrap: wrap;
+      padding-bottom: 14px; margin-bottom: 18px; border-bottom: 1px solid var(--divider);
+    }
+    .ip-kicker { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mui-primary-main); display: block; margin-bottom: 3px; }
+    html[data-theme="dark"] .ip-kicker { color: var(--mui-primary-light); }
+    .ip-h2 { font-size: 1.22rem; font-weight: 800; letter-spacing: -0.015em; color: var(--text-primary); }
+    .ip-sub { font-size: 0.82rem; color: var(--text-secondary); margin-top: 3px; }
+
+    /* P1: 4-SKU Lineup Showroom Deck + BOM Tear-Down & Storage Upsell Anatomy */
+    .ip-sku-deck { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 11px; margin-bottom: 18px; }
+    @media (max-width: 1040px) { .ip-sku-deck { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 540px) { .ip-sku-deck { grid-template-columns: minmax(0, 1fr); } }
+    .ip-sku-card {
+      text-align: left; padding: 14px 15px; border-radius: 14px; border: 1px solid var(--border-subtle);
+      background: var(--bg-subtle); color: var(--text-primary); cursor: pointer; font-family: inherit;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1); display: flex; flex-direction: column; gap: 6px;
+    }
+    .ip-sku-card:hover { border-color: var(--border-strong); background: var(--bg-hover); transform: translateY(-2px); }
+    .ip-sku-card.active {
+      border-color: #0073E6; background: var(--bg-active);
+      box-shadow: 0 0 0 1px #0073E6, 0 6px 16px rgba(0, 115, 230, 0.15);
+    }
+    html[data-theme="dark"] .ip-sku-card.active { border-color: #3399FF; box-shadow: 0 0 0 1px #3399FF; }
+    .ip-sku-head { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+    .ip-sku-price { font-size: 0.76rem; font-weight: 800; color: var(--mui-primary-lighter); }
+    .ip-sku-name { font-size: 0.94rem; font-weight: 800; }
+    .ip-sku-wave { font-size: 0.72rem; color: var(--text-muted); }
+
+    .ip-teardown-shell {
+      border-radius: 15px; border: 1px solid var(--border-subtle);
+      background-color: var(--bg-paper-solid); background-image: var(--blueprint-grid); background-size: 26px 26px;
+      padding: 20px 22px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 22px; align-items: center;
+    }
+    @media (max-width: 940px) { .ip-teardown-shell { grid-template-columns: minmax(0, 1fr); } }
+    .ip-td-left h3 { font-size: 1.05rem; font-weight: 800; margin: 8px 0; }
+    .ip-td-left p { font-size: 0.84rem; color: var(--text-secondary); line-height: 1.7; }
+    .ip-spec-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .ip-spec-tag { padding: 4px 9px; border-radius: 7px; font-size: 0.73rem; font-weight: 700; background: var(--bg-subtle); border: 1px solid var(--border-subtle); color: var(--text-primary); }
+
+    .ip-bom-panel {
+      padding: 15px 16px; border-radius: 13px; background: var(--bg-paper); border: 1px solid var(--border-subtle);
+      display: flex; flex-direction: column; gap: 11px;
+    }
+    .ip-bom-bar { height: 18px; border-radius: 9px; overflow: hidden; display: flex; width: 100%; border: 1px solid var(--border-subtle); }
+    .ip-bom-seg { height: 100%; transition: width 0.3s ease; }
+    .ip-bom-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; font-size: 0.73rem; }
+    .ip-bom-leg-item { display: flex; align-items: center; justify-content: space-between; padding: 5px 8px; border-radius: 7px; background: var(--bg-subtle); }
+    .ip-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+
+    /* P2: 6:6 Dual Retina Canvas Workbench */
+    .ip-split-66 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: stretch; }
+    .ip-split-57 { display: grid; grid-template-columns: 5fr 7fr; gap: 18px; align-items: stretch; }
+    @media (max-width: 1040px) { .ip-split-66, .ip-split-57 { grid-template-columns: minmax(0, 1fr); } }
+    .ip-subcard {
+      background: var(--bg-paper); border: 1px solid var(--border-subtle); border-radius: 16px;
+      padding: 20px 22px; box-shadow: var(--shadow-card); display: flex; flex-direction: column; justify-content: space-between; gap: 14px;
+    }
+    .ip-subhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+    .ip-subhead h3 { font-size: 1.01rem; font-weight: 800; color: var(--text-primary); }
+    .ip-canvas-box {
+      position: relative; width: 100%; height: 295px; border-radius: 12px;
+      background: var(--bg-paper-solid); border: 1px solid var(--border-subtle); padding: 10px;
+    }
+    .ip-canvas-box canvas { width: 100%; height: 100%; display: block; }
+    .ip-caption { font-size: 0.75rem; color: var(--text-muted); line-height: 1.5; }
+
+    /* P3: 4-Quarter Dual-Wave Launch Seasonality Strip */
+    .ip-wave-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    @media (max-width: 920px) { .ip-wave-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .ip-wave-grid { grid-template-columns: minmax(0, 1fr); } }
+    .ip-qtr-card {
+      padding: 15px; border-radius: 13px; background: var(--bg-subtle); border: 1px solid var(--border-subtle);
+      display: flex; flex-direction: column; justify-content: space-between; gap: 10px;
+    }
+    .ip-qtr-card.peak { border-color: var(--mui-primary-border); background: var(--mui-primary-bg); }
+    .ip-qtr-head { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 800; color: var(--mui-primary-lighter); }
+    .ip-qtr-title { font-size: 0.88rem; font-weight: 800; color: var(--text-primary); margin: 4px 0; }
+    .ip-qtr-desc { font-size: 0.76rem; color: var(--text-secondary); line-height: 1.52; }
+    .ip-util-bar { height: 6px; border-radius: 999px; background: var(--border-default); overflow: hidden; }
+    .ip-util-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, #0073E6, #22C55E); transition: width 0.3s ease; }
+
+    /* P4: ASP × Cycle × Memory Simulator + Global Flagship OEM Table */
+    .ip-sliders { display: flex; flex-direction: column; gap: 11px; }
+    .ip-slider-row { display: flex; flex-direction: column; gap: 4px; }
+    .ip-slider-lbl { display: flex; justify-content: space-between; font-size: 0.77rem; font-weight: 700; color: var(--text-secondary); }
+    .ip-slider-lbl b { color: var(--mui-primary-lighter); }
+    .ip-slider-row input[type="range"] { width: 100%; accent-color: #0073E6; cursor: pointer; }
+    .ip-sim-kpis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .ip-sim-kpi { padding: 10px; border-radius: 10px; background: var(--bg-subtle); border: 1px solid var(--border-subtle); text-align: center; }
+    .ip-sim-kpi b { display: block; font-size: 1.05rem; color: var(--mui-primary-lighter); }
+    .ip-sim-kpi span { font-size: 0.70rem; color: var(--text-muted); }
+
+    .ip-table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border-subtle); }
+    .ip-table { width: 100%; border-collapse: collapse; font-size: 0.80rem; min-width: 680px; background: var(--bg-paper-solid); }
+    .ip-table th {
+      text-align: left; padding: 10px 12px; background: var(--bg-subtle); color: var(--text-muted);
+      font-size: 0.71rem; font-weight: 800; text-transform: uppercase; border-bottom: 1px solid var(--border-subtle);
+    }
+    .ip-table td { padding: 10px 12px; border-bottom: 1px solid var(--divider); color: var(--text-secondary); }
+    .ip-table tr.is-apple td { background: var(--mui-primary-bg); color: var(--text-primary); font-weight: 600; }
+    .ip-table tr:hover td { background: var(--bg-hover); }
+
+    .ip-chk-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+    @media (max-width: 640px) { .ip-chk-strip { grid-template-columns: minmax(0, 1fr); } }
+    .ip-chk-item {
+      display: flex; align-items: center; gap: 7px; padding: 8px 10px; border-radius: 9px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); font-size: 0.74rem; font-weight: 600; color: var(--text-secondary); cursor: pointer;
+    }
+    .ip-chk-item input { accent-color: #0073E6; width: 14px; height: 14px; flex-shrink: 0; }
+
+    .ip-sources-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
+    .ip-source-card {
+      display: flex; flex-direction: column; gap: 3px; padding: 11px 13px; border-radius: 11px;
+      background: var(--bg-subtle); border: 1px solid var(--border-subtle); text-decoration: none !important; transition: all 0.15s ease;
+    }
+    .ip-source-card:hover { border-color: var(--mui-primary-main); background: var(--bg-hover); transform: translateY(-1px); }
+    .ip-source-card b { font-size: 0.80rem; color: var(--mui-primary-lighter); }
+    .ip-source-card span { font-size: 0.72rem; color: var(--text-secondary); }
+  </style>
+<!-- PORTAL_MUI_OPT_CSS_START -->
+  <script id="portalDetailPreferences">
+    (function () {
+      try {
+        var theme = window.localStorage.getItem('mui_portal_theme_v4');
+        theme = (theme || '').replace(/^"|"$/g, '');
+        if (theme === 'dark' || theme === 'light') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+        if (window.localStorage.getItem('mui_portal_sidebar_collapsed_v1') === '1') {
+          document.documentElement.setAttribute('data-sidebar-collapsed', '1');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style id="portalMuiOptStyle">@media (min-width:1024px){.mui-sidebar{top:72px !important;max-height:none !important;overflow-y:visible !important;padding-bottom:24px !important;gap:10px !important;}html[data-sidebar-collapsed="1"] .mui-sidebar{display:none !important;}html[data-sidebar-collapsed="1"] .layout-shell{grid-template-columns:minmax(0,1fr) !important;}}.sidebar-card{padding:12px 14px !important;flex-shrink:0 !important;}.sidebar-subtitle{margin:4px 0 8px !important;font-size:0.77rem !important;line-height:1.4 !important;}.sidebar-mini-kpis{gap:4px !important;padding-top:8px !important;}.mui-sidebar .mui-nav-list{gap:2px !important;}.mui-ext-nav-link{padding:4px 8px !important;font-size:0.77rem !important;line-height:1.32 !important;}.mui-ext-nav-left > span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}.mui-nav-link{padding:5px 10px !important;font-size:0.80rem !important;}.mui-chip{box-sizing:border-box !important;display:inline-flex !important;flex-wrap:wrap !important;align-items:center !important;max-width:100% !important;min-width:0 !important;white-space:normal !important;height:auto !important;min-height:24px;line-height:1.35 !important;padding:3px 10px !important;overflow-wrap:anywhere !important;word-break:break-word !important;text-align:left !important;}.appbar-left .mui-chip{white-space:nowrap !important;flex-wrap:nowrap !important;max-width:190px !important;overflow:hidden !important;text-overflow:ellipsis !important;display:inline-block !important;}.sidebar-brand-top,.hero-overline,.mui-hero-badges,.kpi-top,.matrix-card-head{flex-wrap:wrap !important;gap:6px !important;max-width:100% !important;min-width:0 !important;}@media (max-width:1023px){.mui-sidebar{width:min(320px,88vw) !important;max-width:88vw !important;box-sizing:border-box !important;overflow-x:hidden !important;overflow-y:auto !important;-webkit-overflow-scrolling:touch;}.mui-sidebar .sidebar-card{width:100% !important;max-width:100% !important;min-width:0 !important;box-sizing:border-box !important;overflow:visible !important;}.co-side-home{padding:4px 10px;min-height:28px;font-size:0.72rem;}.co-hub-btn{min-height:36px;font-size:0.76rem;}.co-hub-pills{grid-template-columns:repeat(2,minmax(0,1fr)) !important;overflow:visible !important;gap:6px;padding:6px;}.co-hub-pill{min-height:38px;padding:7px 10px;font-size:0.78rem;}.co-side-list{max-height:none !important;overflow:visible !important;gap:7px !important;padding:4px 2px !important;margin:0 !important;}.co-hub-item{height:auto !important;min-height:0 !important;padding:9px 10px !important;}}.co-side-nav{margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed var(--border-subtle,#e2e8f0);}.co-side-head{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:8px;}.co-side-title{font-size:0.72rem;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:var(--text-muted,#64748b);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}.co-side-home{display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:6px;font-size:0.70rem;font-weight:700;text-decoration:none !important;flex-shrink:0;color:#0073E6 !important;background:rgba(0,115,230,0.08);border:1px solid rgba(0,115,230,0.22);transition:all 0.16s cubic-bezier(0.4,0,0.2,1);}.co-side-home:hover{background:rgba(0,115,230,0.15);border-color:#0073E6;}[data-theme="dark"] .co-side-home,html.dark .co-side-home{color:#66B2FF !important;background:rgba(51,153,255,0.14);border-color:rgba(51,153,255,0.3);}.co-side-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px;}.co-hub-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;height:30px;padding:0 8px;border-radius:8px;font-size:0.74rem;font-weight:700;border:1px solid var(--border-default,#cbd5e1);background:var(--bg-paper,#ffffff);color:var(--text-primary,#0f172a) !important;text-decoration:none !important;cursor:pointer;transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),border-color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1),color 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-btn:hover{border-color:#3399FF;color:#0073E6 !important;background:rgba(0,115,230,0.06);transform:translateY(-1px);}.co-hub-btn:active{transform:translateY(0) scale(0.98);}.co-hub-pills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;padding:5px;border-radius:10px;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border-subtle,#e2e8f0);margin-bottom:10px;}.co-hub-pill{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:34px;padding:6px 10px;border-radius:8px;font-size:0.76rem;font-weight:700;cursor:pointer;border:none;background:transparent;color:var(--text-secondary,#475569);transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-pill[data-co-cat="ALL"]{grid-column:1 / -1;}.co-hub-pill:not(.active):hover{color:var(--text-primary,#0f172a);background:rgba(255,255,255,0.55);}[data-theme="dark"] .co-hub-pill:not(.active):hover,html.dark .co-hub-pill:not(.active):hover{color:#F8FAFC;background:rgba(255,255,255,0.06);}.co-hub-pill.active{background:var(--bg-paper,#ffffff);color:#0073E6;box-shadow:0 1px 3px rgba(15,25,36,0.12);}[data-theme="dark"] .co-hub-pill.active,html.dark .co-hub-pill.active{color:#66B2FF;}.co-side-list{display:flex;flex-direction:column;gap:6px;max-height:none !important;overflow:visible !important;padding:4px 2px;margin:0;}.co-hub-item{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:10px;border:1px solid var(--border-subtle,#e2e8f0);background:var(--bg-paper,#ffffff);text-decoration:none !important;min-width:0;transition:transform 0.16s cubic-bezier(0.4,0,0.2,1),background-color 0.16s cubic-bezier(0.4,0,0.2,1),border-color 0.16s cubic-bezier(0.4,0,0.2,1),box-shadow 0.16s cubic-bezier(0.4,0,0.2,1);}.co-hub-item.co-hub-hidden{display:none !important;}.co-hub-item:hover{border-color:#3399FF;background:rgba(0,115,230,0.05);transform:translateY(-1px);}.co-hub-item:active{transform:translateY(0) scale(0.99);}.co-hub-item.active{border-color:#0073E6;background:rgba(0,115,230,0.08);box-shadow:0 0 0 1px #0073E6,0 2px 8px rgba(0,115,230,0.14);}[data-theme="dark"] .co-hub-item.active,html.dark .co-hub-item.active{border-color:#3399FF;background:rgba(51,153,255,0.14);box-shadow:0 0 0 1px #3399FF,0 2px 8px rgba(0,115,230,0.24);}.co-hub-ticker{flex-shrink:0;width:26px;height:26px;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;font-size:0.66rem;font-weight:800;background:rgba(0,115,230,0.09) !important;color:#0073E6 !important;border:1px solid rgba(0,115,230,0.22) !important;transition:all 0.16s cubic-bezier(0.4,0,0.2,1);}[data-theme="dark"] .co-hub-ticker,html.dark .co-hub-ticker{background:rgba(51,153,255,0.14) !important;color:#66B2FF !important;border-color:rgba(51,153,255,0.28) !important;}.co-hub-item.active .co-hub-ticker{background:linear-gradient(180deg,#0073E6 0%,#0059B2 100%) !important;color:#FFFFFF !important;border-color:#0059B2 !important;}.co-hub-info{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1;}.co-hub-title{font-size:0.73rem;font-weight:700;line-height:1.3;color:var(--text-primary,#0f172a) !important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}.co-hub-meta{font-size:0.63rem;color:var(--text-muted,#64748b) !important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}main > section,.section-block,.mui-section{content-visibility:visible !important;contain-intrinsic-size:none !important;}@media (max-width:720px){html,body{overflow-x:hidden;max-width:100vw;}.mui-chip,.mui-segmented button,.cite-link{white-space:normal !important;max-width:100%;overflow-wrap:anywhere;}.mui-input-outlined{max-width:100%;min-width:0;}.mui-appbar{padding:0 12px !important;}.mui-sidebar .mui-nav-link,.mui-sidebar .mui-ext-nav-link{min-height:36px;}}@media (max-width:440px){.appbar-left .mui-chip{display:none !important;}}</style>
+  <style id="portalDetailChrome">html{--portal-detail-width:1560px;--portal-detail-gutter:20px}.mui-appbar{position:sticky!important;top:0!important;height:60px!important;z-index:1100!important;padding:0!important;background:var(--bg-appbar,rgba(255,255,255,.92))!important;border-bottom:1px solid var(--border-subtle,#dce5ef)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}.mui-appbar .mui-appbar-inner{display:flex!important;justify-content:space-between;align-items:center;gap:12px;box-sizing:border-box;width:100%;max-width:var(--portal-detail-width);height:100%;padding:0 var(--portal-detail-gutter)!important;margin:0 auto}.mui-appbar .appbar-left,.mui-appbar .appbar-right{display:flex;align-items:center;gap:8px;min-width:0}.mui-appbar .appbar-left{flex:1}.mui-appbar .appbar-right{flex-shrink:0}.mui-appbar:is(.breadcrumbs,.appbar-breadcrumb){display:flex;align-items:center;gap:6px;min-width:0;overflow:hidden;white-space:nowrap;font-size:.85rem}.mui-appbar:is(.crumb-current,.appbar-breadcrumb-cur){overflow:hidden;text-overflow:ellipsis;min-width:0;font-weight:700}.mui-appbar:is(#sidebarToggleBtn,#drawerToggleBtn,#appbarThemeBtn,#themeToggle){display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 34px;width:34px!important;height:34px!important;padding:0!important;border-radius:10px!important;border:1px solid var(--border-subtle,#dce5ef)!important;background:var(--bg-paper,#fff)!important;color:var(--text-secondary,#334155)!important;cursor:pointer}.mui-appbar:is(#sidebarToggleBtn,#drawerToggleBtn,#appbarThemeBtn,#themeToggle):hover{color:var(--mui-primary-lighter,#0073e6)!important;border-color:var(--mui-primary-lighter,#0073e6)!important}.mui-appbar #langSwitchGroup{display:inline-flex!important;align-items:center;gap:2px;height:34px;padding:2px!important;border-radius:10px;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border-subtle,#dce5ef);flex-shrink:0}.mui-appbar #langSwitchGroup button{height:28px;padding:0 10px!important;border:0;border-radius:7px;font:inherit;font-size:.76rem;font-weight:700;background:transparent;color:var(--text-secondary,#334155);cursor:pointer;white-space:nowrap}.mui-appbar #langSwitchGroup button.active{background:var(--bg-paper,#fff);color:var(--mui-primary-lighter,#0059b2);box-shadow:0 1px 3px rgba(15,25,36,.12)}.mui-appbar .quick-search-wrap{position:relative;width:220px;flex-shrink:0}.mui-appbar .quick-search-input{width:100%;height:34px;border-radius:10px;background:var(--bg-paper,#fff);border:1px solid var(--border-subtle,#dce5ef);color:var(--text-primary,#0f1924)}#appbarThemeLabel{display:none!important}main code:not(pre code){font:inherit;color:inherit;background:none;border:0;padding:0;box-shadow:none}#muiSidebar .sidebar-card{border-radius:14px;border:1px solid var(--border-subtle,#dce5ef);background:var(--bg-paper,#fff);box-shadow:var(--shadow-card,0 1px 3px rgba(15,25,36,.05))}#muiSidebar .portal-reading-tools{display:flex;flex-direction:column;gap:8px}#muiSidebar .portal-reading-tools .side-theme-group,#muiSidebar .portal-reading-tools .side-tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}#muiSidebar .portal-reading-tools button{font:inherit;font-size:.76rem;min-height:30px;color:var(--text-secondary,#334155);border:1px solid var(--border-subtle,#dce5ef);border-radius:8px;background:var(--bg-subtle,#f1f5f9);cursor:pointer}#muiSidebar .portal-reading-tools button[aria-pressed="true"],#muiSidebar .portal-reading-tools button:hover{color:var(--mui-primary-lighter,#0059b2);border-color:var(--mui-primary-lighter,#0073e6)}#muiSidebar .portal-reading-tools button svg{margin-right:4px;vertical-align:middle}.portal-detail-extras{display:flex;flex-wrap:wrap;gap:5px}.portal-detail-extras:empty{display:none}#portalDetailBackdrop{display:none;position:fixed;inset:0;z-index:1190;background:rgba(9,13,22,.5)}@media(min-width:1024px){html .layout-shell{grid-template-columns:280px minmax(0,1fr)!important}html[data-sidebar-collapsed="1"] .layout-shell{grid-template-columns:minmax(0,1fr)!important;box-sizing:border-box;width:100%!important;max-width:var(--portal-detail-width)!important;margin-inline:auto!important;padding-inline:var(--portal-detail-gutter)!important}#muiSidebar{position:static!important;align-self:start;width:auto!important;transform:none!important;height:auto!important;max-height:none!important;overflow:visible!important;z-index:auto!important}html[data-sidebar-collapsed="1"] #muiSidebar{display:none!important}}@media(max-width:1023px){html .layout-shell{grid-template-columns:minmax(0,1fr)!important}#muiSidebar{position:fixed!important;inset:0 auto 0 0!important;width:min(320px,88vw)!important;max-height:100dvh!important;z-index:1200!important;display:flex!important;padding:16px 12px!important;background:var(--bg-paper-solid,var(--bg-canvas,#fff));transform:translateX(-104%)!important;visibility:hidden;transition:transform .24s ease,visibility .24s;overflow:auto!important}body.portal-detail-drawer #muiSidebar{transform:translateX(0)!important;visibility:visible}body.portal-detail-drawer #portalDetailBackdrop{display:block}}@media(max-width:850px){.mui-appbar .mui-appbar-inner{padding:0 12px!important}.mui-appbar .appbar-left .mui-chip{display:none!important}}@media(max-width:760px){.mui-appbar .quick-search-wrap{display:none!important}}@media print{.mui-appbar,#muiSidebar,#portalDetailBackdrop{display:none!important}}</style>
+  <script id="portalDetailMenu">
+    (function () {
+      var root = document.documentElement;
+      var sidebarKey = 'mui_portal_sidebar_collapsed_v1';
+      var wide = matchMedia('(min-width:1024px)');
+      function setCollapsed(active) {
+        if (active) root.setAttribute('data-sidebar-collapsed', '1');
+        else root.removeAttribute('data-sidebar-collapsed');
+      }
+      function syncSidebar() {
+        try { setCollapsed(localStorage.getItem(sidebarKey) === '1'); } catch (error) {}
+      }
+      function closeDrawer() {
+        if (document.body) document.body.classList.remove('portal-detail-drawer');
+        updateSidebarButton();
+      }
+      function updateSidebarButton() {
+        var control = document.querySelector('.mui-appbar :is(#sidebarToggleBtn,#drawerToggleBtn)');
+        if (!control) return;
+        var expanded = wide.matches ? root.getAttribute('data-sidebar-collapsed') !== '1'
+          : document.body.classList.contains('portal-detail-drawer');
+        control.setAttribute('aria-expanded', String(expanded));
+        control.setAttribute('aria-controls', 'muiSidebar');
+      }
+      function syncMenu() {
+        var zh = document.getElementById('langZhBtn');
+        var en = document.getElementById('langEnBtn');
+        if (!zh || !en) return;
+        var english = en.classList.contains('active') || (!zh.classList.contains('active') && root.lang === 'en');
+        if (root.lang !== (english ? 'en' : 'zh-CN')) root.lang = english ? 'en' : 'zh-CN';
+        zh.setAttribute('aria-pressed', String(!english));
+        en.setAttribute('aria-pressed', String(english));
+        var theme = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        document.querySelectorAll('#muiSidebar [data-portal-theme],#muiSidebar [data-side-theme]').forEach(function (button) {
+          var pressed = (button.dataset.portalTheme || button.dataset.sideTheme) === theme;
+          button.setAttribute('aria-pressed', String(pressed));
+        });
+        for (var id of ['sideThemeLightBtn','sideThemeDarkBtn']) {
+          var button = document.getElementById(id);
+          if (button) button.setAttribute('aria-pressed', String(id === (theme === 'dark' ? 'sideThemeDarkBtn' : 'sideThemeLightBtn')));
+        }
+        document.querySelectorAll('#companySubfolderHub [data-i18n-zh],.portal-reading-tools [data-portal-zh],.portal-menu-text').forEach(function (node) {
+          var label = node.getAttribute(english ? 'data-portal-en' : 'data-portal-zh')
+            || node.getAttribute(english ? 'data-i18n-en' : 'data-i18n-zh');
+          if (label && node.textContent !== label) node.textContent = label;
+        });
+        var themeButton = document.querySelector('.mui-appbar :is(#appbarThemeBtn,#themeToggle)');
+        if (themeButton) {
+          var themeLabel = english ? (theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme')
+            : (theme === 'dark' ? '切换浅色模式' : '切换深色模式');
+          themeButton.setAttribute('aria-label', themeLabel);
+          themeButton.title = themeLabel;
+        }
+        updateSidebarButton();
+      }
+      function addTools() {
+        var sidebar = document.getElementById('muiSidebar');
+        if (!sidebar) return;
+        var tools = sidebar.querySelector('.sidebar-actions') || document.getElementById('portalReadingTools');
+        if (!tools) return;
+        tools.classList.add('portal-reading-tools');
+        var extras = document.createElement('div');
+        extras.className = 'portal-detail-extras';
+        var controls = document.querySelectorAll('.mui-appbar :is(#appbarDensityBtn,#densityComfortBtn,#densityCompactBtn,#densityComfBtn,#densityCompBtn)');
+        controls.forEach(function (button) { extras.appendChild(button); });
+        if (extras.childElementCount) tools.appendChild(extras);
+      }
+      syncSidebar();
+      document.addEventListener('click', function (event) {
+        var toggle = event.target.closest('.mui-appbar :is(#sidebarToggleBtn,#drawerToggleBtn)');
+        if (toggle) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          if (wide.matches) {
+            var collapsed = root.getAttribute('data-sidebar-collapsed') !== '1';
+            setCollapsed(collapsed);
+            try { localStorage.setItem(sidebarKey, collapsed ? '1' : '0'); } catch (error) {}
+            window.dispatchEvent(new Event('resize'));
+          } else document.body.classList.toggle('portal-detail-drawer');
+          updateSidebarButton();
+          return;
+        }
+        if (event.target.closest('#portalDetailBackdrop,#muiSidebar .mui-nav-link')) closeDrawer();
+        var mode = event.target.closest('[data-portal-theme]');
+        if (mode && (root.getAttribute('data-theme') || 'light') !== mode.dataset.portalTheme) {
+          document.querySelector('.mui-appbar :is(#appbarThemeBtn,#themeToggle)')?.click();
+        }
+        if (event.target.closest('[data-portal-print]')) window.print();
+        if (event.target.closest('[data-portal-export]')) {
+          var original = document.getElementById('exportHtmlBtn') || document.getElementById('sideExportBtn');
+          if (original) original.click();
+          else {
+            var url = URL.createObjectURL(new Blob(['<!doctype html>', root.outerHTML], {type:'text/html;charset=utf-8'}));
+            var link = document.createElement('a');
+            link.href = url;
+            link.download = location.pathname.split('/').pop() || 'report.html';
+            link.click();
+            setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+          }
+        }
+        if (event.target.closest('#langZhBtn,#langEnBtn')) queueMicrotask(syncMenu);
+      }, true);
+      window.addEventListener('storage', function (event) {
+        if (event.key === sidebarKey) syncSidebar();
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closeDrawer();
+      });
+      wide.addEventListener('change', closeDrawer);
+      document.addEventListener('DOMContentLoaded', function () {
+        addTools();
+        var en = document.getElementById('langEnBtn');
+        var observer = new MutationObserver(syncMenu);
+        observer.observe(root, {attributes:true,attributeFilter:['lang','data-lang','data-theme','data-sidebar-collapsed']});
+        if (en) observer.observe(en, {attributes:true,attributeFilter:['class']});
+        syncMenu();
+      });
+    })();
+  </script>
+
+  <script id="portalReportProse">
+    (function () {
+      'use strict';
+      var markup = /<a\s+([^<>]*\bclass=["']cite-link["'][^<>]*)>([^<>]*)<\/a>|<(em|strong|code)>([^<>]*)<\/\3>|\*\*([^*\r\n]+)\*\*|`([^`\r\n]+)`|(?<![\w*])\*(\S(?:[^*\r\n]*?\S)?)\*(?![\w*])/gi;
+      var skip = 'a, code, pre, script, style, textarea, template, [contenteditable]';
+
+      function makeCitation(attributes, label) {
+        var href = /(?:^|\s)href=(?:"([^"]+)"|'([^']+)')/i.exec(attributes);
+        if (!href) return null;
+        var url;
+        try { url = new URL((href[1] || href[2]).replace(/&amp;/g, '&')); }
+        catch (error) { return null; }
+        if (url.protocol !== 'https:' && url.protocol !== 'http:') return null;
+        var link = document.createElement('a');
+        link.className = 'cite-link';
+        link.href = url.href;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = label.replace(/&amp;/g, '&');
+        return link;
+      }
+
+      function formatText(node) {
+        var value = node.nodeValue;
+        markup.lastIndex = 0;
+        if (!markup.test(value) || !node.parentElement || node.parentElement.closest(skip)) return;
+        markup.lastIndex = 0;
+        var result = document.createDocumentFragment(), offset = 0, match;
+        while ((match = markup.exec(value))) {
+          var element = null;
+          if (match[1]) {
+            element = makeCitation(match[1], match[2]);
+          } else if (match[6]) {
+            element = document.createTextNode(match[6]);
+          } else {
+            element = document.createElement(match[3] ? match[3].toLowerCase() : match[7] ? 'em' : 'strong');
+            element.textContent = match[4] || match[5] || match[7] || '';
+          }
+          if (!element) continue;
+          result.append(value.slice(offset, match.index), element);
+          offset = markup.lastIndex;
+        }
+        if (!offset) return;
+        result.append(value.slice(offset));
+        node.replaceWith(result);
+      }
+
+      function formatVisibleReportProse(root) {
+        if (root.nodeType === Node.TEXT_NODE) { formatText(root); return; }
+        if (root.nodeType !== Node.ELEMENT_NODE || root.closest(skip)) return;
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+        var pending = [], node;
+        while ((node = walker.nextNode())) pending.push(node);
+        pending.forEach(formatText);
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var main = document.querySelector('main');
+        if (!main) return;
+        formatVisibleReportProse(main);
+        // Only inspect the nodes a report or language switch actually changes.
+        new MutationObserver(function (changes) {
+          changes.forEach(function (change) {
+            if (change.type === 'characterData') formatText(change.target);
+            else change.addedNodes.forEach(formatVisibleReportProse);
+          });
+        }).observe(main, {subtree:true, childList:true, characterData:true});
+      });
+    })();
+  </script>
+<!-- PORTAL_MUI_OPT_CSS_END -->
+</head>
+<body>
+<div id="portalDetailBackdrop" aria-hidden="true"></div>
+  <div id="readingProgressBar"></div>
+  <div id="drawerBackdrop" class="drawer-backdrop"></div>
+  <div id="chartTooltip"></div>
+  <div id="muiSnackbar" role="status" aria-live="polite"></div>
+
+  <!-- Sticky Frosted Glass MUI AppBar -->
+  <header class="mui-appbar">
+    <div class="mui-appbar-inner">
+      <div class="appbar-left">
+        <button type="button" id="sidebarToggleBtn" class="mui-icon-btn" aria-label="切换目录侧边栏" title="展开/收起章节目录">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        </button>
+        <span class="brand-monogram mono">AAPL</span>
+        <nav class="breadcrumbs" aria-label="面包屑导航">
+          <a class="crumb-link hide-sm" href="../../../index.html">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color:var(--mui-primary-main);"><path d="M2 5.2L9.5 9.5v8.3L2 13.5V5.2zm20 0L14.5 9.5v8.3L22 13.5V5.2zM12 2L4.6 6.2 12 10.4l7.4-4.2L12 2z"/></svg>
+            <span data-i18n-zh="数据中心" data-i18n-en="Research Hub">数据中心</span>
+          </a>
+          <span class="hide-sm" style="opacity:0.45;">/</span>
+          <span class="crumb-current" data-i18n-zh="iPhone 产品线工程与双波段定价战略图谱" data-i18n-en="iPhone Product Engineering &amp; Dual-Wave Strategy">iPhone 产品线工程与双波段定价战略图谱</span>
+        </nav>
+        <span class="mui-chip mui-chip-primary mono hide-sm">ASP &gt; $1,000</span>
+        <span class="mui-chip mui-chip-success mono hide-sm">$254.1B (+21.2%)</span>
+      </div>
+
+      <div class="appbar-right">
+        <div class="quick-search-wrap">
+          <span class="quick-search-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          </span>
+          <input type="search" id="quickJumpInput" class="quick-search-input" placeholder="检索机型、BOM或ASP…" aria-label="快速跳转模块" autocomplete="off" />
+          <span class="quick-search-kbd mono">⌘K</span>
+          <div id="quickJumpPopover" class="quick-jump-popover"></div>
+        </div>
+        <div id="langSwitchGroup" class="mui-lang-switch" role="group" aria-label="语言切换">
+          <button type="button" id="langZhBtn" class="mui-lang-btn active" data-lang="zh" aria-pressed="true">中文</button>
+          <button type="button" id="langEnBtn" class="mui-lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" id="appbarThemeBtn" class="mui-theme-icon-btn" aria-label="切换深浅色主题" title="切换浅色 / 深色主题">
+          <span id="appbarThemeIcon" style="display:inline-flex;align-items:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout-shell">
+    <!-- Left Sidebar -->
+    <aside id="muiSidebar" class="mui-sidebar" aria-label="iPhone产品线模块与站点导航">
+      <div class="sidebar-card">
+        <div class="sidebar-brand-top">
+          <span class="mui-chip mui-chip-primary mono">AAPL · IPHONE FRANCHISE</span>
+        </div>
+        <div class="sidebar-title" data-i18n-zh="iPhone 硬件工程图谱" data-i18n-en="iPhone Engineering Blueprint">iPhone 硬件工程图谱</div>
+        <p class="sidebar-subtitle" data-i18n-zh="iPhone Duo 折叠破局 × 18 Pro 提价放量 × 秋/春双波段错峰排产 × 独占全球手机 50% 营收池" data-i18n-en="iPhone Duo Foldable × 18 Pro Pricing Power × Dual-Wave Launch × 50% Global Revenue Share">iPhone Duo 折叠破局 × 18 Pro 提价放量 × 秋/春双波段错峰排产 × 独占全球手机 50% 营收池</p>
+        <div class="sidebar-mini-kpis">
+          <div class="sidebar-mini-row">
+            <span class="sidebar-mini-label" data-i18n-zh="FY26 营收占比" data-i18n-en="FY26 Rev Share">FY26 营收占比</span>
+            <span class="sidebar-mini-val mono">$254.1B · 53.1%</span>
+          </div>
+          <div class="sidebar-mini-row">
+            <span class="sidebar-mini-label" data-i18n-zh="Q3 2026 批发均价" data-i18n-en="Q3 Wholesale ASP">Q3 2026 批发均价</span>
+            <span class="sidebar-mini-val mono">&gt;$1,000 (历史首次)</span>
+          </div>
+          <div class="sidebar-mini-row">
+            <span class="sidebar-mini-label" data-i18n-zh="全球手机营收份额" data-i18n-en="Global Rev Share">全球手机营收份额</span>
+            <span class="sidebar-mini-val mono">50.0% (创Q3纪录)</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="sidebar-card" aria-label="站点导航与产品线目录">
+        <!-- SITE_RELATED_NAV_START -->
+        <div class="co-side-nav" id="companySubfolderHub" data-co-key="AAPL">
+          <div class="co-side-head">
+            <span class="co-side-title mono">AAPL · 12/14</span>
+            <a href="../../../index.html" class="co-side-home" data-i18n-zh="← 首页" data-i18n-en="← Home">← 首页</a>
+          </div>
+          <div class="co-side-actions">
+            <a class="co-hub-btn" id="coHubPrevBtn" href="../Watch/apple_watch_iwatch.html" data-i18n-zh="← 上一篇" data-i18n-en="← Prev">← 上一篇</a>
+            <a class="co-hub-btn" id="coHubNextBtn" href="iPhone.html" data-i18n-zh="下一篇 →" data-i18n-en="Next →">下一篇 →</a>
+          </div>
+          <div class="co-hub-pills">
+            <button type="button" class="co-hub-pill active" data-co-cat="ALL" data-i18n-zh="全部 (14)" data-i18n-en="All (14)">全部 (14)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="Company" data-i18n-zh="公司深度 (2)" data-i18n-en="Company (2)">公司深度 (2)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="CorporateCulture" data-i18n-zh="企业文化 (2)" data-i18n-en="CorporateCulture (2)">企业文化 (2)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="Other" data-i18n-zh="Other (1)" data-i18n-en="Other (1)">Other (1)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="SeniorExecutive" data-i18n-zh="高管人物 (1)" data-i18n-en="SeniorExecutive (1)">高管人物 (1)</button>
+            <button type="button" class="co-hub-pill" data-co-cat="hardware" data-i18n-zh="硬件产品 (8)" data-i18n-en="hardware (8)">硬件产品 (8)</button>
+          </div>
+          <div class="co-side-list">
+            <a class="co-hub-item" data-co-item-cat="Company" href="../../Company/Apple_Business_Model_Analysis.html" title="苹果公司 Apple Inc. (AAPL) 商业模式架构深度拆解"><span class="co-hub-ticker mono">01</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果公司 Apple Inc. (AAPL) 商业模式架构深度拆解" data-i18n-en="Apple Inc. Apple Inc. (AAPL) Business Model Deep DiveBreakdown">苹果公司 Apple Inc. (AAPL) 商业模式架构深度拆解</span><span class="co-hub-meta mono">Company</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="Company" href="../../Company/Apple_Future_Horizon_2030_Blueprint.html" title="苹果公司 2026–2032 未来战略与新增长曲线观测站"><span class="co-hub-ticker mono">02</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果公司 2026–2032 未来战略与新增长曲线观测站" data-i18n-en="Apple Inc. 2026–2032 &amp;">苹果公司 2026–2032 未来战略与新增长曲线观测站</span><span class="co-hub-meta mono">Company</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="CorporateCulture" href="../../CorporateCulture/Apple_Corporate_Culture_Analysis.html" title="苹果公司 Apple Inc. (AAPL) 企业文化与组织架构深度研究报告"><span class="co-hub-ticker mono">03</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果公司 Apple Inc. (AAPL) 企业文化与组织架构深度研究报告" data-i18n-en="Apple Inc. Apple Inc. (AAPL) Corporate Culture &amp; Org Architecture Deep Dive">苹果公司 Apple Inc. (AAPL) 企业文化与组织架构深度研究报告</span><span class="co-hub-meta mono">CorporateCulture</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="CorporateCulture" href="../../CorporateCulture/Apple_Corporate_Culture_Blueprint.html" title="苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承"><span class="co-hub-ticker mono">04</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承" data-i18n-en="AppleCorporate Culture &amp;:, &amp;">苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承</span><span class="co-hub-meta mono">CorporateCulture</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="Other" href="../../Others/Apple_Corporate_Culture_Blueprint.html" title="苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承"><span class="co-hub-ticker mono">05</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承" data-i18n-en="AppleCorporate Culture &amp;:, &amp;">苹果企业文化与组织操作系统图谱：单一损益表、专家治企与三代传承</span><span class="co-hub-meta mono">Others</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="SeniorExecutive" href="../../SeniorExecutive/Steve Jobs/steve_jobs_1955_2011_15.html" title="史蒂夫·乔布斯 Steve Jobs (1955–2011) 深度商业与产品战略研究报告"><span class="co-hub-ticker mono">06</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="史蒂夫·乔布斯 Steve Jobs (1955–2011) 深度商业与产品战略研究报告" data-i18n-en="Steve Jobs (1955–2011) Business &amp; Product Strategy Deep Dive">史蒂夫·乔布斯 Steve Jobs (1955–2011) 深度商业与产品战略研究报告</span><span class="co-hub-meta mono">SeniorExecutive/Steve Jobs</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../Apple_12_Products.single.html" title="Apple 苹果全产品线 12 大板块深度研报中枢（FY2026 $478.83B 全景拆解）"><span class="co-hub-ticker mono">07</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple 苹果全产品线 12 大板块深度研报中枢（FY2026 $478.83B 全景拆解）" data-i18n-en="Apple 12 Deep DiveReport (FY2026 $478.83B OverviewBreakdown)">Apple 苹果全产品线 12 大板块深度研报中枢（FY2026 $478.83B 全景拆解）</span><span class="co-hub-meta mono">hardware</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../Airpods/apple_airpods_h2.html" title="Apple AirPods 声学穿戴产品力、H2 计算音频与千亿商业模式深度研究报告"><span class="co-hub-ticker mono">08</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple AirPods 声学穿戴产品力、H2 计算音频与千亿商业模式深度研究报告" data-i18n-en="Apple AirPods, H2 &amp; 00MBusiness ModelDeep Dive Research Report">Apple AirPods 声学穿戴产品力、H2 计算音频与千亿商业模式深度研究报告</span><span class="co-hub-meta mono">hardware/Airpods</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../Home/apple_home_homeview_ai.html" title="Apple Home 智能家居产品力、HomeView 端侧 AI 中枢与隐私商业模式深度研究报告"><span class="co-hub-ticker mono">09</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple Home 智能家居产品力、HomeView 端侧 AI 中枢与隐私商业模式深度研究报告" data-i18n-en="Apple Home, HomeView AI &amp; Business ModelDeep Dive Research Report">Apple Home 智能家居产品力、HomeView 端侧 AI 中枢与隐私商业模式深度研究报告</span><span class="co-hub-meta mono">hardware/Home</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../Vision_pro/apple_vision_pro_m5_r1_b2b.html" title="Apple Vision Pro 空间计算产品力、M5+R1 硅基双芯与 B2B 商业模式深度研究报告"><span class="co-hub-ticker mono">10</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple Vision Pro 空间计算产品力、M5+R1 硅基双芯与 B2B 商业模式深度研究报告" data-i18n-en="Apple Vision Pro, M5+R1 &amp; B2B Business ModelDeep Dive Research Report">Apple Vision Pro 空间计算产品力、M5+R1 硅基双芯与 B2B 商业模式深度研究报告</span><span class="co-hub-meta mono">hardware/Vision_pro</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../Watch/apple_watch_iwatch.html" title="Apple Watch (iWatch) 智能手表产品力、医疗健康壁垒与单机经济深度研究报告"><span class="co-hub-ticker mono">11</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple Watch (iWatch) 智能手表产品力、医疗健康壁垒与单机经济深度研究报告" data-i18n-en="Apple Watch (iWatch), &amp; Deep Dive Research Report">Apple Watch (iWatch) 智能手表产品力、医疗健康壁垒与单机经济深度研究报告</span><span class="co-hub-meta mono">hardware/Watch</span></span></a>
+            <a class="co-hub-item active" data-co-item-cat="hardware" href="Apple_iPhone_Strategy_Blueprint.html" title="苹果 iPhone 产品线工程与双波段定价战略图谱"><span class="co-hub-ticker mono">12</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果 iPhone 产品线工程与双波段定价战略图谱" data-i18n-en="Apple iPhone &amp;">苹果 iPhone 产品线工程与双波段定价战略图谱</span><span class="co-hub-meta mono">hardware/iPhone</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="iPhone.html" title="苹果公司 Apple Inc. (NASDAQ: AAPL) &amp; iPhone 生态深度研究报告"><span class="co-hub-ticker mono">13</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="苹果公司 Apple Inc. (NASDAQ: AAPL) &amp; iPhone 生态深度研究报告" data-i18n-en="Apple Inc. Apple Inc. (NASDAQ: AAPL) &amp; iPhone Deep Dive Research Report">苹果公司 Apple Inc. (NASDAQ: AAPL) &amp; iPhone 生态深度研究报告</span><span class="co-hub-meta mono">hardware/iPhone</span></span></a>
+            <a class="co-hub-item" data-co-item-cat="hardware" href="../ipad/apple_ipad_oled.html" title="Apple iPad 平板产品力、串联 OLED 与搭售商业模式深度研究报告"><span class="co-hub-ticker mono">14</span><span class="co-hub-info"><span class="co-hub-title" data-i18n-zh="Apple iPad 平板产品力、串联 OLED 与搭售商业模式深度研究报告" data-i18n-en="Apple iPad, OLED &amp; Business ModelDeep Dive Research Report">Apple iPad 平板产品力、串联 OLED 与搭售商业模式深度研究报告</span><span class="co-hub-meta mono">hardware/ipad</span></span></a>
+          </div>
+          <script>(function(){var h=document.getElementById("companySubfolderHub");if(!h)return;var sk="co_hub_cat_"+(h.getAttribute("data-co-key")||"");function applyCat(cat){var ps=h.querySelectorAll("[data-co-cat]");var okAny=false;for(var i=0;i<ps.length;i++){var ok=ps[i].getAttribute("data-co-cat")===cat;ps[i].classList.toggle("active",ok);if(ok)okAny=true;}if(!okAny&&ps.length){cat="ALL";ps[0].classList.add("active");}var its=h.querySelectorAll("[data-co-item-cat]");for(var j=0;j<its.length;j++){its[j].classList.toggle("co-hub-hidden",!(cat==="ALL"||its[j].getAttribute("data-co-item-cat")===cat));}try{if(sk)sessionStorage.setItem(sk,cat);}catch(e){}}try{var saved=sk?sessionStorage.getItem(sk):null;if(saved&&saved!=="ALL")applyCat(saved);}catch(e){}h.addEventListener("click",function(e){var t=e.target&&e.target.nodeType===3?e.target.parentElement:e.target;if(!t||!t.closest)return;var b=t.closest("[data-co-cat]");if(b){e.preventDefault();applyCat(b.getAttribute("data-co-cat")||"ALL");}},true);var act=h.querySelector(".co-hub-item.active");if(act&&act.scrollIntoView){try{act.scrollIntoView({block:"nearest"});}catch(e){}}document.addEventListener("keydown",function(e){if(e.target&&(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA"))return;if(e.key==="["){var pb=document.getElementById("coHubPrevBtn");if(pb)pb.click();}if(e.key==="]"){var nb=document.getElementById("coHubNextBtn");if(nb)nb.click();}});})();</script>
+        </div>
+        <!-- SITE_RELATED_NAV_END -->
+
+        <div class="nav-section-label" style="margin-top:8px;" data-i18n-zh="产品线工程展厅 (P0–P4)" data-i18n-en="Showroom Modules (P0–P4)">产品线工程展厅 (P0–P4)</div>
+        <ul class="mui-nav-list">
+          <li><a href="#sec-p0" class="mui-nav-link active"><span class="nav-idx mono">P0</span><span data-i18n-zh="全景旗舰看板与核心指标" data-i18n-en="Panoramic KPIs">全景旗舰看板与核心指标</span></a></li>
+          <li><a href="#sec-p1" class="mui-nav-link"><span class="nav-idx mono">P1</span><span data-i18n-zh="四阶机型展厅与 BOM 拆解" data-i18n-en="4-SKU Showroom &amp; BOM">四阶机型展厅与 BOM 拆解</span></a></li>
+          <li><a href="#sec-p2" class="mui-nav-link"><span class="nav-idx mono">P2</span><span data-i18n-zh="全球K型分化与区域弹性" data-i18n-en="Global Share &amp; Regional Mix">全球K型分化与区域弹性</span></a></li>
+          <li><a href="#sec-p3" class="mui-nav-link"><span class="nav-idx mono">P3</span><span data-i18n-zh="秋/春双波段错峰供应链矩阵" data-i18n-en="Dual-Wave Cadence Matrix">秋/春双波段错峰供应链矩阵</span></a></li>
+          <li><a href="#sec-p4" class="mui-nav-link"><span class="nav-idx mono">P4</span><span data-i18n-zh="ASP×存储涨价模拟器与竞品" data-i18n-en="ASP Simulator &amp; OEM Rivals">ASP×存储涨价模拟器与竞品</span></a></li>
+        </ul>
+      </nav>
+    <div class="sidebar-card sidebar-actions portal-reading-tools" id="portalReadingTools">
+  <div class="nav-section-label" data-portal-zh="阅读与导出工具" data-portal-en="Appearance &amp; Export">阅读与导出工具</div>
+  <div class="side-theme-group" role="group" aria-label="Theme">
+    <button type="button" data-portal-theme="light" data-portal-zh="浅色外观" data-portal-en="Light">浅色外观</button>
+    <button type="button" data-portal-theme="dark" data-portal-zh="深色外观" data-portal-en="Dark">深色外观</button>
+  </div>
+  <div class="side-tool-grid">
+    <button type="button" data-portal-export data-portal-zh="导出 HTML" data-portal-en="Export HTML">导出 HTML</button>
+    <button type="button" data-portal-print data-portal-zh="打印 / PDF" data-portal-en="Print / PDF">打印 / PDF</button>
+  </div>
+</div>
+</aside>
+
+    <!-- Main Bespoke Hardware Showroom Workspace -->
+    <main class="ip-workspace">
+
+      <!-- MODULE P0: PANORAMIC HERO + 4-TILE METRIC RIBBON -->
+      <section id="sec-p0" class="ip-pano-hero">
+        <div>
+          <div class="ip-badge-strip">
+            <span class="mui-chip mui-chip-primary mono" data-i18n-zh="全球单一最赚钱硬件物种 · 占苹果营收 53.1%" data-i18n-en="WORLD'S #1 HARDWARE FRANCHISE · 53.1% OF AAPL REV">全球单一最赚钱硬件物种 · 占苹果营收 53.1%</span>
+            <span class="mui-chip mui-chip-success mono">2026Q3 独占全球手机营收 50%</span>
+            <span class="mui-chip mui-chip-violet mono">双波段发布范式元年</span>
+          </div>
+
+          <h1 class="ip-h1" data-i18n-zh="苹果 iPhone 产品线深度解构：<span class='ip-grad'>批发均价首破 $1,000、折叠屏破局与无视行业寒冬的 $2,541亿 现金牛</span>" data-i18n-en="Deconstructing Apple's iPhone Franchise: <span class='ip-grad'>&gt;$1,000 Wholesale ASP, Foldable Breakout &amp; the $254.1B Cash Engine</span>">
+            苹果 iPhone 产品线深度解构：<span class="ip-grad">批发均价首破 $1,000、折叠屏破局与无视行业寒冬的 $2,541亿 现金牛</span>
+          </h1>
+
+          <p class="ip-lead">
+            2026 年全球智能手机市场呈现剧烈的<strong>“K型撕裂”</strong>：受 DRAM/NAND 存储芯片暴涨冲击，2026 年第三季度全球智能手机总出货量同比萎缩 19%，但苹果却逆势创下 9 月季度历史最高营收，一举夺下<strong>全球智能手机市场创纪录的 50% 营收份额</strong>
+            <a class="cite-link" href="https://counterpointresearch.com/en/insights/global-smartphone-revenue-defies-shipment-slump-rising-3-yoy" target="_blank" rel="noopener noreferrer">Counterpoint 全球追踪 ↗</a>。
+            在 <strong>iPhone 17 系列首年创收突破 $1,700亿</strong>
+            <a class="cite-link" href="https://counterpointresearch.com/cn/insights/iphone-17-series-outpaces-previous-series-first-year-revenue-over-170-billion-dollars" target="_blank" rel="noopener noreferrer">iPhone 17 里程碑 ↗</a> 的高基数上，苹果于 2026 秋季颠覆沿用 15 年的发布节奏——率先推出首款折叠机 <strong>iPhone Duo</strong> 与提价 $100 的 <strong>iPhone 18 Pro / Pro Max</strong>（延后标准版 iPhone 18），推动第三日历季度 iPhone <strong>批发平均售价（ASP）史上首次突破 $1,000 大关</strong>
+            <a class="cite-link" href="https://counterpointresearch.com/en/insights/apple-reports-its-fifth-consecutive-quarter-of-revenue-above-100-billion-sets" target="_blank" rel="noopener noreferrer">ASP 破千报告 ↗</a>，拉动 FY2026 全年 iPhone 净营收飙升 <strong>+21.2% 至 $2,541.0亿</strong>
+            <a class="cite-link" href="https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/" target="_blank" rel="noopener noreferrer">FY26 Q4 官方财报 ↗</a>。
+          </p>
+        </div>
+
+        <div class="ip-metric-ribbon">
+          <div class="ip-rib-card">
+            <div class="ip-rib-top"><span>FY2026 IPHONE 净营收</span><span class="mui-chip mui-chip-success mono">+21.2% YoY</span></div>
+            <div class="ip-rib-val mono">$254.10B</div>
+            <div class="ip-rib-sub">占集团 $478.83B 总营收 53.1%；Q4 单季 $57.58B (+17.5%) 刷新历史纪录</div>
+          </div>
+
+          <div class="ip-rib-card">
+            <div class="ip-rib-top"><span>Q3 2026 批发平均售价</span><span class="mui-chip mui-chip-primary mono">历史首破</span></div>
+            <div class="ip-rib-val mono">&gt;$1,000</div>
+            <div class="ip-rib-sub">18 Pro 提价 $100 后首三周全球销量仍 +3.1%，超高端机型占比持续扩张</div>
+          </div>
+
+          <div class="ip-rib-card">
+            <div class="ip-rib-top"><span>全球手机营收市占率</span><span class="mui-chip mui-chip-violet mono">半壁江山</span></div>
+            <div class="ip-rib-val mono">50.0%</div>
+            <div class="ip-rib-sub">全球大盘 $114B 单季营收中独占一半，营业利润池占比更超 80%+</div>
+          </div>
+
+          <div class="ip-rib-card">
+            <div class="ip-rib-top"><span>App Store 生态年交易额</span><span class="mui-chip mui-chip-warning mono">活跃机 &gt;25亿</span></div>
+            <div class="ip-rib-val mono">$1.40T</div>
+            <div class="ip-rib-sub">iPhone 托起 1.4 万亿美元开发者商业生态与大中华区 $824亿 (+28%) 反弹</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE P1: INTERACTIVE 4-SKU LINEUP SHOWROOM & BOM TEAR-DOWN ANATOMY -->
+      <section id="sec-p1" class="ip-panel">
+        <div class="ip-panel-head">
+          <div>
+            <span class="ip-kicker mono">MODULE P1 · 4-TIER PRODUCT MATRIX &amp; SILICON BOM ANATOMY</span>
+            <h2 class="ip-h2" data-i18n-zh="四阶价格带展厅与硬件 BOM / 毛利拆解台" data-i18n-en="4-Tier iPhone Lineup Showroom & BOM Margin Tear-Down">四阶价格带展厅与硬件 BOM / 毛利拆解台</h2>
+            <p class="ip-sub" data-i18n-zh="点击任一主力机型卡片，查看其在苹果价格阶梯中的卡位逻辑、核心自研器件与单机 BOM 成本构成。" data-i18n-en="Select any iPhone tier to inspect its strategic role, custom silicon stack, and estimated BOM vs. gross margin.">点击任一主力机型卡片，查看其在苹果价格阶梯中的卡位逻辑、核心自研器件与单机 BOM 成本构成。</p>
+          </div>
+          <span class="mui-chip mui-chip-primary mono" data-i18n-zh="点击机型拆解 BOM ($599 → $1,999+)" data-i18n-en="Interactive Tear-Down">点击机型拆解 BOM ($599 → $1,999+)</span>
+        </div>
+
+        <div class="ip-sku-deck" id="skuDeck">
+          <button type="button" class="ip-sku-card active" data-sku="0">
+            <div class="ip-sku-head"><span class="mui-chip mui-chip-violet mono">ULTRA HALO</span><span class="ip-sku-price mono">$1,999+</span></div>
+            <div class="ip-sku-name">iPhone Duo (折叠屏)</div>
+            <div class="ip-sku-wave">秋季第一波 · 形态破局与2027三倍放量引擎</div>
+          </button>
+
+          <button type="button" class="ip-sku-card" data-sku="1">
+            <div class="ip-sku-head"><span class="mui-chip mui-chip-primary mono">PRO PROFIT CORE</span><span class="ip-sku-price mono">$1,099–$1,599</span></div>
+            <div class="ip-sku-name">iPhone 18 Pro / Max</div>
+            <div class="ip-sku-wave">秋季第一波 · 贡献逾 65% 首季旗舰毛利池</div>
+          </button>
+
+          <button type="button" class="ip-sku-card" data-sku="2">
+            <div class="ip-sku-head"><span class="mui-chip mui-chip-success mono">SPRING WAVE</span><span class="ip-sku-price mono">$799–$899</span></div>
+            <div class="ip-sku-name">iPhone 18 (标准版)</div>
+            <div class="ip-sku-wave">春季第二波 · 错峰填平上半年晶圆与组装谷底</div>
+          </button>
+
+          <button type="button" class="ip-sku-card" data-sku="3">
+            <div class="ip-sku-head"><span class="mui-chip mui-chip-warning mono">FUNNEL ENTRY</span><span class="ip-sku-price mono">$599</span></div>
+            <div class="ip-sku-name">iPhone 17e (生态入口)</div>
+            <div class="ip-sku-wave">常青守门员 · 自研基带规模化验证与新兴市场获客</div>
+          </button>
+        </div>
+
+        <div class="ip-teardown-shell" id="teardownShell">
+          <div class="ip-td-left">
+            <span class="mui-chip mui-chip-violet mono" id="tdBadge">SKU 01 · FOLDABLE HALO FLAGSHIP</span>
+            <h3 id="tdTitle">iPhone Duo 首款折叠旗舰：把手机天花板直接拉升至 $2,000 价格带</h3>
+            <p id="tdDesc">
+              苹果在折叠屏赛道隐忍七年直至无折痕超薄玻璃（UTG）与液态金属铰链成熟才一击必中，同步打通 iOS 27 与 iPadOS 27 多任务分屏生态。据 Counterpoint 追踪，尽管初代受铰链与双层串联 OLED 良率爬坡制约严重缺货，但随着 2027 年供应链成熟，<strong>预计苹果折叠机出货量将在 2027 年实现近 3 倍爆发</strong>
+              <a class="cite-link" href="https://counterpointresearch.com/en/insights/apple-reports-its-fifth-consecutive-quarter-of-revenue-above-100-billion-sets" target="_blank" rel="noopener noreferrer">Counterpoint 预测 ↗</a>。
+            </p>
+            <div class="ip-spec-tags" id="tdTags">
+              <span class="ip-spec-tag mono">2nm 级 A20 Pro 芯片</span>
+              <span class="ip-spec-tag mono">定制零折痕柔性内屏 + 钛合金铰链</span>
+              <span class="ip-spec-tag mono">高密度硅碳负极双电芯</span>
+              <span class="ip-spec-tag mono">AppleCare+ 高单价强附着</span>
+            </div>
+          </div>
+
+          <div class="ip-bom-panel">
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <strong style="font-size:0.84rem;" id="bomHead">单机售价结构拆解（BOM 物料 vs 硬件毛利）</strong>
+              <span class="mono" style="font-size:0.78rem;font-weight:800;color:var(--mui-success-text);" id="bomGmTxt">预估毛利率 ~44.5%</span>
+            </div>
+            <div class="ip-bom-bar" id="bomBar">
+              <div class="ip-bom-seg" style="width:18%;background:#0073E6;" title="自研SoC与存储"></div>
+              <div class="ip-bom-seg" style="width:22%;background:#7C3AED;" title="折叠OLED与铰链结构"></div>
+              <div class="ip-bom-seg" style="width:15.5%;background:#D97706;" title="潜望影像/射频/组装"></div>
+              <div class="ip-bom-seg" style="width:44.5%;background:#16A34A;" title="苹果硬件毛利空间"></div>
+            </div>
+            <div class="ip-bom-legend" id="bomLegend">
+              <div class="ip-bom-leg-item"><span><i class="ip-dot" style="background:#0073E6;"></i>芯片与高速内存</span><b class="mono">~18.0%</b></div>
+              <div class="ip-bom-leg-item"><span><i class="ip-dot" style="background:#7C3AED;"></i>双屏与精密铰链</span><b class="mono">~22.0%</b></div>
+              <div class="ip-bom-leg-item"><span><i class="ip-dot" style="background:#D97706;"></i>光学/电池/组装</span><b class="mono">~15.5%</b></div>
+              <div class="ip-bom-leg-item"><span><i class="ip-dot" style="background:#16A34A;"></i>单机硬件毛利额</span><b class="mono">~$890+</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE P2: 6:6 DUAL RETINA CANVAS WORKBENCH (REVENUE/ASP TRAJECTORY + REGIONAL & MEMORY RESILIENCE) -->
+      <section id="sec-p2" class="ip-split-66">
+        <div class="ip-subcard">
+          <div class="ip-subhead">
+            <div>
+              <span class="ip-kicker mono">MODULE P2A · REVENUE &amp; ASP TRAJECTORY</span>
+              <h3 data-i18n-zh="iPhone 六年营收跃迁与全球手机收入份额垄断" data-i18n-en="6-Year iPhone Revenue Surge & Global Revenue Share">iPhone 六年营收跃迁与全球手机收入份额垄断</h3>
+            </div>
+            <div class="mui-segmented" id="mChartTabs">
+              <button type="button" class="mui-seg-btn active" data-mview="rev" data-i18n-zh="年度营收 ($B)" data-i18n-en="Annual Rev ($B)">年度营收 ($B)</button>
+              <button type="button" class="mui-seg-btn" data-mview="asp" data-i18n-zh="批发均价 ASP ($)" data-i18n-en="Wholesale ASP ($)">批发均价 ASP ($)</button>
+            </div>
+          </div>
+
+          <div class="ip-canvas-box">
+            <canvas id="marketCanvas"></canvas>
+          </div>
+
+          <p class="ip-caption">
+            核实口径：FY2026 全年 iPhone 营收自 FY2025 的 $2,095.9亿 跃升至 <strong>$2,541.0亿（+21.2% YoY）</strong>；2026Q3 全球行业均价 $442，而苹果批发 ASP 历史首破 <strong>$1,000+</strong>，形成逾 2.3 倍溢价剪刀差
+            <a class="cite-link" href="https://counterpointresearch.com/en/insights/apple-iphone-market-share" target="_blank" rel="noopener noreferrer">Counterpoint 份额库 ↗</a>。
+          </p>
+        </div>
+
+        <div class="ip-subcard">
+          <div class="ip-subhead">
+            <div>
+              <span class="ip-kicker mono">MODULE P2B · REGIONAL REBOUND &amp; MEMORY DEFENSE</span>
+              <h3 data-i18n-zh="大中华区 +28% 反转与存储涨价潮下的利润护盾" data-i18n-en="Greater China +28% Rebound & Memory Inflation Shield">大中华区 +28% 反转与存储涨价潮下的利润护盾</h3>
+            </div>
+            <div class="mui-segmented" id="rChartTabs">
+              <button type="button" class="mui-seg-btn active" data-rview="geo" data-i18n-zh="区域增长弹性" data-i18n-en="Geo Growth">区域增长弹性</button>
+              <button type="button" class="mui-seg-btn" data-rview="mem" data-i18n-zh="存储阶梯暴利" data-i18n-en="Storage Margin">存储阶梯暴利</button>
+            </div>
+          </div>
+
+          <div class="ip-canvas-box">
+            <canvas id="regionCanvas"></canvas>
+          </div>
+
+          <p class="ip-caption">
+            核心对冲机制：AI 服务器抢占产能导致移动端 DRAM/NAND 飙涨，中低端安卓厂商因 BOM 占比过高陷入亏损；苹果则依靠<strong>闪存容量升级阶梯（256GB→512GB→1TB 加价 $200–$400）</strong>轻松转嫁存储成本并维持高毛利
+            <a class="cite-link" href="https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/" target="_blank" rel="noopener noreferrer">全区域创纪录公告 ↗</a>。
+          </p>
+        </div>
+      </section>
+
+      <!-- MODULE P3: DUAL-WAVE LAUNCH CADENCE VS LEGACY AUTUMN SPIKE -->
+      <section id="sec-p3" class="ip-panel">
+        <div class="ip-panel-head">
+          <div>
+            <span class="ip-kicker mono">MODULE P3 · DUAL-WAVE RELEASE ENGINEERING</span>
+            <h2 class="ip-h2" data-i18n-zh="打破 15 年惯例：“秋 Pro/Fold + 春标准版”双波段如何重塑果链经济学？" data-i18n-en="Dual-Wave Launch Cadence: Reshaping Supply Chain & Upsell Psychology">打破 15 年惯例：“秋 Pro/Fold + 春标准版”双波段如何重塑果链经济学？</h2>
+            <p class="ip-sub" data-i18n-zh="切换新旧发布日历，直观对比苹果如何同时解决“台积电/富士康淡季闲置”与“标准版分流 Pro 销量”两大痛点。" data-i18n-en="Toggle between the new Dual-Wave cadence and legacy single-autumn launch to inspect fab utilization and upsell impact.">切换新旧发布日历，直观对比苹果如何同时解决“台积电/富士康淡季闲置”与“标准版分流 Pro 销量”两大痛点。</p>
+          </div>
+          <div class="mui-segmented" id="waveSwitch">
+            <button type="button" class="mui-seg-btn active" data-wave="dual" data-i18n-zh="新范式：秋/春双波段错峰" data-i18n-en="New: Dual-Wave Cadence">新范式：秋/春双波段错峰</button>
+            <button type="button" class="mui-seg-btn" data-wave="old" data-i18n-zh="旧范式：9月四机同发脉冲" data-i18n-en="Legacy: Sept All-at-Once">旧范式：9月四机同发脉冲</button>
+          </div>
+        </div>
+
+        <div class="ip-wave-grid" id="waveGrid">
+          <div class="ip-qtr-card peak">
+            <div>
+              <div class="ip-qtr-head mono"><span>WAVE 1 · 9–12月 (FY Q1)</span><span>产能负荷 96%</span></div>
+              <div class="ip-qtr-title">秋季超高端独占窗口：18 Pro + iPhone Duo</div>
+              <div class="ip-qtr-desc">秋季不发标准版，迫使不愿等待半年的早期换机客群（调研显示高达 62% 意向者）直接向上迁移购买高毛利 Pro 或折叠机
+              <a class="cite-link" href="https://www.reconanalytics.com/62-of-base-iphone-18-buyers-interested-in-switching-to-more-expensive-pro-pro-max-or-fold-models/" target="_blank" rel="noopener noreferrer">Recon 调研 ↗</a>。</div>
+            </div>
+            <div class="ip-util-bar"><div class="ip-util-fill" style="width:96%;"></div></div>
+          </div>
+
+          <div class="ip-qtr-card peak">
+            <div>
+              <div class="ip-qtr-head mono"><span>WAVE 2 · 3–5月 (FY Q2/Q3)</span><span>产能负荷 84%</span></div>
+              <div class="ip-qtr-title">春季大众走量波段：iPhone 18 + 18e 接棒</div>
+              <div class="ip-qtr-desc">在传统春季淡季投放标准版与 e 系列新机，二次点燃全球媒体声量，平滑富士康组装线与台积电晶圆厂稼动率谷底。</div>
+            </div>
+            <div class="ip-util-bar"><div class="ip-util-fill" style="width:84%;"></div></div>
+          </div>
+
+          <div class="ip-qtr-card">
+            <div>
+              <div class="ip-qtr-head mono"><span>WWDC · 6–8月 (FY Q3)</span><span>产能负荷 76%</span></div>
+              <div class="ip-qtr-title">软件催熟期：iOS 与 Siri AI 预览锁定返校季</div>
+              <div class="ip-qtr-desc">6 月 WWDC 发布新一代端侧 Siri AI 功能并限定高配运存机型独享，提前为秋季下一代 Pro 换机潮埋下算力升级钩子。</div>
+            </div>
+            <div class="ip-util-bar"><div class="ip-util-fill" style="width:76%;"></div></div>
+          </div>
+
+          <div class="ip-qtr-card">
+            <div>
+              <div class="ip-qtr-head mono"><span>NET EFFECT · 全年财务效应</span><span>波动率 -45%</span></div>
+              <div class="ip-qtr-title">结果：抬高首波 ASP + 降低供应链加班溢价</div>
+              <div class="ip-qtr-desc">既避免了秋季四款新机同时争抢高阶潜望镜头与先进封装产能，又让苹果连续五个季度单季总营收稳站 $1,000亿 之上。</div>
+            </div>
+            <div class="ip-util-bar"><div class="ip-util-fill" style="width:90%;"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE P4: ASP × CYCLE × MEMORY SIMULATOR & GLOBAL FLAGSHIP OEM MATRIX -->
+      <section id="sec-p4" class="ip-panel">
+        <div class="ip-panel-head">
+          <div>
+            <span class="ip-kicker mono">MODULE P4 · SENSITIVITY MODELER &amp; GLOBAL OEM ARENA</span>
+            <h2 class="ip-h2" data-i18n-zh="FY2027 iPhone 营收毛利敏感度推演器与全球高端竞品矩阵" data-i18n-en="FY2027 iPhone Sensitivity Lab & Global Flagship OEM Matrix">FY2027 iPhone 营收毛利敏感度推演器与全球高端竞品矩阵</h2>
+            <p class="ip-sub" data-i18n-zh="调节换机周期、Pro/折叠机占比与存储芯片涨价幅度，测算 iPhone 板块营收与硬件毛利率韧性。" data-i18n-en="Stress-test iPhone segment revenue and hardware gross margin against replacement cycle and memory cost shocks.">调节换机周期、Pro/折叠机占比与存储芯片涨价幅度，测算 iPhone 板块营收与硬件毛利率韧性。</p>
+          </div>
+          <div class="mui-segmented" id="oemFilter">
+            <button type="button" class="mui-seg-btn active" data-ocat="all" data-i18n-zh="全部阵营 (5)" data-i18n-en="All OEMs (5)">全部阵营 (5)</button>
+            <button type="button" class="mui-seg-btn" data-ocat="global" data-i18n-zh="全球高端双雄" data-i18n-en="Global Leaders">全球高端双雄</button>
+            <button type="button" class="mui-seg-btn" data-ocat="cn" data-i18n-zh="中国本土劲敌" data-i18n-en="China Rivals">中国本土劲敌</button>
+          </div>
+        </div>
+
+        <div class="ip-split-57">
+          <div class="ip-subcard" style="padding:18px;">
+            <div class="ip-sliders">
+              <div class="ip-slider-row">
+                <div class="ip-slider-lbl"><span>存量 iPhone 平均换机周期 (Years)</span><b class="mono" id="valCycle">3.7 年</b></div>
+                <input type="range" id="rngCycle" min="3.1" max="4.5" step="0.1" value="3.7" />
+              </div>
+              <div class="ip-slider-row">
+                <div class="ip-slider-lbl"><span>Pro + Duo 超高端出货占比 (Mix)</span><b class="mono" id="valMix">64%</b></div>
+                <input type="range" id="rngMix" min="45" max="80" step="1" value="64" />
+              </div>
+              <div class="ip-slider-row">
+                <div class="ip-slider-lbl"><span>DRAM/NAND 单机存储涨价冲击 ($)</span><b class="mono" id="valMem">+$22 / 台</b></div>
+                <input type="range" id="rngMem" min="0" max="55" step="1" value="22" />
+              </div>
+            </div>
+
+            <div class="ip-sim-kpis">
+              <div class="ip-sim-kpi"><b class="mono" id="outUnits">246M 台</b><span>推演年度出货量</span></div>
+              <div class="ip-sim-kpi"><b class="mono" id="outAsp">$1,048</b><span>综合批发均价 ASP</span></div>
+              <div class="ip-sim-kpi"><b class="mono" id="outIpRev">$257.8B</b><span>推演 iPhone 年营收</span></div>
+              <div class="ip-sim-kpi"><b class="mono" id="outIpGm">38.9%</b><span>存储冲击后硬件毛利率</span></div>
+            </div>
+
+            <div class="ip-canvas-box" style="height:155px;">
+              <canvas id="simIpCanvas"></canvas>
+            </div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;">
+            <div class="ip-table-wrap">
+              <table class="ip-table" id="oemTable">
+                <thead>
+                  <tr>
+                    <th>厂商</th>
+                    <th>核心旗舰王牌</th>
+                    <th>全球营收/利润卡位</th>
+                    <th>抗存储涨价能力</th>
+                    <th>核心优劣势定评</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="is-apple" data-oem="global">
+                    <td><strong>Apple</strong></td>
+                    <td>iPhone 18 Pro / Duo / 17</td>
+                    <td class="mono">50% 营收份额 · &gt;80% 利润</td>
+                    <td><span class="mui-chip mui-chip-success mono">极强 (高ASP+阶梯闪存)</span></td>
+                    <td>A20芯片+iOS锁死高净值客群；折叠机2027放量在即</td>
+                  </tr>
+                  <tr data-oem="global">
+                    <td><strong>Samsung</strong></td>
+                    <td>Galaxy S26 Ultra / Z Fold</td>
+                    <td class="mono">~18% 营收份额 · 出货前二</td>
+                    <td><span class="mui-chip mui-chip-success mono">极强 (自有DRAM产线)</span></td>
+                    <td>半导体制造内部对冲内存涨价；软件服务抽成远逊苹果</td>
+                  </tr>
+                  <tr data-oem="cn">
+                    <td><strong>华为终端</strong></td>
+                    <td>Mate / Pura / 三折叠系列</td>
+                    <td class="mono">中国高端市场头号劲敌</td>
+                    <td><span class="mui-chip mui-chip-primary mono">较强 (本土芯片溢价)</span></td>
+                    <td>麒麟芯片+原生鸿蒙在中国 $800+ 市场与苹果正面交锋</td>
+                  </tr>
+                  <tr data-oem="cn">
+                    <td><strong>小米集团</strong></td>
+                    <td>Xiaomi 16/17 Ultra 人车家</td>
+                    <td class="mono">出货稳居前三 · 均价爬坡中</td>
+                    <td><span class="mui-chip mui-chip-warning mono">承压 (走量机BOM敏感)</span></td>
+                    <td>汽车生态带动国内高端破局，但海外走量机型受内存挤压</td>
+                  </tr>
+                  <tr data-oem="global">
+                    <td><strong>Google Pixel</strong></td>
+                    <td>Pixel 10/11 Pro (Gemini)</td>
+                    <td class="mono">北美/日本高端增速亮眼</td>
+                    <td><span class="mui-chip mui-chip-primary mono">中等 (云与AI服务补贴)</span></td>
+                    <td>原生端云 Gemini AI 标杆，但整体出货体量不足苹果零头</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="ip-chk-strip">
+              <label class="ip-chk-item"><input type="checkbox" data-ipchk="k1" /> 跟踪 FY27Q1 假日季 iPhone Duo 交货等待周期缩短进度</label>
+              <label class="ip-chk-item"><input type="checkbox" data-ipchk="k2" /> 跟踪大中华区 $824亿 营收反弹在华为新品期的持续性</label>
+              <label class="ip-chk-item"><input type="checkbox" data-ipchk="k3" /> 跟踪 2027 春季标准版 iPhone 18 上市后的次波段放量</label>
+              <label class="ip-chk-item"><input type="checkbox" data-ipchk="k4" /> 跟踪硬件毛利率在 NAND/DRAM 涨价期能否守稳 38%+</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VERIFIED PRIMARY SOURCES -->
+      <section class="ip-panel" aria-label="权威财报与市场研究信源">
+        <div class="ip-panel-head" style="margin-bottom:14px;padding-bottom:10px;">
+          <div>
+            <span class="ip-kicker mono">VERIFIED PRIMARY SOURCES</span>
+            <h2 class="ip-h2" data-i18n-zh="官方财报、生态公报与第三方供应链/份额研究信源" data-i18n-en="Official Financial Releases & Market Intelligence Sources">官方财报、生态公报与第三方供应链/份额研究信源</h2>
+          </div>
+        </div>
+        <div class="ip-sources-grid">
+          <a class="ip-source-card" href="https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/" target="_blank" rel="noopener noreferrer">
+            <b>Apple FY2026 Q4 &amp; Annual Official Results ↗</b>
+            <span>官方确认 9 月季度 iPhone 营收创纪录、FY26 全年总营收 ~$479B 与活跃设备全品类新高</span>
+          </a>
+          <a class="ip-source-card" href="https://counterpointresearch.com/en/insights/apple-reports-its-fifth-consecutive-quarter-of-revenue-above-100-billion-sets" target="_blank" rel="noopener noreferrer">
+            <b>Counterpoint: iPhone ASP Crosses $1,000 in Q3 2026 ↗</b>
+            <span>批发均价史上首破 $1,000、18 Pro 提价 $100 后销量仍 +3.1% 及折叠机 2027 年出货翻三倍预测</span>
+          </a>
+          <a class="ip-source-card" href="https://counterpointresearch.com/en/insights/global-smartphone-revenue-defies-shipment-slump-rising-3-yoy" target="_blank" rel="noopener noreferrer">
+            <b>Counterpoint: Apple Captures Record 50% Global Revenue Share ↗</b>
+            <span>2026Q3 全球手机出货降 19% 但总营收达 $114B，苹果独占创纪录 50% 全球收入份额</span>
+          </a>
+          <a class="ip-source-card" href="https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally/" target="_blank" rel="noopener noreferrer">
+            <b>Apple Newsroom: App Store Ecosystem Reaches $1.4T ↗</b>
+            <span>iPhone 驱动全球 $1.4 万亿美元 App Store 开发者生态及 iPhone Duo / 18 Pro / iOS 27 矩阵</span>
+          </a>
+          <a class="ip-source-card" href="https://counterpointresearch.com/cn/insights/iphone-17-series-outpaces-previous-series-first-year-revenue-over-170-billion-dollars" target="_blank" rel="noopener noreferrer">
+            <b>Counterpoint: iPhone 17 Series Tops $170B First-Year Revenue ↗</b>
+            <span>iPhone 17 系列首年创收逾 $1,700亿 奠定 FY2026 超级换机周期基本盘</span>
+          </a>
+          <a class="ip-source-card" href="https://www.reconanalytics.com/62-of-base-iphone-18-buyers-interested-in-switching-to-more-expensive-pro-pro-max-or-fold-models/" target="_blank" rel="noopener noreferrer">
+            <b>Recon Analytics: 62% Base-to-Pro/Fold Upsell Survey ↗</b>
+            <span>错峰延后标准版 iPhone 18 如何促使 62% 潜在买家向上升级购买 Pro、Pro Max 或折叠机型</span>
+          </a>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var STORAGE_THEME_KEY = 'mui_portal_theme_v4';
+      var STORAGE_LANG_KEY = 'mui_portal_lang_v1';
+      var STORAGE_CHK_KEY = 'aapl_iphone_bp_chk_v1';
+
+      var state = { theme: 'light', lang: 'zh', mView: 'rev', rView: 'geo' };
+      var hits = { marketCanvas: [], regionCanvas: [] };
+
+      function showToast(msg) {
+        var bar = document.getElementById('muiSnackbar');
+        if (!bar) return;
+        bar.textContent = msg;
+        bar.classList.add('show');
+        clearTimeout(bar._t);
+        bar._t = setTimeout(function () { bar.classList.remove('show'); }, 2000);
+      }
+
+      function getPalette() {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        return {
+          dark: dark,
+          text: dark ? '#F3F6F9' : '#0F1924',
+          sub: dark ? '#B2BAC2' : '#334155',
+          tick: dark ? '#94A3B8' : '#475569',
+          grid: dark ? 'rgba(148, 163, 184, 0.14)' : 'rgba(100, 116, 139, 0.15)',
+          blue: dark ? '#3399FF' : '#0073E6',
+          cyan: dark ? '#38BDF8' : '#0284C7',
+          green: dark ? '#22C55E' : '#16A34A',
+          violet: dark ? '#A78BFA' : '#7C3AED',
+          amber: dark ? '#FFB74D' : '#D97706'
+        };
+      }
+
+      function applyTheme(t, silent) {
+        state.theme = (t === 'dark') ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', state.theme);
+        var ic = document.getElementById('appbarThemeIcon');
+        if (ic) {
+          ic.innerHTML = state.theme === 'dark'
+            ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+            : '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>';
+        }
+        drawAll();
+        if (!silent) showToast(state.theme === 'dark' ? '已切换至深色蓝图模式' : '已切换至 MUI 浅色模式');
+      }
+
+      function applyLang(lang, silent) {
+        state.lang = (lang === 'en') ? 'en' : 'zh';
+        document.documentElement.lang = state.lang === 'en' ? 'en' : 'zh-CN';
+        var zhB = document.getElementById('langZhBtn'), enB = document.getElementById('langEnBtn');
+        if (zhB) { zhB.classList.toggle('active', state.lang === 'zh'); zhB.setAttribute('aria-pressed', state.lang === 'zh'); }
+        if (enB) { enB.classList.toggle('active', state.lang === 'en'); enB.setAttribute('aria-pressed', state.lang === 'en'); }
+        var nodes = document.querySelectorAll('[data-i18n-zh]');
+        for (var i = 0; i < nodes.length; i++) {
+          var val = nodes[i].getAttribute(state.lang === 'en' ? 'data-i18n-en' : 'data-i18n-zh');
+          if (val !== null) {
+            if (val.indexOf('<span') !== -1) nodes[i].innerHTML = val;
+            else nodes[i].textContent = val;
+          }
+        }
+        drawAll();
+        if (!silent) showToast(state.lang === 'en' ? 'Switched to English' : '已切换为中文');
+      }
+
+      // P1: 4-SKU Showroom & BOM Tear-Down Switcher
+      var SKUS = [
+        {
+          badge: 'SKU 01 · FOLDABLE HALO FLAGSHIP ($1,999+)',
+          title: 'iPhone Duo 首款折叠旗舰：把手机天花板直接拉升至 $2,000 价格带',
+          desc: '苹果在折叠屏赛道隐忍七年直至无折痕超薄玻璃（UTG）与液态金属铰链成熟才一击必中，同步打通 iOS 27 与 iPadOS 27 多任务分屏生态。据 Counterpoint 追踪，尽管初代受铰链与双层 OLED 良率制约供不应求，但随着 2027 年产能爬坡，预计苹果折叠机出货量将在 2027 年实现近 3 倍爆发。',
+          tags: ['2nm 级 A20 Pro 芯片', '零折痕柔性内屏 + 钛金属铰链', '高密度硅碳双电芯', 'AppleCare+ 高单价强附着'],
+          gm: '预估毛利率 ~44.5%',
+          segs: [18.0, 22.0, 15.5, 44.5],
+          leg: [['芯片与高速内存', '~18.0%'], ['双屏与精密铰链', '~22.0%'], ['光学/电池/组装', '~15.5%'], ['单机硬件毛利额', '~$890+']]
+        },
+        {
+          badge: 'SKU 02 · PRO PROFIT CORE ($1,099–$1,599)',
+          title: 'iPhone 18 Pro / Pro Max：提价 $100 销量照涨的全球利润压舱石',
+          desc: '作为苹果真正的现金牛中枢，18 Pro 系列独享高规格 Neural Engine 运存带宽、可变光圈潜望长焦与 ProMotion 超亮屏幕。2026 秋季即便全系上调起售价 $100，上市首三周全球销量仍逆势增长 +3.1%，直接推动 Q3 批发 ASP 历史首破 $1,000。',
+          tags: ['A20 Pro 满血算力', '48MP 全焦段潜望光学', '12GB+ 端侧 AI 高速运存', '512GB/1TB 阶梯暴利主力'],
+          gm: '预估毛利率 ~46.0%',
+          segs: [19.5, 14.5, 20.0, 46.0],
+          leg: [['A20 Pro 与 LPDDR5X', '~19.5%'], ['LTPO 屏幕与钛金属框', '~14.5%'], ['三摄潜望/射频/组装', '~20.0%'], ['单机硬件毛利额', '~$560+']]
+        },
+        {
+          badge: 'SKU 03 · SPRING VOLUME WAVE ($799–$899)',
+          title: 'iPhone 18 标准版（错峰至春季）：平滑果链稼动率的战略机动师',
+          desc: '通过将标准版延后半年至春季发布，苹果一方面在秋季把心急换机用户推向更高毛利的 Pro 机型，另一方面在次年春季传统消费电子淡季制造第二波全球换机潮，显著压低晶圆与组装产线的季节性闲置成本。',
+          tags: ['端侧 Siri AI 普及底座', '春季二次营销洪峰', '复用成熟期面板与镜头模组', '承接 3–4 年存量钉子户'],
+          gm: '预估毛利率 ~38.5%',
+          segs: [21.0, 16.5, 24.0, 38.5],
+          leg: [['自研 SoC 与存储', '~21.0%'], ['OLED 屏幕与铝金属机身', '~16.5%'], ['双摄模组/电池/组装', '~24.0%'], ['单机硬件毛利额', '~$315']]
+        },
+        {
+          badge: 'SKU 04 · ECOSYSTEM GATEKEEPER ($599)',
+          title: 'iPhone 17e / e 系列：自研基带练兵场与新兴市场零补贴漏斗',
+          desc: '不同于安卓阵营低毛利百元机，e 系列复用高度摊薄完毕的成熟机身模具，但塞入最新一代 Apple Silicon 与苹果自研蜂窝基带芯片（规避高通专利授权费），在守住约 ~35% 可观毛利率的同时，把印度、拉美及企业采购客群源源不断拉入 iCloud 与 App Store 收费站。',
+          tags: ['自研基带芯片规模化替代', '成熟模具极致折旧摊薄', '安卓阵营转投首站入口', '企业与教育批量采购主力'],
+          gm: '预估毛利率 ~35.0%',
+          segs: [23.0, 15.0, 27.0, 35.0],
+          leg: [['自研 SoC + 自研基带', '~23.0%'], ['成熟 OLED 与治具摊薄', '~15.0%'], ['单摄/电池/制造履约', '~27.0%'], ['单机硬件毛利额', '~$210']]
+        }
+      ];
+      var skuDeck = document.getElementById('skuDeck');
+      if (skuDeck) {
+        skuDeck.addEventListener('click', function (e) {
+          var card = e.target.closest('[data-sku]');
+          if (!card) return;
+          var idx = parseInt(card.getAttribute('data-sku'), 10) || 0;
+          var cs = skuDeck.querySelectorAll('.ip-sku-card');
+          for (var i = 0; i < cs.length; i++) cs[i].classList.toggle('active', cs[i] === card);
+          var s = SKUS[idx];
+          document.getElementById('tdBadge').textContent = s.badge;
+          document.getElementById('tdTitle').textContent = s.title;
+          document.getElementById('tdDesc').textContent = s.desc;
+          document.getElementById('tdTags').innerHTML = s.tags.map(function (t) {
+            return '<span class="ip-spec-tag mono">' + t + '</span>';
+          }).join('');
+          document.getElementById('bomGmTxt').textContent = s.gm;
+          var cols = ['#0073E6', '#7C3AED', '#D97706', '#16A34A'];
+          document.getElementById('bomBar').innerHTML = s.segs.map(function (w, k) {
+            return '<div class="ip-bom-seg" style="width:' + w + '%;background:' + cols[k] + ';"></div>';
+          }).join('');
+          document.getElementById('bomLegend').innerHTML = s.leg.map(function (item, k) {
+            return '<div class="ip-bom-leg-item"><span><i class="ip-dot" style="background:' + cols[k] + ';"></i>' + item[0] + '</span><b class="mono">' + item[1] + '</b></div>';
+          }).join('');
+        });
+      }
+
+      // P3: Dual-Wave vs Legacy Cadence Switcher
+      var waveSwitch = document.getElementById('waveSwitch');
+      if (waveSwitch) {
+        waveSwitch.addEventListener('click', function (e) {
+          var b = e.target.closest('[data-wave]');
+          if (!b) return;
+          var mode = b.getAttribute('data-wave');
+          var bs = waveSwitch.querySelectorAll('.mui-seg-btn');
+          for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('active', bs[i] === b);
+          var wg = document.getElementById('waveGrid');
+          if (mode === 'dual') {
+            wg.innerHTML =
+              '<div class="ip-qtr-card peak"><div><div class="ip-qtr-head mono"><span>WAVE 1 · 9–12月 (FY Q1)</span><span>产能负荷 96%</span></div><div class="ip-qtr-title">秋季超高端独占窗口：18 Pro + iPhone Duo</div><div class="ip-qtr-desc">秋季不发标准版，促使高达 62% 急于换机的标准版潜在买家向上迁移购买高毛利 Pro 或折叠机。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:96%;"></div></div></div>' +
+              '<div class="ip-qtr-card peak"><div><div class="ip-qtr-head mono"><span>WAVE 2 · 3–5月 (FY Q2/Q3)</span><span>产能负荷 84%</span></div><div class="ip-qtr-title">春季大众走量波段：iPhone 18 + 18e 接棒</div><div class="ip-qtr-desc">在传统春季淡季投放标准版与 e 系列新机，二次引爆全球关注并填平晶圆与组装稼动率低谷。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:84%;"></div></div></div>' +
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>WWDC · 6–8月 (FY Q3)</span><span>产能负荷 76%</span></div><div class="ip-qtr-title">软件催熟期：iOS 与 Siri AI 预览锁定返校季</div><div class="ip-qtr-desc">WWDC 发布新一代端侧 Siri AI 功能并限定大运存机型独享，提前为秋季 Pro 换机潮埋下钩子。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:76%;"></div></div></div>' +
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>NET EFFECT · 全年财务效应</span><span>波动率 -45%</span></div><div class="ip-qtr-title">结果：抬高首波 ASP + 连续五季总营收破千亿</div><div class="ip-qtr-desc">消除四款机型同抢首发产能瓶颈，降低季节性临时招工溢价，全年利润率曲线更平滑。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:90%;"></div></div></div>';
+          } else {
+            wg.innerHTML =
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>9–12月 · 四机齐发拥堵</span><span>产能超载 115%</span></div><div class="ip-qtr-title">标准版与 Pro 同台互搏，高昂加班招工费</div><div class="ip-qtr-desc">四款新机同时争抢首发备货产能，Pro Max 常年缺货数周，部分心急用户被迫降级买标准版。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:100%;background:#DC2626;"></div></div></div>' +
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>1–3月 · 节后陡坡回落</span><span>产能跌至 58%</span></div><div class="ip-qtr-title">假日季后缺乏新品催化，渠道进入打折去库</div><div class="ip-qtr-desc">缺乏春季新主机支撑，第三方电商不得不靠补贴降价维持走量，拉低上半年均价。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:58%;background:#D97706;"></div></div></div>' +
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>4–8月 · 漫长持币观望期</span><span>产能谷底 45%</span></div><div class="ip-qtr-title">长达半年“奥斯本效应”，消费者冻结换机等9月</div><div class="ip-qtr-desc">果链工厂上半年稼动率不足，固定设备折旧无法充分摊薄，形成剧烈季度周期波动。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:45%;background:#D97706;"></div></div></div>' +
+              '<div class="ip-qtr-card"><div><div class="ip-qtr-head mono"><span>LEGACY PAIN · 传统模式瓶颈</span><span>折叠机难兼容</span></div><div class="ip-qtr-title">当机型扩充至 5–6 款，单点秋季发布会彻底过载</div><div class="ip-qtr-desc">引入折叠机 iPhone Duo 后若仍挤在同一天发布，营销焦点与供应链良率均会互相掣肘。</div></div><div class="ip-util-bar"><div class="ip-util-fill" style="width:50%;background:#DC2626;"></div></div></div>';
+          }
+        });
+      }
+
+      // P4: OEM Table Filter
+      var oemFilter = document.getElementById('oemFilter');
+      if (oemFilter) {
+        oemFilter.addEventListener('click', function (e) {
+          var b = e.target.closest('[data-ocat]');
+          if (!b) return;
+          var cat = b.getAttribute('data-ocat');
+          var bs = oemFilter.querySelectorAll('.mui-seg-btn');
+          for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('active', bs[i] === b);
+          var rows = document.querySelectorAll('#oemTable tbody tr');
+          for (var j = 0; j < rows.length; j++) {
+            var rc = rows[j].getAttribute('data-oem') || '';
+            rows[j].style.display = (cat === 'all' || rc === cat || rows[j].classList.contains('is-apple')) ? '' : 'none';
+          }
+        });
+      }
+
+      // High-DPI Retina Canvas Engine
+      function prepCanvas(id) {
+        var c = document.getElementById(id);
+        if (!c) return null;
+        var rect = c.getBoundingClientRect();
+        var w = Math.max(260, rect.width || 480), h = Math.max(135, rect.height || 260);
+        var dpr = Math.min(window.devicePixelRatio || 1, 2);
+        c.width = Math.round(w * dpr); c.height = Math.round(h * dpr);
+        var ctx = c.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+        return { c: c, ctx: ctx, w: w, h: h };
+      }
+
+      function roundRect(ctx, x, y, w, h, r) {
+        var rr = Math.min(r, Math.abs(w) / 2, Math.abs(h) / 2);
+        ctx.beginPath();
+        ctx.moveTo(x + rr, y);
+        ctx.arcTo(x + w, y, x + w, y + h, rr);
+        ctx.arcTo(x + w, y + h, x, y + h, rr);
+        ctx.arcTo(x, y + h, x, y, rr);
+        ctx.arcTo(x, y, x + w, y, rr);
+        ctx.closePath();
+      }
+
+      function drawMarketCanvas() {
+        var env = prepCanvas('marketCanvas');
+        if (!env) return;
+        var ctx = env.ctx, w = env.w, h = env.h, pal = getPalette();
+        hits.marketCanvas = [];
+        var pad = { top: 28, right: 20, bottom: 40, left: 52 };
+        var pw = w - pad.left - pad.right, ph = h - pad.top - pad.bottom;
+        var yrs = ['FY21', 'FY22', 'FY23', 'FY24', 'FY25', 'FY26'];
+
+        if (state.mView === 'rev') {
+          var revs = [191.97, 205.49, 200.58, 201.18, 209.59, 254.10];
+          var maxR = 280;
+          for (var g = 0; g <= 4; g++) {
+            var gv = (maxR / 4) * g, gy = pad.top + ph - (g / 4) * ph;
+            ctx.strokeStyle = pal.grid; ctx.beginPath(); ctx.moveTo(pad.left, gy); ctx.lineTo(pad.left + pw, gy); ctx.stroke();
+            ctx.fillStyle = pal.tick; ctx.font = '11px "IBM Plex Mono", monospace'; ctx.textAlign = 'right';
+            ctx.fillText('$' + gv.toFixed(0) + 'B', pad.left - 8, gy + 4);
+          }
+          var slot = pw / yrs.length, bw = Math.min(40, slot * 0.56);
+          yrs.forEach(function (y, i) {
+            var x = pad.left + i * slot + (slot - bw) / 2;
+            var bh = (revs[i] / maxR) * ph, yt = pad.top + ph - bh;
+            ctx.fillStyle = i === 5 ? pal.green : pal.blue;
+            roundRect(ctx, x, yt, bw, bh, 6); ctx.fill();
+            ctx.fillStyle = pal.text; ctx.font = 'bold 10.5px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+            ctx.fillText('$' + revs[i].toFixed(1) + 'B', x + bw / 2, yt - 6);
+            ctx.fillStyle = pal.tick; ctx.font = '11px "IBM Plex Mono", monospace';
+            ctx.fillText(y, x + bw / 2, pad.top + ph + 20);
+            hits.marketCanvas.push({ x: x, y: yt, w: bw, h: bh, title: y + ' iPhone 净营收', body: '$' + revs[i].toFixed(2) + 'B' + (i === 5 ? '（同比猛增 +21.2% 打破四年平台期！）' : '') });
+          });
+        } else {
+          var aaplAsp = [825, 868, 895, 918, 948, 1018];
+          var mktAsp = [332, 345, 352, 357, 370, 442];
+          var maxA = 1150;
+          for (var k = 0; k <= 4; k++) {
+            var kv = Math.round((maxA / 4) * k), ky = pad.top + ph - (k / 4) * ph;
+            ctx.strokeStyle = pal.grid; ctx.beginPath(); ctx.moveTo(pad.left, ky); ctx.lineTo(pad.left + pw, ky); ctx.stroke();
+            ctx.fillStyle = pal.tick; ctx.font = '11px "IBM Plex Mono", monospace'; ctx.textAlign = 'right';
+            ctx.fillText('$' + kv, pad.left - 8, ky + 4);
+          }
+          function drawL(arr, col, label) {
+            ctx.strokeStyle = col; ctx.lineWidth = 2.6; ctx.beginPath();
+            arr.forEach(function (v, idx) {
+              var px = pad.left + (idx / (yrs.length - 1)) * pw, py = pad.top + ph - (v / maxA) * ph;
+              if (idx === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+            });
+            ctx.stroke();
+            arr.forEach(function (v, idx) {
+              var px = pad.left + (idx / (yrs.length - 1)) * pw, py = pad.top + ph - (v / maxA) * ph;
+              ctx.fillStyle = col; ctx.beginPath(); ctx.arc(px, py, 4.2, 0, Math.PI * 2); ctx.fill();
+              if (idx === 5 || idx === 0) {
+                ctx.fillStyle = pal.text; ctx.font = 'bold 10.5px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+                ctx.fillText('$' + v, px, py - 8);
+              }
+              hits.marketCanvas.push({ x: px - 10, y: py - 10, w: 20, h: 20, title: yrs[idx] + ' · ' + label, body: '平均批发售价 $' + v });
+            });
+          }
+          yrs.forEach(function (y, idx) {
+            var px = pad.left + (idx / (yrs.length - 1)) * pw;
+            ctx.fillStyle = pal.tick; ctx.font = '11px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+            ctx.fillText(y, px, pad.top + ph + 20);
+          });
+          drawL(aaplAsp, pal.violet, 'iPhone 批发均价 ASP');
+          drawL(mktAsp, pal.amber, '全球智能手机行业 ASP');
+        }
+      }
+
+      function drawRegionCanvas() {
+        var env = prepCanvas('regionCanvas');
+        if (!env) return;
+        var ctx = env.ctx, w = env.w, h = env.h, pal = getPalette();
+        hits.regionCanvas = [];
+        var pad = { top: 24, right: 48, bottom: 26, left: 108 };
+        var pw = w - pad.left - pad.right, ph = h - pad.top - pad.bottom;
+
+        if (state.rView === 'geo') {
+          var geos = [
+            { name: '美洲 Americas', rev: 198.4, yoy: '+12%', col: pal.blue },
+            { name: '欧洲 Europe', rev: 121.6, yoy: '+14%', col: pal.cyan },
+            { name: '大中华区 China', rev: 82.4, yoy: '+28%', col: pal.green },
+            { name: '亚太其他 APAC', rev: 42.8, yoy: '+17%', col: pal.violet },
+            { name: '日本 Japan', rev: 33.6, yoy: '+15%', col: pal.amber }
+          ];
+          var maxG = 220, rowH = ph / geos.length;
+          geos.forEach(function (g, idx) {
+            var cy = pad.top + idx * rowH + rowH / 2, bh = 21;
+            var bl = (g.rev / maxG) * pw;
+            ctx.fillStyle = pal.grid; roundRect(ctx, pad.left, cy - bh / 2, pw, bh, 5); ctx.fill();
+            ctx.fillStyle = g.col; roundRect(ctx, pad.left, cy - bh / 2, bl, bh, 5); ctx.fill();
+            ctx.fillStyle = pal.sub; ctx.font = (idx === 2 ? 'bold ' : '600 ') + '11.5px sans-serif'; ctx.textAlign = 'right';
+            ctx.fillText(g.name, pad.left - 8, cy + 4);
+            ctx.fillStyle = pal.text; ctx.font = 'bold 10.5px "IBM Plex Mono", monospace'; ctx.textAlign = 'left';
+            ctx.fillText('$' + g.rev + 'B (' + g.yoy + ')', pad.left + bl + 6, cy + 4);
+            hits.regionCanvas.push({ x: pad.left, y: cy - 14, w: pw, h: 28, title: g.name + ' FY2026 营收', body: '年度贡献约 $' + g.rev + 'B（同比 ' + g.yoy + '），活跃设备数创该区历史最高' });
+          });
+        } else {
+          var tiers = [
+            { name: '256GB → 512GB 加价包', gm: 82.0, col: pal.green, tip: '零售加收 $200，新增 NAND 闪存芯片采购差价仅约 ~$35，边际毛利率超 82%' },
+            { name: '512GB → 1TB 顶配包', gm: 85.5, col: pal.violet, tip: '零售再加收 $200，视频创作者与 ProRes 用户刚需，对冲全系内存涨价' },
+            { name: 'iPhone 18 Pro 整机', gm: 46.0, col: pal.blue, tip: '高单价旗舰整机综合毛利率中枢约 ~46%' },
+            { name: '中低端安卓走量机', gm: 11.5, col: pal.amber, tip: '存储占低端机 BOM 高达 25%–30%，内存涨价直接吞噬微薄毛利' }
+          ];
+          var maxT = 95, rH = ph / tiers.length;
+          tiers.forEach(function (t, idx) {
+            var cy = pad.top + idx * rH + rH / 2, bh = 22;
+            var bl = (t.gm / maxT) * pw;
+            ctx.fillStyle = pal.grid; roundRect(ctx, pad.left, cy - bh / 2, pw, bh, 5); ctx.fill();
+            ctx.fillStyle = t.col; roundRect(ctx, pad.left, cy - bh / 2, bl, bh, 5); ctx.fill();
+            ctx.fillStyle = pal.sub; ctx.font = '600 11px sans-serif'; ctx.textAlign = 'right';
+            ctx.fillText(t.name, pad.left - 8, cy + 4);
+            ctx.fillStyle = pal.text; ctx.font = 'bold 11px "IBM Plex Mono", monospace'; ctx.textAlign = 'left';
+            ctx.fillText(t.gm.toFixed(1) + '%', pad.left + bl + 6, cy + 4);
+            hits.regionCanvas.push({ x: pad.left, y: cy - 14, w: pw, h: 28, title: t.name, body: t.tip });
+          });
+        }
+      }
+
+      // P4: Interactive ASP × Cycle × Memory Simulator
+      var simBars = [209.6, 254.1, 257.8];
+      function drawSimIpCanvas() {
+        var env = prepCanvas('simIpCanvas');
+        if (!env) return;
+        var ctx = env.ctx, w = env.w, h = env.h, pal = getPalette();
+        var pad = { top: 22, right: 18, bottom: 24, left: 46 };
+        var pw = w - pad.left - pad.right, ph = h - pad.top - pad.bottom;
+        var lbls = ['FY25 实际', 'FY26 实际', 'FY27E 推演'];
+        var maxV = Math.max(310, Math.ceil(Math.max.apply(null, simBars) * 1.15));
+        ctx.strokeStyle = pal.grid;
+        ctx.beginPath(); ctx.moveTo(pad.left, pad.top + ph); ctx.lineTo(pad.left + pw, pad.top + ph); ctx.stroke();
+        var slot = pw / 3, bw = Math.min(54, slot * 0.5);
+        simBars.forEach(function (v, i) {
+          var x = pad.left + i * slot + (slot - bw) / 2;
+          var bh = (v / maxV) * ph, yt = pad.top + ph - bh;
+          ctx.fillStyle = i === 2 ? pal.green : (i === 1 ? pal.blue : pal.cyan);
+          roundRect(ctx, x, yt, bw, bh, 6); ctx.fill();
+          ctx.fillStyle = pal.text; ctx.font = 'bold 11px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+          ctx.fillText('$' + v.toFixed(1) + 'B', x + bw / 2, yt - 6);
+          ctx.fillStyle = pal.tick; ctx.font = '10.5px sans-serif';
+          ctx.fillText(lbls[i], x + bw / 2, pad.top + ph + 16);
+        });
+      }
+
+      function updateIpSim() {
+        var cyc = parseFloat(document.getElementById('rngCycle').value);
+        var mix = parseFloat(document.getElementById('rngMix').value) / 100;
+        var mem = parseFloat(document.getElementById('rngMem').value);
+
+        document.getElementById('valCycle').textContent = cyc.toFixed(1) + ' 年';
+        document.getElementById('valMix').textContent = Math.round(mix * 100) + '%';
+        document.getElementById('valMem').textContent = '+$' + mem.toFixed(0) + ' / 台';
+
+        // ~1.42B active iPhones / replacement cycle + ~38M Android switchers / first-timers (net of refurb)
+        var unitsM = Math.round((1420 / cyc) * 0.56 + 31);
+        var asp = Math.round(740 * (1 - mix) + 1225 * mix);
+        var revB = (unitsM * asp) / 1000;
+        var baseGm = 35.5 * (1 - mix) + 44.2 * mix;
+        var netGm = baseGm - (mem / asp) * 100 * 0.65; // 35% offset by storage tier upsell
+
+        document.getElementById('outUnits').textContent = unitsM + 'M 台';
+        document.getElementById('outAsp').textContent = '$' + asp.toLocaleString();
+        document.getElementById('outIpRev').textContent = '$' + revB.toFixed(1) + 'B';
+        document.getElementById('outIpGm').textContent = netGm.toFixed(1) + '%';
+
+        simBars = [209.6, 254.1, revB];
+        drawSimIpCanvas();
+      }
+      ['rngCycle', 'rngMix', 'rngMem'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) el.addEventListener('input', updateIpSim);
+      });
+
+      function bindSeg(gid, attr, skey, fn) {
+        var g = document.getElementById(gid);
+        if (!g) return;
+        g.addEventListener('click', function (e) {
+          var b = e.target.closest('[' + attr + ']');
+          if (!b) return;
+          state[skey] = b.getAttribute(attr);
+          var bs = g.querySelectorAll('.mui-seg-btn');
+          for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('active', bs[i] === b);
+          fn();
+        });
+      }
+      bindSeg('mChartTabs', 'data-mview', 'mView', drawMarketCanvas);
+      bindSeg('rChartTabs', 'data-rview', 'rView', drawRegionCanvas);
+
+      function bindTip(cid) {
+        var c = document.getElementById(cid), tip = document.getElementById('chartTooltip');
+        if (!c || !tip) return;
+        c.addEventListener('mousemove', function (ev) {
+          var r = c.getBoundingClientRect();
+          var mx = ev.clientX - r.left, my = ev.clientY - r.top;
+          var arr = hits[cid] || [], hit = null;
+          for (var i = 0; i < arr.length; i++) {
+            var rg = arr[i];
+            if (mx >= rg.x && mx <= rg.x + rg.w && my >= rg.y && my <= rg.y + rg.h) { hit = rg; break; }
+          }
+          if (hit) {
+            tip.innerHTML = '<div style="font-weight:800;color:var(--mui-primary-lighter);margin-bottom:2px;">' + hit.title + '</div><div>' + hit.body + '</div>';
+            tip.style.display = 'block';
+            tip.style.left = Math.min(window.innerWidth - 300, ev.clientX + 14) + 'px';
+            tip.style.top = Math.max(12, ev.clientY - 28) + 'px';
+          } else {
+            tip.style.display = 'none';
+          }
+        });
+        c.addEventListener('mouseleave', function () { tip.style.display = 'none'; });
+      }
+      ['marketCanvas', 'regionCanvas'].forEach(bindTip);
+
+      function drawAll() {
+        drawMarketCanvas();
+        drawRegionCanvas();
+        drawSimIpCanvas();
+      }
+
+      // Quick Jump ⌘K
+      var QITEMS = [
+        { id: 'sec-p0', t: 'P0 全景旗舰看板与四大里程碑', s: '$254.1B 营收 · ASP 首破 $1,000 · 独占全球 50% 手机收入' },
+        { id: 'sec-p1', t: 'P1 四阶机型展厅与 BOM 毛利拆解台', s: 'iPhone Duo 折叠机 / 18 Pro / 春季 18 / 17e 自研基带' },
+        { id: 'sec-p2', t: 'P2 全球 K 型分化与大中华区 +28% 反转', s: '六年营收与 ASP 跃迁 · 256GB→1TB 闪存阶梯暴利护盾' },
+        { id: 'sec-p3', t: 'P3 秋/春双波段错峰排产供应链矩阵', s: '对比旧式 9 月脉冲 · 62% 买家向 Pro/Fold 升级机制' },
+        { id: 'sec-p4', t: 'P4 FY2027 敏感度推演器与全球竞品对标', s: '换机周期×存储涨价压测 · 对决三星 / 华为 / 小米 / Pixel' }
+      ];
+      var qIn = document.getElementById('quickJumpInput'), qPop = document.getElementById('quickJumpPopover');
+      function renderQ(kw) {
+        if (!qPop) return;
+        var q = (kw || '').trim().toLowerCase();
+        var m = QITEMS.filter(function (x) { return !q || x.t.toLowerCase().indexOf(q) !== -1 || x.s.toLowerCase().indexOf(q) !== -1; });
+        qPop.innerHTML = m.map(function (x) {
+          return '<button type="button" class="quick-jump-item" data-jump="#' + x.id + '"><span class="quick-jump-item-title">' + x.t + '</span><span class="quick-jump-item-sub">' + x.s + '</span></button>';
+        }).join('');
+        qPop.classList.toggle('open', m.length > 0);
+      }
+      if (qIn && qPop) {
+        qIn.addEventListener('focus', function () { renderQ(qIn.value); });
+        qIn.addEventListener('input', function () { renderQ(qIn.value); });
+        qPop.addEventListener('click', function (e) {
+          var jb = e.target.closest('[data-jump]');
+          if (!jb) return;
+          var target = document.querySelector(jb.getAttribute('data-jump'));
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          qPop.classList.remove('open');
+        });
+        document.addEventListener('click', function (e) {
+          if (!e.target.closest('.quick-search-wrap')) qPop.classList.remove('open');
+        });
+      }
+      document.addEventListener('keydown', function (e) {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); if (qIn) qIn.focus(); }
+      });
+
+      // Mobile Drawer, Progress & Checkboxes
+      var sbBtn = document.getElementById('sidebarToggleBtn'), sb = document.getElementById('muiSidebar'), bd = document.getElementById('drawerBackdrop');
+      if (sbBtn && sb && bd) {
+        sbBtn.addEventListener('click', function () {
+          if (window.innerWidth < 1024) { var open = sb.classList.toggle('open'); bd.classList.toggle('open', open); }
+        });
+        bd.addEventListener('click', function () { sb.classList.remove('open'); bd.classList.remove('open'); });
+      }
+      window.addEventListener('scroll', function () {
+        var bar = document.getElementById('readingProgressBar');
+        if (bar) {
+          var dh = document.documentElement.scrollHeight - window.innerHeight;
+          bar.style.width = (dh > 0 ? Math.min(100, (window.scrollY / dh) * 100) : 0) + '%';
+        }
+      }, { passive: true });
+
+      try {
+        var savedK = JSON.parse(localStorage.getItem(STORAGE_CHK_KEY) || '{}');
+        document.querySelectorAll('[data-ipchk]').forEach(function (chk) {
+          var k = chk.getAttribute('data-ipchk');
+          chk.checked = !!savedK[k];
+          chk.addEventListener('change', function () {
+            savedK[k] = chk.checked;
+            try { localStorage.setItem(STORAGE_CHK_KEY, JSON.stringify(savedK)); } catch (err) {}
+            showToast(chk.checked ? '已加入季度硬件跟踪项' : '已移除跟踪标记');
+          });
+        });
+      } catch (e) {}
+
+      // Init Theme, Lang & Resize
+      try {
+        applyTheme((localStorage.getItem(STORAGE_THEME_KEY) || 'light').replace(/^"|"$/g, ''), true);
+        applyLang((localStorage.getItem(STORAGE_LANG_KEY) || 'zh').replace(/^"|"$/g, ''), true);
+      } catch (e) {}
+
+      var tBtn = document.getElementById('appbarThemeBtn');
+      if (tBtn) {
+        tBtn.addEventListener('click', function () {
+          var nxt = state.theme === 'dark' ? 'light' : 'dark';
+          applyTheme(nxt, false);
+          try { localStorage.setItem(STORAGE_THEME_KEY, nxt); } catch (e) {}
+        });
+      }
+      document.getElementById('langSwitchGroup').addEventListener('click', function (e) {
+        var lb = e.target.closest('[data-lang]');
+        if (!lb) return;
+        var nl = lb.getAttribute('data-lang');
+        applyLang(nl, false);
+        try { localStorage.setItem(STORAGE_LANG_KEY, nl); } catch (err) {}
+      });
+      window.addEventListener('storage', function (ev) {
+        if (ev.key === STORAGE_THEME_KEY && ev.newValue) applyTheme(ev.newValue.replace(/^"|"$/g, ''), true);
+        if (ev.key === STORAGE_LANG_KEY && ev.newValue) applyLang(ev.newValue.replace(/^"|"$/g, ''), true);
+      });
+
+      var rt = null;
+      window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(drawAll, 90); });
+      updateIpSim();
+      drawAll();
+    })();
+  </script>
+</body>
+</html>

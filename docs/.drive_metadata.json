@@ -1,0 +1,1852 @@
+{
+  "root": {
+    "id": "1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+    "name": "docs",
+    "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+  },
+  "companies": {
+    "All": {
+      "id": "dir_6a72085653e4c5be",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "label": "All",
+      "ticker": "ALL",
+      "sector": "综合投研覆盖"
+    },
+    "Amazon": {
+      "id": "1mRqNLow5hKXHfUKSAw_ilnU0LNWZHsxp",
+      "driveUrl": "https://drive.google.com/drive/folders/1mRqNLow5hKXHfUKSAw_ilnU0LNWZHsxp",
+      "label": "亚马逊 Amazon",
+      "ticker": "AMZN",
+      "sector": "电商与云基础设施"
+    },
+    "Apple": {
+      "id": "1wob3SIR7Le8a6-rOSkQtYCu5QOMD9XI1",
+      "driveUrl": "https://drive.google.com/drive/folders/1wob3SIR7Le8a6-rOSkQtYCu5QOMD9XI1",
+      "label": "苹果公司 Apple",
+      "ticker": "AAPL",
+      "sector": "智能硬件与消费生态"
+    },
+    "ARM": {
+      "id": "1WOjkJIL13OxGflp0nqd6hZ5sAjQ7G3Fj",
+      "driveUrl": "https://drive.google.com/drive/folders/1WOjkJIL13OxGflp0nqd6hZ5sAjQ7G3Fj",
+      "label": "安谋控股 Arm Holdings",
+      "ticker": "ARM",
+      "sector": "半导体芯片与存储"
+    },
+    "AVGO": {
+      "id": "dir_d2217186eb2fcee4",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "label": "博通 Broadcom",
+      "ticker": "AVGO",
+      "sector": "半导体芯片与存储"
+    },
+    "BendingSpoonsS.p.A": {
+      "id": "1ZJdiegc_hYLVzOJMLAjcbVmBKSgjDnZL",
+      "driveUrl": "https://drive.google.com/drive/folders/1ZJdiegc_hYLVzOJMLAjcbVmBKSgjDnZL",
+      "label": "Bending Spoons S.p.A",
+      "ticker": "BSP",
+      "sector": "云与AI应用软件"
+    },
+    "BerkshireHathaway-B": {
+      "id": "1i3Eb69hlO3rHgh9-kC6QrOc1qFh9jrxk",
+      "driveUrl": "https://drive.google.com/drive/folders/1i3Eb69hlO3rHgh9-kC6QrOc1qFh9jrxk",
+      "label": "伯克希尔哈撒韦 Berkshire Hathaway",
+      "ticker": "BRK.B",
+      "sector": "价值投资机构与ETF基准"
+    },
+    "CerebrasSystems": {
+      "id": "12OP5q6SNI5YqbuQod1X8xGB2L_7LU2Ci",
+      "driveUrl": "https://drive.google.com/drive/folders/12OP5q6SNI5YqbuQod1X8xGB2L_7LU2Ci",
+      "label": "Cerebras Systems",
+      "ticker": "CBRS",
+      "sector": "半导体芯片与存储"
+    },
+    "Chewy": {
+      "id": "1cyTFlZYguJYjLwrqTSLcvWUqKRrDGwk-",
+      "driveUrl": "https://drive.google.com/drive/folders/1cyTFlZYguJYjLwrqTSLcvWUqKRrDGwk-",
+      "label": "Chewy 宠物电商",
+      "ticker": "CHWY",
+      "sector": "消费零售与地产"
+    },
+    "Circle": {
+      "id": "1AQKktI0hvSz86DTGoCpKCcNThwlx1Nh0",
+      "driveUrl": "https://drive.google.com/drive/folders/1AQKktI0hvSz86DTGoCpKCcNThwlx1Nh0",
+      "label": "Circle Internet Group",
+      "ticker": "CRCL",
+      "sector": "金融科技与支付网络"
+    },
+    "Cisco": {
+      "id": "1kY6cnatCCq99W1JoCk6oYfgcGs2NPBwO",
+      "driveUrl": "https://drive.google.com/drive/folders/1kY6cnatCCq99W1JoCk6oYfgcGs2NPBwO",
+      "label": "思科系统 Cisco Systems",
+      "ticker": "CSCO",
+      "sector": "智能硬件与网络通信"
+    },
+    "CredoTechnology": {
+      "id": "1bwFhl_-Eb3aH_WesbApq9vH-obxwmbt4",
+      "driveUrl": "https://drive.google.com/drive/folders/1bwFhl_-Eb3aH_WesbApq9vH-obxwmbt4",
+      "label": "Credo Technology",
+      "ticker": "CRDO",
+      "sector": "半导体芯片与存储"
+    },
+    "Crocs": {
+      "id": "1-KssD50WhhKg3rYV8Ig4Qrm6Um4ZmXUM",
+      "driveUrl": "https://drive.google.com/drive/folders/1-KssD50WhhKg3rYV8Ig4Qrm6Um4ZmXUM",
+      "label": "卡骆驰 Crocs",
+      "ticker": "CROX",
+      "sector": "消费零售与地产"
+    },
+    "CrowdStrike": {
+      "id": "1avSxHRWqsphpgzEDgUdN2xyt4jtZ9Kiw",
+      "driveUrl": "https://drive.google.com/drive/folders/1avSxHRWqsphpgzEDgUdN2xyt4jtZ9Kiw",
+      "label": "CrowdStrike Holdings",
+      "ticker": "CRWD",
+      "sector": "云与AI应用软件"
+    },
+    "Disney": {
+      "id": "10ygY_rzNDQdk4gGtoEhHisiwv3LvHJre",
+      "driveUrl": "https://drive.google.com/drive/folders/10ygY_rzNDQdk4gGtoEhHisiwv3LvHJre",
+      "label": "华特迪士尼 Walt Disney",
+      "ticker": "DIS",
+      "sector": "数字娱乐与社交生态"
+    },
+    "DuanYongping": {
+      "id": "1tTQZVs-TaNbrwVpAHKuXJm6kDFkDKsLW",
+      "driveUrl": "https://drive.google.com/drive/folders/1tTQZVs-TaNbrwVpAHKuXJm6kDFkDKsLW",
+      "label": "段永平 H&H International",
+      "ticker": "H&H",
+      "sector": "价值投资机构与ETF基准"
+    },
+    "Google": {
+      "id": "104wxxj2wPKzgZgoVoN0Py09a405ygKSD",
+      "driveUrl": "https://drive.google.com/drive/folders/104wxxj2wPKzgZgoVoN0Py09a405ygKSD",
+      "label": "谷歌 Alphabet / Google",
+      "ticker": "GOOGL",
+      "sector": "电商与云基础设施"
+    },
+    "HimalayaCapitalManagement": {
+      "id": "1UpCS8QMvnVKHISg-qUIBODajHLtduFeH",
+      "driveUrl": "https://drive.google.com/drive/folders/1UpCS8QMvnVKHISg-qUIBODajHLtduFeH",
+      "label": "李录 喜马拉雅资本 Himalaya Capital",
+      "ticker": "13F",
+      "sector": "价值投资机构与ETF基准"
+    },
+    "InvescoQQQTrust": {
+      "id": "1WP1TVfouOIPdI-_6ti2r-dbQD7AdlP2p",
+      "driveUrl": "https://drive.google.com/drive/folders/1WP1TVfouOIPdI-_6ti2r-dbQD7AdlP2p",
+      "label": "纳指100 ETF Invesco QQQ",
+      "ticker": "QQQ",
+      "sector": "价值投资机构与ETF基准"
+    },
+    "LennarCorp": {
+      "id": "1Tr-falp5yX8pssY2Z7pNUwyXeiSPJ10S",
+      "driveUrl": "https://drive.google.com/drive/folders/1Tr-falp5yX8pssY2Z7pNUwyXeiSPJ10S",
+      "label": "莱纳房产 Lennar Corp",
+      "ticker": "LEN",
+      "sector": "消费零售与地产"
+    },
+    "Meta": {
+      "id": "1TqE3T_S31QHzT4UO8_a1A0teHQ0uOl64",
+      "driveUrl": "https://drive.google.com/drive/folders/1TqE3T_S31QHzT4UO8_a1A0teHQ0uOl64",
+      "label": "Meta Platforms",
+      "ticker": "META",
+      "sector": "数字娱乐与社交生态"
+    },
+    "MO": {
+      "id": "dir_6ecc5900b43c207e",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "label": "奥驰亚集团 Altria Group",
+      "ticker": "MO",
+      "sector": "消费零售与烟草龙头"
+    },
+    "Netflix": {
+      "id": "1xiyciBAEdDpip2EurdYY9uINF0TxqpbX",
+      "driveUrl": "https://drive.google.com/drive/folders/1xiyciBAEdDpip2EurdYY9uINF0TxqpbX",
+      "label": "奈飞 Netflix",
+      "ticker": "NFLX",
+      "sector": "数字娱乐与社交生态"
+    },
+    "NVIDIA": {
+      "id": "1qgSk_XqzrcQ09EIV3BvaLsRKhWO-wqso",
+      "driveUrl": "https://drive.google.com/drive/folders/1qgSk_XqzrcQ09EIV3BvaLsRKhWO-wqso",
+      "label": "英伟达 NVIDIA",
+      "ticker": "NVDA",
+      "sector": "半导体芯片与存储"
+    },
+    "ONON": {
+      "id": "1s7I5FtNWIDX02ubAGd-lYzQActqIlLUk",
+      "driveUrl": "https://drive.google.com/drive/folders/1s7I5FtNWIDX02ubAGd-lYzQActqIlLUk",
+      "label": "昂跑 On Holding AG",
+      "ticker": "ONON",
+      "sector": "消费零售与地产"
+    },
+    "PDD": {
+      "id": "1ca_B0Stf56vmra6eFxtmNfvGwUTEf5Ip",
+      "driveUrl": "https://drive.google.com/drive/folders/1ca_B0Stf56vmra6eFxtmNfvGwUTEf5Ip",
+      "label": "拼多多 PDD Holdings",
+      "ticker": "PDD",
+      "sector": "电商与云基础设施"
+    },
+    "Reddit": {
+      "id": "1WukUqQbOgf4WOZSRhHTkRe8WIzq7QDI_",
+      "driveUrl": "https://drive.google.com/drive/folders/1WukUqQbOgf4WOZSRhHTkRe8WIzq7QDI_",
+      "label": "Reddit",
+      "ticker": "RDDT",
+      "sector": "数字娱乐与社交生态"
+    },
+    "Roblox": {
+      "id": "1N4edQo4ICT_IBBEL4dTxn4I_RzbOYKZ6",
+      "driveUrl": "https://drive.google.com/drive/folders/1N4edQo4ICT_IBBEL4dTxn4I_RzbOYKZ6",
+      "label": "罗布乐思 Roblox",
+      "ticker": "RBLX",
+      "sector": "数字娱乐与社交生态"
+    },
+    "RocketLab": {
+      "id": "1ledA-qe56Pwki_7kn_ulsCn58jWEN74L",
+      "driveUrl": "https://drive.google.com/drive/folders/1ledA-qe56Pwki_7kn_ulsCn58jWEN74L",
+      "label": "火箭实验室 Rocket Lab",
+      "ticker": "RKLB",
+      "sector": "商业航天与重工制造"
+    },
+    "SanDisk": {
+      "id": "1JR_OH2pPffHd5ahUpOUh7dF1wYWh2CHH",
+      "driveUrl": "https://drive.google.com/drive/folders/1JR_OH2pPffHd5ahUpOUh7dF1wYWh2CHH",
+      "label": "闪迪 SanDisk",
+      "ticker": "SNDK",
+      "sector": "半导体芯片与存储"
+    },
+    "SpaceX": {
+      "id": "1kgM_xWCMWkFSRhjx0FyPf9LCybStuzHr",
+      "driveUrl": "https://drive.google.com/drive/folders/1kgM_xWCMWkFSRhjx0FyPf9LCybStuzHr",
+      "label": "SpaceX 太空探索技术",
+      "ticker": "SPCX",
+      "sector": "商业航天与重工制造"
+    },
+    "SPDRS&P500ETF": {
+      "id": "1C29qfpawa6xsOx0e8ALNoNllIrJOm1dd",
+      "driveUrl": "https://drive.google.com/drive/folders/1C29qfpawa6xsOx0e8ALNoNllIrJOm1dd",
+      "label": "标普500 ETF SPDR S&P 500",
+      "ticker": "SPY",
+      "sector": "价值投资机构与ETF基准"
+    },
+    "SSDOY": {
+      "id": "1ImVo2zBjdRT3dLNizQyI2WIHzbVuijep",
+      "driveUrl": "https://drive.google.com/drive/folders/1ImVo2zBjdRT3dLNizQyI2WIHzbVuijep",
+      "label": "资生堂集团 Shiseido",
+      "ticker": "SSDOY",
+      "sector": "消费零售与地产"
+    },
+    "Synopsys": {
+      "id": "1le2E2sRMB-u6HHPE7Llth0Ks1ylSpbkg",
+      "driveUrl": "https://drive.google.com/drive/folders/1le2E2sRMB-u6HHPE7Llth0Ks1ylSpbkg",
+      "label": "新思科技 Synopsys",
+      "ticker": "SNPS",
+      "sector": "半导体芯片与存储"
+    },
+    "TempusAI": {
+      "id": "1cIj12_fPlb3OFkDCJBFi0uirrpcnIWtg",
+      "driveUrl": "https://drive.google.com/drive/folders/1cIj12_fPlb3OFkDCJBFi0uirrpcnIWtg",
+      "label": "Tempus AI 精准医疗",
+      "ticker": "TEM",
+      "sector": "医疗健康与临床AI"
+    },
+    "TencentMusic": {
+      "id": "1yxnJG2TjKftG0okxZ-jmXZWc6hfU-dc8",
+      "driveUrl": "https://drive.google.com/drive/folders/1yxnJG2TjKftG0okxZ-jmXZWc6hfU-dc8",
+      "label": "腾讯音乐 Tencent Music",
+      "ticker": "TME",
+      "sector": "数字娱乐与社交生态"
+    },
+    "Tesla": {
+      "id": "1qKDV-ZbkdOU4CtaEd57XUI6lp0RWhWlQ",
+      "driveUrl": "https://drive.google.com/drive/folders/1qKDV-ZbkdOU4CtaEd57XUI6lp0RWhWlQ",
+      "label": "特斯拉 Tesla",
+      "ticker": "TSLA",
+      "sector": "商业航天与重工制造"
+    },
+    "Ubiquiti": {
+      "id": "1UynSsH2T3hijmcVTnXxM9x5B3k1lKHOG",
+      "driveUrl": "https://drive.google.com/drive/folders/1UynSsH2T3hijmcVTnXxM9x5B3k1lKHOG",
+      "label": "优倍快 Ubiquiti Inc.",
+      "ticker": "UI",
+      "sector": "智能硬件与网络通信"
+    },
+    "WesternDigital": {
+      "id": "1Imah7SreBYITPHXmKXyDeCI3_icmmjK7",
+      "driveUrl": "https://drive.google.com/drive/folders/1Imah7SreBYITPHXmKXyDeCI3_icmmjK7",
+      "label": "西部数据 Western Digital",
+      "ticker": "WDC",
+      "sector": "半导体芯片与存储"
+    }
+  },
+  "folders": {
+    "All/Company": {
+      "id": "dir_367e0e9856d124f1",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/SeniorExecutive": {
+      "id": "dir_a5bbe580f8421b9b",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/CorporateCulture": {
+      "id": "dir_d016e4e14f1bdb04",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/hardware": {
+      "id": "dir_2b90d392b5e491c8",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/software": {
+      "id": "dir_f3689deac81411ba",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/patent": {
+      "id": "dir_565e98ab13d692ab",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "All/PhysicalStores": {
+      "id": "dir_82b070ed6c0385a5",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "Amazon/Company": {
+      "id": "1fIBthSeQTzNKOBrfNzqWF2X2YYubaU3v",
+      "driveUrl": "https://drive.google.com/drive/folders/1fIBthSeQTzNKOBrfNzqWF2X2YYubaU3v"
+    },
+    "Amazon/SeniorExecutive": {
+      "id": "1BlhnxfRRefiZuXDHYHZQOPJW0T6grcGI",
+      "driveUrl": "https://drive.google.com/drive/folders/1BlhnxfRRefiZuXDHYHZQOPJW0T6grcGI"
+    },
+    "Amazon/CorporateCulture": {
+      "id": "1RM1ZwP4zio_QLi0Dkc_ZTQbouMjCe4YI",
+      "driveUrl": "https://drive.google.com/drive/folders/1RM1ZwP4zio_QLi0Dkc_ZTQbouMjCe4YI"
+    },
+    "Amazon/hardware": {
+      "id": "1ypegy_UDwXH6IVqz7K3lNLFM4vDip5Ex",
+      "driveUrl": "https://drive.google.com/drive/folders/1ypegy_UDwXH6IVqz7K3lNLFM4vDip5Ex"
+    },
+    "Amazon/software": {
+      "id": "1KTz08c0xwAtU84jBbnq_4r1WIePqSyC3",
+      "driveUrl": "https://drive.google.com/drive/folders/1KTz08c0xwAtU84jBbnq_4r1WIePqSyC3"
+    },
+    "Amazon/patent": {
+      "id": "1qVcIjSFZhTP-T5JzeWzjpDBaUxfnwhkk",
+      "driveUrl": "https://drive.google.com/drive/folders/1qVcIjSFZhTP-T5JzeWzjpDBaUxfnwhkk"
+    },
+    "Amazon/PhysicalStores": {
+      "id": "1z1mjCbokRfGcMVpdPqtxUGXOAed7vjXW",
+      "driveUrl": "https://drive.google.com/drive/folders/1z1mjCbokRfGcMVpdPqtxUGXOAed7vjXW"
+    },
+    "Apple/Company": {
+      "id": "14bNZ_PQmgGDLgz9j32_gbUbeFx4hylno",
+      "driveUrl": "https://drive.google.com/drive/folders/14bNZ_PQmgGDLgz9j32_gbUbeFx4hylno"
+    },
+    "Apple/SeniorExecutive": {
+      "id": "150wkKFFeD0g41afV4xVstdelc_sezeus",
+      "driveUrl": "https://drive.google.com/drive/folders/150wkKFFeD0g41afV4xVstdelc_sezeus"
+    },
+    "Apple/CorporateCulture": {
+      "id": "1MAJtoyx0_fkLciDdaA4jy9DQeQeHSvaH",
+      "driveUrl": "https://drive.google.com/drive/folders/1MAJtoyx0_fkLciDdaA4jy9DQeQeHSvaH"
+    },
+    "Apple/hardware": {
+      "id": "1latAJrQoe-vqDB9jf9r8p8tSYneWdGZ6",
+      "driveUrl": "https://drive.google.com/drive/folders/1latAJrQoe-vqDB9jf9r8p8tSYneWdGZ6"
+    },
+    "Apple/software": {
+      "id": "1lIx-aqtUuYNk3h6Sfgv1PE47lKD0SUb6",
+      "driveUrl": "https://drive.google.com/drive/folders/1lIx-aqtUuYNk3h6Sfgv1PE47lKD0SUb6"
+    },
+    "Apple/patent": {
+      "id": "1h84tcpu2Jbilf2RZrWVTxNRi9NBRtli8",
+      "driveUrl": "https://drive.google.com/drive/folders/1h84tcpu2Jbilf2RZrWVTxNRi9NBRtli8"
+    },
+    "Apple/PhysicalStores": {
+      "id": "1NU-NEm_SldTqe4NsGVhYu4n1YmYF91Px",
+      "driveUrl": "https://drive.google.com/drive/folders/1NU-NEm_SldTqe4NsGVhYu4n1YmYF91Px"
+    },
+    "ARM/Company": {
+      "id": "1kZ5nFU2k9iSIDLwMxKpKdO3jU3Tiiebh",
+      "driveUrl": "https://drive.google.com/drive/folders/1kZ5nFU2k9iSIDLwMxKpKdO3jU3Tiiebh"
+    },
+    "ARM/SeniorExecutive": {
+      "id": "1yjAXkuAY8dEjg_WhJFMj-yoJ6MDXukmw",
+      "driveUrl": "https://drive.google.com/drive/folders/1yjAXkuAY8dEjg_WhJFMj-yoJ6MDXukmw"
+    },
+    "ARM/CorporateCulture": {
+      "id": "1bUMTk2Te9mTaokKvlqHB4fja5ToHsR2Q",
+      "driveUrl": "https://drive.google.com/drive/folders/1bUMTk2Te9mTaokKvlqHB4fja5ToHsR2Q"
+    },
+    "ARM/hardware": {
+      "id": "10Uq-Hx0BtSumeE53iQ0__vIdx-Iohp1v",
+      "driveUrl": "https://drive.google.com/drive/folders/10Uq-Hx0BtSumeE53iQ0__vIdx-Iohp1v"
+    },
+    "ARM/software": {
+      "id": "1CbLgspBXDjuI5E2zLbAQ-QJzGrU6uV7e",
+      "driveUrl": "https://drive.google.com/drive/folders/1CbLgspBXDjuI5E2zLbAQ-QJzGrU6uV7e"
+    },
+    "ARM/patent": {
+      "id": "1VeyhgbLmsdykpjzSBuSsmDCyT10uL_Po",
+      "driveUrl": "https://drive.google.com/drive/folders/1VeyhgbLmsdykpjzSBuSsmDCyT10uL_Po"
+    },
+    "ARM/PhysicalStores": {
+      "id": "1MsAe63IEZWAjfVF1SqEIRIcrWN-Ro0Zj",
+      "driveUrl": "https://drive.google.com/drive/folders/1MsAe63IEZWAjfVF1SqEIRIcrWN-Ro0Zj"
+    },
+    "AVGO/Company": {
+      "id": "dir_809d9c8784a3e90a",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/SeniorExecutive": {
+      "id": "dir_b29376925b69c103",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/CorporateCulture": {
+      "id": "dir_3aad73ca609ce3dc",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/hardware": {
+      "id": "dir_8afc161dd4917e54",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/software": {
+      "id": "dir_ee2f16fcebe75912",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/patent": {
+      "id": "dir_56045b3dfb76217b",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "AVGO/PhysicalStores": {
+      "id": "dir_90bfcf9a91da6b13",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "BendingSpoonsS.p.A/Company": {
+      "id": "1slGv45Rdz1MWCQbN52-vmy19Hc8Ol4dN",
+      "driveUrl": "https://drive.google.com/drive/folders/1slGv45Rdz1MWCQbN52-vmy19Hc8Ol4dN"
+    },
+    "BendingSpoonsS.p.A/SeniorExecutive": {
+      "id": "1dDcZ049UvFyaF26Qwlsj_DXrTNbK3Qa5",
+      "driveUrl": "https://drive.google.com/drive/folders/1dDcZ049UvFyaF26Qwlsj_DXrTNbK3Qa5"
+    },
+    "BendingSpoonsS.p.A/CorporateCulture": {
+      "id": "1LMQvRqWYYxpHaO3-EpRIF4PVx9Y9KH_y",
+      "driveUrl": "https://drive.google.com/drive/folders/1LMQvRqWYYxpHaO3-EpRIF4PVx9Y9KH_y"
+    },
+    "BendingSpoonsS.p.A/hardware": {
+      "id": "17Zbcc6-C3J3li2HGza4xgWnbqLUtq81r",
+      "driveUrl": "https://drive.google.com/drive/folders/17Zbcc6-C3J3li2HGza4xgWnbqLUtq81r"
+    },
+    "BendingSpoonsS.p.A/software": {
+      "id": "1imOvXNRWfnGpIku2s1XnApIncmJsiJiV",
+      "driveUrl": "https://drive.google.com/drive/folders/1imOvXNRWfnGpIku2s1XnApIncmJsiJiV"
+    },
+    "BendingSpoonsS.p.A/patent": {
+      "id": "1nAxezxo-3lf8ZgtYOj9EHWuj3tIZbIgp",
+      "driveUrl": "https://drive.google.com/drive/folders/1nAxezxo-3lf8ZgtYOj9EHWuj3tIZbIgp"
+    },
+    "BendingSpoonsS.p.A/PhysicalStores": {
+      "id": "1vWt8J_oDcgWsxlBLVgiEQklW7WQw8lWX",
+      "driveUrl": "https://drive.google.com/drive/folders/1vWt8J_oDcgWsxlBLVgiEQklW7WQw8lWX"
+    },
+    "BerkshireHathaway-B/Company": {
+      "id": "1yaHoJTCdX_G72EdP-EUnyp_hs3dmwJ26",
+      "driveUrl": "https://drive.google.com/drive/folders/1yaHoJTCdX_G72EdP-EUnyp_hs3dmwJ26"
+    },
+    "BerkshireHathaway-B/SeniorExecutive": {
+      "id": "1yGcbLYazsuo1t9kCNf4qRBZpAyIuSuIm",
+      "driveUrl": "https://drive.google.com/drive/folders/1yGcbLYazsuo1t9kCNf4qRBZpAyIuSuIm"
+    },
+    "BerkshireHathaway-B/CorporateCulture": {
+      "id": "1_l37DM_zKIVLntK3JeZjgtQrA0cUpkdI",
+      "driveUrl": "https://drive.google.com/drive/folders/1_l37DM_zKIVLntK3JeZjgtQrA0cUpkdI"
+    },
+    "BerkshireHathaway-B/hardware": {
+      "id": "17DnyesUcH_kPYKIOQcjKbYWK8tZXu6X1",
+      "driveUrl": "https://drive.google.com/drive/folders/17DnyesUcH_kPYKIOQcjKbYWK8tZXu6X1"
+    },
+    "BerkshireHathaway-B/software": {
+      "id": "1ypSnTofbrYbc_1mkdwiKsOm_W3CIm6C0",
+      "driveUrl": "https://drive.google.com/drive/folders/1ypSnTofbrYbc_1mkdwiKsOm_W3CIm6C0"
+    },
+    "BerkshireHathaway-B/patent": {
+      "id": "1WnYvWuqM8603QoYSDanIkH_qWe6JMFzG",
+      "driveUrl": "https://drive.google.com/drive/folders/1WnYvWuqM8603QoYSDanIkH_qWe6JMFzG"
+    },
+    "BerkshireHathaway-B/PhysicalStores": {
+      "id": "1rJKcbsQW5yqELwbliFZD-eTrY01HJTLP",
+      "driveUrl": "https://drive.google.com/drive/folders/1rJKcbsQW5yqELwbliFZD-eTrY01HJTLP"
+    },
+    "CerebrasSystems/Company": {
+      "id": "1ijH5A3DAmCO80Ph3vggiWPwiCuuf6YBK",
+      "driveUrl": "https://drive.google.com/drive/folders/1ijH5A3DAmCO80Ph3vggiWPwiCuuf6YBK"
+    },
+    "CerebrasSystems/SeniorExecutive": {
+      "id": "1n1M6XfMaNTtcJCbXnUJPFEdJqKCrFFvV",
+      "driveUrl": "https://drive.google.com/drive/folders/1n1M6XfMaNTtcJCbXnUJPFEdJqKCrFFvV"
+    },
+    "CerebrasSystems/CorporateCulture": {
+      "id": "1R5-brPrk3PSBVLsuPSXhU2wnqY3lEdRW",
+      "driveUrl": "https://drive.google.com/drive/folders/1R5-brPrk3PSBVLsuPSXhU2wnqY3lEdRW"
+    },
+    "CerebrasSystems/hardware": {
+      "id": "1KMGXSwDj0i-HBhgqfs0_KAbHrjGM6Txv",
+      "driveUrl": "https://drive.google.com/drive/folders/1KMGXSwDj0i-HBhgqfs0_KAbHrjGM6Txv"
+    },
+    "CerebrasSystems/software": {
+      "id": "1yL_V--d4Q4PWDk9Py8aB0Pju9rLIQslm",
+      "driveUrl": "https://drive.google.com/drive/folders/1yL_V--d4Q4PWDk9Py8aB0Pju9rLIQslm"
+    },
+    "CerebrasSystems/patent": {
+      "id": "1XJqCK7iiaIjRioNDTwjVtTsfbPbt-YAE",
+      "driveUrl": "https://drive.google.com/drive/folders/1XJqCK7iiaIjRioNDTwjVtTsfbPbt-YAE"
+    },
+    "CerebrasSystems/PhysicalStores": {
+      "id": "12GZ0pBKuhNhMoi4Lo8fibZFADvKDhFh1",
+      "driveUrl": "https://drive.google.com/drive/folders/12GZ0pBKuhNhMoi4Lo8fibZFADvKDhFh1"
+    },
+    "Chewy/Company": {
+      "id": "1icw-NNff9XgcZSuWjpVSuUeRu114UsUd",
+      "driveUrl": "https://drive.google.com/drive/folders/1icw-NNff9XgcZSuWjpVSuUeRu114UsUd"
+    },
+    "Chewy/SeniorExecutive": {
+      "id": "1BTXIrVx2gpK89c-QBk_tIKjvMmnQ6i4X",
+      "driveUrl": "https://drive.google.com/drive/folders/1BTXIrVx2gpK89c-QBk_tIKjvMmnQ6i4X"
+    },
+    "Chewy/CorporateCulture": {
+      "id": "1bm3iboWt1tGD5sEttHYlxCXWHJ3TK5Kq",
+      "driveUrl": "https://drive.google.com/drive/folders/1bm3iboWt1tGD5sEttHYlxCXWHJ3TK5Kq"
+    },
+    "Chewy/hardware": {
+      "id": "1hrQfj6qowch4TpkEo8VpcSXfMHTZ-vVW",
+      "driveUrl": "https://drive.google.com/drive/folders/1hrQfj6qowch4TpkEo8VpcSXfMHTZ-vVW"
+    },
+    "Chewy/software": {
+      "id": "10lMDB8QxJ0_2dlO4KyE_a84GQID_1WpQ",
+      "driveUrl": "https://drive.google.com/drive/folders/10lMDB8QxJ0_2dlO4KyE_a84GQID_1WpQ"
+    },
+    "Chewy/patent": {
+      "id": "103GqrM3EDVrOPJnVU_Q4lVLfMhkodPbS",
+      "driveUrl": "https://drive.google.com/drive/folders/103GqrM3EDVrOPJnVU_Q4lVLfMhkodPbS"
+    },
+    "Chewy/PhysicalStores": {
+      "id": "1288aXTvFbqKq6XOxXclk-wwMhFJr-9fv",
+      "driveUrl": "https://drive.google.com/drive/folders/1288aXTvFbqKq6XOxXclk-wwMhFJr-9fv"
+    },
+    "Circle/Company": {
+      "id": "1D8piZiuSfxbChy6S71Ua94JrZN_pVGoD",
+      "driveUrl": "https://drive.google.com/drive/folders/1D8piZiuSfxbChy6S71Ua94JrZN_pVGoD"
+    },
+    "Circle/SeniorExecutive": {
+      "id": "1VayoawTW6jpOrXZGZZVz-v7V0UhDEbYr",
+      "driveUrl": "https://drive.google.com/drive/folders/1VayoawTW6jpOrXZGZZVz-v7V0UhDEbYr"
+    },
+    "Circle/CorporateCulture": {
+      "id": "14_d96uaZKF36OvB8_kubQIEfF6oB0sQI",
+      "driveUrl": "https://drive.google.com/drive/folders/14_d96uaZKF36OvB8_kubQIEfF6oB0sQI"
+    },
+    "Circle/hardware": {
+      "id": "1yZav9eg1tbDi3xZ2jejVriUMJX3HKhFo",
+      "driveUrl": "https://drive.google.com/drive/folders/1yZav9eg1tbDi3xZ2jejVriUMJX3HKhFo"
+    },
+    "Circle/software": {
+      "id": "1brBgkpF_RHpJTpL_aP1b5upcqqApswHG",
+      "driveUrl": "https://drive.google.com/drive/folders/1brBgkpF_RHpJTpL_aP1b5upcqqApswHG"
+    },
+    "Circle/patent": {
+      "id": "1pydaForGY1c8lj3Br18aBHeTjHpQ_0gJ",
+      "driveUrl": "https://drive.google.com/drive/folders/1pydaForGY1c8lj3Br18aBHeTjHpQ_0gJ"
+    },
+    "Circle/PhysicalStores": {
+      "id": "1W3XTpDFEBMtyf6-RC2vDy2wll41CSMMu",
+      "driveUrl": "https://drive.google.com/drive/folders/1W3XTpDFEBMtyf6-RC2vDy2wll41CSMMu"
+    },
+    "Cisco/Company": {
+      "id": "1FdQ35wjVJCkizKn9U1Zc-klYOsNmt5gI",
+      "driveUrl": "https://drive.google.com/drive/folders/1FdQ35wjVJCkizKn9U1Zc-klYOsNmt5gI"
+    },
+    "Cisco/SeniorExecutive": {
+      "id": "1o-MoAYnYIFE-BrWcQcd2CfH6Bf1HANJg",
+      "driveUrl": "https://drive.google.com/drive/folders/1o-MoAYnYIFE-BrWcQcd2CfH6Bf1HANJg"
+    },
+    "Cisco/CorporateCulture": {
+      "id": "12XmDFGzCyGJpVTTpZxN1Q3LJEXDj3akW",
+      "driveUrl": "https://drive.google.com/drive/folders/12XmDFGzCyGJpVTTpZxN1Q3LJEXDj3akW"
+    },
+    "Cisco/hardware": {
+      "id": "1AB5mr4hDzQmPJmtH3EmxO0fS4pc4ZH1a",
+      "driveUrl": "https://drive.google.com/drive/folders/1AB5mr4hDzQmPJmtH3EmxO0fS4pc4ZH1a"
+    },
+    "Cisco/software": {
+      "id": "11imNRJLS9erML_fF3iq_kU2swBEEf8Me",
+      "driveUrl": "https://drive.google.com/drive/folders/11imNRJLS9erML_fF3iq_kU2swBEEf8Me"
+    },
+    "Cisco/patent": {
+      "id": "19mQ9jT8OCVotcmsn9K0wZb_DksNQF6ZH",
+      "driveUrl": "https://drive.google.com/drive/folders/19mQ9jT8OCVotcmsn9K0wZb_DksNQF6ZH"
+    },
+    "Cisco/PhysicalStores": {
+      "id": "1CPb4mFPY4KE_WEKP6XpAkiyG1ue0eVds",
+      "driveUrl": "https://drive.google.com/drive/folders/1CPb4mFPY4KE_WEKP6XpAkiyG1ue0eVds"
+    },
+    "CredoTechnology/Company": {
+      "id": "17xcBc8m29wn8AoUtVyztzSpu35RWHD7D",
+      "driveUrl": "https://drive.google.com/drive/folders/17xcBc8m29wn8AoUtVyztzSpu35RWHD7D"
+    },
+    "CredoTechnology/SeniorExecutive": {
+      "id": "1XAP-vLVYUqRVnUgAVUr_sC70s81SCx4v",
+      "driveUrl": "https://drive.google.com/drive/folders/1XAP-vLVYUqRVnUgAVUr_sC70s81SCx4v"
+    },
+    "CredoTechnology/CorporateCulture": {
+      "id": "1C4uXIUettLatcmRJYzDGY3Jq8RT90-UW",
+      "driveUrl": "https://drive.google.com/drive/folders/1C4uXIUettLatcmRJYzDGY3Jq8RT90-UW"
+    },
+    "CredoTechnology/hardware": {
+      "id": "1JsOupIoqpflPSNHfoypG0mKc9NlPkhDQ",
+      "driveUrl": "https://drive.google.com/drive/folders/1JsOupIoqpflPSNHfoypG0mKc9NlPkhDQ"
+    },
+    "CredoTechnology/software": {
+      "id": "1NWEOIVvvDasg0I75-Dd15ORMV0tP5GMi",
+      "driveUrl": "https://drive.google.com/drive/folders/1NWEOIVvvDasg0I75-Dd15ORMV0tP5GMi"
+    },
+    "CredoTechnology/patent": {
+      "id": "1f5238ljjIieHOTPcUXfdkdjhyWvt6wH9",
+      "driveUrl": "https://drive.google.com/drive/folders/1f5238ljjIieHOTPcUXfdkdjhyWvt6wH9"
+    },
+    "CredoTechnology/PhysicalStores": {
+      "id": "17WFWolYwQeZKScfxMlOv1YVSyUEC_479",
+      "driveUrl": "https://drive.google.com/drive/folders/17WFWolYwQeZKScfxMlOv1YVSyUEC_479"
+    },
+    "Crocs/Company": {
+      "id": "14usjRHipsAd87Er8SRanEm8BML0en6_r",
+      "driveUrl": "https://drive.google.com/drive/folders/14usjRHipsAd87Er8SRanEm8BML0en6_r"
+    },
+    "Crocs/SeniorExecutive": {
+      "id": "1VKBEKJIBrk34nAEIyHpeLghlFmmzYqXi",
+      "driveUrl": "https://drive.google.com/drive/folders/1VKBEKJIBrk34nAEIyHpeLghlFmmzYqXi"
+    },
+    "Crocs/CorporateCulture": {
+      "id": "1RVLXfsRy7l9CpQvezsFk5qobUypEmrjL",
+      "driveUrl": "https://drive.google.com/drive/folders/1RVLXfsRy7l9CpQvezsFk5qobUypEmrjL"
+    },
+    "Crocs/hardware": {
+      "id": "1Da7JsMLLWu4VmWwqZFg_1zY9V2kBtwIE",
+      "driveUrl": "https://drive.google.com/drive/folders/1Da7JsMLLWu4VmWwqZFg_1zY9V2kBtwIE"
+    },
+    "Crocs/software": {
+      "id": "1yUCw-c1G6BdI5WVe2SPUMDV4OkQ8ifpt",
+      "driveUrl": "https://drive.google.com/drive/folders/1yUCw-c1G6BdI5WVe2SPUMDV4OkQ8ifpt"
+    },
+    "Crocs/patent": {
+      "id": "1zIkdId7WfnwjS00-Y5hAJN3XscczDA4H",
+      "driveUrl": "https://drive.google.com/drive/folders/1zIkdId7WfnwjS00-Y5hAJN3XscczDA4H"
+    },
+    "Crocs/PhysicalStores": {
+      "id": "1VqSr7APG02DwbsmCuqVjnwkVJfwFSN3d",
+      "driveUrl": "https://drive.google.com/drive/folders/1VqSr7APG02DwbsmCuqVjnwkVJfwFSN3d"
+    },
+    "CrowdStrike/Company": {
+      "id": "1vpxhiR1MZ539BvfSkBJ0rHXerYmziKbB",
+      "driveUrl": "https://drive.google.com/drive/folders/1vpxhiR1MZ539BvfSkBJ0rHXerYmziKbB"
+    },
+    "CrowdStrike/SeniorExecutive": {
+      "id": "1Fgu_8xXJGxNlAIfFZwetPB5faN4UpayH",
+      "driveUrl": "https://drive.google.com/drive/folders/1Fgu_8xXJGxNlAIfFZwetPB5faN4UpayH"
+    },
+    "CrowdStrike/CorporateCulture": {
+      "id": "1l16Diwc3addZ0zrXrCJYb75kPVdSOBTY",
+      "driveUrl": "https://drive.google.com/drive/folders/1l16Diwc3addZ0zrXrCJYb75kPVdSOBTY"
+    },
+    "CrowdStrike/hardware": {
+      "id": "1jln66XCOnlsstUbGcPN0zJvSwArkx5Bh",
+      "driveUrl": "https://drive.google.com/drive/folders/1jln66XCOnlsstUbGcPN0zJvSwArkx5Bh"
+    },
+    "CrowdStrike/software": {
+      "id": "1TcjOy79lQ1KIckIwLVvBHJA3nw1LOrP4",
+      "driveUrl": "https://drive.google.com/drive/folders/1TcjOy79lQ1KIckIwLVvBHJA3nw1LOrP4"
+    },
+    "CrowdStrike/patent": {
+      "id": "1ActI9bltvaYV6z_ORmtB5W8hFC0XEk0w",
+      "driveUrl": "https://drive.google.com/drive/folders/1ActI9bltvaYV6z_ORmtB5W8hFC0XEk0w"
+    },
+    "CrowdStrike/PhysicalStores": {
+      "id": "1u0b_FJbJ4peVdZSWQxeR4iZrQurPe71l",
+      "driveUrl": "https://drive.google.com/drive/folders/1u0b_FJbJ4peVdZSWQxeR4iZrQurPe71l"
+    },
+    "Disney/Company": {
+      "id": "1wzxttwpy1Di32gpBlsfM55pR7ITiMs9M",
+      "driveUrl": "https://drive.google.com/drive/folders/1wzxttwpy1Di32gpBlsfM55pR7ITiMs9M"
+    },
+    "Disney/SeniorExecutive": {
+      "id": "1S1xwJyR_ZImLzjc8lh0SHWNUbbKCpVdH",
+      "driveUrl": "https://drive.google.com/drive/folders/1S1xwJyR_ZImLzjc8lh0SHWNUbbKCpVdH"
+    },
+    "Disney/CorporateCulture": {
+      "id": "1dZs8ZcJ6jF045Sz4jG4uuRm7DLPf5bN_",
+      "driveUrl": "https://drive.google.com/drive/folders/1dZs8ZcJ6jF045Sz4jG4uuRm7DLPf5bN_"
+    },
+    "Disney/hardware": {
+      "id": "1RUS9XsYmtsJxG9_PyNON3YAbqkW2cPXx",
+      "driveUrl": "https://drive.google.com/drive/folders/1RUS9XsYmtsJxG9_PyNON3YAbqkW2cPXx"
+    },
+    "Disney/software": {
+      "id": "12SaintuTCtRIGtmYEBMc3FcOrCDpajal",
+      "driveUrl": "https://drive.google.com/drive/folders/12SaintuTCtRIGtmYEBMc3FcOrCDpajal"
+    },
+    "Disney/patent": {
+      "id": "1CowJ8yGp2rlF6jLgy5vLN6q-VZWRRcp9",
+      "driveUrl": "https://drive.google.com/drive/folders/1CowJ8yGp2rlF6jLgy5vLN6q-VZWRRcp9"
+    },
+    "Disney/PhysicalStores": {
+      "id": "1Zb70DwaSTLCM3xnRxc3m_qqUDeEssHBq",
+      "driveUrl": "https://drive.google.com/drive/folders/1Zb70DwaSTLCM3xnRxc3m_qqUDeEssHBq"
+    },
+    "DuanYongping/Company": {
+      "id": "1Lys0Wjaw3TvPJ99Xf2pYX5YDBP5TuoUv",
+      "driveUrl": "https://drive.google.com/drive/folders/1Lys0Wjaw3TvPJ99Xf2pYX5YDBP5TuoUv"
+    },
+    "DuanYongping/SeniorExecutive": {
+      "id": "1WoB45U-k00HpDY7A0HWAS-Xis80BVf3v",
+      "driveUrl": "https://drive.google.com/drive/folders/1WoB45U-k00HpDY7A0HWAS-Xis80BVf3v"
+    },
+    "DuanYongping/CorporateCulture": {
+      "id": "1Hu51koaR1uheX9NMlPmAm8PDNm5mgd0F",
+      "driveUrl": "https://drive.google.com/drive/folders/1Hu51koaR1uheX9NMlPmAm8PDNm5mgd0F"
+    },
+    "DuanYongping/hardware": {
+      "id": "1UkL_eylZGx-bGDNJbBm7pJSCLI8gwc5O",
+      "driveUrl": "https://drive.google.com/drive/folders/1UkL_eylZGx-bGDNJbBm7pJSCLI8gwc5O"
+    },
+    "DuanYongping/software": {
+      "id": "1NSAib-MWQdvUCbsVICX6nn67eO6dIPcM",
+      "driveUrl": "https://drive.google.com/drive/folders/1NSAib-MWQdvUCbsVICX6nn67eO6dIPcM"
+    },
+    "DuanYongping/patent": {
+      "id": "18ZqwQzTRFf7DPT7kobxmOsocEYNY_cko",
+      "driveUrl": "https://drive.google.com/drive/folders/18ZqwQzTRFf7DPT7kobxmOsocEYNY_cko"
+    },
+    "DuanYongping/PhysicalStores": {
+      "id": "1zYAJs4Ts6S9efLq9xJnFatHovlRqMnwS",
+      "driveUrl": "https://drive.google.com/drive/folders/1zYAJs4Ts6S9efLq9xJnFatHovlRqMnwS"
+    },
+    "Google/Company": {
+      "id": "1x8lFhXEeafgf5FrPi8Fln98PL6WvrbjI",
+      "driveUrl": "https://drive.google.com/drive/folders/1x8lFhXEeafgf5FrPi8Fln98PL6WvrbjI"
+    },
+    "Google/SeniorExecutive": {
+      "id": "1W0f_Du1y-MSq2pSUpmkmIa6iPpsOHDC1",
+      "driveUrl": "https://drive.google.com/drive/folders/1W0f_Du1y-MSq2pSUpmkmIa6iPpsOHDC1"
+    },
+    "Google/CorporateCulture": {
+      "id": "1SqgjCvE97j_6Q2tsbY_pdDtf5GqbVMc_",
+      "driveUrl": "https://drive.google.com/drive/folders/1SqgjCvE97j_6Q2tsbY_pdDtf5GqbVMc_"
+    },
+    "Google/hardware": {
+      "id": "1K0OEsfnaJ8RPqwRGK4g3FqUBmGd2GsVb",
+      "driveUrl": "https://drive.google.com/drive/folders/1K0OEsfnaJ8RPqwRGK4g3FqUBmGd2GsVb"
+    },
+    "Google/software": {
+      "id": "1PUAbPZ5CQ_3f9uTF2j5CCY2kiqXslmNv",
+      "driveUrl": "https://drive.google.com/drive/folders/1PUAbPZ5CQ_3f9uTF2j5CCY2kiqXslmNv"
+    },
+    "Google/patent": {
+      "id": "1IYwaSuu8RJmKPOXLm6PPlLy_u5PbGTfQ",
+      "driveUrl": "https://drive.google.com/drive/folders/1IYwaSuu8RJmKPOXLm6PPlLy_u5PbGTfQ"
+    },
+    "Google/PhysicalStores": {
+      "id": "1FhFukjnRhbcmzu3_-S3clT49ICcLyrpg",
+      "driveUrl": "https://drive.google.com/drive/folders/1FhFukjnRhbcmzu3_-S3clT49ICcLyrpg"
+    },
+    "HimalayaCapitalManagement/Company": {
+      "id": "1wsdwYFrvkWgmwkjXzuZ5YI2pbC5otNi5",
+      "driveUrl": "https://drive.google.com/drive/folders/1wsdwYFrvkWgmwkjXzuZ5YI2pbC5otNi5"
+    },
+    "HimalayaCapitalManagement/SeniorExecutive": {
+      "id": "1lCY64_UzpWduBTSYpmI_oycDr8SFHmxo",
+      "driveUrl": "https://drive.google.com/drive/folders/1lCY64_UzpWduBTSYpmI_oycDr8SFHmxo"
+    },
+    "HimalayaCapitalManagement/CorporateCulture": {
+      "id": "14-3EVyOhCLwIN0Ix-4MJI3nyVY_p_TyZ",
+      "driveUrl": "https://drive.google.com/drive/folders/14-3EVyOhCLwIN0Ix-4MJI3nyVY_p_TyZ"
+    },
+    "HimalayaCapitalManagement/hardware": {
+      "id": "17_lJX4JuHLMtC2Ne4ASZTVbSxuHcib7q",
+      "driveUrl": "https://drive.google.com/drive/folders/17_lJX4JuHLMtC2Ne4ASZTVbSxuHcib7q"
+    },
+    "HimalayaCapitalManagement/software": {
+      "id": "12BQDm_RzFTzqdq8CcEdtPE8ixWnWl1ZC",
+      "driveUrl": "https://drive.google.com/drive/folders/12BQDm_RzFTzqdq8CcEdtPE8ixWnWl1ZC"
+    },
+    "HimalayaCapitalManagement/patent": {
+      "id": "1xr1Fp2nLfoqshboMDswfpEWjI6LP3f2m",
+      "driveUrl": "https://drive.google.com/drive/folders/1xr1Fp2nLfoqshboMDswfpEWjI6LP3f2m"
+    },
+    "HimalayaCapitalManagement/PhysicalStores": {
+      "id": "16wYoXWx5a305zL63axVB-CoHnDky423L",
+      "driveUrl": "https://drive.google.com/drive/folders/16wYoXWx5a305zL63axVB-CoHnDky423L"
+    },
+    "InvescoQQQTrust/Company": {
+      "id": "1EpZWj-CdrOZizZCKNt8AJmFahIdCRG9R",
+      "driveUrl": "https://drive.google.com/drive/folders/1EpZWj-CdrOZizZCKNt8AJmFahIdCRG9R"
+    },
+    "InvescoQQQTrust/SeniorExecutive": {
+      "id": "1Fo8acz26cS1p47P5dZz4-b-v5mJO9e71",
+      "driveUrl": "https://drive.google.com/drive/folders/1Fo8acz26cS1p47P5dZz4-b-v5mJO9e71"
+    },
+    "InvescoQQQTrust/CorporateCulture": {
+      "id": "1xAc34UROcdz3ckmi1yXdZ0CgyKczvvSz",
+      "driveUrl": "https://drive.google.com/drive/folders/1xAc34UROcdz3ckmi1yXdZ0CgyKczvvSz"
+    },
+    "InvescoQQQTrust/hardware": {
+      "id": "1t82Zz5nJqXcz0dfj2LmgMPxlDv1ivrDo",
+      "driveUrl": "https://drive.google.com/drive/folders/1t82Zz5nJqXcz0dfj2LmgMPxlDv1ivrDo"
+    },
+    "InvescoQQQTrust/software": {
+      "id": "1APvejwf8Y-0kFOquyVk3ArLzUGwna_Qt",
+      "driveUrl": "https://drive.google.com/drive/folders/1APvejwf8Y-0kFOquyVk3ArLzUGwna_Qt"
+    },
+    "InvescoQQQTrust/patent": {
+      "id": "1m7CgHCcXTJTklLJJ60JT1Y1mx40nDv20",
+      "driveUrl": "https://drive.google.com/drive/folders/1m7CgHCcXTJTklLJJ60JT1Y1mx40nDv20"
+    },
+    "InvescoQQQTrust/PhysicalStores": {
+      "id": "1cARfxfNEhF9gPsfgRm43ZTjy7ft1FzLL",
+      "driveUrl": "https://drive.google.com/drive/folders/1cARfxfNEhF9gPsfgRm43ZTjy7ft1FzLL"
+    },
+    "LennarCorp/Company": {
+      "id": "166NWIk7cUusnvXT_y0ScR36zyqI1Vl3R",
+      "driveUrl": "https://drive.google.com/drive/folders/166NWIk7cUusnvXT_y0ScR36zyqI1Vl3R"
+    },
+    "LennarCorp/SeniorExecutive": {
+      "id": "175DBnQ37Y1g4aa3FfFxSJHkjyId7l-4_",
+      "driveUrl": "https://drive.google.com/drive/folders/175DBnQ37Y1g4aa3FfFxSJHkjyId7l-4_"
+    },
+    "LennarCorp/CorporateCulture": {
+      "id": "1-L40jWTe8tJvGGRu5JX5mNPfoPvwCSmz",
+      "driveUrl": "https://drive.google.com/drive/folders/1-L40jWTe8tJvGGRu5JX5mNPfoPvwCSmz"
+    },
+    "LennarCorp/hardware": {
+      "id": "1grKIrJNnpTc522QcSAnH8EUV3E38fU5w",
+      "driveUrl": "https://drive.google.com/drive/folders/1grKIrJNnpTc522QcSAnH8EUV3E38fU5w"
+    },
+    "LennarCorp/software": {
+      "id": "1VWh8JJfL1ob1IukLqMk7GQfdR9TPhrdA",
+      "driveUrl": "https://drive.google.com/drive/folders/1VWh8JJfL1ob1IukLqMk7GQfdR9TPhrdA"
+    },
+    "LennarCorp/patent": {
+      "id": "19TRa9_VWXiCDv6jf2XS3f2AUcI7X996V",
+      "driveUrl": "https://drive.google.com/drive/folders/19TRa9_VWXiCDv6jf2XS3f2AUcI7X996V"
+    },
+    "LennarCorp/PhysicalStores": {
+      "id": "1CvTsRGDNzcFVGB6FvF_KwXhYNBwjkzNc",
+      "driveUrl": "https://drive.google.com/drive/folders/1CvTsRGDNzcFVGB6FvF_KwXhYNBwjkzNc"
+    },
+    "Meta/Company": {
+      "id": "1ityIxOdwXZZhTIbaLlKJnGQen-rVh8GG",
+      "driveUrl": "https://drive.google.com/drive/folders/1ityIxOdwXZZhTIbaLlKJnGQen-rVh8GG"
+    },
+    "Meta/SeniorExecutive": {
+      "id": "13alSPPGG4CGqrLwn5yRCnnZLU9G5WUiD",
+      "driveUrl": "https://drive.google.com/drive/folders/13alSPPGG4CGqrLwn5yRCnnZLU9G5WUiD"
+    },
+    "Meta/CorporateCulture": {
+      "id": "1B95mv2iT0LgvGVnofaFDyokn6FmFMClo",
+      "driveUrl": "https://drive.google.com/drive/folders/1B95mv2iT0LgvGVnofaFDyokn6FmFMClo"
+    },
+    "Meta/hardware": {
+      "id": "1tG0TD20yC5v9hA01sbqWWf1CCksQBibY",
+      "driveUrl": "https://drive.google.com/drive/folders/1tG0TD20yC5v9hA01sbqWWf1CCksQBibY"
+    },
+    "Meta/software": {
+      "id": "1OSDgpV9aVMqpzvEbDhnBZerULvzCK4rf",
+      "driveUrl": "https://drive.google.com/drive/folders/1OSDgpV9aVMqpzvEbDhnBZerULvzCK4rf"
+    },
+    "Meta/patent": {
+      "id": "12Yw_n_5_N0CcnLqySyZmauTKyabA-0ki",
+      "driveUrl": "https://drive.google.com/drive/folders/12Yw_n_5_N0CcnLqySyZmauTKyabA-0ki"
+    },
+    "Meta/PhysicalStores": {
+      "id": "1oRm4t4P5h2DWhrfgw25cx9h4er2oKS6R",
+      "driveUrl": "https://drive.google.com/drive/folders/1oRm4t4P5h2DWhrfgw25cx9h4er2oKS6R"
+    },
+    "MO/Company": {
+      "id": "dir_45cbea4070f8f578",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/SeniorExecutive": {
+      "id": "dir_6a39cbc356cca3ed",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/CorporateCulture": {
+      "id": "dir_86b589e9da55f0e7",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/hardware": {
+      "id": "dir_a2c72b899792a785",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/software": {
+      "id": "dir_1a6469c568bc1d0c",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/patent": {
+      "id": "dir_97bad9e404d643d9",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "MO/PhysicalStores": {
+      "id": "dir_7ce1271a23bbfacc",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc"
+    },
+    "Netflix/Company": {
+      "id": "11HvVkmj-YefIelp48WLWoX8oePgw3L8z",
+      "driveUrl": "https://drive.google.com/drive/folders/11HvVkmj-YefIelp48WLWoX8oePgw3L8z"
+    },
+    "Netflix/SeniorExecutive": {
+      "id": "1fOFAOzZNfAkefJSYZ3PFpqvg4TFp9f1U",
+      "driveUrl": "https://drive.google.com/drive/folders/1fOFAOzZNfAkefJSYZ3PFpqvg4TFp9f1U"
+    },
+    "Netflix/CorporateCulture": {
+      "id": "1gSsh2gzW_6MrZ_-5bc4Tc5FE9SHBFOc6",
+      "driveUrl": "https://drive.google.com/drive/folders/1gSsh2gzW_6MrZ_-5bc4Tc5FE9SHBFOc6"
+    },
+    "Netflix/hardware": {
+      "id": "1F0bvA_ozcGRFw1BwQe6pODZ_1LDWuEKP",
+      "driveUrl": "https://drive.google.com/drive/folders/1F0bvA_ozcGRFw1BwQe6pODZ_1LDWuEKP"
+    },
+    "Netflix/software": {
+      "id": "1w-g_YSjnPF2qTI355bn7Bxy41okgYv3S",
+      "driveUrl": "https://drive.google.com/drive/folders/1w-g_YSjnPF2qTI355bn7Bxy41okgYv3S"
+    },
+    "Netflix/patent": {
+      "id": "1AnPQcSVHsRMX5bKfVLRdYSE27K2qkVIf",
+      "driveUrl": "https://drive.google.com/drive/folders/1AnPQcSVHsRMX5bKfVLRdYSE27K2qkVIf"
+    },
+    "Netflix/PhysicalStores": {
+      "id": "1h40gVbVRo1_86G-F56_6DpFouze4o3sI",
+      "driveUrl": "https://drive.google.com/drive/folders/1h40gVbVRo1_86G-F56_6DpFouze4o3sI"
+    },
+    "NVIDIA/Company": {
+      "id": "1yZC0hFPYd1FzN2-UyMgZPOoClUryWIEn",
+      "driveUrl": "https://drive.google.com/drive/folders/1yZC0hFPYd1FzN2-UyMgZPOoClUryWIEn"
+    },
+    "NVIDIA/SeniorExecutive": {
+      "id": "16MvnCpmz6HPJKPailPL5oagAQJ5w9VhA",
+      "driveUrl": "https://drive.google.com/drive/folders/16MvnCpmz6HPJKPailPL5oagAQJ5w9VhA"
+    },
+    "NVIDIA/CorporateCulture": {
+      "id": "1GzuoJ0X5C5BkLtt5dyouVJIzvMlrFmud",
+      "driveUrl": "https://drive.google.com/drive/folders/1GzuoJ0X5C5BkLtt5dyouVJIzvMlrFmud"
+    },
+    "NVIDIA/hardware": {
+      "id": "1QqM7thrFV55V65auAEyqS7HjaOTsCBCH",
+      "driveUrl": "https://drive.google.com/drive/folders/1QqM7thrFV55V65auAEyqS7HjaOTsCBCH"
+    },
+    "NVIDIA/software": {
+      "id": "1CqHtKF3nKrH1_U8oLoOddkcoM8s_Ql6h",
+      "driveUrl": "https://drive.google.com/drive/folders/1CqHtKF3nKrH1_U8oLoOddkcoM8s_Ql6h"
+    },
+    "NVIDIA/patent": {
+      "id": "1UgLoSUup4h7Xytx-BC4IVh36UN8b02ZA",
+      "driveUrl": "https://drive.google.com/drive/folders/1UgLoSUup4h7Xytx-BC4IVh36UN8b02ZA"
+    },
+    "NVIDIA/PhysicalStores": {
+      "id": "1XuCqW_W4ctdtypfWXXQ85IDvJS8_o-dP",
+      "driveUrl": "https://drive.google.com/drive/folders/1XuCqW_W4ctdtypfWXXQ85IDvJS8_o-dP"
+    },
+    "ONON/Company": {
+      "id": "1rPlwwuNMmpd6SM1Sp4BEy-MskQIWYM82",
+      "driveUrl": "https://drive.google.com/drive/folders/1rPlwwuNMmpd6SM1Sp4BEy-MskQIWYM82"
+    },
+    "ONON/SeniorExecutive": {
+      "id": "1cKs2kKUaioBQALFnnqG12Ybsmi621Z9K",
+      "driveUrl": "https://drive.google.com/drive/folders/1cKs2kKUaioBQALFnnqG12Ybsmi621Z9K"
+    },
+    "ONON/CorporateCulture": {
+      "id": "16ZHdp0rIALR2ESmPmEvzj073c2y70yXE",
+      "driveUrl": "https://drive.google.com/drive/folders/16ZHdp0rIALR2ESmPmEvzj073c2y70yXE"
+    },
+    "ONON/hardware": {
+      "id": "18GsT-lJ574vwjJbw6FXRKzHN-XgJN6F4",
+      "driveUrl": "https://drive.google.com/drive/folders/18GsT-lJ574vwjJbw6FXRKzHN-XgJN6F4"
+    },
+    "ONON/software": {
+      "id": "1mq_ybPdnCLYig31GE28r8_-237_E1Mmk",
+      "driveUrl": "https://drive.google.com/drive/folders/1mq_ybPdnCLYig31GE28r8_-237_E1Mmk"
+    },
+    "ONON/patent": {
+      "id": "1byorOO9-iJJl9vVkDDet8tpYTGJDu-vr",
+      "driveUrl": "https://drive.google.com/drive/folders/1byorOO9-iJJl9vVkDDet8tpYTGJDu-vr"
+    },
+    "ONON/PhysicalStores": {
+      "id": "1soSNSVa_ZTLENHeo7qhou_tDj5XcSy_O",
+      "driveUrl": "https://drive.google.com/drive/folders/1soSNSVa_ZTLENHeo7qhou_tDj5XcSy_O"
+    },
+    "PDD/Company": {
+      "id": "1j95Z26Tii0exO2WcOoaFVwlvQLGUNU9m",
+      "driveUrl": "https://drive.google.com/drive/folders/1j95Z26Tii0exO2WcOoaFVwlvQLGUNU9m"
+    },
+    "PDD/SeniorExecutive": {
+      "id": "1X8y1fGfTTrzC8oHBCPAkKopbLanU0xA0",
+      "driveUrl": "https://drive.google.com/drive/folders/1X8y1fGfTTrzC8oHBCPAkKopbLanU0xA0"
+    },
+    "PDD/CorporateCulture": {
+      "id": "1qS2kv4v-G2k8b_b5idsYf4fEU-2lieVR",
+      "driveUrl": "https://drive.google.com/drive/folders/1qS2kv4v-G2k8b_b5idsYf4fEU-2lieVR"
+    },
+    "PDD/hardware": {
+      "id": "1EQxvjWHR1yiWUa0Q9EyYSnqsxvNgRje1",
+      "driveUrl": "https://drive.google.com/drive/folders/1EQxvjWHR1yiWUa0Q9EyYSnqsxvNgRje1"
+    },
+    "PDD/software": {
+      "id": "16XeEl0g9TkbcuevlsstTOBJ0FSczKfSS",
+      "driveUrl": "https://drive.google.com/drive/folders/16XeEl0g9TkbcuevlsstTOBJ0FSczKfSS"
+    },
+    "PDD/patent": {
+      "id": "1gLafq0UDjby3rkVXVjLSV7_VlmLsjrWO",
+      "driveUrl": "https://drive.google.com/drive/folders/1gLafq0UDjby3rkVXVjLSV7_VlmLsjrWO"
+    },
+    "PDD/PhysicalStores": {
+      "id": "1mFcQ9-YLHjZCm20d15X2Ngwgqxd4YG91",
+      "driveUrl": "https://drive.google.com/drive/folders/1mFcQ9-YLHjZCm20d15X2Ngwgqxd4YG91"
+    },
+    "Reddit/Company": {
+      "id": "1o7K2wyzT17H53f7vVIJN_ONA-4LuaCg8",
+      "driveUrl": "https://drive.google.com/drive/folders/1o7K2wyzT17H53f7vVIJN_ONA-4LuaCg8"
+    },
+    "Reddit/SeniorExecutive": {
+      "id": "1gWSlOJSsKFJq1TNCNd9PQc8pEc_xAnzC",
+      "driveUrl": "https://drive.google.com/drive/folders/1gWSlOJSsKFJq1TNCNd9PQc8pEc_xAnzC"
+    },
+    "Reddit/CorporateCulture": {
+      "id": "1fOvbFIU5HdeE3z-jtCItfiLXcvXAlvGV",
+      "driveUrl": "https://drive.google.com/drive/folders/1fOvbFIU5HdeE3z-jtCItfiLXcvXAlvGV"
+    },
+    "Reddit/hardware": {
+      "id": "1lY30nJSkbz2n2pWkIyoEKiCD3GM6Ni2S",
+      "driveUrl": "https://drive.google.com/drive/folders/1lY30nJSkbz2n2pWkIyoEKiCD3GM6Ni2S"
+    },
+    "Reddit/software": {
+      "id": "1kFd9USJ8ul3905ojyoKUaU1byyZ10161",
+      "driveUrl": "https://drive.google.com/drive/folders/1kFd9USJ8ul3905ojyoKUaU1byyZ10161"
+    },
+    "Reddit/patent": {
+      "id": "1KSa4a-SV3v8-_5PlQvm7IBJqCiZnMhEV",
+      "driveUrl": "https://drive.google.com/drive/folders/1KSa4a-SV3v8-_5PlQvm7IBJqCiZnMhEV"
+    },
+    "Reddit/PhysicalStores": {
+      "id": "1TGYBeK1alBmumzlfeewWw4zdhCbU5bBv",
+      "driveUrl": "https://drive.google.com/drive/folders/1TGYBeK1alBmumzlfeewWw4zdhCbU5bBv"
+    },
+    "Roblox/Company": {
+      "id": "1Cntc-wLIENJLopRWoD0kMhj2xEl3YTVA",
+      "driveUrl": "https://drive.google.com/drive/folders/1Cntc-wLIENJLopRWoD0kMhj2xEl3YTVA"
+    },
+    "Roblox/SeniorExecutive": {
+      "id": "1wFCQZl-vNE-fSU53N_UnsvaB4HJdoDNK",
+      "driveUrl": "https://drive.google.com/drive/folders/1wFCQZl-vNE-fSU53N_UnsvaB4HJdoDNK"
+    },
+    "Roblox/CorporateCulture": {
+      "id": "1I_sQxOP-Zs_mZu-CuEbx0qTag8vTPwop",
+      "driveUrl": "https://drive.google.com/drive/folders/1I_sQxOP-Zs_mZu-CuEbx0qTag8vTPwop"
+    },
+    "Roblox/hardware": {
+      "id": "1e8tz2LIn_bWq90lHAJ9UATeqgstYuvq1",
+      "driveUrl": "https://drive.google.com/drive/folders/1e8tz2LIn_bWq90lHAJ9UATeqgstYuvq1"
+    },
+    "Roblox/software": {
+      "id": "1j8yMKuX6lVeAixjn8D6cVJZdn1Kx-7pa",
+      "driveUrl": "https://drive.google.com/drive/folders/1j8yMKuX6lVeAixjn8D6cVJZdn1Kx-7pa"
+    },
+    "Roblox/patent": {
+      "id": "1-mgCu1Me03ZyEu5vwfd1zotIYYqTlWRp",
+      "driveUrl": "https://drive.google.com/drive/folders/1-mgCu1Me03ZyEu5vwfd1zotIYYqTlWRp"
+    },
+    "Roblox/PhysicalStores": {
+      "id": "1UMjHhh5X-KXyl4IH6ZHvLaBYTscz14ho",
+      "driveUrl": "https://drive.google.com/drive/folders/1UMjHhh5X-KXyl4IH6ZHvLaBYTscz14ho"
+    },
+    "RocketLab/Company": {
+      "id": "1ucZ6_df7Ch8l36yXR_u4qFRkal2PYt_5",
+      "driveUrl": "https://drive.google.com/drive/folders/1ucZ6_df7Ch8l36yXR_u4qFRkal2PYt_5"
+    },
+    "RocketLab/SeniorExecutive": {
+      "id": "1LUIk5FFqHViX5h5YWoTI9Zgz1l22p8Z7",
+      "driveUrl": "https://drive.google.com/drive/folders/1LUIk5FFqHViX5h5YWoTI9Zgz1l22p8Z7"
+    },
+    "RocketLab/CorporateCulture": {
+      "id": "1tjw1q7RzlzzIW5jxwwLBW-XhPoY6rytH",
+      "driveUrl": "https://drive.google.com/drive/folders/1tjw1q7RzlzzIW5jxwwLBW-XhPoY6rytH"
+    },
+    "RocketLab/hardware": {
+      "id": "1yV4GR7aCWgU25txiFU6ZksFAMKEz5d4T",
+      "driveUrl": "https://drive.google.com/drive/folders/1yV4GR7aCWgU25txiFU6ZksFAMKEz5d4T"
+    },
+    "RocketLab/software": {
+      "id": "1mM7tJ3oomt9gptk8fQdjsx7mtm-R-ieM",
+      "driveUrl": "https://drive.google.com/drive/folders/1mM7tJ3oomt9gptk8fQdjsx7mtm-R-ieM"
+    },
+    "RocketLab/patent": {
+      "id": "1K6OsZALr8wwXvHoQznZH0CeOv67y3nmf",
+      "driveUrl": "https://drive.google.com/drive/folders/1K6OsZALr8wwXvHoQznZH0CeOv67y3nmf"
+    },
+    "RocketLab/PhysicalStores": {
+      "id": "10RP31qcEDQEd8MqSd1idBVR8_zK8W2vq",
+      "driveUrl": "https://drive.google.com/drive/folders/10RP31qcEDQEd8MqSd1idBVR8_zK8W2vq"
+    },
+    "SanDisk/Company": {
+      "id": "1GYz2fMI0qRmQu4WuBkHl0b4a1XhC9PYl",
+      "driveUrl": "https://drive.google.com/drive/folders/1GYz2fMI0qRmQu4WuBkHl0b4a1XhC9PYl"
+    },
+    "SanDisk/SeniorExecutive": {
+      "id": "1CGoAG5sW2n8YMNPLlpciLYWIN1JZitEI",
+      "driveUrl": "https://drive.google.com/drive/folders/1CGoAG5sW2n8YMNPLlpciLYWIN1JZitEI"
+    },
+    "SanDisk/CorporateCulture": {
+      "id": "11v87I_1BqRyd2TB40hvSSr3erG0AB-kj",
+      "driveUrl": "https://drive.google.com/drive/folders/11v87I_1BqRyd2TB40hvSSr3erG0AB-kj"
+    },
+    "SanDisk/hardware": {
+      "id": "1aoIqthVLMsQ7v7VKSYfbWVByptSdmXCq",
+      "driveUrl": "https://drive.google.com/drive/folders/1aoIqthVLMsQ7v7VKSYfbWVByptSdmXCq"
+    },
+    "SanDisk/software": {
+      "id": "1QMapzMuOj5yCY10LDJhvVlUn4QzB_P6g",
+      "driveUrl": "https://drive.google.com/drive/folders/1QMapzMuOj5yCY10LDJhvVlUn4QzB_P6g"
+    },
+    "SanDisk/patent": {
+      "id": "1J15Z8fqvHHVMfxkaMo7IX2VaiIHSEWDt",
+      "driveUrl": "https://drive.google.com/drive/folders/1J15Z8fqvHHVMfxkaMo7IX2VaiIHSEWDt"
+    },
+    "SanDisk/PhysicalStores": {
+      "id": "1uCYkmYAEcy7HnEn8ae3owPn4ghx_D0VP",
+      "driveUrl": "https://drive.google.com/drive/folders/1uCYkmYAEcy7HnEn8ae3owPn4ghx_D0VP"
+    },
+    "SpaceX/Company": {
+      "id": "1YMLW-Mz98VZ63G5RNH6tcoFLPDEotI3Y",
+      "driveUrl": "https://drive.google.com/drive/folders/1YMLW-Mz98VZ63G5RNH6tcoFLPDEotI3Y"
+    },
+    "SpaceX/SeniorExecutive": {
+      "id": "1vwC95nqJBqfCr4R_-S-tidUJD1yTRgsW",
+      "driveUrl": "https://drive.google.com/drive/folders/1vwC95nqJBqfCr4R_-S-tidUJD1yTRgsW"
+    },
+    "SpaceX/CorporateCulture": {
+      "id": "1USLS73qmuIVrZriRcOdWVZgY7nB7ept8",
+      "driveUrl": "https://drive.google.com/drive/folders/1USLS73qmuIVrZriRcOdWVZgY7nB7ept8"
+    },
+    "SpaceX/hardware": {
+      "id": "1Xt-MoXg_lFdvYNNt0zCjQgXud_XuIOmv",
+      "driveUrl": "https://drive.google.com/drive/folders/1Xt-MoXg_lFdvYNNt0zCjQgXud_XuIOmv"
+    },
+    "SpaceX/software": {
+      "id": "1VVXdek8ZzIBvyBWaZn9CYU28AZ1-88vr",
+      "driveUrl": "https://drive.google.com/drive/folders/1VVXdek8ZzIBvyBWaZn9CYU28AZ1-88vr"
+    },
+    "SpaceX/patent": {
+      "id": "14ZXvDSoBR7v0_CSyTDowLHrO0rZbwsIX",
+      "driveUrl": "https://drive.google.com/drive/folders/14ZXvDSoBR7v0_CSyTDowLHrO0rZbwsIX"
+    },
+    "SpaceX/PhysicalStores": {
+      "id": "1wNZzOSXbPUXJzgg5ZJJv4oFs5gT2GCx5",
+      "driveUrl": "https://drive.google.com/drive/folders/1wNZzOSXbPUXJzgg5ZJJv4oFs5gT2GCx5"
+    },
+    "SPDRS&P500ETF/Company": {
+      "id": "1Udz00gh_3LRz4M9TrB1npRHzlSA7oQwn",
+      "driveUrl": "https://drive.google.com/drive/folders/1Udz00gh_3LRz4M9TrB1npRHzlSA7oQwn"
+    },
+    "SPDRS&P500ETF/SeniorExecutive": {
+      "id": "1ZY3qHOvNydlLgoxGTvJC0O2aWGqt2b7y",
+      "driveUrl": "https://drive.google.com/drive/folders/1ZY3qHOvNydlLgoxGTvJC0O2aWGqt2b7y"
+    },
+    "SPDRS&P500ETF/CorporateCulture": {
+      "id": "1lcK-e6yXjyosU8mBs-2Ahhq3lUwjBSnQ",
+      "driveUrl": "https://drive.google.com/drive/folders/1lcK-e6yXjyosU8mBs-2Ahhq3lUwjBSnQ"
+    },
+    "SPDRS&P500ETF/hardware": {
+      "id": "1y0idykPpJkh0HKvoEcDeZH2883uPdZw8",
+      "driveUrl": "https://drive.google.com/drive/folders/1y0idykPpJkh0HKvoEcDeZH2883uPdZw8"
+    },
+    "SPDRS&P500ETF/software": {
+      "id": "1adF6raOe_551iw5J4cNJj7gOEH8Ar5T7",
+      "driveUrl": "https://drive.google.com/drive/folders/1adF6raOe_551iw5J4cNJj7gOEH8Ar5T7"
+    },
+    "SPDRS&P500ETF/patent": {
+      "id": "1hoKFSZqSW7jRgoOU9-fNSPcs7THQu0x-",
+      "driveUrl": "https://drive.google.com/drive/folders/1hoKFSZqSW7jRgoOU9-fNSPcs7THQu0x-"
+    },
+    "SPDRS&P500ETF/PhysicalStores": {
+      "id": "16YWn7W9dFHYIqtYXx7nSrm87xeXps8j6",
+      "driveUrl": "https://drive.google.com/drive/folders/16YWn7W9dFHYIqtYXx7nSrm87xeXps8j6"
+    },
+    "SSDOY/Company": {
+      "id": "1kEd6gme3XmFlFkL-X32fwB6o1HI-JeXg",
+      "driveUrl": "https://drive.google.com/drive/folders/1kEd6gme3XmFlFkL-X32fwB6o1HI-JeXg"
+    },
+    "SSDOY/SeniorExecutive": {
+      "id": "1vTdTb5AwsqcbwGXjV2JFQq6jq-XvK_li",
+      "driveUrl": "https://drive.google.com/drive/folders/1vTdTb5AwsqcbwGXjV2JFQq6jq-XvK_li"
+    },
+    "SSDOY/CorporateCulture": {
+      "id": "1KR7Bzne7HhHZO_ExXqlBYtvO15VJCpX3",
+      "driveUrl": "https://drive.google.com/drive/folders/1KR7Bzne7HhHZO_ExXqlBYtvO15VJCpX3"
+    },
+    "SSDOY/hardware": {
+      "id": "19buJtfvRviQQZ5akdacJ5Q2B59eRze4o",
+      "driveUrl": "https://drive.google.com/drive/folders/19buJtfvRviQQZ5akdacJ5Q2B59eRze4o"
+    },
+    "SSDOY/software": {
+      "id": "1kkeKrlBxEjo2GKtlnqPXaG80kael-0nS",
+      "driveUrl": "https://drive.google.com/drive/folders/1kkeKrlBxEjo2GKtlnqPXaG80kael-0nS"
+    },
+    "SSDOY/patent": {
+      "id": "1NHKw-6VqlwSwkOSvycTgyFUO8ls3I_DD",
+      "driveUrl": "https://drive.google.com/drive/folders/1NHKw-6VqlwSwkOSvycTgyFUO8ls3I_DD"
+    },
+    "SSDOY/PhysicalStores": {
+      "id": "11cmevxXkpqVettxFtBvkNmcQIh99FizF",
+      "driveUrl": "https://drive.google.com/drive/folders/11cmevxXkpqVettxFtBvkNmcQIh99FizF"
+    },
+    "Synopsys/Company": {
+      "id": "1TD3McpjCEtABoIDQrfaX2jI-xwD3I_XH",
+      "driveUrl": "https://drive.google.com/drive/folders/1TD3McpjCEtABoIDQrfaX2jI-xwD3I_XH"
+    },
+    "Synopsys/SeniorExecutive": {
+      "id": "1WouLX7vhGvoF6d6I5j5g7yH8UrTAGdH1",
+      "driveUrl": "https://drive.google.com/drive/folders/1WouLX7vhGvoF6d6I5j5g7yH8UrTAGdH1"
+    },
+    "Synopsys/CorporateCulture": {
+      "id": "1xqxIXHFdJTJmc9sXegMF1zwbk0uauB1K",
+      "driveUrl": "https://drive.google.com/drive/folders/1xqxIXHFdJTJmc9sXegMF1zwbk0uauB1K"
+    },
+    "Synopsys/hardware": {
+      "id": "1Y77GvnE3aUHHgvohXQUeG2mdU-lFkOej",
+      "driveUrl": "https://drive.google.com/drive/folders/1Y77GvnE3aUHHgvohXQUeG2mdU-lFkOej"
+    },
+    "Synopsys/software": {
+      "id": "1sKq2nR4bnDQHCEio3g9UKKEGEVUj0oPW",
+      "driveUrl": "https://drive.google.com/drive/folders/1sKq2nR4bnDQHCEio3g9UKKEGEVUj0oPW"
+    },
+    "Synopsys/patent": {
+      "id": "1GjU5-b1j_xMY2o3Au_k2-15lbAVpTOl6",
+      "driveUrl": "https://drive.google.com/drive/folders/1GjU5-b1j_xMY2o3Au_k2-15lbAVpTOl6"
+    },
+    "Synopsys/PhysicalStores": {
+      "id": "1CZ4ehn7Irmsg9bqQbSMH8repXOHMaa0O",
+      "driveUrl": "https://drive.google.com/drive/folders/1CZ4ehn7Irmsg9bqQbSMH8repXOHMaa0O"
+    },
+    "TempusAI/Company": {
+      "id": "1x3Kz9ajSEPZ-_d2e13HSJSGWWIdiGOI_",
+      "driveUrl": "https://drive.google.com/drive/folders/1x3Kz9ajSEPZ-_d2e13HSJSGWWIdiGOI_"
+    },
+    "TempusAI/SeniorExecutive": {
+      "id": "1pArte2AEmzQKYiNWTPYmjs8LdBfLEFWz",
+      "driveUrl": "https://drive.google.com/drive/folders/1pArte2AEmzQKYiNWTPYmjs8LdBfLEFWz"
+    },
+    "TempusAI/CorporateCulture": {
+      "id": "1oj7wj3NgMcvZqPDWfE-plFaKc4cWMISP",
+      "driveUrl": "https://drive.google.com/drive/folders/1oj7wj3NgMcvZqPDWfE-plFaKc4cWMISP"
+    },
+    "TempusAI/hardware": {
+      "id": "1fgIDuBp_gaDNveNgwo_iM-ozCL-N-Q_W",
+      "driveUrl": "https://drive.google.com/drive/folders/1fgIDuBp_gaDNveNgwo_iM-ozCL-N-Q_W"
+    },
+    "TempusAI/software": {
+      "id": "14qjWkgyWDBMg4tnYy_-VNOvP4kngeeuc",
+      "driveUrl": "https://drive.google.com/drive/folders/14qjWkgyWDBMg4tnYy_-VNOvP4kngeeuc"
+    },
+    "TempusAI/patent": {
+      "id": "1-uEdtho_vUNCYelknMuRg018jzrcI8n_",
+      "driveUrl": "https://drive.google.com/drive/folders/1-uEdtho_vUNCYelknMuRg018jzrcI8n_"
+    },
+    "TempusAI/PhysicalStores": {
+      "id": "1oJZdasESfvfAeVhNf4usVXenWPQ_OgWx",
+      "driveUrl": "https://drive.google.com/drive/folders/1oJZdasESfvfAeVhNf4usVXenWPQ_OgWx"
+    },
+    "TencentMusic/Company": {
+      "id": "1QSNUBytarHLyG9NqE8CbVgcaGHMmuwwH",
+      "driveUrl": "https://drive.google.com/drive/folders/1QSNUBytarHLyG9NqE8CbVgcaGHMmuwwH"
+    },
+    "TencentMusic/SeniorExecutive": {
+      "id": "1EFqN1EPmWDDkehRswc3Js0x6O6H2cA5Z",
+      "driveUrl": "https://drive.google.com/drive/folders/1EFqN1EPmWDDkehRswc3Js0x6O6H2cA5Z"
+    },
+    "TencentMusic/CorporateCulture": {
+      "id": "1RZv92iDaUFPIOom_a9PoBhO3SD3-BPAl",
+      "driveUrl": "https://drive.google.com/drive/folders/1RZv92iDaUFPIOom_a9PoBhO3SD3-BPAl"
+    },
+    "TencentMusic/hardware": {
+      "id": "1xNvBjiGUyniivT_kCGrfqWlnYrShm_3Q",
+      "driveUrl": "https://drive.google.com/drive/folders/1xNvBjiGUyniivT_kCGrfqWlnYrShm_3Q"
+    },
+    "TencentMusic/software": {
+      "id": "18BGnHCtVaLyqggnSelRKWfvbE_xzhKp-",
+      "driveUrl": "https://drive.google.com/drive/folders/18BGnHCtVaLyqggnSelRKWfvbE_xzhKp-"
+    },
+    "TencentMusic/patent": {
+      "id": "1jPlWSr3F4azsKyt7Aqn-DpiEBovDhu33",
+      "driveUrl": "https://drive.google.com/drive/folders/1jPlWSr3F4azsKyt7Aqn-DpiEBovDhu33"
+    },
+    "TencentMusic/PhysicalStores": {
+      "id": "1zbA6hUqkD1RuL4qiPvdBe1e15_OsxSAJ",
+      "driveUrl": "https://drive.google.com/drive/folders/1zbA6hUqkD1RuL4qiPvdBe1e15_OsxSAJ"
+    },
+    "Tesla/Company": {
+      "id": "1IUZT_NEF_t2XVwS-llwmbupPyoWCnknB",
+      "driveUrl": "https://drive.google.com/drive/folders/1IUZT_NEF_t2XVwS-llwmbupPyoWCnknB"
+    },
+    "Tesla/SeniorExecutive": {
+      "id": "12-FnrH9Q6I0vgzFcwKZy2nyPGwwAydNC",
+      "driveUrl": "https://drive.google.com/drive/folders/12-FnrH9Q6I0vgzFcwKZy2nyPGwwAydNC"
+    },
+    "Tesla/CorporateCulture": {
+      "id": "1oGHc_1ogMAC6OjMXJgg81pSWzDC4xTvO",
+      "driveUrl": "https://drive.google.com/drive/folders/1oGHc_1ogMAC6OjMXJgg81pSWzDC4xTvO"
+    },
+    "Tesla/hardware": {
+      "id": "1Q-mYmfh7SnheITwdYTY3FBmNaEpmJiTY",
+      "driveUrl": "https://drive.google.com/drive/folders/1Q-mYmfh7SnheITwdYTY3FBmNaEpmJiTY"
+    },
+    "Tesla/software": {
+      "id": "1vO-bFVeR0qGvlbNLIob4ukvjCIZo-32c",
+      "driveUrl": "https://drive.google.com/drive/folders/1vO-bFVeR0qGvlbNLIob4ukvjCIZo-32c"
+    },
+    "Tesla/patent": {
+      "id": "1oX_eh_ryIHQ8kkJirXsli_Vr4NCG15_c",
+      "driveUrl": "https://drive.google.com/drive/folders/1oX_eh_ryIHQ8kkJirXsli_Vr4NCG15_c"
+    },
+    "Tesla/PhysicalStores": {
+      "id": "1fdCIYZQNQv67Yv4oqrJgpsAL7wJYVibG",
+      "driveUrl": "https://drive.google.com/drive/folders/1fdCIYZQNQv67Yv4oqrJgpsAL7wJYVibG"
+    },
+    "Ubiquiti/Company": {
+      "id": "1Qg-yRn6tWTPgQi01ZyVeRyh_K7Kff678",
+      "driveUrl": "https://drive.google.com/drive/folders/1Qg-yRn6tWTPgQi01ZyVeRyh_K7Kff678"
+    },
+    "Ubiquiti/SeniorExecutive": {
+      "id": "1MUcuARQSNbrPUKsnAjkuS9oCDBfPI97h",
+      "driveUrl": "https://drive.google.com/drive/folders/1MUcuARQSNbrPUKsnAjkuS9oCDBfPI97h"
+    },
+    "Ubiquiti/CorporateCulture": {
+      "id": "1DwduO_5jKUndpJ6woKUBF3TN4CLvzypx",
+      "driveUrl": "https://drive.google.com/drive/folders/1DwduO_5jKUndpJ6woKUBF3TN4CLvzypx"
+    },
+    "Ubiquiti/hardware": {
+      "id": "1mAfQuf5nWT-XX5DDFykVHi2t8pFW1YbF",
+      "driveUrl": "https://drive.google.com/drive/folders/1mAfQuf5nWT-XX5DDFykVHi2t8pFW1YbF"
+    },
+    "Ubiquiti/software": {
+      "id": "1rV_xNkyPwKtPbuoiOyGCJVoa_FWJQJiY",
+      "driveUrl": "https://drive.google.com/drive/folders/1rV_xNkyPwKtPbuoiOyGCJVoa_FWJQJiY"
+    },
+    "Ubiquiti/patent": {
+      "id": "1wxLx_4VvY_PKdVpNpzcRO0qukHx6rBpY",
+      "driveUrl": "https://drive.google.com/drive/folders/1wxLx_4VvY_PKdVpNpzcRO0qukHx6rBpY"
+    },
+    "Ubiquiti/PhysicalStores": {
+      "id": "1oARRTztw9ZNG-ahUPtsC6N96zZUQDMU2",
+      "driveUrl": "https://drive.google.com/drive/folders/1oARRTztw9ZNG-ahUPtsC6N96zZUQDMU2"
+    },
+    "WesternDigital/Company": {
+      "id": "1R2o_A4kFX2C2XHh41CJTPW1H-udcw6Ov",
+      "driveUrl": "https://drive.google.com/drive/folders/1R2o_A4kFX2C2XHh41CJTPW1H-udcw6Ov"
+    },
+    "WesternDigital/SeniorExecutive": {
+      "id": "10mbT85gyVB-Z8lETeI8cQF-p2h8i0jtJ",
+      "driveUrl": "https://drive.google.com/drive/folders/10mbT85gyVB-Z8lETeI8cQF-p2h8i0jtJ"
+    },
+    "WesternDigital/CorporateCulture": {
+      "id": "1EVNCEJN60H_MhiAzVmIOfbUGWXZ4lS5K",
+      "driveUrl": "https://drive.google.com/drive/folders/1EVNCEJN60H_MhiAzVmIOfbUGWXZ4lS5K"
+    },
+    "WesternDigital/hardware": {
+      "id": "1BLe80tGpHK5E-ztthBGVeTC5DQlJq-Od",
+      "driveUrl": "https://drive.google.com/drive/folders/1BLe80tGpHK5E-ztthBGVeTC5DQlJq-Od"
+    },
+    "WesternDigital/software": {
+      "id": "1h2Hpe0Ohk_VynJ9cUqGdSEyob9w_K_u4",
+      "driveUrl": "https://drive.google.com/drive/folders/1h2Hpe0Ohk_VynJ9cUqGdSEyob9w_K_u4"
+    },
+    "WesternDigital/patent": {
+      "id": "1tkPLMqdLQKPIRArPDd_DKk0am5VmvPY6",
+      "driveUrl": "https://drive.google.com/drive/folders/1tkPLMqdLQKPIRArPDd_DKk0am5VmvPY6"
+    },
+    "WesternDigital/PhysicalStores": {
+      "id": "1IJgJEv6kSehTVxFHMEd3IX7Uadg-ZiI_",
+      "driveUrl": "https://drive.google.com/drive/folders/1IJgJEv6kSehTVxFHMEd3IX7Uadg-ZiI_"
+    },
+    "Apple/SeniorExecutive/Steve Jobs": {
+      "id": "1GihVR1djQHgNUxElG8_96lHLNcGnZFTA",
+      "driveUrl": "https://drive.google.com/drive/folders/1GihVR1djQHgNUxElG8_96lHLNcGnZFTA"
+    },
+    "Apple/SeniorExecutive/Tim Cook": {
+      "id": "1TccKMAsquHuWHDpgsQJByyvwC_LkNhwl",
+      "driveUrl": "https://drive.google.com/drive/folders/1TccKMAsquHuWHDpgsQJByyvwC_LkNhwl"
+    },
+    "Apple/hardware/Mac": {
+      "id": "1MtZm5_iThqgxQzClH5XcWwOv6ntuiMzf",
+      "driveUrl": "https://drive.google.com/drive/folders/1MtZm5_iThqgxQzClH5XcWwOv6ntuiMzf"
+    },
+    "Apple/hardware/iPhone": {
+      "id": "1gLQQDoLGEeSHiU9H315_jbAOtK-iDqcQ",
+      "driveUrl": "https://drive.google.com/drive/folders/1gLQQDoLGEeSHiU9H315_jbAOtK-iDqcQ"
+    },
+    "Apple/patent/Non-Invasive Health Sensing": {
+      "id": "1tHOgYd0nGiZ4Sigrgwg62vBKxm1vbf0m",
+      "driveUrl": "https://drive.google.com/drive/folders/1tHOgYd0nGiZ4Sigrgwg62vBKxm1vbf0m"
+    },
+    "Apple/software/Apple Store": {
+      "id": "1FYLfP9rhSnaiekcNwDHe3b9FfSKji97F",
+      "driveUrl": "https://drive.google.com/drive/folders/1FYLfP9rhSnaiekcNwDHe3b9FfSKji97F"
+    }
+  },
+  "files": {
+    "index.html": {
+      "id": "1Rucvk1AmfigkDOwEhp_8fJ3zS_1o7QGv",
+      "driveUrl": "https://drive.google.com/file/d/1Rucvk1AmfigkDOwEhp_8fJ3zS_1o7QGv/view?usp=drivesdk",
+      "modifiedTime": ""
+    },
+    "ARM/Company/Arm_Holdings_ARM_Analysis.html": {
+      "id": "10DKOVbUQkCGdBfTtEOBpeR5T5vdEyrAM",
+      "driveUrl": "https://drive.google.com/file/d/10DKOVbUQkCGdBfTtEOBpeR5T5vdEyrAM/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "AVGO/Company/AVGO.html": {
+      "id": "file_1f46aeeb499866ca",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "modifiedTime": "2026-11-19T04:51:12Z"
+    },
+    "Amazon/CorporateCulture/AmazonCorporateCulture.html": {
+      "id": "16hEqHVuhJkUe1d5ziQJh0Ti8K_zPiUKv",
+      "driveUrl": "https://drive.google.com/file/d/16hEqHVuhJkUe1d5ziQJh0Ti8K_zPiUKv/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Amazon/SeniorExecutive/Amazon_CEO_Analysis (1).html": {
+      "id": "150A5YrUUDK9chmQyf8dbras26SFzhwKh",
+      "driveUrl": "https://drive.google.com/file/d/150A5YrUUDK9chmQyf8dbras26SFzhwKh/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/iPhone.html": {
+      "id": "1nJZV0IbUllMSnAdqkF1mxpu0xaTmQXr3",
+      "driveUrl": "https://drive.google.com/file/d/1nJZV0IbUllMSnAdqkF1mxpu0xaTmQXr3/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/CorporateCulture/apple_inc_aapl_dri.html": {
+      "id": "1UKbkaicZuwzEBavGnCwryMY_JSzJaPyI",
+      "driveUrl": "https://drive.google.com/file/d/1UKbkaicZuwzEBavGnCwryMY_JSzJaPyI/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/SeniorExecutive/Steve Jobs/steve_jobs_1955_2011_15.html": {
+      "id": "1UlP6GM3uHC6Rsz0xObxuck4foHfpt5Ir",
+      "driveUrl": "https://drive.google.com/file/d/1UlP6GM3uHC6Rsz0xObxuck4foHfpt5Ir/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/SeniorExecutive/Tim Cook/tim_cook_analysis.html": {
+      "id": "1DkuKs7G91pOTsTxoyTNXp8uWZVzUcUnT",
+      "driveUrl": "https://drive.google.com/file/d/1DkuKs7G91pOTsTxoyTNXp8uWZVzUcUnT/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/hardware/Mac/Mac.html": {
+      "id": "1W8GhnnzlqWTxjn03RfyJPCGQugk-_hrh",
+      "driveUrl": "https://drive.google.com/file/d/1W8GhnnzlqWTxjn03RfyJPCGQugk-_hrh/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/hardware/iPhone/iPhone.html": {
+      "id": "1RWtzdigWAjNtM6Ia5B0NlvvJv_uI4dfw",
+      "driveUrl": "https://drive.google.com/file/d/1RWtzdigWAjNtM6Ia5B0NlvvJv_uI4dfw/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/patent/Non-Invasive Health Sensing/non_invasive_health_sensing_analysis.html": {
+      "id": "1wjG2aKYvgXmYBZB1DLTOkPb7tPDuF_PF",
+      "driveUrl": "https://drive.google.com/file/d/1wjG2aKYvgXmYBZB1DLTOkPb7tPDuF_PF/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Apple/software/Apple Store/apple_store_ecosystem_retail_strategy_analysis.html": {
+      "id": "1LGpIfPhzWpelJ_ys36S6aHMVxL7TA7rn",
+      "driveUrl": "https://drive.google.com/file/d/1LGpIfPhzWpelJ_ys36S6aHMVxL7TA7rn/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BendingSpoonsS.p.A/Company/Bending_Spoons_Deep_Dive_Analysis.html": {
+      "id": "15p76NdA5ZYY-meAbaDgykuOXIvjzgrYK",
+      "driveUrl": "https://drive.google.com/file/d/15p76NdA5ZYY-meAbaDgykuOXIvjzgrYK/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BendingSpoonsS.p.A/CorporateCulture/Bending_Spoons_Corporate_Culture_Analysis.html": {
+      "id": "1Ct56u9HPWW7eTd6IFfYKm4Df5U5oHdjZ",
+      "driveUrl": "https://drive.google.com/file/d/1Ct56u9HPWW7eTd6IFfYKm4Df5U5oHdjZ/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BendingSpoonsS.p.A/SeniorExecutive/Luca_Ferrari_Bending_Spoons_CEO_Analysis.html": {
+      "id": "1rL741GS4w1kztr19ezpceQjKorhEmC-2",
+      "driveUrl": "https://drive.google.com/file/d/1rL741GS4w1kztr19ezpceQjKorhEmC-2/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BerkshireHathaway-B/Company/BerkshireHathaway-B.html": {
+      "id": "1iCeywl6xgZAjIW4QqMLn5qnp4cSZhmic",
+      "driveUrl": "https://drive.google.com/file/d/1iCeywl6xgZAjIW4QqMLn5qnp4cSZhmic/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BerkshireHathaway-B/CorporateCulture/berkshire_hathaway_brk_a_brk_b_27_38_8_13.html": {
+      "id": "1p10yP7Y1gyN7lz44k1ZsGwQxBDvwuxY7",
+      "driveUrl": "https://drive.google.com/file/d/1p10yP7Y1gyN7lz44k1ZsGwQxBDvwuxY7/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "BerkshireHathaway-B/SeniorExecutive/Greg Abel.html": {
+      "id": "1MV_TN24P2OlvOG0uGNHh-fPf972xBapX",
+      "driveUrl": "https://drive.google.com/file/d/1MV_TN24P2OlvOG0uGNHh-fPf972xBapX/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CerebrasSystems/SeniorExecutive/Cerebras_CEO_Andrew_Feldman_Analysis-v2.html": {
+      "id": "1DoZXweC_c11m_p-6ERStdIGK_63yg357",
+      "driveUrl": "https://drive.google.com/file/d/1DoZXweC_c11m_p-6ERStdIGK_63yg357/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Chewy/SeniorExecutive/Chewy_CEO_Sumit_Singh_Analysis.html": {
+      "id": "121hJKeUASB7RPfyiROVehbJ2V6KCZ2ND",
+      "driveUrl": "https://drive.google.com/file/d/121hJKeUASB7RPfyiROVehbJ2V6KCZ2ND/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Circle/Company/CRCL.html": {
+      "id": "1uFfpcjhcEKtjzSq6KSWbYVUhK8UqUFZz",
+      "driveUrl": "https://drive.google.com/file/d/1uFfpcjhcEKtjzSq6KSWbYVUhK8UqUFZz/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Cisco/SeniorExecutive/Chuck_Robbins_Cisco_CEO_Analysis.html": {
+      "id": "19HcSo-QRbQgMazX59N03TiENOxHkFL85",
+      "driveUrl": "https://drive.google.com/file/d/19HcSo-QRbQgMazX59N03TiENOxHkFL85/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CredoTechnology/Company/Credo_Technology_CRDO_Analysis.html": {
+      "id": "10Sv_XZYQJPluTcBqQNXRUVzAxRASvSmP",
+      "driveUrl": "https://drive.google.com/file/d/10Sv_XZYQJPluTcBqQNXRUVzAxRASvSmP/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CredoTechnology/SeniorExecutive/Bill_Brennan_Credo_CEO_Analysis.html": {
+      "id": "1Xv1lZaMjA_0H7w2L6ze-BSXP97cZmdHC",
+      "driveUrl": "https://drive.google.com/file/d/1Xv1lZaMjA_0H7w2L6ze-BSXP97cZmdHC/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Crocs/SeniorExecutive/Crocs_Andrew_Rees_Analysis.html": {
+      "id": "1c543ExYugd7Idyiv1LBL5x0o4X4P-QyK",
+      "driveUrl": "https://drive.google.com/file/d/1c543ExYugd7Idyiv1LBL5x0o4X4P-QyK/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CrowdStrike/Company/CrowdStrike_CRWD_Deep_Dive_Analysis.html": {
+      "id": "1iqKqnhH7MAEnAP1K2pyfuSCVcIM4UqSr",
+      "driveUrl": "https://drive.google.com/file/d/1iqKqnhH7MAEnAP1K2pyfuSCVcIM4UqSr/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CrowdStrike/CorporateCulture/CrowdStrike_Corporate_Culture_Analysis.html": {
+      "id": "1lIh0mvlwnQAo-onQgFl2JaQWjJ-V-oLX",
+      "driveUrl": "https://drive.google.com/file/d/1lIh0mvlwnQAo-onQgFl2JaQWjJ-V-oLX/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "CrowdStrike/SeniorExecutive/George_Kurtz_CrowdStrike_CEO_Analysis.html": {
+      "id": "1-dqt5vCTicAECRhIzQrWw1ZkW5X8aQHI",
+      "driveUrl": "https://drive.google.com/file/d/1-dqt5vCTicAECRhIzQrWw1ZkW5X8aQHI/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Disney/SeniorExecutive/Disney_CEO_Analysis.html": {
+      "id": "131L7Mp5zfHCLDJwGespdS-abtFN_FDXy",
+      "driveUrl": "https://drive.google.com/file/d/131L7Mp5zfHCLDJwGespdS-abtFN_FDXy/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "DuanYongping/Company/DuanYongping-2026Q3-v2.html": {
+      "id": "1ku8BFgTYtaPItasmG0qbaNiD5_764d4c",
+      "driveUrl": "https://drive.google.com/file/d/1ku8BFgTYtaPItasmG0qbaNiD5_764d4c/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "DuanYongping/CorporateCulture/Duan_Yongping_Corporate_Culture_Analysis.html": {
+      "id": "1keOfZldFL2MnhJfgTIHjLfvwTzERetLS",
+      "driveUrl": "https://drive.google.com/file/d/1keOfZldFL2MnhJfgTIHjLfvwTzERetLS/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "DuanYongping/SeniorExecutive/Duan_Yongping_Analysis.html": {
+      "id": "1dI5tjcd-n3LoPrgv0226Cz39qLKQTX7g",
+      "driveUrl": "https://drive.google.com/file/d/1dI5tjcd-n3LoPrgv0226Cz39qLKQTX7g/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Google/Company/GOOGL.html": {
+      "id": "1pc2SoPYP2hycJonHttPECsqQ7lM3sauv",
+      "driveUrl": "https://drive.google.com/file/d/1pc2SoPYP2hycJonHttPECsqQ7lM3sauv/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Google/CorporateCulture/GoogleCorporateCulture.html": {
+      "id": "1PtZM74vl2vaBXbkSyzXdKk9T9ltNs0Em",
+      "driveUrl": "https://drive.google.com/file/d/1PtZM74vl2vaBXbkSyzXdKk9T9ltNs0Em/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Google/SeniorExecutive/GoogleCEOSundarPichai.html": {
+      "id": "1djzKqVUoSLgW3yAG_-mVLtOmAuzTsY7Q",
+      "driveUrl": "https://drive.google.com/file/d/1djzKqVUoSLgW3yAG_-mVLtOmAuzTsY7Q/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Google/software/YouTube_GOOGL_Analysis.html": {
+      "id": "1g4N0jkTUHKO5Bc8sgLdkZyL6F3J3ddaY",
+      "driveUrl": "https://drive.google.com/file/d/1g4N0jkTUHKO5Bc8sgLdkZyL6F3J3ddaY/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "HimalayaCapitalManagement/Company/LiLu_Himalaya_Capital_2026Q3.html": {
+      "id": "1sI7-eesQqFKaxbtVkhWQ94RqqlfnQNm-",
+      "driveUrl": "https://drive.google.com/file/d/1sI7-eesQqFKaxbtVkhWQ94RqqlfnQNm-/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "HimalayaCapitalManagement/CorporateCulture/Li_Lu_Himalaya_Corporate_Culture_Analysis.html": {
+      "id": "1DKtOA4M1cfbC2xbMqt2Wo4cfY8TH4tDm",
+      "driveUrl": "https://drive.google.com/file/d/1DKtOA4M1cfbC2xbMqt2Wo4cfY8TH4tDm/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "HimalayaCapitalManagement/SeniorExecutive/Li_Lu_Analysis.html": {
+      "id": "1-ju26eRXMJt5j8ZT3ndtIcxef470CVOx",
+      "driveUrl": "https://drive.google.com/file/d/1-ju26eRXMJt5j8ZT3ndtIcxef470CVOx/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "InvescoQQQTrust/Company/Invesco_QQQ_Analysis.html": {
+      "id": "1E0ho0OyKQtO9VpvpMOEZ2Y-vripbIbht",
+      "driveUrl": "https://drive.google.com/file/d/1E0ho0OyKQtO9VpvpMOEZ2Y-vripbIbht/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "LennarCorp/Company/LennarCorp_Analysis.html": {
+      "id": "1mmoaO8ID3WpaXCmtTa-55VHNuKdxZrN8",
+      "driveUrl": "https://drive.google.com/file/d/1mmoaO8ID3WpaXCmtTa-55VHNuKdxZrN8/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "LennarCorp/CorporateCulture/Lennar_Corporate_Culture_Analysis.html": {
+      "id": "1wTaKTQdUFCxdm67y_JNTC9WSCfIJxfk7",
+      "driveUrl": "https://drive.google.com/file/d/1wTaKTQdUFCxdm67y_JNTC9WSCfIJxfk7/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "LennarCorp/SeniorExecutive/Stuart_Miller_Lennar_CEO_Analysis.html": {
+      "id": "1RiXn6GjgfSah9X9UcvTTS9CSfyz4PL0H",
+      "driveUrl": "https://drive.google.com/file/d/1RiXn6GjgfSah9X9UcvTTS9CSfyz4PL0H/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "MO/Company/Altria_Corporate_Culture_Analysis.html": {
+      "id": "file_ec825952e6cece71",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "modifiedTime": "2026-11-19T04:31:10Z"
+    },
+    "MO/CorporateCulture/Altria_Corporate_Culture_Analysis.html": {
+      "id": "file_a4acd284693a6110",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "modifiedTime": "2026-11-19T04:31:10Z"
+    },
+    "MO/SeniorExecutive/Altria_CEO_Sal_Mancuso_Analysis.html": {
+      "id": "file_80b56601d34d4d42",
+      "driveUrl": "https://drive.google.com/drive/folders/1GEm-cxIC-tAvyiMlAs82b8QYzjUqhNBc",
+      "modifiedTime": "2026-11-19T04:31:10Z"
+    },
+    "Meta/Company/META_Facebook_Analysis.html": {
+      "id": "1aKuU0EMmH3h3-kflBgg66MwOmzXf_7pe",
+      "driveUrl": "https://drive.google.com/file/d/1aKuU0EMmH3h3-kflBgg66MwOmzXf_7pe/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Meta/SeniorExecutive/Mark_Zuckerberg_Meta_Analysis (1).html": {
+      "id": "11Pa6o_jX3O9BVV5eGF3RSkl1gaq7gJJl",
+      "driveUrl": "https://drive.google.com/file/d/11Pa6o_jX3O9BVV5eGF3RSkl1gaq7gJJl/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Meta/software/Facebook_App_Analysis.html": {
+      "id": "1MLZo6B0bZ_IgZSVsdBKhglOC0rziZSb-",
+      "driveUrl": "https://drive.google.com/file/d/1MLZo6B0bZ_IgZSVsdBKhglOC0rziZSb-/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Meta/software/META_Llama_Analysis.html": {
+      "id": "1zMHcN1vx29A6NH02k9JPEf4egp4E_kUf",
+      "driveUrl": "https://drive.google.com/file/d/1zMHcN1vx29A6NH02k9JPEf4egp4E_kUf/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Meta/software/META_Reality_Labs_Analysis.html": {
+      "id": "13CvchRppEzdKLN3YNVKBTw1OtueXLlN9",
+      "driveUrl": "https://drive.google.com/file/d/13CvchRppEzdKLN3YNVKBTw1OtueXLlN9/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Meta/software/META_WhatsApp_Analysis.html": {
+      "id": "1ZnBpJpIHwcV9z_GNsf5xW70jvgM0YISw",
+      "driveUrl": "https://drive.google.com/file/d/1ZnBpJpIHwcV9z_GNsf5xW70jvgM0YISw/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "NVIDIA/SeniorExecutive/Jensen_Huang_NVIDIA_CEO_Analysis.html": {
+      "id": "14xTuzajSPOQlZ-P8WepTEfwgDUPKIvB3",
+      "driveUrl": "https://drive.google.com/file/d/14xTuzajSPOQlZ-P8WepTEfwgDUPKIvB3/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "NVIDIA/SeniorExecutive/jensen_huang_analysis_report.html": {
+      "id": "1mdeBsmBLEc5FiJcuA4OWRZ63msMWju4N",
+      "driveUrl": "https://drive.google.com/file/d/1mdeBsmBLEc5FiJcuA4OWRZ63msMWju4N/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Netflix/Company/Netflix_Company_Analysis.html": {
+      "id": "1l7XBvr2g3dW4-9pIdF6NlCj75zNiTOKi",
+      "driveUrl": "https://drive.google.com/file/d/1l7XBvr2g3dW4-9pIdF6NlCj75zNiTOKi/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Netflix/CorporateCulture/netflix_inc_nflx_3_25.html": {
+      "id": "1s9UKhwq_6oerhzIRuZo11dXbU7iWVyXR",
+      "driveUrl": "https://drive.google.com/file/d/1s9UKhwq_6oerhzIRuZo11dXbU7iWVyXR/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Netflix/SeniorExecutive/Netflix_CEO_Analysis.html": {
+      "id": "1AhIW1Vm_Xa6wVq4KbnKHeLR6-rAmI_SU",
+      "driveUrl": "https://drive.google.com/file/d/1AhIW1Vm_Xa6wVq4KbnKHeLR6-rAmI_SU/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "ONON/Company/ONONCompany.html": {
+      "id": "1HSUR0KY5mmmWvVYxmDxqaMp8D_vMLMFR",
+      "driveUrl": "https://drive.google.com/file/d/1HSUR0KY5mmmWvVYxmDxqaMp8D_vMLMFR/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "ONON/CorporateCulture/On_Holding_Corporate_Culture_Analysis.html": {
+      "id": "1h3Il_DzzWnXToukbumwxtD_wdhQoJXv3",
+      "driveUrl": "https://drive.google.com/file/d/1h3Il_DzzWnXToukbumwxtD_wdhQoJXv3/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "ONON/SeniorExecutive/On_Holding_CEO_Analysis.html": {
+      "id": "1VJzJg7D4JnGD2E5Z3rl9Y7QoWIk2R7ug",
+      "driveUrl": "https://drive.google.com/file/d/1VJzJg7D4JnGD2E5Z3rl9Y7QoWIk2R7ug/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "PDD/Company/PDD.html": {
+      "id": "1gwPLOH_XQViKq08EkHcoWN0jnC8y7Q3M",
+      "driveUrl": "https://drive.google.com/file/d/1gwPLOH_XQViKq08EkHcoWN0jnC8y7Q3M/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "PDD/CorporateCulture/PinduoduoCorporateCulture.html": {
+      "id": "152_CByStSAYRiljJNhGchniBi9B6KncE",
+      "driveUrl": "https://drive.google.com/file/d/152_CByStSAYRiljJNhGchniBi9B6KncE/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "PDD/SeniorExecutive/Colin_Huang_PDD_Analysis.html": {
+      "id": "1YgewWidwi9K4_tzzQ4OzJ1Yn72xC8jjt",
+      "driveUrl": "https://drive.google.com/file/d/1YgewWidwi9K4_tzzQ4OzJ1Yn72xC8jjt/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "PDD/SeniorExecutive/PDD_CEO_Analysis_2026.html": {
+      "id": "1aD7jf1GNTzFfBXTD-yklwNCSI_hh4sLA",
+      "driveUrl": "https://drive.google.com/file/d/1aD7jf1GNTzFfBXTD-yklwNCSI_hh4sLA/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Reddit/Company/RDDT.html": {
+      "id": "1Nn-gp0vKKaui2MBR47Mzs5nJ1e4O2-Uu",
+      "driveUrl": "https://drive.google.com/file/d/1Nn-gp0vKKaui2MBR47Mzs5nJ1e4O2-Uu/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Reddit/SeniorExecutive/Steve_Huffman_Reddit_CEO_Analysis.html": {
+      "id": "1XVnwdNZ0Ced_OyyNe4whgk3bXg0sMWc4",
+      "driveUrl": "https://drive.google.com/file/d/1XVnwdNZ0Ced_OyyNe4whgk3bXg0sMWc4/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Roblox/Company/RobloxCompany.html": {
+      "id": "14OZuI_5LA7w2wvsul6adpnRKe9vVgQP7",
+      "driveUrl": "https://drive.google.com/file/d/14OZuI_5LA7w2wvsul6adpnRKe9vVgQP7/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Roblox/CorporateCulture/RobloxCorporation.html": {
+      "id": "1hI0DnT9682EaaXDGvmnehdQ2s7AuL_Zm",
+      "driveUrl": "https://drive.google.com/file/d/1hI0DnT9682EaaXDGvmnehdQ2s7AuL_Zm/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Roblox/SeniorExecutive/David_Baszucki_Roblox_CEO_Analysis_v2.html": {
+      "id": "1LGt0AQtJp1hCxL83BwGqS1DWFosaxqxv",
+      "driveUrl": "https://drive.google.com/file/d/1LGt0AQtJp1hCxL83BwGqS1DWFosaxqxv/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "RocketLab/Company/RocketLabCompany.html": {
+      "id": "1_uNe-W06hphaFqsk9dggBPMKRFmFAn0d",
+      "driveUrl": "https://drive.google.com/file/d/1_uNe-W06hphaFqsk9dggBPMKRFmFAn0d/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "RocketLab/CorporateCulture/rocket_lab_rklb_corporate_culture_analysis_fixed.html": {
+      "id": "1VhzOCwBw7MvfJnXz6bnEQNKeE3Te4Hwp",
+      "driveUrl": "https://drive.google.com/file/d/1VhzOCwBw7MvfJnXz6bnEQNKeE3Te4Hwp/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "RocketLab/SeniorExecutive/peter_beck_rocketlab_analysis.html": {
+      "id": "1ep9mr_M4Oq_pN_5cvbut3fVkmTBnTEVb",
+      "driveUrl": "https://drive.google.com/file/d/1ep9mr_M4Oq_pN_5cvbut3fVkmTBnTEVb/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SPDRS&P500ETF/Company/SPDR_SPY_Analysis.html": {
+      "id": "1-G15wCSv6dtEsAd0u4nT2m64yLSvx-x4",
+      "driveUrl": "https://drive.google.com/file/d/1-G15wCSv6dtEsAd0u4nT2m64yLSvx-x4/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SPDRS&P500ETF/Company/SPY_Research_2026.html": {
+      "id": "1jyPvYso4-r7aeeFf6afDkYqH2tGF9rtF",
+      "driveUrl": "https://drive.google.com/file/d/1jyPvYso4-r7aeeFf6afDkYqH2tGF9rtF/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SSDOY/Company/Shiseido_SSDOY_ADR_Analysis.html": {
+      "id": "1kgG7RZp4-vXOCrtELN3duF7vY5qxTwq7",
+      "driveUrl": "https://drive.google.com/file/d/1kgG7RZp4-vXOCrtELN3duF7vY5qxTwq7/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SanDisk/Company/Sandisk_SNDK_Analysis.html": {
+      "id": "11HkjzETAANg8OsJvIYQ1j8z4t0NMvSCb",
+      "driveUrl": "https://drive.google.com/file/d/11HkjzETAANg8OsJvIYQ1j8z4t0NMvSCb/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SanDisk/SeniorExecutive/david_goeckeler_sandisk_analysis.html": {
+      "id": "1GDXoObo55KGVBqTYEmJwuZT-2vDTFe3g",
+      "driveUrl": "https://drive.google.com/file/d/1GDXoObo55KGVBqTYEmJwuZT-2vDTFe3g/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SpaceX/Company/SpaceXCompany.html": {
+      "id": "1JL3WRBYLjldzqGQo7X3CSryM06iN05qj",
+      "driveUrl": "https://drive.google.com/file/d/1JL3WRBYLjldzqGQo7X3CSryM06iN05qj/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "SpaceX/CorporateCulture/SpaceXCorporateCulture.html": {
+      "id": "1oCl5vpGrQPwRKHZwsSZLMx-zGRW_Pz3z",
+      "driveUrl": "https://drive.google.com/file/d/1oCl5vpGrQPwRKHZwsSZLMx-zGRW_Pz3z/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Synopsys/Company/Synopsys_SNPS_Analysis.html": {
+      "id": "1jE7dmHrKx_cqCT34LeAfPtg2n_MlhMAx",
+      "driveUrl": "https://drive.google.com/file/d/1jE7dmHrKx_cqCT34LeAfPtg2n_MlhMAx/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Synopsys/SeniorExecutive/SassineGhazi.html": {
+      "id": "1uUjJKdvvk-l19i7gMUgMf9LQFtHZQqQZ",
+      "driveUrl": "https://drive.google.com/file/d/1uUjJKdvvk-l19i7gMUgMf9LQFtHZQqQZ/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "TempusAI/Company/TEM.html": {
+      "id": "13ToxO0eUPb7drdzs7RP3eDnCza8Z3mVl",
+      "driveUrl": "https://drive.google.com/file/d/13ToxO0eUPb7drdzs7RP3eDnCza8Z3mVl/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "TempusAI/CorporateCulture/TempusAI.html": {
+      "id": "1HYuXcMwX20jeT_rrMiXe5w-E3kRtR6IX",
+      "driveUrl": "https://drive.google.com/file/d/1HYuXcMwX20jeT_rrMiXe5w-E3kRtR6IX/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "TempusAI/SeniorExecutive/Eric_Lefkofsky_TempusAI_CEO_Analysis_Fixed.html": {
+      "id": "1tWHTsDOwtaDHjMA-An-hWtKfW7SZGP_3",
+      "driveUrl": "https://drive.google.com/file/d/1tWHTsDOwtaDHjMA-An-hWtKfW7SZGP_3/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "TencentMusic/Company/Tencent_Music_TME_Analysis.html": {
+      "id": "1s_8AET3Ls1JvbDZvn_w-944-bvFLRZ6i",
+      "driveUrl": "https://drive.google.com/file/d/1s_8AET3Ls1JvbDZvn_w-944-bvFLRZ6i/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Tesla/CorporateCulture/Tesla.html": {
+      "id": "1s3VIeY391z--CeXgxPR-D0jbwdZeQLKN",
+      "driveUrl": "https://drive.google.com/file/d/1s3VIeY391z--CeXgxPR-D0jbwdZeQLKN/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Tesla/SeniorExecutive/Elon_Musk_Tesla_CEO_Analysis_Fixed.html": {
+      "id": "1LpARlb-fil3T33ucDZKf748FvqwBnQOJ",
+      "driveUrl": "https://drive.google.com/file/d/1LpARlb-fil3T33ucDZKf748FvqwBnQOJ/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "Ubiquiti/SeniorExecutive/Ubiquiti_Robert_Pera_Analysis.html": {
+      "id": "1SJIs3tyRDbhx9ERIEpAE_PbCGA8DtE6N",
+      "driveUrl": "https://drive.google.com/file/d/1SJIs3tyRDbhx9ERIEpAE_PbCGA8DtE6N/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    },
+    "WesternDigital/SeniorExecutive/Irving_Tan_WDC_Analysis.html": {
+      "id": "1241r1lhI4lt12r0MX1jDGF4n9SaKoJor",
+      "driveUrl": "https://drive.google.com/file/d/1241r1lhI4lt12r0MX1jDGF4n9SaKoJor/view?usp=drivesdk",
+      "modifiedTime": "2026-11-19T04:11:26Z"
+    }
+  }
+}
