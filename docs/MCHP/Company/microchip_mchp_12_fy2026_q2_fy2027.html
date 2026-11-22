@@ -985,8 +985,10 @@
  } catch (error) {
  var notice = document.createElement('p');
  notice.setAttribute('role', 'alert');
- notice.textContent = '无法加载完整研报数据。请使用新版浏览器重新打开。';
- document.body.prepend(notice);
+ notice.textContent = document.documentElement.lang === 'en'
+        ? 'Interactive chapters could not load. The overview is still available.'
+        : '交互章节暂时无法加载，仍可阅读研报摘要。';
+ document.getElementById('ipSectionsHost')?.before(notice);
  console.error(error);
  return;
  }
@@ -1942,7 +1944,9 @@
  var ctx = env.ctx, w = env.w, h = env.h, pal = getPalette();
  hitRegions.chartRadar = [];
  var rCfg = curIp().ch2.radar;
- var axes = isEn() ? rCfg.axes_en : rCfg.axes_zh;
+ // The first report defines the shared axes. Individual reports supply their own scores.
+ var axisKey = isEn() ? 'axes_en' : 'axes_zh';
+ var axes = rCfg[axisKey] || ALL_IPS[0].ch2.radar[axisKey];
  var pillarAxisMap = [0, 1, 2, 3];
  var highlightedAxis = hoverState.chartRadar >= 0 ? hoverState.chartRadar : pillarAxisMap[state.activePillar % 4];
 

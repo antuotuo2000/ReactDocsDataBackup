@@ -870,8 +870,10 @@
  } catch (error) {
  var notice = document.createElement('p');
  notice.setAttribute('role', 'alert');
- notice.textContent = '无法加载完整研报数据。请使用新版浏览器重新打开。';
- document.body.prepend(notice);
+ notice.textContent = document.documentElement.lang === 'en'
+        ? 'Interactive chapters could not load. The overview is still available.'
+        : '交互章节暂时无法加载，仍可阅读研报摘要。';
+ document.getElementById('ipSectionsHost')?.before(notice);
  console.error(error);
  return;
  }
